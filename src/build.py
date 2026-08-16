@@ -565,6 +565,21 @@ ICONS = '/wp-content/uploads/icons'
 THEME = '#0183ff'          # sampled from the site's own favicon
 OG_DEFAULT = ICONS + '/og-default.jpg'
 
+def reviewed_type(parent):
+    """What kind of thing each page actually reviews.
+
+    These were all marked up as schema.org Product, and Google rejected every one:
+    a Product must carry offers, review or aggregateRating. We have no prices, and
+    we will not invent ratings — fabricated aggregateRating breaches Google's
+    structured data policy and is a well-known route to a manual action.
+
+    Product was the wrong type anyway. An insurance policy is a FinancialProduct;
+    broadband, energy, car hire and airport parking are Services. Neither type has
+    required properties for a Google rich result, so neither can fail validation,
+    and both describe the page more accurately than Product did.
+    """
+    return 'FinancialProduct' if parent in ('insurance', 'money') else 'Service'
+
 def shell(title, desc, canonical, body, schema=None, extra_head='',
           robots='index,follow,max-image-preview:large', share=None, og_type='website'):
     title = fit_title(title)
@@ -773,7 +788,7 @@ for p in posts:
     schema = {"@context": "https://schema.org", "@graph": [
         crumb_schema(cr),
         {"@type": "Review", "name": p['title'],
-         "itemReviewed": {"@type": "Product", "name": p['title'],
+         "itemReviewed": {"@type": reviewed_type(parent), "name": p['title'],
                           "category": catname.get(pc, ''),
                           **({"image": SITE + p['logo']} if p['logo'] else {})},
          "author": {"@type": "Organization", "name": "Compare100"},
