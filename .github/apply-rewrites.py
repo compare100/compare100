@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
-"""Collect finished rewrites from the live site and fold them into the repo.
+"""Collect finished rewrites from the live site, rebuild, and commit anything that changed.
+
+Runs on a schedule whether or not there is new content, because site/ is committed
+output and Cloudflare serves it as-is. A change to build.py alone would otherwise sit
+in the repo doing nothing until the next page happened to be published - which is
+exactly what happened with the schema fix on 2026-08-16.
 
 Claude can write to Cloudflare D1 but cannot push to GitHub, so a scheduled
 Claude session writes each finished, quality-gated page into D1 and this script
@@ -23,6 +28,17 @@ def fetch():
         return json.loads(r.read().decode("utf-8"))
 
 
+def rebuild():
+    """Regenerate site/ from build.py. The caller commits whatever changed."""
+    r = subprocess.run([sys.executable, os.path.join(HERE, "src", "build.py")],
+                       capture_output=True, text=True)
+    print(r.stdout or "", r.stderr or "")
+    if r.returncode != 0:
+        print("BUILD FAILED")
+        return 1
+    return 0
+
+
 def main():
     try:
         rows = fetch()
@@ -31,8 +47,8 @@ def main():
         return 0                                # never fail the run over this
 
     if not rows:
-        print("nothing pending")
-        return 0
+        print("nothing pending - rebuilding anyway in case the templates changed")
+        return rebuild()
 
     existing = []
     if os.path.isfile(OUTBOX):
@@ -87,14 +103,10 @@ def main():
         undo()
         return 1
 
-    build = subprocess.run([sys.executable, os.path.join(HERE, "src", "build.py")],
-                           capture_output=True, text=True)
-    print(build.stdout or "", build.stderr or "")
-    if build.returncode != 0:
+    if rebuild() != 0:
         print("BUILD FAILED - nothing published")
         undo()
-        subprocess.run([sys.executable, os.path.join(HERE, "src", "build.py")],
-                       capture_output=True, text=True)   # leave site/ consistent
+        rebuild()                       # leave site/ consistent with the repo
         return 1
 
     print("PUBLISHED: " + ", ".join(sorted(added)))

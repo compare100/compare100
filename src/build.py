@@ -882,7 +882,8 @@ for parent in TOP:
         n = write(cat_url(c), shell(f'Compare {catname[c]} — {len(lst)} UK Providers | Compare100',
                                     f'Compare {len(lst)} UK {catname[c].lower()} providers side by side. Features, cover and current deals.',
                                     cat_url(c), body, items))
-        urls.append((cat_url(c), datetime.now().strftime('%Y-%m-%d'))); sizes.append(n)
+        _lm = max((x['modified'] for x in lst), default=datetime.now().strftime('%Y-%m-%d'))
+        urls.append((cat_url(c), _lm)); sizes.append(n)
 
 # ---- top-level category hubs
 for parent in TOP:
@@ -905,7 +906,9 @@ for parent in TOP:
     n = write(_su, shell(f'Compare UK {NAVNAME[parent]} Deals | Compare100',
                          f'Compare UK {NAVNAME[parent].lower()} providers and deals side by side at Compare100.',
                          _su, body, crumb_schema(cr)))
-    urls.append((_su, datetime.now().strftime('%Y-%m-%d'))); sizes.append(n)
+    _lm = max((x['modified'] for c in children[parent] for x in bycat.get(c, [])),
+              default=datetime.now().strftime('%Y-%m-%d'))
+    urls.append((_su, _lm)); sizes.append(n)
 
 # ---- static pages
 REWRITTEN_PAGES = True
@@ -1047,7 +1050,8 @@ n = write('/', shell('Compare100.com | Compare UK Insurance, Money, Travel and U
                      '/', home + SEARCH_JS,
                      {"@context": "https://schema.org", "@type": "WebSite", "name": "Compare100",
                       "url": SITE}))
-urls.append(('/', datetime.now().strftime('%Y-%m-%d'))); sizes.append(n)
+urls.append(('/', max((x['modified'] for x in posts),
+                          default=datetime.now().strftime('%Y-%m-%d')))); sizes.append(n)
 
 # ---- 404
 # Cloudflare serves this for anything that does not match a file. Without it the
@@ -1097,7 +1101,8 @@ n = write('/sitemap/', shell('Site Map | Every Page on Compare100',
                              f'A directory of all {len(urls)} pages on Compare100, grouped by section.',
                              '/sitemap/', ''.join(_html_sm),
                              crumb_schema([('Home', '/'), ('Site map', '')])))
-urls.append(('/sitemap/', datetime.now().strftime('%Y-%m-%d'))); sizes.append(n)
+urls.append(('/sitemap/', max((x['modified'] for x in posts),
+                                  default=datetime.now().strftime('%Y-%m-%d')))); sizes.append(n)
 
 # ---- sitemap + robots
 sm = ['<?xml version="1.0" encoding="UTF-8"?>',
