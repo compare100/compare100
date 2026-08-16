@@ -270,8 +270,31 @@ def fix_links(h, self_slug=''):
     return re.sub(r'href="([^"]+)"', sub, h)
 
 # ---------------------------------------------------------------- taxonomy
+# The seven /compare-uk-*-deals/ pages are no longer rendered from their old
+# WordPress content — the generated section hub is written to those addresses
+# instead, so the URL keeps its 16 months of search history and gains a page
+# that actually lists every child category. Rendering both would race, and
+# whichever ran last would win.
+SECTION_PAGES = set(DEALS_MAP)
+
 DROP_PAGES = {'shop', 'my-account', 'cart', 'checkout', 'wishlist', 'comparison'}
 TOP = ['insurance', 'money', 'travel', 'mobile-phones', 'utilities', 'motoring', 'shopping']
+# The seven section hubs live at their original WordPress addresses. Google has
+# 16 months of history on these; the /category/{x}/ equivalents had none, and are
+# now 301s onto these. Changing this map without adding the matching redirects
+# would strand every section page.
+SECTION_URL = {
+    'insurance':     '/compare-uk-insurance-deals/',
+    'money':         '/compare-uk-money-deals/',
+    'travel':        '/compare-uk-travel-deals/',
+    'mobile-phones': '/compare-uk-mobile-deals/',
+    'utilities':     '/compare-uk-utility-deals/',
+    'motoring':      '/compare-uk-motoring-deals/',
+    'shopping':      '/compare-uk-shopping-deals/',
+}
+def section_url(s):
+    return SECTION_URL.get(s, f'/category/{s}/')
+
 NAVNAME = {'insurance': 'Insurance', 'money': 'Money', 'travel': 'Travel',
            'mobile-phones': 'Mobiles', 'utilities': 'Utilities',
            'motoring': 'Motoring', 'shopping': 'Shopping'}
@@ -454,13 +477,13 @@ a.sidecat .cicon{width:22px;height:22px}
 """
 
 def nav_html():
-    li = ''.join(f'<li><a href="/category/{s}/">{NAVNAME[s]}</a></li>' for s in TOP)
+    li = ''.join(f'<li><a href="{section_url(s)}">{NAVNAME[s]}</a></li>' for s in TOP)
     return f'<nav class="main"><ul><li><a href="/">Home</a></li>{li}</ul></nav>'
 
 def sidebar(active=''):
     out = ['<aside><h4>Browse categories</h4><ul>']
     for s in TOP:
-        out.append(f'<li><a class="sidecat" href="/category/{s}/">{cat_icon(s, 24)}<strong>{NAVNAME[s]}</strong></a></li>')
+        out.append(f'<li><a class="sidecat" href="{section_url(s)}">{cat_icon(s, 24)}<strong>{NAVNAME[s]}</strong></a></li>')
         for k in children[s]:
             if s == active or k == active:
                 out.append(f'<li><a class="sidecat" href="{cat_url(k)}">{cat_icon(k, 26)}{catname[k]}</a></li>')
@@ -613,7 +636,7 @@ for p in posts:
     pc = primary_cat(p)
     parent = catparent.get(pc, '')
     cr = [('Home', '/')]
-    if parent in TOP: cr.append((NAVNAME[parent], f'/category/{parent}/'))
+    if parent in TOP: cr.append((NAVNAME[parent], section_url(parent)))
     if pc: cr.append((catname.get(pc, pc), cat_url(pc)))
     cr.append((p['title'], ''))
 
@@ -676,7 +699,7 @@ for p in posts:
 for parent in TOP:
     for c in children[parent]:
         lst = bycat.get(c, [])
-        cr = [('Home', '/'), (NAVNAME[parent], f'/category/{parent}/'), (catname[c], '')]
+        cr = [('Home', '/'), (NAVNAME[parent], section_url(parent)), (catname[c], '')]
         items = {"@context": "https://schema.org", "@type": "ItemList",
                  "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": x['title'],
                                       "url": f"{SITE}/{x['slug']}/"} for i, x in enumerate(lst)]}
@@ -748,16 +771,18 @@ for parent in TOP:
             f'<div class="hubhead">{cat_icon(parent, 64)}<h1>Compare UK {NAVNAME[parent]} Deals</h1></div>'
             f'<div class="hub-intro">Browse every {NAVNAME[parent].lower()} category on Compare100 and compare UK providers side by side.</div>'
             + blocks + '</main>' + sidebar(parent) + '</div>')
-    n = write(f'/category/{parent}/', shell(f'Compare UK {NAVNAME[parent]} Deals | Compare100',
-                                            f'Compare UK {NAVNAME[parent].lower()} providers and deals side by side at Compare100.',
-                                            f'/category/{parent}/', body, crumb_schema(cr)))
-    urls.append((f'/category/{parent}/', datetime.now().strftime('%Y-%m-%d'))); sizes.append(n)
+    _su = section_url(parent)
+    n = write(_su, shell(f'Compare UK {NAVNAME[parent]} Deals | Compare100',
+                         f'Compare UK {NAVNAME[parent].lower()} providers and deals side by side at Compare100.',
+                         _su, body, crumb_schema(cr)))
+    urls.append((_su, datetime.now().strftime('%Y-%m-%d'))); sizes.append(n)
 
 # ---- static pages
 REWRITTEN_PAGES = True
 for p in pages:
     if p['slug'] in ('home', ''): continue  # rendered as the homepage itself
     if p['slug'] in DROP_PAGES: continue    # theme leftovers with no content
+    if p['slug'] in SECTION_PAGES: continue # rendered as the section hub, further up
     cr = [('Home', '/'), (p['title'], '')]
     rwp = REWRITTEN.get(p['slug'])
     if rwp:
@@ -788,7 +813,7 @@ for s in TOP:
     sub = ''.join(f'<a href="{cat_url(c)}">{cat_icon(c, 40)}{esc(catname[c])} '
                   f'<span style="color:#5b6875;font-weight:400">({len(bycat.get(c,[]))})</span></a>'
                   for c in children[s] if bycat.get(c))
-    tiles += (f'<h2 class="cathead">{cat_icon(s, 38)}<a href="/category/{s}/">{NAVNAME[s]}</a></h2>'
+    tiles += (f'<h2 class="cathead">{cat_icon(s, 38)}<a href="{section_url(s)}">{NAVNAME[s]}</a></h2>'
               f'<div class="grid">{sub}</div>')
 # The old WordPress homepage was dumped straight in here, which shipped three faults:
 # a search form posting to the WordPress site that will not exist after the VPS goes,
@@ -798,7 +823,7 @@ _provider_total = sum(len(v) for v in bycat.values())
 _cat_count = sum(1 for c in catparent if bycat.get(c))
 
 hero_cards = ''.join(
-    f'<a class="hcard" href="/category/{s}/">{cat_icon(s, 54)}'
+    f'<a class="hcard" href="{section_url(s)}">{cat_icon(s, 54)}'
     f'<strong>{NAVNAME[s]}</strong>'
     f'<span>{sum(len(bycat.get(c, [])) for c in children[s])} providers &middot; '
     f'{sum(1 for c in children[s] if bycat.get(c))} categories</span></a>' for s in TOP)
@@ -928,6 +953,39 @@ if os.path.isdir(_static):
     for _f in os.listdir(_static):
         shutil.copy2(os.path.join(_static, _f), os.path.join(OUT, _f))
     print(f'static  {len(os.listdir(_static))} files copied (_redirects, _headers)')
+
+# Compile the redirect list into the Worker's lookup table. Cloudflare's own
+# _redirects handling did not fire on the deployed site, so the Worker is what
+# actually performs these 301s — but _redirects stays the single source of
+# truth, and this keeps the two from drifting apart.
+_rfile = os.path.join(_static, '_redirects')
+if os.path.isfile(_rfile):
+    _map = {}
+    for _l in open(_rfile, encoding='utf-8'):
+        _s = _l.strip()
+        if not _s or _s.startswith('#'):
+            continue
+        _p = _s.split()
+        if len(_p) >= 2:
+            _map[_p[0]] = _p[1]
+    _wdir = os.path.join(os.path.dirname(HERE), 'worker')
+    if os.path.isdir(_wdir):
+        json.dump(_map, open(os.path.join(_wdir, 'redirects.json'), 'w', encoding='utf-8'),
+                  indent=0, sort_keys=True)
+        # A redirect pointing at a page that does not exist sends the visitor
+        # from one 404 to another. Catch it here rather than in Search Console.
+        _pages = {'/'}
+        for _d, _, _fs in os.walk(OUT):
+            if 'index.html' in _fs:
+                _u = '/' + os.path.relpath(_d, OUT).replace(os.sep, '/').strip('.').lstrip('/')
+                _pages.add(_u if _u.endswith('/') else _u + '/')
+        _dead = [f'{k} -> {v}' for k, v in _map.items() if v not in _pages]
+        if _dead:
+            print(f'ERROR   {len(_dead)} redirects point at pages that do not exist:')
+            for _x in _dead[:10]:
+                print('        ' + _x)
+            raise SystemExit(1)
+        print(f'worker  {len(_map)} redirects compiled, all destinations verified')
 
 # The image manifest has to match what the pages actually reference, every build.
 _need = set()

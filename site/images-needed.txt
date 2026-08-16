@@ -327,9 +327,7 @@
 /wp-content/uploads/2025/08/Business-Mobiles-Icon-–-Compare100.webp
 /wp-content/uploads/2025/08/Campsites-Icon-–-Compare100.webp
 /wp-content/uploads/2025/08/Car-Insurance-Logo-300x300.webp
-/wp-content/uploads/2025/08/Car-Insurance-Logo-e1755172380472.webp
 /wp-content/uploads/2025/08/Cars-For-Sale-Compare100.webp
-/wp-content/uploads/2025/08/ChatGPT-Image-Aug-14-2025-10_33_48-PM-150x150.webp
 /wp-content/uploads/2025/08/ChatGPT-Image-Aug-14-2025-10_33_48-PM.webp
 /wp-content/uploads/2025/08/ChatGPT-Image-Aug-14-2025-10_33_50-PM.webp
 /wp-content/uploads/2025/08/ChatGPT-Image-Aug-14-2025-10_33_52-PM.webp
@@ -338,7 +336,6 @@
 /wp-content/uploads/2025/08/ChatGPT-Image-Aug-14-2025-10_55_19-PM.webp
 /wp-content/uploads/2025/08/ChatGPT-Image-Aug-14-2025-10_56_17-PM.webp
 /wp-content/uploads/2025/08/ChatGPT-Image-Aug-14-2025-10_59_42-AM-1.webp
-/wp-content/uploads/2025/08/ChatGPT-Image-Aug-14-2025-11_39_41-PM-1-150x150.webp
 /wp-content/uploads/2025/08/ChatGPT-Image-Aug-14-2025-11_39_41-PM-1.webp
 /wp-content/uploads/2025/08/Childrens-Fashion-Icon-–-Compare100.webp
 /wp-content/uploads/2025/08/Computers-Icon-–-Compare100.webp
@@ -358,17 +355,14 @@
 /wp-content/uploads/2025/08/Hostels-Icon-–-Compare100.webp
 /wp-content/uploads/2025/08/Hotels-Icon-–-Compare100.webp
 /wp-content/uploads/2025/08/ISA-Icon-–-Compare100-1.webp
-/wp-content/uploads/2025/08/Insurance-Icon-–-Compare100-150x150.webp
 /wp-content/uploads/2025/08/Insurance-Icon-–-Compare100.webp
 /wp-content/uploads/2025/08/Landlords-Insurance-Icon-–-Compare100.webp
 /wp-content/uploads/2025/08/Life-Insurance-Icon-–-Compare100.webp
 /wp-content/uploads/2025/08/Logo-450x82-1.webp
 /wp-content/uploads/2025/08/Mens-Fashion-Icon-–-Compare100.webp
 /wp-content/uploads/2025/08/Mobile-Phone-Insurance-Icon-–-Compare100.webp
-/wp-content/uploads/2025/08/Mobiles-Category-Icon-–-Compare100-150x150.webp
 /wp-content/uploads/2025/08/Mobiles-Category-Icon-–-Compare100.webp
 /wp-content/uploads/2025/08/Motorbike-Insurance-Icon-–-Compare100.webp
-/wp-content/uploads/2025/08/Motoring-Compare100-150x150.webp
 /wp-content/uploads/2025/08/Motoring-Compare100.webp
 /wp-content/uploads/2025/08/New-Cars-Compare100.webp
 /wp-content/uploads/2025/08/New-Phone-Contract-Deals-Icon-–-Compare100.webp
@@ -378,7 +372,6 @@
 /wp-content/uploads/2025/08/Recycle-Your-Phone-Compare100.webp
 /wp-content/uploads/2025/08/Satellite-Internet-Icon-Compare100.webp
 /wp-content/uploads/2025/08/Sell-Your-Vehicle-Compare100.webp
-/wp-content/uploads/2025/08/Shopping-Icons-–-Compare100-150x150.webp
 /wp-content/uploads/2025/08/Shopping-Icons-–-Compare100.webp
 /wp-content/uploads/2025/08/Sim-Only-Deals-Icon-–-Compare100.webp
 /wp-content/uploads/2025/08/Smart-Things-Icon-–-Compare100.webp
@@ -388,7 +381,6 @@
 /wp-content/uploads/2025/08/Travel-Insurance-Icon-–-Compare100.webp
 /wp-content/uploads/2025/08/Tyres-Compare100.webp
 /wp-content/uploads/2025/08/UK-Boating-Holiday-Icon-–-Compare100.webp
-/wp-content/uploads/2025/08/Utility-Icon-Compare100-150x150.webp
 /wp-content/uploads/2025/08/Utility-Icon-Compare100.webp
 /wp-content/uploads/2025/08/Van-Insurance-Icon-–-Compare100-e1755172346764.webp
 /wp-content/uploads/2025/08/Vehicle-Inspections-Compare100.webp

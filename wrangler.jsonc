@@ -1,19 +1,32 @@
 {
-  // compare100.com — a purely static site. There is no Worker script and no build
-  // step: build.py generates site/ and it is committed, so deploying is a file copy.
-  // Requests to static assets are free and unlimited on Cloudflare, so this site
-  // costs nothing to serve at any traffic level.
+  // compare100.com — a static site with one small Worker in front of it.
+  //
+  // build.py generates site/ and it is committed, so deploying is a file copy.
+  // Static assets are served directly and are free and unlimited on Cloudflare;
+  // the Worker below is only invoked when no asset matches the request, which
+  // in practice means old URLs that need a 301 and genuine 404s.
   "name": "compare100",
   "compatibility_date": "2026-08-14",
+  "main": "worker/index.js",
   "assets": {
     "directory": "./site",
+    "binding": "ASSETS",
 
-    // Every page is written as {slug}/index.html and every internal link ends in a
-    // slash, which is exactly what auto-trailing-slash serves. Changing this would
-    // break all 413 URLs and the 293 redirects that point at them.
+    // Every page is written as {slug}/index.html and every internal link ends
+    // in a slash. auto-trailing-slash is what serves those. Changing it would
+    // break all 406 URLs and the 300 redirects that point at them.
     "html_handling": "auto-trailing-slash",
 
     // Serve the real 404 page rather than a bare Cloudflare error.
-    "not_found_handling": "404-page"
+    "not_found_handling": "404-page",
+
+    // The seven section hubs moved to /compare-uk-*-deals/, and /category/{x}/
+    // now 301s onto them. An asset always beats a redirect, so if a stale
+    // /category/insurance/index.html ever survives a deploy, the redirect would
+    // silently stop firing and Google would see two copies of the same hub.
+    // Running the Worker first on /category/* makes that impossible. The child
+    // hubs underneath fall straight through to env.ASSETS.fetch, so nothing
+    // else changes.
+    "run_worker_first": ["/category/*"]
   }
 }
