@@ -17,8 +17,12 @@
     // break all 406 URLs and the 300 redirects that point at them.
     "html_handling": "auto-trailing-slash",
 
-    // Serve the real 404 page rather than a bare Cloudflare error.
-    "not_found_handling": "404-page",
+    // MUST stay "none". The asset router applies not_found_handling before the
+    // Worker is reached, so "404-page" silently swallowed every redirect —
+    // including Cloudflare's own _redirects handling. worker/index.js serves
+    // 404.html itself. Verified live: with this set to "404-page", /mobiles/
+    // returned 404 instead of redirecting.
+    "not_found_handling": "none",
 
     // The seven section hubs moved to /compare-uk-*-deals/, and /category/{x}/
     // now 301s onto them. An asset always beats a redirect, so if a stale
