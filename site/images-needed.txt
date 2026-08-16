@@ -406,3 +406,4 @@
 /wp-content/uploads/2026/01/Sam-Boat.webp
 /wp-content/uploads/2026/01/Starlink.webp
 /wp-content/uploads/2026/01/business-mobile.webp
+/wp-content/uploads/icons/icon-180.png

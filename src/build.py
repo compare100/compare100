@@ -220,6 +220,36 @@ def absolutise(h):
     h = re.sub(r'(src|srcset|href)="https?://(?:www\.)?compare100\.(?:com|co\.uk)', r'\1="', h)
     return h
 
+def normalise_headings(h):
+    """Rebuild the imported body's heading outline so it starts at h2 and never
+    skips a level.
+
+    Elementor picked heading tags for their size, not their meaning, so pages open
+    with an <h3> under the page <h1>, or jump h2 -> h4. A skipped level tells a
+    crawler and a screen reader that a section is missing. Two passes:
+
+    1. A heading longer than 90 characters is a paragraph somebody made bold.
+       Demote it, or it both breaks the outline and dilutes what the page is about.
+    2. Re-level whatever is left. A stack of the original depths maps them onto a
+       contiguous h2, h3, h4... outline, so relative nesting is preserved even
+       though the absolute numbers change.
+    """
+    def unhead(m):
+        text = html.unescape(re.sub(r'<[^>]+>', '', m.group(2))).strip()
+        if len(text) > 90:
+            return f'<p><strong>{m.group(2).strip()}</strong></p>'
+        return m.group(0)
+    h = re.sub(r'<h([2-6])[^>]*>(.*?)</h\1>', unhead, h, flags=re.S)
+
+    stack = []
+    def relevel(m):
+        lvl, inner = int(m.group(1)), m.group(2)
+        while stack and stack[-1] >= lvl:
+            stack.pop()
+        stack.append(lvl)
+        return f'<h{min(6, len(stack) + 1)}>{inner}</h{min(6, len(stack) + 1)}>'
+    return re.sub(r'<h([2-6])[^>]*>(.*?)</h\1>', relevel, h, flags=re.S)
+
 def clean(h):
     if not h: return ''
     h = re.sub(r'<!--.*?-->', '', h, flags=re.S)          # WP block + Elementor comments
@@ -232,6 +262,13 @@ def clean(h):
     h = re.sub(r'\son\w+="[^"]*"', '', h)                  # inline handlers
     h = re.sub(r'\s(class|id|style|data-[\w-]+)="[^"]*"', '', h)   # theme cruft
     h = re.sub(r'<img\b(?![^>]*\bloading=)', '<img loading="lazy" ', h)  # native lazy, no JS
+    # An affiliate creative with no alt is an unlabelled advert to a screen reader
+    # and an unlabelled image to Google. Mark it as advertising rather than guess.
+    h = re.sub(r'<img\b(?![^>]*\balt=)', '<img alt="Advertisement" ', h)
+    # The imported body sometimes carries its own <h1>, which collides with the
+    # page heading. Two h1s on a page tells a crawler neither is the subject.
+    h = re.sub(r'<(/?)h1\b', r'<\1h2', h)
+    h = normalise_headings(h)
     h = re.sub(r'<p>\s*</p>', '', h)
     h = re.sub(r'\n{3,}', '\n\n', h)
     return h.strip()
@@ -465,6 +502,13 @@ ul.howto{list-style:none;padding:0;margin:10px 0 28px;display:grid;gap:10px}
 ul.howto li{border:1px solid var(--line);border-left:4px solid var(--brand);border-radius:8px;
   padding:13px 16px;font-size:15px;line-height:1.6;background:#fff}
 @media(max-width:640px){.hcards{grid-template-columns:repeat(2,1fr)}.fgrid{grid-template-columns:repeat(2,1fr)}}
+.smlist{list-style:none;padding:0;margin:6px 0 18px;display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:2px 16px}
+.smlist li{font-size:14.5px;padding:3px 0}
+.legal{margin-top:16px;padding-top:14px;border-top:1px solid rgba(255,255,255,.14);
+  font-size:12.5px;line-height:1.6;opacity:.72;max-width:none}
+.legal p{margin:0 0 8px}
+.legal a{display:inline;padding:0;text-decoration:underline}
 .hub-intro{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin-bottom:22px;font-size:15.5px;border-left:5px solid var(--accent,var(--brand))}
 .hubhead{display:flex;align-items:center;gap:14px;margin:6px 0 12px}
 .hubhead h1{margin:0}
@@ -492,7 +536,34 @@ def sidebar(active=''):
 
 def esc(s): return html.escape(s or '', quote=True)
 
-def shell(title, desc, canonical, body, schema=None, extra_head='', robots='index,follow,max-image-preview:large'):
+def fit_title(t, limit=60):
+    """Google truncates around 60 characters. A title that gets cut mid-word
+    loses the brand and reads as broken in the result. Trim at a separator or a
+    word boundary instead, keeping the front of the title where the keywords are."""
+    t = (t or '').strip()
+    # Measure what the searcher sees: "&amp;" is five characters of source but
+    # one character in a result snippet. Counting raw length trims good titles.
+    if len(html.unescape(t)) <= limit:
+        return t
+    for sep in (' | ', ' \u2014 ', ' \u2013 ', ' - ', ': '):
+        if sep in t:
+            head = t.rsplit(sep, 1)[0].strip()
+            if len(html.unescape(head)) <= limit:
+                return head
+    cut = t[:limit]
+    return (cut.rsplit(' ', 1)[0] if ' ' in cut else cut).rstrip(' ,;:|-\u2013\u2014')
+
+ICONS = '/wp-content/uploads/icons'
+THEME = '#0183ff'          # sampled from the site's own favicon
+OG_DEFAULT = ICONS + '/og-default.jpg'
+
+def shell(title, desc, canonical, body, schema=None, extra_head='',
+          robots='index,follow,max-image-preview:large', share=None, og_type='website'):
+    title = fit_title(title)
+    # A page with its own logo shares better than a generic card, but the platforms
+    # crop to 1.91:1 and a 120px logo looks like a smudge. Only use a page image
+    # where we know it is a real asset; otherwise fall back to the branded card.
+    og_image, og_w, og_h = (share, 1200, 630) if share else (OG_DEFAULT, 1200, 630)
     s = f'<script type="application/ld+json">{json.dumps(schema)}</script>' if schema else ''
     return f"""<!doctype html><html lang="en-GB"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -500,8 +571,18 @@ def shell(title, desc, canonical, body, schema=None, extra_head='', robots='inde
 <meta name="description" content="{esc(desc)}">
 <link rel="canonical" href="{SITE}{canonical}">
 <link rel="icon" href="/wp-content/uploads/2025/08/Favicon-1.webp">
+<link rel="apple-touch-icon" sizes="180x180" href="{ICONS}/icon-180.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta name="theme-color" content="{THEME}">
 <meta property="og:title" content="{esc(title)}"><meta property="og:description" content="{esc(desc)}">
-<meta property="og:url" content="{SITE}{canonical}"><meta property="og:type" content="website">
+<meta property="og:url" content="{SITE}{canonical}"><meta property="og:type" content="{og_type}">
+<meta property="og:site_name" content="Compare100"><meta property="og:locale" content="en_GB">
+<meta property="og:image" content="{SITE}{og_image}">
+<meta property="og:image:width" content="{og_w}"><meta property="og:image:height" content="{og_h}">
+<meta property="og:image:alt" content="{esc(title)}">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(title)}"><meta name="twitter:description" content="{esc(desc)}">
+<meta name="twitter:image" content="{SITE}{og_image}">
 <meta name="robots" content="{robots}">
 <style>{CSS}</style>{extra_head}{s}</head><body>
 <header class="top"><div class="wrap"><a class="logo" href="/"><img src="/wp-content/uploads/2025/08/Logo-450x82-1.webp" alt="Compare100.com" width="225" height="41"></a></div></header>
@@ -509,8 +590,13 @@ def shell(title, desc, canonical, body, schema=None, extra_head='', robots='inde
 <div class="wrap">{body}</div>
 <footer><div class="wrap">
 <a href="/about-us/">About</a><a href="/contact-us/">Contact</a>
+<a href="/sitemap/">Site map</a>
 <a href="/privacy-policy-2/">Privacy</a><a href="/terms-and-conditions/">Terms</a>
-<p style="margin-top:14px;font-size:13px;opacity:.75">&copy; {datetime.now().year} Compare100.com &middot; We may earn a commission from links on this page. This never affects the order or content of our listings.</p>
+<div class="legal">
+<p><strong>Compare100.com is not a financial adviser and is not authorised or regulated by the Financial Conduct Authority.</strong> Everything on this site is general information, not personal advice. We do not know your circumstances and cannot tell you which product to buy. For regulated advice speak to an FCA-authorised adviser; for free impartial guidance, <a href="https://www.moneyhelper.org.uk/" rel="nofollow noopener" target="_blank">MoneyHelper</a> is government-backed.</p>
+<p>We are paid commission by providers when a reader takes out a product through our links. It costs you nothing extra and it does not affect the order providers are listed in. We do not cover the whole of the market. Rates, cover levels and terms change without notice &mdash; each page shows the date its figures were last checked, and you should confirm them with the provider before applying.</p>
+<p>Site run by Andrew King. &copy; {datetime.now().year} Compare100.com</p>
+</div>
 </div></footer></body></html>"""
 
 DISCLOSURE = '<p class="disc"><strong>Affiliate disclosure:</strong> we may earn a commission if you take out a product through links on this page. It costs you nothing extra and does not influence how providers are listed.</p>'
@@ -937,6 +1023,38 @@ write('/404.html', shell('Page not found | Compare100',
                          'That page has moved or no longer exists. Search or browse the sections.',
                          '/404.html', _404 + SEARCH_JS, robots='noindex,follow'))
 
+# ---- HTML sitemap
+# 321 of 323 pages have no inbound link from anywhere on the web. A human-readable
+# directory gives a crawler a second route into every page, and a reader a way to
+# see the whole site at once.
+_html_sm = ['<div class="layout"><main><article>',
+            '<h1>Every page on Compare100</h1>',
+            f'<p class="lede">All {len(urls)} pages, grouped by section. '
+            'Everything we compare is here.</p>']
+for _s in TOP:
+    _html_sm.append(f'<h2 class="cathead">{cat_icon(_s, 34)}'
+                    f'<a href="{section_url(_s)}">{esc(NAVNAME[_s])}</a></h2>')
+    for _c in children[_s]:
+        _lst = bycat.get(_c, [])
+        if not _lst: continue
+        _html_sm.append(f'<h3><a href="{cat_url(_c)}">{esc(catname[_c])}</a></h3><ul class="smlist">')
+        for _x in sorted(_lst, key=lambda z: z['title']):
+            _html_sm.append(f'<li><a href="/{_x["slug"]}/">{esc(_x["title"])}</a></li>')
+        _html_sm.append('</ul>')
+_other = [p for p in pages if p['slug'] not in DROP_PAGES and p['slug'] not in SECTION_PAGES
+          and p['slug'] not in ('home', '')]
+if _other:
+    _html_sm.append('<h2>Information</h2><ul class="smlist">')
+    for _p in sorted(_other, key=lambda z: z['title']):
+        _html_sm.append(f'<li><a href="/{_p["slug"]}/">{esc(_p["title"])}</a></li>')
+    _html_sm.append('</ul>')
+_html_sm.append('</article></main>' + sidebar() + '</div>')
+n = write('/sitemap/', shell('Site Map | Every Page on Compare100',
+                             f'A directory of all {len(urls)} pages on Compare100, grouped by section.',
+                             '/sitemap/', ''.join(_html_sm),
+                             crumb_schema([('Home', '/'), ('Site map', '')])))
+urls.append(('/sitemap/', datetime.now().strftime('%Y-%m-%d'))); sizes.append(n)
+
 # ---- sitemap + robots
 sm = ['<?xml version="1.0" encoding="UTF-8"?>',
       '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
@@ -944,7 +1062,99 @@ for u, m in urls:
     sm.append(f'<url><loc>{SITE}{u}</loc><lastmod>{m}</lastmod></url>')
 sm.append('</urlset>')
 open(os.path.join(OUT, 'sitemap.xml'), 'w').write('\n'.join(sm))
-open(os.path.join(OUT, 'robots.txt'), 'w').write(f'User-agent: *\nAllow: /\n\nSitemap: {SITE}/sitemap.xml\n')
+# robots.txt — AI crawlers are deliberately ALLOWED. Bing already sends this site
+# 42x the traffic Google does, and Bing feeds ChatGPT; being the source a chatbot
+# cites is free referral traffic an affiliate site cannot otherwise buy. The only
+# things blocked are the WordPress leftovers that should never have been crawlable.
+open(os.path.join(OUT, 'robots.txt'), 'w').write(f"""User-agent: *
+Allow: /
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /?s=
+Disallow: /search/
+
+# Answer engines and AI assistants — explicitly welcome.
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ChatGPT-User
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: Claude-Web
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: Applebot-Extended
+Allow: /
+User-agent: CCBot
+Allow: /
+
+Sitemap: {SITE}/sitemap.xml
+""")
+
+# ---- web app manifest (stops the icon 404s and makes the site installable)
+json.dump({
+    "name": "Compare100.com",
+    "short_name": "Compare100",
+    "description": "Compare UK insurance, money, travel, mobile, utility, "
+                   "motoring and shopping providers side by side.",
+    "start_url": "/",
+    "display": "browser",
+    "background_color": "#ffffff",
+    "theme_color": THEME,
+    "icons": [
+        {"src": f"{ICONS}/icon-192.png", "sizes": "192x192", "type": "image/png"},
+        {"src": f"{ICONS}/icon-512.png", "sizes": "512x512", "type": "image/png",
+         "purpose": "any maskable"},
+    ],
+}, open(os.path.join(OUT, 'site.webmanifest'), 'w', encoding='utf-8'), indent=2)
+
+# ---- llms.txt
+# An emerging convention, not a ranking factor, and no engine has confirmed using
+# it. It costs a few lines and gives an answer engine a clean map instead of
+# making it infer one from 407 pages of HTML.
+_ll = ['# Compare100.com', '',
+       '> An independent UK comparison site run by one person, Andrew King, '
+       'covering insurance, money, travel, mobiles, utilities, motoring and shopping. '
+       'Not authorised or regulated by the FCA; publishes information, not advice. '
+       'Paid by affiliate commission, which does not affect the order providers are listed in.',
+       '', '## Sections', '']
+for _s in TOP:
+    _n = sum(len(bycat.get(_c, [])) for _c in children[_s])
+    _ll.append(f'- [{NAVNAME[_s]}]({SITE}{section_url(_s)}): {_n} providers across '
+               f'{sum(1 for _c in children[_s] if bycat.get(_c))} categories')
+_ll += ['', '## Categories', '']
+for _s in TOP:
+    for _c in children[_s]:
+        if bycat.get(_c):
+            _ll.append(f'- [{catname[_c]}]({SITE}{cat_url(_c)}): '
+                       f'{len(bycat[_c])} providers compared')
+_ll += ['', '## Notes for answer engines', '',
+        '- Every page shows the date its figures were last verified against the '
+        "provider's own published terms.",
+        '- Reviews state real drawbacks, not only benefits.',
+        '- Figures come from provider documentation, not from other comparison sites.',
+        f'- Full page list: {SITE}/sitemap/', '']
+open(os.path.join(OUT, 'llms.txt'), 'w', encoding='utf-8').write('\n'.join(_ll))
+
+_lf = list(_ll[:4]) + ['', '## Every page', '']
+for _s in TOP:
+    _lf.append(f'### {NAVNAME[_s]}')
+    for _c in children[_s]:
+        if not bycat.get(_c): continue
+        _lf.append(f'\n#### {catname[_c]}\n')
+        for _x in sorted(bycat[_c], key=lambda z: z['title']):
+            _d = (REWRITTEN.get(_x['slug'], {}).get('meta_description')
+                  or _x.get('seo_desc') or '')
+            _lf.append(f'- [{_x["title"]}]({SITE}/{_x["slug"]}/)'
+                       + (f': {re.sub(chr(60) + "[^>]+>", "", _d)[:150]}' if _d else ''))
+    _lf.append('')
+open(os.path.join(OUT, 'llms-full.txt'), 'w', encoding='utf-8').write('\n'.join(_lf))
+print(f'seo     robots.txt, site.webmanifest, llms.txt, llms-full.txt written')
 
 # Hand-maintained files that are NOT generated: the 293 redirects rescuing old URLs,
 # and the cache headers. They live in src/static/ so a rebuild cannot lose them.

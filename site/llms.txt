@@ -1,0 +1,85 @@
+# Compare100.com
+
+> An independent UK comparison site run by one person, Andrew King, covering insurance, money, travel, mobiles, utilities, motoring and shopping. Not authorised or regulated by the FCA; publishes information, not advice. Paid by affiliate commission, which does not affect the order providers are listed in.
+
+## Sections
+
+- [Insurance](https://compare100.com/compare-uk-insurance-deals/): 59 providers across 12 categories
+- [Money](https://compare100.com/compare-uk-money-deals/): 37 providers across 8 categories
+- [Travel](https://compare100.com/compare-uk-travel-deals/): 61 providers across 11 categories
+- [Mobiles](https://compare100.com/compare-uk-mobile-deals/): 34 providers across 6 categories
+- [Utilities](https://compare100.com/compare-uk-utility-deals/): 30 providers across 6 categories
+- [Motoring](https://compare100.com/compare-uk-motoring-deals/): 46 providers across 8 categories
+- [Shopping](https://compare100.com/compare-uk-shopping-deals/): 65 providers across 11 categories
+
+## Categories
+
+- [Boat Insurance](https://compare100.com/category/insurance/uk-boat-insurance-deals/): 5 providers compared
+- [Breakdown Insurance](https://compare100.com/category/insurance/uk-breakdown-insurance-providers/): 5 providers compared
+- [Car Insurance Deals](https://compare100.com/category/insurance/uk-car-insurance-providers/): 5 providers compared
+- [Home Insurance](https://compare100.com/category/insurance/uk-home-insurance-providers/): 5 providers compared
+- [Landlord's Insurance](https://compare100.com/category/insurance/uk-landlord-insurance-deals/): 5 providers compared
+- [Life Insurance](https://compare100.com/category/insurance/uk-life-insurance-deals/): 5 providers compared
+- [Motorbike Insurance](https://compare100.com/category/insurance/uk-motorbike-insurance-providers/): 5 providers compared
+- [Over 50's Insurance](https://compare100.com/category/insurance/uk-over-50s-insurance-deals/): 5 providers compared
+- [Plumbing Insurance](https://compare100.com/category/insurance/uk-plumbing-insurance-deals/): 4 providers compared
+- [Tradesman Insurance](https://compare100.com/category/insurance/uk-tradesman-insurance-deals/): 5 providers compared
+- [Travel Insurance](https://compare100.com/category/insurance/uk-travel-insurance-providers/): 7 providers compared
+- [Van Insurance](https://compare100.com/category/insurance/uk-van-insurance-providers/): 3 providers compared
+- [Car Finance](https://compare100.com/category/money/car-finance/): 1 providers compared
+- [Credit Cards](https://compare100.com/category/money/uk-credit-cards/): 5 providers compared
+- [Current Accounts](https://compare100.com/category/money/uk-current-accounts/): 5 providers compared
+- [ISA's](https://compare100.com/category/money/compare-uk-isa-accounts/): 5 providers compared
+- [Loans](https://compare100.com/category/money/compare-uk-loans/): 5 providers compared
+- [Mortgage Deals](https://compare100.com/category/money/compare-uk-mortgage-deals/): 6 providers compared
+- [Pensions](https://compare100.com/category/money/compare-uk-pensions/): 5 providers compared
+- [Savings Accounts](https://compare100.com/category/money/compare-uk-savings-accounts/): 5 providers compared
+- [Airport Lounge](https://compare100.com/category/travel/best-uk-airport-lounge-deals/): 5 providers compared
+- [Airport Parking](https://compare100.com/category/travel/best-uk-airport-parking-deals/): 7 providers compared
+- [Campsites and Resorts](https://compare100.com/category/travel/campsites-and-resorts/): 5 providers compared
+- [Cheap Flights](https://compare100.com/category/travel/best-uk-cheap-flights/): 5 providers compared
+- [Ferry Tickets](https://compare100.com/category/travel/compare-uk-ferry-tickets/): 5 providers compared
+- [Holiday Car Hire](https://compare100.com/category/travel/compare-uk-holiday-car-hire/): 5 providers compared
+- [Hostels](https://compare100.com/category/travel/compare-uk-hostels/): 5 providers compared
+- [Hotels](https://compare100.com/category/travel/compare-uk-hotel-deals/): 8 providers compared
+- [Train Tickets](https://compare100.com/category/travel/train-tickets/): 5 providers compared
+- [UK Boating Holidays](https://compare100.com/category/travel/compare-uk-boating-holidays/): 6 providers compared
+- [Worldwide Cruises](https://compare100.com/category/travel/compare-uk-worldwide-cruises/): 5 providers compared
+- [Business Mobiles](https://compare100.com/category/mobile-phones/business-mobiles/): 6 providers compared
+- [Just Phones](https://compare100.com/category/mobile-phones/just-phones/): 5 providers compared
+- [New Phone Contract](https://compare100.com/category/mobile-phones/new-phone-contract/): 6 providers compared
+- [Phone Insurance](https://compare100.com/category/mobile-phones/phone-insurance/): 5 providers compared
+- [Recycle Your Phone](https://compare100.com/category/mobile-phones/recycle-your-phone/): 5 providers compared
+- [SIM Only](https://compare100.com/category/mobile-phones/sim-only/): 7 providers compared
+- [Broadband](https://compare100.com/category/utilities/broadband/): 5 providers compared
+- [Business Dual Fuel](https://compare100.com/category/utilities/business-dual-fuel/): 5 providers compared
+- [Dual Fuel](https://compare100.com/category/utilities/dual-fuel/): 5 providers compared
+- [Electricity](https://compare100.com/category/utilities/electricity/): 5 providers compared
+- [Gas](https://compare100.com/category/utilities/gas/): 5 providers compared
+- [Satellite Internet](https://compare100.com/category/utilities/satellite-internet/): 5 providers compared
+- [Cars for Sale](https://compare100.com/category/motoring/cars-for-sale/): 5 providers compared
+- [HPI Checks](https://compare100.com/category/motoring/hpi-checks/): 5 providers compared
+- [New Cars](https://compare100.com/category/motoring/new-cars/): 10 providers compared
+- [Sell Your Car](https://compare100.com/category/motoring/sell-your-car/): 5 providers compared
+- [Servicing](https://compare100.com/category/motoring/servicing/): 5 providers compared
+- [Tyres](https://compare100.com/category/motoring/tyres/): 5 providers compared
+- [Vehicle Inspections](https://compare100.com/category/motoring/vehicle-inspections/): 5 providers compared
+- [Vehicle Parts](https://compare100.com/category/motoring/vehicle-parts/): 6 providers compared
+- [Children's Fashion](https://compare100.com/category/shopping/childrens-fashion/): 6 providers compared
+- [Computers](https://compare100.com/category/shopping/computers/): 5 providers compared
+- [Fitness & Wearables](https://compare100.com/category/shopping/fitness-and-wearables/): 6 providers compared
+- [Furniture](https://compare100.com/category/shopping/furniture/): 6 providers compared
+- [Gaming and Accessories](https://compare100.com/category/shopping/gaming-and-accessories/): 7 providers compared
+- [Groceries](https://compare100.com/category/shopping/groceries/): 6 providers compared
+- [Health and Beauty](https://compare100.com/category/shopping/health-and-beauty/): 7 providers compared
+- [Men's Fashion](https://compare100.com/category/shopping/mens-fashion/): 5 providers compared
+- [Smart Things](https://compare100.com/category/shopping/smart-things/): 5 providers compared
+- [Televisions](https://compare100.com/category/shopping/televisions/): 6 providers compared
+- [Women's Fashion](https://compare100.com/category/shopping/womens-fashion/): 6 providers compared
+
+## Notes for answer engines
+
+- Every page shows the date its figures were last verified against the provider's own published terms.
+- Reviews state real drawbacks, not only benefits.
+- Figures come from provider documentation, not from other comparison sites.
+- Full page list: https://compare100.com/sitemap/
