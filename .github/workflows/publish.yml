@@ -1,0 +1,46 @@
+name: Publish rewrites
+
+# Claude writes finished pages into Cloudflare D1; this collects them and pushes.
+# Runs on a schedule because Claude cannot trigger it — its sandbox has no write
+# access to GitHub at all. Half-hourly is well inside the free allowance for a
+# public repository, and a run with nothing pending exits in seconds.
+on:
+  schedule:
+    - cron: "17,47 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Collect pending rewrites, gate them, rebuild
+        run: python3 .github/apply-rewrites.py
+
+      - name: Commit and push if anything changed
+        run: |
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "no changes"
+            exit 0
+          fi
+          git config user.name  "compare100 publisher"
+          git config user.email "admin@compare100.com"
+          git add -A
+          SLUGS=$(git diff --cached --name-only -- src/rewritten | head -1)
+          git commit -m "Publish rewritten page(s)
+
+          Written by a scheduled Claude session, collected from Cloudflare D1,
+          re-checked against the quality gate and rebuilt by build.py."
+          git push

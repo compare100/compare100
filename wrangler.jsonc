@@ -8,6 +8,16 @@
   "name": "compare100",
   "compatibility_date": "2026-08-14",
   "main": "worker/index.js",
+  // Finished rewrites land here from a scheduled Claude session, and the GitHub
+  // Action in this repo collects them from /_pending.json. Nothing user-facing
+  // reads this binding — the site itself stays entirely static.
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "compare100-content",
+      "database_id": "d87b0df6-b195-4bb8-a0c2-9499640e67ee"
+    }
+  ],
   "assets": {
     "directory": "./site",
     "binding": "ASSETS",

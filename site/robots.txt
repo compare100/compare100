@@ -4,6 +4,7 @@ Disallow: /wp-admin/
 Disallow: /wp-login.php
 Disallow: /?s=
 Disallow: /search/
+Disallow: /_pending.json
 
 # Answer engines and AI assistants — explicitly welcome.
 User-agent: GPTBot
