@@ -162,6 +162,14 @@ ul.howto li{border:1px solid var(--line);border-left:4px solid var(--brand);bord
   font-size:12.5px;line-height:1.6;opacity:.72;max-width:none}
 .legal p{margin:0 0 8px}
 .legal a{display:inline;padding:0;text-decoration:underline}
+.cta{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;
+  background:var(--bg);border:1px solid var(--line);border-left:5px solid var(--brand);
+  border-radius:10px;padding:16px 18px;margin:22px 0}
+.cta strong{display:block;font-size:16.5px;margin-bottom:3px}
+.cta span{font-size:13px;color:var(--mut);line-height:1.5}
+.cta .btn{white-space:nowrap;flex-shrink:0}
+@media(max-width:640px){.cta{flex-direction:column;align-items:stretch;text-align:center}
+  .cta .btn{width:100%;box-sizing:border-box}}
 .hub-intro{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin-bottom:22px;font-size:15.5px;border-left:5px solid var(--accent,var(--brand))}
 .hubhead{display:flex;align-items:center;gap:14px;margin:6px 0 12px}
 .hubhead h1{margin:0}
