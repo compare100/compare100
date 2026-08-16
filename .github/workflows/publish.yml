@@ -20,12 +20,12 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      # v6 runs on Node 24. v4 does not, and GitHub warns on every run.
+      - uses: actions/checkout@v6
 
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
-
+      # No setup-python step: the ubuntu runner ships Python 3, and build.py and
+      # quality-gate.py are stdlib only. One less action to keep current, and one
+      # less thing that can break a publish.
       - name: Collect pending rewrites, gate them, rebuild
         run: python3 .github/apply-rewrites.py
 

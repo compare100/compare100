@@ -509,6 +509,14 @@ ul.howto li{border:1px solid var(--line);border-left:4px solid var(--brand);bord
   font-size:12.5px;line-height:1.6;opacity:.72;max-width:none}
 .legal p{margin:0 0 8px}
 .legal a{display:inline;padding:0;text-decoration:underline}
+.cta{display:flex;align-items:center;justify-content:space-between;gap:18px;flex-wrap:wrap;
+  background:var(--bg);border:1px solid var(--line);border-left:5px solid var(--brand);
+  border-radius:10px;padding:16px 18px;margin:22px 0}
+.cta strong{display:block;font-size:16.5px;margin-bottom:3px}
+.cta span{font-size:13px;color:var(--mut);line-height:1.5}
+.cta .btn{white-space:nowrap;flex-shrink:0}
+@media(max-width:640px){.cta{flex-direction:column;align-items:stretch;text-align:center}
+  .cta .btn{width:100%;box-sizing:border-box}}
 .hub-intro{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin-bottom:22px;font-size:15.5px;border-left:5px solid var(--accent,var(--brand))}
 .hubhead{display:flex;align-items:center;gap:14px;margin:6px 0 12px}
 .hubhead h1{margin:0}
@@ -615,7 +623,7 @@ def crumb_schema(items):
                                 for i, (n, u) in enumerate(items)]}
 
 
-def render_rewritten(p, pc, parent, cr, sibs):
+def render_rewritten(p, pc, parent, cr, sibs, cta=None):
     """Render a page that has rewritten structured content."""
     IS_EDITORIAL = not p.get('pros') and not p.get('cons') and not p.get('verdict', '').strip()
     facts = ''.join(f'<tr><th>{esc(html.unescape(f["label"]))}</th><td>{f["value"]}</td></tr>'
@@ -636,6 +644,21 @@ def render_rewritten(p, pc, parent, cr, sibs):
                         for f in faqs)
         faq_html = f'<div class="faq"><h2>Common questions</h2>{items}</div>'
     checked = p.get('checked', datetime.now().strftime('%d %B %Y'))
+
+    # The only call to action used to live in the sidebar, which on a phone sits
+    # BELOW the whole article — a reader had to scroll past 10,000 characters to
+    # reach it. Put one under the intro, where someone who is already convinced
+    # can act, and one after the verdict for someone who read to the end.
+    def cta_block(label):
+        if not (cta and cta[0]):
+            return ''
+        url, btn, name = cta
+        return (f'<div class="cta"><div><strong>{esc(label)}</strong>'
+                f'<span>Opens {esc(name)} in a new tab. We may earn a commission '
+                f'&mdash; it costs you nothing extra.</span></div>'
+                f'<a class="btn" href="{url}" rel="sponsored nofollow noopener" '
+                f'target="_blank">{esc(btn)}</a></div>')
+
     if IS_EDITORIAL:
         body = (f'<h1>{esc(p["title"])}</h1>'
                 f'<div class="meta">Last updated {checked}</div>'
@@ -644,7 +667,12 @@ def render_rewritten(p, pc, parent, cr, sibs):
         body = (f'<h1>{esc(p["title"])}</h1>'
                 f'<div class="meta">Rates and terms checked {checked} &middot; '
                 f'{catname.get(pc,"")} &middot; Compare100 editorial team</div>'
-                + DISCLOSURE + p.get('intro','') + facts + secs + pc_html + verdict + faq_html
+                + DISCLOSURE + p.get('intro','')
+                # FAQs sit BEFORE the verdict so the page closes on the verdict and
+                # its button. Questions are supporting detail; the verdict is the
+                # closing argument, and it should be the last thing read.
+                + cta_block('Check what you would pay') + facts + secs + pc_html
+                + faq_html + verdict + cta_block('Ready to compare?')
                 + f'<p class="checked">Figures were taken from each provider\'s own published '
                   f'terms on {checked}. Variable rates can change at any time &mdash; confirm the '
                   f'current rate with the provider before applying.</p>')
@@ -757,7 +785,8 @@ for p in posts:
     rw = REWRITTEN.get(p['slug'])
     extra_faqs = []
     if rw:
-        art, extra_faqs = render_rewritten(rw, pc, parent, cr, sibs)
+        art, extra_faqs = render_rewritten(rw, pc, parent, cr, sibs,
+                                           cta=(p['offer_url'], p['btn'], p['title']))
         p['seo_title'] = rw.get('meta_title') or p['seo_title']
         p['seo_desc']  = rw.get('meta_description') or p['seo_desc']
     else:
