@@ -17,6 +17,16 @@ export default {
   async fetch(request, env) {
     const url = new URL(request.url);
 
+    // One canonical hostname. Every canonical tag on the site says
+    // https://compare100.com, so www serving the same pages would be a second
+    // copy of all 407 of them. Send www to the apex and keep the path.
+    // Scoped to www. specifically so the workers.dev address still works.
+    if (url.hostname.startsWith("www.")) {
+      const to = new URL(url.toString());
+      to.hostname = url.hostname.slice(4);
+      return Response.redirect(to.toString(), 301);
+    }
+
     // Match with and without the trailing slash — old inbound links are
     // inconsistent about it, and a 404 is a 404 either way.
     const path = url.pathname;
