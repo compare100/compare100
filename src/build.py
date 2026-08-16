@@ -586,7 +586,12 @@ DOUBLE_ENC = re.compile(r'&amp;(amp|lt|gt|quot|apos|nbsp|mdash|ndash|hellip|poun
 
 def write(path, content):
     content = DOUBLE_ENC.sub(r'&\1;', content)
-    full = os.path.join(OUT, path.strip('/'), 'index.html') if path != '/' else os.path.join(OUT, 'index.html')
+    if path == '/':
+        full = os.path.join(OUT, 'index.html')
+    elif path.endswith('.html'):          # a real filename, e.g. /404.html
+        full = os.path.join(OUT, path.strip('/'))
+    else:                                 # a pretty URL, e.g. /admiral-car-insurance-review/
+        full = os.path.join(OUT, path.strip('/'), 'index.html')
     os.makedirs(os.path.dirname(full), exist_ok=True)
     open(full, 'w', encoding='utf-8').write(content)
     return len(content)
@@ -888,6 +893,24 @@ n = write('/', shell('Compare100.com | Compare UK Insurance, Money, Travel and U
                      {"@context": "https://schema.org", "@type": "WebSite", "name": "Compare100",
                       "url": SITE}))
 urls.append(('/', datetime.now().strftime('%Y-%m-%d'))); sizes.append(n)
+
+# ---- 404
+# Cloudflare serves this for anything that does not match a file. Without it the
+# visitor gets a bare platform error page with no way back into the site.
+_404 = ('<div class="layout"><main><article>'
+        '<h1>That page has moved or no longer exists</h1>'
+        '<p class="lede">This site was rebuilt in 2026 and a few addresses changed. '
+        'Most old links redirect automatically &mdash; if you got here, this one did not.</p>'
+        '<div class="searchbox"><label for="q" class="vh">Search Compare100</label>'
+        '<input id="q" type="search" placeholder="Search for a provider or product" '
+        'autocomplete="off" spellcheck="false">'
+        '<div id="qr" class="qres" hidden></div></div>'
+        '<h2>Or pick a section</h2>'
+        f'<div class="hcards">{hero_cards}</div>'
+        '</article></main>' + sidebar() + '</div>')
+write('/404.html', shell('Page not found | Compare100',
+                         'That page has moved or no longer exists. Search or browse the sections.',
+                         '/404.html', _404 + SEARCH_JS, robots='noindex,follow'))
 
 # ---- sitemap + robots
 sm = ['<?xml version="1.0" encoding="UTF-8"?>',

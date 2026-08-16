@@ -1,0 +1,19 @@
+{
+  // compare100.com — a purely static site. There is no Worker script and no build
+  // step: build.py generates site/ and it is committed, so deploying is a file copy.
+  // Requests to static assets are free and unlimited on Cloudflare, so this site
+  // costs nothing to serve at any traffic level.
+  "name": "compare100",
+  "compatibility_date": "2026-08-14",
+  "assets": {
+    "directory": "./site",
+
+    // Every page is written as {slug}/index.html and every internal link ends in a
+    // slash, which is exactly what auto-trailing-slash serves. Changing this would
+    // break all 413 URLs and the 293 redirects that point at them.
+    "html_handling": "auto-trailing-slash",
+
+    // Serve the real 404 page rather than a bare Cloudflare error.
+    "not_found_handling": "404-page"
+  }
+}
