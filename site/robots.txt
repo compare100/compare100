@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://compare100.com/sitemap.xml

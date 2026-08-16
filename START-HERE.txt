@@ -1,0 +1,222 @@
+COMPARE100 — WHAT TO DO
+=======================
+
+Read this bit first
+-------------------
+
+There are 4 parts. Do ONE part, then stop.
+Tell Claude you have done it. Claude gives you the next one.
+
+Do not read ahead. You do not need to.
+
+Three things that are true the whole way through:
+
+  * Your website at compare100.com keeps running normally.
+    Nothing here touches it. You cannot break it.
+
+  * Nothing in here costs any money.
+
+  * If you get stuck, stop. Tell Claude the number you got to.
+    That is all Claude needs to help.
+
+
+===================================================================
+PART 1  —  PUT THE PICTURES IN
+===================================================================
+
+You have done this before. It is the black window one.
+
+1.1   Find the folder you unzipped from uploads.zip
+      It has folders called 2020, 2025 and 2026 inside it.
+
+1.2   Come back to THIS folder.
+
+1.3   Double-click the file called   RUN-ME-FIRST.bat
+      A black window opens.
+
+1.4   Drag the folder from 1.1 into the black window.
+      Some text appears. That is correct.
+
+1.5   Press Enter.
+
+1.6   Wait. It takes a minute or two.
+
+YOU SHOULD SEE:   416 of 416      Missing 0
+
+If it says Missing 0  ->  Part 1 is done. Tell Claude.
+If it says anything else  ->  stop, tell Claude what it said.
+
+
+===================================================================
+PART 2  —  PUT THIS FOLDER ON GITHUB
+===================================================================
+
+Do not start this until Part 1 says Missing 0.
+
+2.1   Go to    https://desktop.github.com
+      Click the big download button. Install it.
+
+2.2   Open GitHub Desktop.
+      Sign in with your GitHub account.
+
+2.3   At the top left click   File
+      Then click             New Repository
+
+2.4   In the Name box type:     compare100
+      Leave everything else alone.
+      Click   Create Repository
+
+2.5   GitHub Desktop has now made an empty folder
+      called compare100. Open it.
+
+2.6   Copy EVERYTHING from this folder into it.
+      Select all, copy, paste. All of it.
+
+2.7   Go back to GitHub Desktop.
+      It now shows a long list of files. That is correct.
+
+2.8   Bottom left there is a small box.
+      Type in it:    first upload
+
+2.9   Click the blue button:   Commit to main
+
+2.10  At the top click the button:   Publish repository
+
+2.11  A small window appears.
+      UNTICK the box that says "Keep this code private".
+      Click   Publish repository
+
+2.12  Wait. It is uploading about 100 MB.
+      It can take five or ten minutes.
+
+YOU SHOULD SEE:   the top button changes to "Fetch origin"
+
+When it says Fetch origin  ->  Part 2 is done. Tell Claude.
+
+
+===================================================================
+PART 3  —  MAKE THE WEBSITE GO LIVE
+===================================================================
+
+Do not start this until Part 2 is done.
+
+We are using Cloudflare. You already have a Cloudflare account,
+because your domain settings are there. This is free.
+
+3.1   Go to   https://dash.cloudflare.com
+      Log in.
+
+3.2   In the menu down the left side, click
+      Compute (Workers & Pages)
+
+3.3   Click   Create
+      Then click the   Pages   tab
+      Then click   Connect to Git
+
+3.4   Click to connect GitHub. Say yes to what it asks.
+
+3.5   In the list, click   compare100
+      Then click   Begin setup
+
+3.6   Now a settings page. Only three things matter:
+
+         Framework preset          ->   None
+         Build command             ->   LEAVE IT EMPTY
+         Build output directory    ->   site
+
+      Type nothing anywhere else.
+
+3.7   Click   Save and Deploy
+
+3.8   Wait about two minutes.
+
+YOU SHOULD SEE:   Success! and a link ending in .pages.dev
+
+3.9   Click that link. Your website should appear.
+
+Part 3 is done. Tell Claude, and paste the .pages.dev link.
+
+STOP HERE. Do not put your real domain on it yet.
+Your email uses that domain and we do that carefully, together.
+
+
+===================================================================
+PART 4  —  GIVE CLAUDE A KEY
+===================================================================
+
+This is what makes it update itself. It is fiddly. Go slowly.
+
+4.1   Go to
+      https://github.com/settings/personal-access-tokens/new
+
+4.2   In "Token name" type:    compare100 auto-publish
+
+4.3   In "Expiration" choose:  No expiration
+      (a warning appears, that is fine)
+
+4.4   Under "Repository access"
+      click the circle next to   Only select repositories
+
+4.5   A box appears. Click it. Choose   compare100
+
+4.6   Scroll down to   Repository permissions
+      This is a long list. Find the row called   Contents
+
+4.7   On the Contents row, click the dropdown on the right
+      and choose   Read and write
+
+      Change nothing else in that list.
+
+4.8   Scroll to the bottom. Click   Generate token
+
+4.9   A long code appears, starting with   github_pat_
+      Click the copy button next to it.
+
+4.10  Paste it to Claude in the chat.
+
+GitHub only shows that code once. If you lose it, no harm —
+just do Part 4 again and make a new one.
+
+That is everything. After this you do nothing, ever again.
+
+
+===================================================================
+WHAT HAPPENS AFTERWARDS
+===================================================================
+
+Every morning, on its own:
+
+   one page gets researched
+   ->  rewritten properly
+   ->  checked against the quality rules
+   ->  the site is rebuilt
+   ->  it goes live
+
+Your phone buzzes to tell you which page was done.
+
+When it has been through all 110 pages it goes back to the
+beginning and checks the oldest ones again, because prices
+and policies change.
+
+
+===================================================================
+IF SOMETHING GOES WRONG
+===================================================================
+
+Stop. Tell Claude the part number and step number, like "3.6".
+
+Do not try to fix it yourself and do not start again from the
+top. Almost everything here can be undone.
+
+
+===================================================================
+WHAT THE FOLDERS ARE  (you do not need this, but here it is)
+===================================================================
+
+site/          the actual website. 413 pages.
+               This is the bit Cloudflare puts online.
+
+src/           the machinery that builds the website.
+               You never need to open this.
+
+Do not delete either of them.
