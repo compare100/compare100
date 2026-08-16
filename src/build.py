@@ -565,20 +565,23 @@ ICONS = '/wp-content/uploads/icons'
 THEME = '#0183ff'          # sampled from the site's own favicon
 OG_DEFAULT = ICONS + '/og-default.jpg'
 
-def reviewed_type(parent):
-    """What kind of thing each page actually reviews.
-
-    These were all marked up as schema.org Product, and Google rejected every one:
-    a Product must carry offers, review or aggregateRating. We have no prices, and
-    we will not invent ratings — fabricated aggregateRating breaches Google's
-    structured data policy and is a well-known route to a manual action.
-
-    Product was the wrong type anyway. An insurance policy is a FinancialProduct;
-    broadband, energy, car hire and airport parking are Services. Neither type has
-    required properties for a Google rich result, so neither can fail validation,
-    and both describe the page more accurately than Product did.
-    """
-    return 'FinancialProduct' if parent in ('insurance', 'money') else 'Service'
+# Two wrong turns before this, both worth recording so nobody repeats them:
+#
+#   Product      -> rejected. Google requires offers, review or aggregateRating.
+#                   We have no prices, and inventing an aggregateRating breaches
+#                   Google's policy and risks a manual action.
+#   Service /
+#   FinancialProduct -> rejected. Google's Review snippet only accepts a fixed
+#                   list of itemReviewed types, and neither is on it.
+#
+# The deeper problem: a Google-valid Review REQUIRES a numerical reviewRating.
+# We do not rate providers out of five, and will not start in order to satisfy a
+# validator. So these pages should never have claimed to be Reviews.
+#
+# What they actually are is articles about providers - which is exactly what
+# schema.org Article describes, and Article has NO required properties. Every
+# field below is one Google lists as recommended, and we genuinely have all of
+# them. Breadcrumbs and FAQs are unaffected and still emitted.
 
 def shell(title, desc, canonical, body, schema=None, extra_head='',
           robots='index,follow,max-image-preview:large', share=None, og_type='website'):
@@ -787,15 +790,16 @@ for p in posts:
 
     schema = {"@context": "https://schema.org", "@graph": [
         crumb_schema(cr),
-        {"@type": "Review", "name": p['title'],
-         "itemReviewed": {"@type": reviewed_type(parent), "name": p['title'],
-                          "category": catname.get(pc, ''),
-                          **({"image": SITE + p['logo']} if p['logo'] else {})},
-         "author": {"@type": "Organization", "name": "Compare100"},
-         "publisher": {"@type": "Organization", "name": "Compare100",
-                       "url": SITE},
+        {"@type": "Article",
+         "headline": p['title'][:110],
+         "description": p['seo_desc'] or f"{p['title']} reviewed by Compare100.",
+         "articleSection": catname.get(pc, ''),
+         **({"image": [SITE + p['logo']]} if p['logo'] else {}),
+         "author": {"@type": "Organization", "name": "Compare100", "url": SITE},
+         "publisher": {"@type": "Organization", "name": "Compare100", "url": SITE},
          "datePublished": p['date'], "dateModified": p['modified'],
-         "url": f"{SITE}/{p['slug']}/"}]}
+         "isAccessibleForFree": True,
+         "mainEntityOfPage": {"@type": "WebPage", "@id": f"{SITE}/{p['slug']}/"}}]}
 
     rw = REWRITTEN.get(p['slug'])
     extra_faqs = []
