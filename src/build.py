@@ -125,6 +125,39 @@ if os.path.isdir(_rwdir):
             REWRITTEN[_pg['slug']] = _pg
     if REWRITTEN: print(f'rewrite {len(REWRITTEN)} pages have rewritten content')
 
+# A rewritten page was genuinely rewritten - so its modified date is the day it was
+# checked, not whatever WordPress last recorded. Without this the sitemap told Google
+# that admiral-van-insurance-review had not changed since 2025-10-10, when it had been
+# researched and rewritten from scratch that morning. Google uses lastmod to decide
+# what to recrawl, so this was actively working against the rewrite programme.
+#
+# Pages that have NOT been rewritten keep their real WordPress dates. Those genuinely
+# have not changed, and inflating them would be the kind of false freshness signal
+# crawlers learn to ignore.
+_MONTHS = {m: i for i, m in enumerate(
+    ['January', 'February', 'March', 'April', 'May', 'June', 'July',
+     'August', 'September', 'October', 'November', 'December'], 1)}
+
+def _checked_to_iso(text):
+    """'16 August 2026' -> '2026-08-16'. Returns '' if it cannot be read."""
+    try:
+        d, m, y = (text or '').strip().split()
+        return f'{int(y):04d}-{_MONTHS[m]:02d}-{int(d):02d}'
+    except Exception:
+        return ''
+
+_restamped = 0
+for _p in posts + pages:
+    _rw = REWRITTEN.get(_p['slug'])
+    if not _rw:
+        continue
+    _iso = _checked_to_iso(_rw.get('checked', ''))
+    if _iso and _iso > _p['modified']:
+        _p['modified'] = _iso
+        _restamped += 1
+if _restamped:
+    print(f'dates   {_restamped} rewritten pages restamped to their checked date')
+
 print(f'parsed  {len(posts)} posts  {len(pages)} pages  {len(atts)} attachments  {len(catparent)} categories')
 print(f'icons   {len(caticon)} category icons ({sum(1 for k in TOP_EARLY if k in caticon)}/7 top-level)')
 
