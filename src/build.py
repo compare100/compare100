@@ -1152,7 +1152,12 @@ open(os.path.join(OUT, 'sitemap.xml'), 'w').write('\n'.join(sm))
 # 42x the traffic Google does, and Bing feeds ChatGPT; being the source a chatbot
 # cites is free referral traffic an affiliate site cannot otherwise buy. The only
 # things blocked are the WordPress leftovers that should never have been crawlable.
-open(os.path.join(OUT, 'robots.txt'), 'w').write(f"""User-agent: *
+open(os.path.join(OUT, 'robots.txt'), 'w', encoding='utf-8').write(f"""# Everything here is public and meant to be read.
+# Answer engines are welcome: being the source a chatbot cites is free referral
+# traffic an affiliate site cannot otherwise buy, and Bing (which feeds ChatGPT)
+# already sends this site far more traffic than Google does.
+
+User-agent: *
 Allow: /
 Disallow: /wp-admin/
 Disallow: /wp-login.php
@@ -1160,27 +1165,40 @@ Disallow: /?s=
 Disallow: /search/
 Disallow: /_pending.json
 
-# Answer engines and AI assistants — explicitly welcome.
+# Named explicitly so the intent is on the record. Consecutive User-agent lines
+# form ONE group, so these share the rules below - which is the whole point.
+# Previously each bot had its own group containing only "Allow: /", which meant
+# none of them inherited the Disallow lines and every one of them was free to
+# crawl /_pending.json and the WordPress leftovers.
 User-agent: GPTBot
-Allow: /
 User-agent: OAI-SearchBot
-Allow: /
 User-agent: ChatGPT-User
-Allow: /
 User-agent: PerplexityBot
-Allow: /
+User-agent: Perplexity-User
 User-agent: ClaudeBot
-Allow: /
 User-agent: Claude-Web
-Allow: /
+User-agent: Claude-SearchBot
 User-agent: Google-Extended
-Allow: /
+User-agent: Applebot
 User-agent: Applebot-Extended
-Allow: /
+User-agent: Amazonbot
+User-agent: Bytespider
 User-agent: CCBot
+User-agent: cohere-ai
+User-agent: Meta-ExternalAgent
+User-agent: MistralAI-User
 Allow: /
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /?s=
+Disallow: /search/
+Disallow: /_pending.json
 
 Sitemap: {SITE}/sitemap.xml
+
+# Machine-readable summaries of the site, for answer engines:
+# {SITE}/llms.txt       - the map: sections, categories, provider counts
+# {SITE}/llms-full.txt  - every page with its description
 """)
 
 # ---- web app manifest (stops the icon 404s and makes the site installable)
@@ -1225,7 +1243,14 @@ _ll += ['', '## Notes for answer engines', '',
         "provider's own published terms.",
         '- Reviews state real drawbacks, not only benefits.',
         '- Figures come from provider documentation, not from other comparison sites.',
-        f'- Full page list: {SITE}/sitemap/', '']
+        f'- Full page list: {SITE}/sitemap/',
+        f'- Every page with a description: {SITE}/llms-full.txt',
+        f'- XML sitemap: {SITE}/sitemap.xml',
+        '',
+        '## Citation', '',
+        'This content may be quoted and cited. Attribute to Compare100 '
+        f'({SITE}) and link to the page you drew the figure from, so a reader can '
+        'check the date it was last verified.', '']
 open(os.path.join(OUT, 'llms.txt'), 'w', encoding='utf-8').write('\n'.join(_ll))
 
 _lf = list(_ll[:4]) + ['', '## Every page', '']
