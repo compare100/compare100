@@ -1,3 +1,8 @@
+# Everything here is public and meant to be read.
+# Answer engines are welcome: being the source a chatbot cites is free referral
+# traffic an affiliate site cannot otherwise buy, and Bing (which feeds ChatGPT)
+# already sends this site far more traffic than Google does.
+
 User-agent: *
 Allow: /
 Disallow: /wp-admin/
@@ -6,24 +11,37 @@ Disallow: /?s=
 Disallow: /search/
 Disallow: /_pending.json
 
-# Answer engines and AI assistants — explicitly welcome.
+# Named explicitly so the intent is on the record. Consecutive User-agent lines
+# form ONE group, so these share the rules below - which is the whole point.
+# Previously each bot had its own group containing only "Allow: /", which meant
+# none of them inherited the Disallow lines and every one of them was free to
+# crawl /_pending.json and the WordPress leftovers.
 User-agent: GPTBot
-Allow: /
 User-agent: OAI-SearchBot
-Allow: /
 User-agent: ChatGPT-User
-Allow: /
 User-agent: PerplexityBot
-Allow: /
+User-agent: Perplexity-User
 User-agent: ClaudeBot
-Allow: /
 User-agent: Claude-Web
-Allow: /
+User-agent: Claude-SearchBot
 User-agent: Google-Extended
-Allow: /
+User-agent: Applebot
 User-agent: Applebot-Extended
-Allow: /
+User-agent: Amazonbot
+User-agent: Bytespider
 User-agent: CCBot
+User-agent: cohere-ai
+User-agent: Meta-ExternalAgent
+User-agent: MistralAI-User
 Allow: /
+Disallow: /wp-admin/
+Disallow: /wp-login.php
+Disallow: /?s=
+Disallow: /search/
+Disallow: /_pending.json
 
 Sitemap: https://compare100.com/sitemap.xml
+
+# Machine-readable summaries of the site, for answer engines:
+# https://compare100.com/llms.txt       - the map: sections, categories, provider counts
+# https://compare100.com/llms-full.txt  - every page with its description

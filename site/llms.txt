@@ -83,3 +83,9 @@
 - Reviews state real drawbacks, not only benefits.
 - Figures come from provider documentation, not from other comparison sites.
 - Full page list: https://compare100.com/sitemap/
+- Every page with a description: https://compare100.com/llms-full.txt
+- XML sitemap: https://compare100.com/sitemap.xml
+
+## Citation
+
+This content may be quoted and cited. Attribute to Compare100 (https://compare100.com) and link to the page you drew the figure from, so a reader can check the date it was last verified.
