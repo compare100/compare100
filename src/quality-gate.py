@@ -116,6 +116,11 @@ def check(page, siblings):
     md = page.get('meta_description', '')
     if len(md) > 158:
         fails.append(f"meta_description {len(md)} chars (max 158)")
+    # Bing flags a description under about 100 characters as an error and the
+    # snippet has room for far more, so a short one is wasted space in the one
+    # place a searcher decides whether to click. 120 is the floor.
+    if md and len(md) < 120:
+        fails.append(f"meta_description {len(md)} chars (min 120)")
 
     return words, len(figs), round(worst * 100), fails
 
