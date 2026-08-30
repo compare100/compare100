@@ -594,6 +594,123 @@ def fit_title(t, limit=60):
     cut = t[:limit]
     return (cut.rsplit(' ', 1)[0] if ' ' in cut else cut).rstrip(' ,;:|-\u2013\u2014')
 
+# ---------------------------------------------------------------- descriptions
+# Bing flagged 31 hub pages for descriptions that were too short, and it was
+# right: every child hub shipped the same 96-character stub with only the
+# category name swapped, and the seven section hubs shipped a 64-character one.
+# Both are now assembled from the page's own data - provider count, provider
+# names, child categories - and fitted to the window search engines actually
+# render, so no two are the same.
+
+DESC_HI = 158          # Google truncates a snippet around here
+DESC_LO = 120          # Bing warns below this
+
+def fit_desc(heads, tails, extras=('',), hi=DESC_HI, lo=138):
+    """Assemble the richest description that still fits the snippet window.
+
+    heads are given best-first (most provider names, most categories named) and
+    tails longest-first. A head is kept as soon as it can reach `lo` characters
+    with some tail, so naming three providers beats padding one name out with a
+    longer generic sentence. Falls back to whatever came closest."""
+    best = ''
+    for h in heads:
+        this = ''
+        for t in tails:
+            for e in extras:
+                s = (h + t + e).strip()
+                n = len(html.unescape(s))
+                if n <= hi and n > len(html.unescape(this)):
+                    this = s
+        if len(html.unescape(this)) >= lo:
+            return this
+        if len(html.unescape(this)) > len(html.unescape(best)):
+            best = this
+    return best or (heads[-1] + tails[-1]).strip()
+
+def _dw(w):
+    """A word reduced to what matters for comparing a title against a category."""
+    return re.sub(r'[^a-z0-9&]', '', w.lower())
+
+def _dw_eq(a, b):
+    return a == b or a == b + 's' or b == a + 's'      # Savings Accounts / Savings Account
+
+_BRAND_CUT = re.compile(r'\s*[:\u2013\u2014]\s|\s-\s')
+
+def brand_names(cat, lst, want=3, maxlen=22):
+    """Provider names for a hub description, taken from the page titles.
+
+    Titles read "<Brand> <Category>", so the category is stripped off the end -
+    but only ever as a phrase of two words or more. Stripping single words turned
+    "British Gas" into "British" in the Gas category, which is why that rule is
+    here. Anything left that is too long, or that was never a clean brand name,
+    is dropped rather than guessed at."""
+    cwords = [_dw(w) for w in html.unescape(cat).split()]
+    # Every run of two or more consecutive category words, longest first. The
+    # category "Car Insurance Deals" has to strip "Car Insurance" as well as
+    # itself, or "Admiral Car Insurance" comes through in full.
+    sufs = sorted((cwords[i:j] for i in range(len(cwords))
+                   for j in range(i + 2, len(cwords) + 1)), key=len, reverse=True)
+    out = []
+    for x in lst:
+        t = _BRAND_CUT.split(html.unescape(x['title']))[0].strip()
+        tw = t.split()
+        for suf in sufs:                                # longest suffix first
+            k = len(suf)
+            if len(tw) > k and all(_dw_eq(_dw(a), b) for a, b in zip(tw[-k:], suf)):
+                t = ' '.join(tw[:-k]); break
+        t = t.strip(' &-,')
+        if 2 <= len(t) <= maxlen and t not in out:
+            out.append(t)
+        if len(out) >= want:
+            break
+    return out
+
+def name_clause(b):
+    """Head variants for a hub, richest first, so fit_desc can trade names for room."""
+    return ([f', including {b[0]}, {b[1]} and {b[2]}.'] if len(b) >= 3 else []) \
+         + ([f', including {b[0]} and {b[1]}.'] if len(b) >= 2 else []) \
+         + ([f', including {b[0]}.'] if len(b) >= 1 else []) + ['.']
+
+# Second sentence, written per section - an insurance hub and a shopping hub do
+# not have the same things worth saying. Longest first.
+SEC_TAIL = {
+    'insurance': [' What each policy covers, what it leaves out, what it costs and how to claim.',
+                  ' What each policy covers, what it costs and what to check before you buy.',
+                  ' Cover, exclusions, excess and price, compared.',
+                  ' Cover and price, compared.'],
+    'money': [' Rates, fees, eligibility and the small print, checked and explained in plain English.',
+              ' Rates, fees, eligibility and the small print, explained in plain English.',
+              ' Rates, fees and eligibility, explained in plain English.',
+              ' Rates, fees and eligibility, compared.'],
+    'travel': [' What you get, what it costs and what is worth checking before you book anything.',
+               ' What you get, what it costs and what to check before you book.',
+               ' What you get, what it costs and what to check first.',
+               ' Prices, cover and what to check first.'],
+    'mobile-phones': [' Data, contract length, handset cost and the bits buried in the small print.',
+                      ' Data, contract length, handset cost and the small print.',
+                      ' Data, contract length and handset cost, compared.',
+                      ' Data, price and contract length, compared.'],
+    'utilities': [' Tariffs, contract length, exit fees and what to check before you switch supplier.',
+                  ' Tariffs, contract length, exit fees and what to check before switching.',
+                  ' Tariffs, contract length and exit fees, compared.',
+                  ' Tariffs and contract length, compared.'],
+    'motoring': [' What each one includes, what it costs, how long it takes and where they differ.',
+                 ' What each one includes, what it costs and where they differ.',
+                 ' What each one includes and what it costs.',
+                 ' What you get and what it costs.'],
+    'shopping': [' Range, prices, delivery, returns and the offers running at the moment.',
+                 ' Range, prices, delivery and returns, compared.',
+                 ' Prices, delivery and returns, compared.',
+                 ' Prices and delivery, compared.'],
+}
+DESC_EXTRA = [' Free to use, with no sign-up.', ' Free to use.', '']
+
+# NAVNAME reads as a menu label, which makes a clumsy sentence: "UK mobiles
+# deals", "UK utilities deals". These are the words the section URLs already use.
+SEC_PHRASE = {'insurance': 'insurance', 'money': 'money', 'travel': 'travel',
+              'mobile-phones': 'mobile', 'utilities': 'utility',
+              'motoring': 'motoring', 'shopping': 'shopping'}
+
 ICONS = '/wp-content/uploads/icons'
 THEME = '#0183ff'          # sampled from the site's own favicon
 OG_DEFAULT = ICONS + '/og-default.jpg'
@@ -916,9 +1033,14 @@ for parent in TOP:
                 f'<div class="hub-intro">{esc(intro)}</div>'
                 + DISCLOSURE + table
                 + sib_links + '</main>' + sidebar(c) + '</div>')
+        # "from 1 UK providers side by side" is what a template writes and a person
+        # never would; the one-provider category gets its own sentence.
+        _heads = ([f'Compare {catname[c]} in the UK, reviewed by Compare100.'] if len(lst) < 2 else
+                  [f'Compare {catname[c]} from {len(lst)} UK providers side by side' + nc
+                   for nc in name_clause(brand_names(catname[c], lst))])
+        _desc = fit_desc(_heads, SEC_TAIL.get(parent, SEC_TAIL['shopping']), DESC_EXTRA)
         n = write(cat_url(c), shell(f'Compare {catname[c]} — {len(lst)} UK Providers | Compare100',
-                                    f'Compare {len(lst)} UK {catname[c].lower()} providers side by side. Features, cover and current deals.',
-                                    cat_url(c), body, items))
+                                    _desc, cat_url(c), body, items))
         _lm = max((x['modified'] for x in lst), default=datetime.now().strftime('%Y-%m-%d'))
         urls.append((cat_url(c), _lm)); sizes.append(n)
 
@@ -940,14 +1062,40 @@ for parent in TOP:
             f'<div class="hub-intro">Browse every {NAVNAME[parent].lower()} category on Compare100 and compare UK providers side by side.</div>'
             + blocks + '</main>' + sidebar(parent) + '</div>')
     _su = section_url(parent)
+    # The section hub lists its own child categories, so name them: it is the one
+    # thing that makes these seven descriptions different from each other.
+    # Biggest categories first: only four or five names fit, and they should be
+    # the ones people search for, not whichever happen to sort first.
+    _kids = [catname[c] for c in sorted((k for k in children[parent] if bycat.get(k)),
+                                        key=lambda k: (-len(bycat[k]), catname[k]))]
+    _tot = sum(len(bycat.get(c, [])) for c in children[parent])
+    _sp = SEC_PHRASE.get(parent, NAVNAME[parent].lower())
+    _heads = [f'Compare UK {_sp} deals side by side: '
+              + ', '.join(_kids[:k - 1]) + f' and {_kids[k - 1]}.'
+              for k in range(len(_kids), 1, -1)]
+    _heads.append(f'Compare UK {_sp} deals side by side.')
+    _desc = fit_desc(_heads,
+                     [f' All {_tot} providers across {len(_kids)} categories, reviewed by Compare100.',
+                      f' {_tot} UK providers, reviewed and compared in one place.',
+                      f' {_tot} UK providers compared.', ''])
     n = write(_su, shell(f'Compare UK {NAVNAME[parent]} Deals | Compare100',
-                         f'Compare UK {NAVNAME[parent].lower()} providers and deals side by side at Compare100.',
-                         _su, body, crumb_schema(cr)))
+                         _desc, _su, body, crumb_schema(cr)))
     _lm = max((x['modified'] for c in children[parent] for x in bycat.get(c, [])),
               default=datetime.now().strftime('%Y-%m-%d'))
     urls.append((_su, _lm)); sizes.append(n)
 
 # ---- static pages
+# These three carried no Yoast description at all, so the fallback used the page
+# title: "Contact Us" is a ten-character description. Written out properly here,
+# from what each page actually says.
+STATIC_DESC = {
+    'contact-us': 'Get in touch with Compare100 about a provider listing, a correction to '
+                  'something on the site, or working with us. Every message is read by a person.',
+    'privacy-policy-2': 'What Compare100 collects, what it is used for, who it is shared with and '
+                        'how cookies are used on the site. We do not sell your personal information.',
+    'terms-and-conditions': 'The terms for using Compare100: what the comparisons are, the limits '
+                            'on pricing and availability, third-party links, and your rights and ours.',
+}
 REWRITTEN_PAGES = True
 for p in pages:
     if p['slug'] in ('home', ''): continue  # rendered as the homepage itself
@@ -971,7 +1119,8 @@ for p in pages:
             '</article></main>' + sidebar() + '</div>')
     _pub = p.get('status', 'publish') == 'publish'
     n = write(f'/{p["slug"]}/', shell(p['seo_title'] or f'{p["title"]} | Compare100',
-                                      p['seo_desc'] or p['title'], f'/{p["slug"]}/', body,
+                                      p['seo_desc'] or STATIC_DESC.get(p['slug']) or p['title'],
+                                      f'/{p["slug"]}/', body,
                                       _sch,
                                       robots='index,follow,max-image-preview:large' if _pub else 'noindex,nofollow'))
     if _pub: urls.append((f'/{p["slug"]}/', p['modified']))
@@ -1083,7 +1232,8 @@ document.addEventListener('click',function(e){if(!r.contains(e.target)&&e.target
 })();
 </script>"""
 n = write('/', shell('Compare100.com | Compare UK Insurance, Money, Travel and Utility Deals',
-                     'Compare UK providers side by side across insurance, money, travel, mobiles, utilities, motoring and shopping.',
+                     f'Compare {_provider_total} UK providers side by side across insurance, money, travel, '
+                     'mobiles, utilities, motoring and shopping. Free to use, with a review of every one.',
                      '/', home + SEARCH_JS,
                      {"@context": "https://schema.org", "@type": "WebSite", "name": "Compare100",
                       "url": SITE}))
@@ -1135,7 +1285,8 @@ if _other:
     _html_sm.append('</ul>')
 _html_sm.append('</article></main>' + sidebar() + '</div>')
 n = write('/sitemap/', shell('Site Map | Every Page on Compare100',
-                             f'A directory of all {len(urls)} pages on Compare100, grouped by section.',
+                             f'Every page on Compare100 in one place - all {len(urls)} of them, grouped '
+                             'by section and category, from insurance and money to travel and motoring.',
                              '/sitemap/', ''.join(_html_sm),
                              crumb_schema([('Home', '/'), ('Site map', '')])))
 urls.append(('/sitemap/', max((x['modified'] for x in posts),
