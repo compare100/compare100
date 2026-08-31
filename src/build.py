@@ -1200,9 +1200,31 @@ hero_cards = ''.join(
 # so they get the homepage link equity rather than the savings pages that do not.
 _FEAT_ORDER = {'insurance': 0, 'motoring': 1, 'travel': 2, 'utilities': 3,
                'mobile-phones': 4, 'shopping': 5, 'money': 6}
-_feat = sorted((x for x in posts if x['slug'] in REWRITTEN and x['logo']),
-               key=lambda x: (_FEAT_ORDER.get(catparent.get(primary_cat(x), ''), 9),
-                              x['title']))[:8]
+# The strip is headed "Recently researched", so it has to actually be the recent
+# ones. It used to be ordered by section and then alphabetically, which meant the
+# same eight cards sat there for weeks while newer work never appeared - the
+# heading was writing a cheque the list did not honour.
+#
+# Straight date order alone is no good either: the queue works through one section
+# at a time, so today it would be eight insurance cards and nothing else. Two per
+# section keeps it honest and still shows what the site covers. Order within a
+# section falls back to the old insurance-first, alphabetical rule so a day with
+# several checks is stable rather than shuffling on every rebuild.
+def _feat_key(x):
+    return (_checked_to_iso(REWRITTEN[x['slug']].get('checked', '')),
+            -_FEAT_ORDER.get(catparent.get(primary_cat(x), ''), 9),
+            x['title'])
+_cands = sorted((x for x in posts if x['slug'] in REWRITTEN and x['logo']),
+                key=_feat_key, reverse=True)
+_feat, _seen = [], defaultdict(int)
+for _pass in (2, 99):                       # two per section first, then top up
+    for x in _cands:
+        if len(_feat) >= 8 or x in _feat:
+            continue
+        s = catparent.get(primary_cat(x), '')
+        if _seen[s] < _pass:
+            _feat.append(x); _seen[s] += 1
+_feat.sort(key=_feat_key, reverse=True)     # the top-up pass appends out of order
 featured = ''
 if _feat:
     featured = ('<h2>Recently researched</h2>'
