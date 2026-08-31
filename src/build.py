@@ -374,6 +374,13 @@ for s, p in catparent.items():
 for k in children: children[k].sort(key=lambda s: catname.get(s, s))
 
 def cat_icon(slug, size=54):
+    # alt="" is deliberate and must stay. Every one of these icons sits inside a
+    # link or heading that already carries the same words - the insurance icon is
+    # next to "Insurance". An empty alt is what the W3C tells you to use for a
+    # decorative image; filling it in would make a screen reader announce the
+    # label twice on every icon on every page. Bing's site scanner flags it as a
+    # missing alt. Bing's scanner is wrong here. Checked August 2026: 4,043 icons,
+    # not one of them without adjacent text.
     u = caticon.get(slug, '')
     if not u: return ''
     return (f'<img class="cicon" src="{u}" alt="" width="{size}" height="{size}" '
@@ -444,6 +451,9 @@ aside li a:hover{background:var(--bg)}
 .grid a:hover{border-color:var(--brand)}
 .grid img{width:100%;height:88px;object-fit:contain;background:#fff;margin-bottom:9px;display:block}
 .disc{background:#fff8e6;border:1px solid #f2dfae;border-radius:8px;padding:12px 15px;font-size:13.5px;color:#6a5628;margin:0 0 22px}
+.email{background:#f2f7ff;border:1px solid #cfe1fb;border-radius:8px;padding:18px 20px;margin:0 0 24px;text-align:center}
+.email a{font-size:22px;font-weight:700;color:var(--brand);text-decoration:none;word-break:break-word}
+.email a:hover{text-decoration:underline}
 footer{background:#1f2733;color:#b9c3ce;margin-top:40px;padding:34px 0;font-size:14px}
 footer a{color:#dde4ec;text-decoration:none;margin-right:18px}
 .facts{width:100%;border-collapse:collapse;margin:6px 0 24px;font-size:15px}
@@ -1096,6 +1106,42 @@ STATIC_DESC = {
     'terms-and-conditions': 'The terms for using Compare100: what the comparisons are, the limits '
                             'on pricing and availability, third-party links, and your rights and ours.',
 }
+# The WordPress contact page invited people to "use the form below" and the form
+# did not survive the export, so the page had no way of reaching anyone at all.
+# Replaced with the address itself, and with what we can and cannot help with -
+# most messages to a comparison site are actually meant for the provider.
+PAGE_HTML = {
+    'contact-us': (
+        '<h1>Contact Compare100</h1>'
+        '<p>Whatever you are getting in touch about, it arrives in the same place '
+        'and a person reads it.</p>'
+        '<p class="email"><a href="mailto:support@compare100.com">support@compare100.com</a></p>'
+        '<h2>Things worth writing to us about</h2>'
+        '<ul>'
+        '<li><strong>Something on the site looks wrong.</strong> A rate, a price or a '
+        'policy detail that has changed since we checked it. Tell us which page and we '
+        'will check it against the provider&rsquo;s own documents and correct it.</li>'
+        '<li><strong>You work for a provider we list.</strong> If something about your '
+        'entry is out of date, missing or unfair, we would rather hear it from you than '
+        'leave it wrong.</li>'
+        '<li><strong>You would like to be listed.</strong> Tell us what you offer and '
+        'which of our categories it belongs in.</li>'
+        '<li><strong>Working together.</strong> Partnership and advertising enquiries '
+        'are welcome.</li>'
+        '</ul>'
+        '<h2>Things we cannot help with</h2>'
+        '<p>Compare100 is not an insurer, a lender, a broker or an adviser. We cannot '
+        'see, change or cancel any policy or account you hold, and we cannot give you '
+        'financial advice or tell you which product to choose.</p>'
+        '<p>If you need to make a claim, chase an application, or complain about a '
+        'product you have bought, the provider has to deal with it &mdash; their contact '
+        'details are on their own website, and our page about them explains how their '
+        'complaints route works.</p>'
+        '<h2>How long we take</h2>'
+        '<p>Usually a couple of working days. Corrections to a page tend to be dealt '
+        'with faster than that, because a wrong figure on the site matters more than '
+        'anything else in the inbox.</p>'),
+}
 REWRITTEN_PAGES = True
 for p in pages:
     if p['slug'] in ('home', ''): continue  # rendered as the homepage itself
@@ -1107,6 +1153,9 @@ for p in pages:
         art, pfaqs = render_rewritten(rwp, '', '', cr, [])
         p['seo_title'] = rwp.get('meta_title') or p['seo_title']
         p['seo_desc']  = rwp.get('meta_description') or p['seo_desc']
+    elif p['slug'] in PAGE_HTML:
+        art = PAGE_HTML[p['slug']]
+        pfaqs = []
     else:
         art = f'<h1>{esc(p["title"])}</h1>' + fix_links(''.join(paragraphs(p['content'])))
         pfaqs = []
