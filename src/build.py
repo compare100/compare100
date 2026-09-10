@@ -451,6 +451,12 @@ aside li a:hover{background:var(--bg)}
 .grid a:hover{border-color:var(--brand)}
 .grid img{width:100%;height:88px;object-fit:contain;background:#fff;margin-bottom:9px;display:block}
 .disc{background:#fff8e6;border:1px solid #f2dfae;border-radius:8px;padding:12px 15px;font-size:13.5px;color:#6a5628;margin:0 0 22px}
+.note{background:#f2f7ff;border:1px solid #cfe1fb;border-left:4px solid var(--brand);border-radius:8px;padding:16px 20px;margin:0 0 26px}
+.note h2{font-size:19px;margin:0 0 10px;padding:0;border:0}
+.note p{margin:0 0 11px}
+.note ul{margin:0 0 11px 20px}
+.note p:last-child{margin:0}
+.notesrc{font-size:13px;color:#5b6875}
 .email{background:#f2f7ff;border:1px solid #cfe1fb;border-radius:8px;padding:18px 20px;margin:0 0 24px;text-align:center}
 .email a{font-size:22px;font-weight:700;color:var(--brand);text-decoration:none;word-break:break-word}
 .email a:hover{text-decoration:underline}
@@ -801,6 +807,74 @@ def crumb_schema(items):
                                 for i, (n, u) in enumerate(items)]}
 
 
+# ------------------------------------------------------------------ timely notes
+# A dated block for launches, rate changes and Budget announcements - the things
+# worth reacting to on the day, which the three-a-day rewrite queue is too slow
+# to catch.
+#
+# Every note carries an `until` date and simply stops rendering after it. That is
+# the whole point: a site that is still announcing a "new" iPhone at Christmas
+# looks abandoned, and nobody has to remember to take it down. Add a note here,
+# push, and it appears within half an hour. Do nothing, and it removes itself.
+#
+# Keep each note tied to what its page is actually for. The same paragraph on
+# four pages is duplicate content, which is the exact hole this site has spent
+# months climbing out of.
+NOTES = {
+    'carphone-warehouse-new-phone-contract-deals': {
+        'until': '2026-10-24',
+        'title': 'iPhone 18 Pro pre-orders open 1pm, Saturday 12 September',
+        'html':
+            '<p>Apple announced the <strong>iPhone 18 Pro</strong> and <strong>iPhone 18 Pro '
+            'Max</strong> on 9 September. Pre-orders open at <strong>1:00pm on Saturday 12 '
+            'September</strong>. SIM-free they start at <strong>&pound;1,199</strong> for the '
+            '6.3in Pro and <strong>&pound;1,299</strong> for the 6.9in Pro Max, both with 256GB.</p>'
+            '<p>There is <strong>no standard iPhone 18 this year</strong> &mdash; the autumn '
+            'line is Pro, Pro Max and the &pound;1,999 folding iPhone Duo, which does not open '
+            'for pre-order until 16 October. If you want a new iPhone without the Pro price, '
+            'the current one is the iPhone 17 at &pound;899.</p>'
+            '<p>One thing worth carrying into a launch-week contract, because it is the whole '
+            'subject of this page: the monthly price you sign at is not the price you finish '
+            'on. The April increases apply to a brand-new iPhone exactly as they apply to a '
+            '&pound;169 Samsung. Before you commit, find the end-of-contract figure and the '
+            'up-front payment, add them up over the full term, and compare that total against '
+            'buying the handset outright with a SIM-only plan beside it.</p>',
+    },
+    'carphone-warehouse-phones': {
+        'until': '2026-10-24',
+        'title': 'The new iPhone prices, and what they mean if you buy outright',
+        'html':
+            '<p>Apple announced the <strong>iPhone 18 Pro</strong> and <strong>Pro Max</strong> '
+            'on 9 September, with pre-orders from <strong>1:00pm on Saturday 12 September</strong>. '
+            'The SIM-free ladder is steeper than the headline suggests:</p>'
+            '<ul><li><strong>iPhone 18 Pro</strong> &mdash; &pound;1,199 (256GB), &pound;1,399 '
+            '(512GB), &pound;1,799 (1TB), &pound;2,399 (2TB)</li>'
+            '<li><strong>iPhone 18 Pro Max</strong> &mdash; &pound;1,299, &pound;1,499, '
+            '&pound;1,899, &pound;2,499 for the same four sizes</li></ul>'
+            '<p>Going from 256GB to 2TB costs <strong>&pound;1,200</strong> on either model. '
+            'That is the price of the phone again, for storage. Most people never fill 256GB, '
+            'and photos and messages can live in iCloud for a few pounds a month, so it is '
+            'worth being honest with yourself about how much you need before the pre-order '
+            'window makes the decision for you.</p>'
+            '<p>There is <strong>no standard iPhone 18</strong> in this year\'s line-up. If the '
+            'Pro price is not the plan, the alternatives are the iPhone 17 at &pound;899, the '
+            'iPhone Air at &pound;1,099, the iPhone 16 at &pound;799 and the iPhone 17e at '
+            '&pound;699. Launch week is also when trade-in values for last year\'s handset are '
+            'at their most generous, and when refurbished stock of the outgoing model starts '
+            'to move.</p>',
+    },
+}
+
+def note_html(slug):
+    """The dated block for a page, or nothing once its date has passed."""
+    n = NOTES.get(slug)
+    if not n or datetime.now().strftime('%Y-%m-%d') > n['until']:
+        return ''
+    return (f'<aside class="note"><h2>{esc(n["title"])}</h2>{n["html"]}'
+            '<p class="notesrc">Prices and dates taken from Apple\'s UK store. '
+            'Compare100 does not sell phones &mdash; check the current price with the '
+            'retailer before you buy.</p></aside>')
+
 def render_rewritten(p, pc, parent, cr, sibs, cta=None):
     """Render a page that has rewritten structured content."""
     IS_EDITORIAL = not p.get('pros') and not p.get('cons') and not p.get('verdict', '').strip()
@@ -849,7 +923,8 @@ def render_rewritten(p, pc, parent, cr, sibs, cta=None):
                 # FAQs sit BEFORE the verdict so the page closes on the verdict and
                 # its button. Questions are supporting detail; the verdict is the
                 # closing argument, and it should be the last thing read.
-                + cta_block('Check what you would pay') + facts + secs + pc_html
+                + cta_block('Check what you would pay') + note_html(p['slug'])
+                + facts + secs + pc_html
                 + faq_html + verdict + cta_block('Ready to compare?')
                 + f'<p class="checked">Figures were taken from each provider\'s own published '
                   f'terms on {checked}. Variable rates can change at any time &mdash; confirm the '
