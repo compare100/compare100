@@ -400,8 +400,6 @@
 /wp-content/uploads/2026/01/Game-Over.webp
 /wp-content/uploads/2026/01/Late-Rooms-1.webp
 /wp-content/uploads/2026/01/Purple-Parking.webp
-/wp-content/uploads/2026/01/Quick-Mortgage-newhome-512x341-1.webp
-/wp-content/uploads/2026/01/Quick-Mortgages-Banner-654x176-1.webp
 /wp-content/uploads/2026/01/Quick-Mortgages.webp
 /wp-content/uploads/2026/01/Sam-Boat.webp
 /wp-content/uploads/2026/01/Starlink.webp
