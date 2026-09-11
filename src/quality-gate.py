@@ -113,6 +113,26 @@ def check(page, siblings):
     mt = page.get('meta_title', '')
     if len(mt) > 62:
         fails.append(f"meta_title {len(mt)} chars (max 62)")
+    # The comparison table on the category hub shows one figure per provider, and
+    # it can only be read as a comparison if every row answers the same question.
+    # `headline` is that figure: the AER for a savings account, the excess for a
+    # policy, the price per day for parking. It has to contain an actual number.
+    hl = page.get('headline') or {}
+    if not is_editorial:
+        if not (hl.get('label') or '').strip() or not (hl.get('value') or '').strip():
+            fails.append("missing headline {label, value} - the one figure this "
+                         "category is compared on")
+        elif not re.search(r'\d', re.sub(r'<[^>]+>', '', hl.get('value', ''))):
+            fails.append(f"headline value carries no number: {hl.get('value')!r}")
+
+    # Answer first. A page that opens with a paragraph of scene-setting gives a
+    # search engine nothing to lift, and gives a reader nothing to stay for.
+    _lead = ' '.join(re.sub(r'\s+', ' ', html.unescape(
+        re.sub(r'<[^>]+>', ' ', page.get('intro', '')))).split()[:60])
+    if not re.search(r'£[\d,]|\d+(?:\.\d+)?%|\b\d[\d,]*\b', _lead):
+        fails.append("no figure in the first 60 words - open with the answer, "
+                     "not with the scene")
+
     md = page.get('meta_description', '')
     if len(md) > 158:
         fails.append(f"meta_description {len(md)} chars (max 158)")

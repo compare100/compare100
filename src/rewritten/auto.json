@@ -2165,7 +2165,11 @@
     "q": "Does the panel cover living aboard?",
     "a": "<p>Live-aboard and contents cover is available as an option on the inland waterways product, with legal liability extended to £3,000,000. Occasional houseboat use is permitted only where an underwriter agrees it in writing beforehand. Continuous cruising without a home mooring is now close to a quarter of the network — 8,825 boats at the March 2026 count — so declare your actual arrangement rather than the one that quotes cheapest.</p>"
    }
-  ]
+  ],
+  "headline": {
+   "label": "Third-party liability",
+   "value": "&pound;3 million standard on the inland waterways product"
+  }
  },
  {
   "slug": "direct-line-car-insurance-review",
@@ -2762,7 +2766,11 @@
     "q": "Will my renewal price be fair?",
     "a": "<p>There is no rule making it so. The FCA's PS21/5 remedy of May 2021, which bars charging renewing customers more than an equivalent new customer, covers home and motor insurance only — the regulator had found 6 million policyholders paying £1.2bn more than the average for their risk and fixed it for those two lines. Boat cover was left out. Treat every renewal as a fresh purchase, ask for the new-business price on the same boat, and put the number against two or three specialist rivals before accepting it.</p>"
    }
-  ]
+  ],
+  "headline": {
+   "label": "Third-party liability",
+   "value": "&pound;5 million as standard"
+  }
  },
  {
   "slug": "hiscox-tradesman-insurance-review",
@@ -3565,7 +3573,11 @@
     "q": "Does Insure4Boats give advice on which cover to pick?",
     "a": "<p>No. The terms of business state that Ripe provides information about a policy from one or more insurers without giving advice or a personal recommendation, and that it acts as the insurer's agent when arranging the cover. Choosing the right wording, the right cruising limit and the right options is left to you.</p>"
    }
-  ]
+  ],
+  "headline": {
+   "label": "Third-party liability",
+   "value": "&pound;3,000,000 standard; &pound;5,000,000 for &pound;40 more"
+  }
  },
  {
   "slug": "insuremore-travel-insurance-review",
@@ -3704,7 +3716,11 @@
     "q": "Is winter sports cover included?",
     "a": "<p>No, it is an optional extension on every policy in the range. Equipment is covered to £750 on Holiday Traveller and Holiday+, with a £100 excess on Holiday Traveller and £75 on Adventure Travel. Cruise cover and pet care, by contrast, are included as standard.</p>"
    }
-  ]
+  ],
+  "headline": {
+   "label": "Emergency medical cover",
+   "value": "&pound;12,000,000 on Holiday Travel+, &pound;50 excess"
+  }
  },
  {
   "slug": "john-lewis-home-insurance-review",
@@ -4817,7 +4833,11 @@
     "q": "Will I get the £100 Fairer Share payment as well?",
     "a": "<p>Possibly, but it is not part of the £295 and it is not promised. The 2026 payment went to around 4.4 million members on 10 June and required a qualifying current account open on 31 March 2026 plus either £100 in Nationwide savings or £100 owed on a Nationwide residential mortgage. Nationwide says it aims to pay every year but that the payment is not guaranteed and is subject to board approval.</p>"
    }
-  ]
+  ],
+  "headline": {
+   "label": "Interest, first 12 months",
+   "value": "5% AER on balances up to &pound;1,500, then 1%"
+  }
  },
  {
   "slug": "natwest-credit-cards",
@@ -4977,7 +4997,11 @@
     "q": "How do I complain about a NatWest credit card?",
     "a": "<p>To NatWest first. It closed 95,241 banking and credit card complaints between 1 January 2025 and 30 June 2026, upholding 55% of them, with 48% closed inside three days. If the answer is unsatisfactory, or eight weeks pass without a final response, the complaint can go to the Financial Ombudsman Service free of charge. The Ombudsman took 22,800 credit card complaints in 2025/26 and upheld 28% of them, against a 30% average across all products.</p>"
    }
-  ]
+  ],
+  "headline": {
+   "label": "Representative APR",
+   "value": "12.9% to 40.7% variable across eight cards"
+  }
  },
  {
   "slug": "noble-marine-boat-insurance-review",
@@ -5121,7 +5145,11 @@
     "q": "Is boat insurance a legal requirement in the UK?",
     "a": "<p>No, but it is a practical one. Race organisers, marinas, harbours, launch sites and navigation authorities almost all require evidence of third party cover before letting you in, and the figure they ask for is commonly £3,000,000. Insurance is a condition of use rather than a condition of ownership.</p>"
    }
-  ]
+  ],
+  "headline": {
+   "label": "Third-party liability",
+   "value": "&pound;5,000,000 (&pound;3,000,000 on jet skis). Premiums from about &pound;40 a year"
+  }
  },
  {
   "slug": "performance-direct-motorbike-insurance-review",
@@ -5533,7 +5561,11 @@
     "q": "Who do I complain to if something goes wrong?",
     "a": "<p>Purple Parking takes complaints through an online form and live chat, and says it resolves 80% of issues within 21 days and most within 7. There is no ombudsman for airport parking and no alternative dispute resolution scheme is named on the site, so an unresolved claim would go to the county court. The Financial Ombudsman Service has no jurisdiction here — the group's FCA authorisation, firm reference 828848, covers Holiday Extras Cover Limited's travel insurance only.</p>"
    }
-  ]
+  ],
+  "headline": {
+   "label": "Cheapest park and ride",
+   "value": "&pound;4.21 a day at Gatwick &middot; &pound;5.12 at Heathrow"
+  }
  },
  {
   "slug": "quick-mortgages",
@@ -6394,7 +6426,11 @@
     "q": "Is a GHIC enough on its own?",
     "a": "<p>No. The card is free and lasts up to 5 years, but it only covers state healthcare. Repatriation, private treatment and mountain rescue are excluded, and the NHS states directly that it is not a replacement for travel insurance.</p>"
    }
-  ]
+  ],
+  "headline": {
+   "label": "Emergency medical cover",
+   "value": "&pound;10m to unlimited across the panel &mdash; a comparison service, not an insurer"
+  }
  },
  {
   "slug": "quotezone-van-insurance-review",
@@ -7849,7 +7885,11 @@
     "q": "What if I have a complaint?",
     "a": "<p>The internal route aims to resolve within three business days, escalating to the Customer Relations Unit with a response inside eight weeks. After that, or after a final response, eligible customers can take it to the Financial Ombudsman Service at Exchange Tower, London E14 9SR, on 0800 023 4567. The policy also carries Financial Services Compensation Scheme protection.</p>"
    }
-  ]
+  ],
+  "headline": {
+   "label": "Third-party liability",
+   "value": "&pound;5 million standard; &pound;3 million on inland waterways"
+  }
  },
  {
   "slug": "voyager-travel-insurance-review",
@@ -7968,7 +8008,11 @@
     "q": "How do I complain about Voyager?",
     "a": "<p>Complaints go first to the Managing Director on 01483 806 680, with a stated target of 20 working days for a final response. If you are unhappy with the outcome you can take the case to the Financial Ombudsman Service on 0800 023 4567. The service upheld 36 per cent of the 4,451 travel insurance complaints it handled in 2025/26.</p>"
    }
-  ]
+  ],
+  "headline": {
+   "label": "Emergency medical cover",
+   "value": "&pound;5m to &pound;10m by tier. Excess &pound;150 down to &pound;50"
+  }
  },
  {
   "slug": "wicked-quotes-motorbike-insurance-review",

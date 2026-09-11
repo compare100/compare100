@@ -108,7 +108,11 @@
     "q": "Can I transfer an existing ISA in?",
     "a": "<p>Yes. Use the provider's transfer process rather than withdrawing and re-depositing, which would consume your annual allowance.</p>"
    }
-  ]
+  ],
+  "headline": {
+   "label": "Best cash ISA rate",
+   "value": "4.00% AER variable &mdash; includes a 0.55% bonus for 12 months"
+  }
  },
  {
   "slug": "lloyds-bank-cash-isa",
@@ -223,7 +227,11 @@
     "q": "Why does Lloyds pay so little?",
     "a": "<p>Large retail banks with substantial current-account customer bases rely on inertia, and can fund themselves cheaply without competing on savings rates. Smaller banks and app-based providers use rate as their main acquisition tool.</p>"
    }
-  ]
+  ],
+  "headline": {
+   "label": "Best cash ISA rate",
+   "value": "4.10% AER &mdash; 2-year fixed. Easy-access Saver pays 0.75%"
+  }
  },
  {
   "slug": "nationwide-cash-isa",
@@ -339,7 +347,11 @@
     "q": "How much of my money is protected?",
     "a": "<p>Up to £120,000 per banking licence following the increase on 1 December 2025, or £240,000 on a joint account. Note that Nationwide and Virgin Money share a licence, so balances across both count once.</p>"
    }
-  ]
+  ],
+  "headline": {
+   "label": "Best cash ISA rate",
+   "value": "4.70% AER &mdash; 5-year fixed. 4.40% at one year"
+  }
  },
  {
   "slug": "leeds-building-society-cash-isa",
@@ -445,7 +457,11 @@
     "q": "How many complaints does Leeds get?",
     "a": "<p>Seventy-nine new Ombudsman cases in the second half of 2025 &mdash; 37 banking, 41 mortgages. Lloyds had 4,596 and Nationwide 3,001 in the same period, though both are much larger organisations.</p>"
    }
-  ]
+  ],
+  "headline": {
+   "label": "Best cash ISA rate",
+   "value": "4.50% AER fixed &mdash; best one-year rate in this comparison"
+  }
  },
  {
   "slug": "trading-212-cash-isa",
@@ -552,6 +568,10 @@
     "q": "Can I transfer an existing cash ISA in?",
     "a": "<p>Yes, using the platform's transfer-in process. Never withdraw and re-deposit, as that would use up your annual ISA allowance.</p>"
    }
-  ]
+  ],
+  "headline": {
+   "label": "Best cash ISA rate",
+   "value": "Around 4.56% AER variable &mdash; no bonus, no withdrawal limits"
+  }
  }
 ]

@@ -488,8 +488,11 @@ footer a{color:#dde4ec;text-decoration:none;margin-right:18px}
 .cmp td.tc{width:150px;text-align:center}
 .cmp a{text-decoration:none}
 .tsub{font-size:13.5px;color:var(--mut);margin-top:4px;line-height:1.45}
-.tfact{font-size:13px;margin-top:5px;color:#1f2937}
-.tfact span{display:inline-block;background:var(--bg);border:1px solid var(--line);border-radius:4px;padding:1px 6px;margin-right:6px;font-size:11.5px;text-transform:uppercase;letter-spacing:.3px;color:var(--mut)}
+.cmp td.tfig{width:200px;font-size:14px;line-height:1.4}
+.cmp td.tfig strong{display:block;font-size:16px;color:#111827}
+.tflab{display:block;font-size:11.5px;text-transform:uppercase;letter-spacing:.3px;color:var(--mut);margin-top:2px}
+.tfck{display:block;font-size:11.5px;color:var(--mut);margin-top:4px}
+.tnote{font-size:13.5px;color:var(--mut);margin:0 0 10px}
 .tmore{display:inline-block;margin-top:7px;font-size:13px;font-weight:600;color:var(--brand)}
 .tbtn{display:inline-block;background:var(--brand);color:#fff;font-weight:700;padding:9px 16px;border-radius:6px;font-size:14px;white-space:nowrap}
 .tbtn:hover{background:#1739a8}
@@ -515,6 +518,7 @@ article iframe,article video{max-width:100%}
   .cmp tr{border:1px solid var(--line);border-radius:10px;margin-bottom:12px;padding:12px}
   .cmp td{border:0;padding:6px 0;text-align:left}
   .cmp td.tl,.cmp td.tc{text-align:center}
+  .cmp td.tfig{width:auto;border-top:1px solid var(--line);border-bottom:1px solid var(--line);padding:8px 0;margin:6px 0}
   .cmp td.tl img{margin:0 auto}
 }
 /* ---- homepage ---- */
@@ -1084,9 +1088,19 @@ for parent in TOP:
             rw = REWRITTEN.get(x['slug'])
             fact = ''
             src = clean(x['content'])
-            if rw and rw.get('key_facts'):
-                kf = rw['key_facts'][0]
-                fact = f'<div class="tfact"><span>{esc(html.unescape(kf["label"]))}</span> {kf["value"]}</div>'
+            if rw and (rw.get('headline') or rw.get('key_facts')):
+                # `headline` is the ONE number a reader would compare across this
+                # category - the AER, the excess, the price per day - and it gets its
+                # own column so the table reads down instead of across. That is what
+                # makes it a comparison rather than a list, for a person and for
+                # anything quoting it. key_facts[0] is the fallback for pages written
+                # before the field existed; it is the page's most identifying fact,
+                # which is not the same thing and often does not compare.
+                kf = rw.get('headline') or rw['key_facts'][0]
+                _ck = rw.get('checked', '')
+                fact = (f'<strong>{kf["value"]}</strong>'
+                        f'<span class="tflab">{esc(html.unescape(kf["label"]))}</span>'
+                        + (f'<span class="tfck">Checked {esc(_ck)}</span>' if _ck else ''))
                 src = rw.get('verdict') or rw.get('intro') or src
             elif rw and (rw.get('verdict') or rw.get('intro')):
                 src = rw.get('verdict') or rw.get('intro')
@@ -1100,12 +1114,20 @@ for parent in TOP:
                     if x['logo'] else '')
             trows += (f'<tr><td class="tl">{logo}</td>'
                       f'<td><a href="/{x["slug"]}/"><strong>{esc(x["title"])}</strong></a>'
-                      f'{fact}<div class="tsub">{desc}</div>'
+                      f'<div class="tsub">{desc}</div>'
                       f'<a class="tmore" href="/{x["slug"]}/">Read our {esc(x["title"])} review</a></td>'
+                      f'<td class="tfig">{fact or "&mdash;"}</td>'
                       f'<td class="tc">{go}</td></tr>')
+        _fign = sum(1 for x in lst if REWRITTEN.get(x['slug'], {}).get('headline')
+                    or REWRITTEN.get(x['slug'], {}).get('key_facts'))
         table = (f'<h2>All {len(lst)} {esc(catname[c].lower())} providers compared</h2>'
-                 f'<table class="cmp"><thead><tr><th></th><th>Provider</th><th></th></tr></thead>'
-                 f'<tbody>{trows}</tbody></table>') if trows else ''
+                 + (f'<p class="tnote">Figures are taken from each provider&rsquo;s own published '
+                    f'terms, with the date each one was last checked. {_fign} of {len(lst)} '
+                    f'checked so far; a dash means we have not verified that provider yet.</p>'
+                    if _fign else '')
+                 + f'<table class="cmp"><thead><tr><th></th><th>Provider</th>'
+                   f'<th>Key figure</th><th></th></tr></thead>'
+                   f'<tbody>{trows}</tbody></table>') if trows else ''
         # sibling categories — keeps link equity inside the section
         sibs_cat = [k for k in children[parent] if k != c and bycat.get(k)]
         sib_links = ''
