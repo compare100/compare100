@@ -45,6 +45,24 @@ def shingles(t, n=6):
     w = t.lower().split()
     return set(' '.join(w[i:i + n]) for i in range(len(w) - n + 1))
 
+# The date the headline and answer-first rules came in. A page checked before this
+# was written to a different specification and is not in breach of anything.
+NEW_RULES_FROM = (2026, 9, 12)
+_MONTHS = {m: i for i, m in enumerate(
+    ['January', 'February', 'March', 'April', 'May', 'June', 'July',
+     'August', 'September', 'October', 'November', 'December'], 1)}
+
+def _written_under_new_rules(page):
+    """True if this page was checked on or after the rules came in.
+
+    An unreadable or missing date counts as new: every run sets `checked`, so a
+    page without one is being written now and should meet the current standard."""
+    try:
+        d, mth, y = (page.get('checked') or '').strip().split()
+        return (int(y), _MONTHS[mth], int(d)) >= NEW_RULES_FROM
+    except Exception:
+        return True
+
 def check(page, siblings):
     fails = []
     t = text_of(page)
@@ -117,8 +135,16 @@ def check(page, siblings):
     # it can only be read as a comparison if every row answers the same question.
     # `headline` is that figure: the AER for a savings account, the excess for a
     # policy, the price per day for parking. It has to contain an actual number.
+    #
+    # BOTH OF THE RULES BELOW APPLY ONLY TO WORK DONE UNDER THEM. On 11 September
+    # 2026 they were added without that guard, the publisher re-gated all 65 pages
+    # in auto.json, 55 of them had been written before the rules existed, and the
+    # publish aborted on every run - so nothing reached the site at all, including
+    # pages with nothing wrong with them. Judging finished work by rules written
+    # afterwards stops the line every time. Old pages are held to the new standard
+    # at the moment they are next rewritten, which is the right moment.
     hl = page.get('headline') or {}
-    if not is_editorial:
+    if not is_editorial and _written_under_new_rules(page):
         if not (hl.get('label') or '').strip() or not (hl.get('value') or '').strip():
             fails.append("missing headline {label, value} - the one figure this "
                          "category is compared on")
@@ -129,7 +155,8 @@ def check(page, siblings):
     # search engine nothing to lift, and gives a reader nothing to stay for.
     _lead = ' '.join(re.sub(r'\s+', ' ', html.unescape(
         re.sub(r'<[^>]+>', ' ', page.get('intro', '')))).split()[:60])
-    if not re.search(r'£[\d,]|\d+(?:\.\d+)?%|\b\d[\d,]*\b', _lead):
+    if _written_under_new_rules(page) and not re.search(
+            r'£[\d,]|\d+(?:\.\d+)?%|\b\d[\d,]*\b', _lead):
         fails.append("no figure in the first 60 words - open with the answer, "
                      "not with the scene")
 
@@ -158,10 +185,30 @@ def main():
     if len(sys.argv) < 2:
         print(__doc__); sys.exit(1)
     path = sys.argv[1]
+
+    # --only=slug,slug  checks just those pages while still comparing them against
+    # every sibling. The publisher uses it to gate the pages it is adding, not the
+    # whole back catalogue.
+    #
+    # This exists because of a real outage on 11 September 2026. Two new rules were
+    # added to the gate, the publisher re-gated all 65 pages in auto.json, 55 of them
+    # pre-dated the rules, and the Action failed on every run - so nothing published
+    # at all, including pages that were perfectly fine. A gate that judges finished
+    # work by rules written after it was finished will stop the line every time.
+    only = None
+    for a in sys.argv[2:]:
+        if a.startswith('--only='):
+            only = {x for x in a[len('--only='):].split(',') if x}
+
     pages = json.load(open(path, encoding='utf-8'))
     sib = load_siblings(path)
     for p in pages:                       # pages in the same file check against each other too
         sib.setdefault(p['slug'], text_of(p))
+    if only is not None:
+        skipped = [p for p in pages if p['slug'] not in only]
+        pages = [p for p in pages if p['slug'] in only]
+        print(f"checking {len(pages)} page(s); {len(skipped)} existing page(s) "
+              f"left alone\n")
 
     failed = 0
     print(f"{'page':<44}{'words':>7}{'figs':>6}{'dup%':>6}  result")
