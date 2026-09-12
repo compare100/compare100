@@ -2997,7 +2997,11 @@
     "q": "Which airports does Holiday Extras cover?",
     "a": "<p>It lists 19 UK airports and hundreds of car parks, including Heathrow, Gatwick, Stansted, Manchester, Birmingham, Luton, East Midlands, Bristol, Liverpool, Leeds Bradford, Edinburgh, Glasgow, Newcastle, Cardiff, London City, Southampton and Aberdeen, along with Dublin, Shannon and Belfast.</p>"
    }
-  ]
+  ],
+  "headline": {
+   "label": "Cheapest park and ride",
+   "value": "&pound;5.74 a day at Gatwick &middot; &pound;11.33 at Heathrow"
+  }
  },
  {
   "slug": "hostelling-international-hostels",
