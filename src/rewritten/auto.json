@@ -4170,6 +4170,143 @@
   }
  },
  {
+  "slug": "hey-broadband",
+  "title": "Hey! Broadband review",
+  "meta_title": "Hey! Broadband: £23 full fibre with matching upload speed",
+  "meta_description": "Hey! Broadband full fibre starts at £23 a month for 150Mbps up and down. Prices by contract length, the April rises, coverage and the small print.",
+  "checked": "18 September 2026",
+  "headline": {
+   "label": "Cheapest advertised price",
+   "value": "£23 a month — 150Mbps symmetrical, 24-month term (rising to £27 by April 2028)"
+  },
+  "intro": "<p>Hey! Broadband sells full fibre from <strong>£23 a month</strong> on a 24-month term, and that buys 150Mbps in both directions rather than the fast-down, slow-up shape most UK homes are used to. Installation and the router are free on that term, there is no setup fee, and the next two tiers run 400Mbps and 900Mbps at £33 and £43. Prices checked on 18 September 2026 against the company's own residential price guide dated July 2026.</p><p>The fibre is the company's own. Hey! Broadband is the retail arm of F&amp;W Networks, the infrastructure builder that had laid full fibre past more than 410,000 homes and premises across upwards of 30 locations by February 2024 — Horsham, Crawley, East Grinstead, Redhill, Cranleigh, High Wycombe, Ealing and Southall among them. Hey Broadband Ltd was incorporated on 13 May 2019 (company number 11992003) and had reached around 40,000 customers by August 2025. Because the group digs its own ducts and runs its own poles, a fault is one company's problem rather than an argument between two.</p><p>The limit is geography, and it is worth settling before anything else. Ofcom counted 24.9 million UK homes able to take full fibre at January 2026, out of a housing stock of 30.5 million. F&amp;W's 410,000 premises are about 1.3% of those 30.5 million homes, so for most of the country the address check on the front page will come back empty and nothing further on this page applies. Run it first.</p>",
+  "key_facts": [
+   {
+    "label": "Company",
+    "value": "Hey Broadband Ltd, company number 11992003 — retail arm of F&W Networks"
+   },
+   {
+    "label": "Incorporated",
+    "value": "13 May 2019; registered at 3rd Floor, 1 Ashley Road, Altrincham WA14 2DT"
+   },
+   {
+    "label": "Network reach",
+    "value": "410,000+ premises passed, 30+ locations, mostly southern England"
+   },
+   {
+    "label": "Entry package",
+    "value": "Superfast 150 — 150Mbps down and 150Mbps up, £23 a month on 24 months"
+   },
+   {
+    "label": "Top package",
+    "value": "Gigafast 900 — 900Mbps symmetrical, £43 a month on 24 months"
+   },
+   {
+    "label": "Contract lengths",
+    "value": "30-day rolling, 12 months or 24 months"
+   },
+   {
+    "label": "Annual increase",
+    "value": "£2 each April, printed in pounds beside the opening price"
+   },
+   {
+    "label": "Social tariff",
+    "value": "Everyday Fibre, 100Mbps, 12-month term, nine qualifying benefits"
+   },
+   {
+    "label": "Complaints",
+    "value": "CISAS after six weeks; 28 working-day investigation target"
+   },
+   {
+    "label": "Customers",
+    "value": "About 40,000 as at August 2025"
+   }
+  ],
+  "sections": [
+   {
+    "heading": "What the three tiers cost, and why the upload number matters",
+    "html": "<p>Three residential packages carry the bulk of the business. Superfast 150 runs at 150Mbps down and 150Mbps up, Megafast 400 at 400Mbps each way, Gigafast 900 at 900Mbps each way. On a 24-month term they are £23, £33 and £43 a month, with the router and a standard installation included and no activation charge — the company values that package at over £150.</p><p>Matched upload is the part a competitor cannot easily answer. Fibre sold over the Openreach network is deliberately lopsided: a household paying for 500Mbps down will typically see somewhere around 70Mbps or 75Mbps going the other way. Hey! sells 900 up against 900 down. That gap is invisible while somebody is streaming and obvious the moment they are backing up a photo library, sending finished video to a client, or sitting on a call while a second person in the house uploads anything at all. If the reason for shopping is that video calls stutter, the upload column is the column to read.</p><p>Above the standard three sit bundles built on the 900Mbps line: UltraPlay Pro at £39 a month adds managed WiFi and a static IP address, WorkSmart Pro at £42 adds security software on top, and Family Connect Pro at £51 folds in an unlimited mobile SIM. Sold separately, Wi-Fi Pro is £9 a month on a 24-month term, mesh WiFi £10 with extra extenders at £3.50, a static IP £5, Norton 360 £5 or £7 depending on tier, and an unlimited SIM £21. A home phone line with anytime calls to UK landlines and mobiles is £11 a month with no separate line rental; keeping an existing number costs £15 once, and a new local number £10.</p>"
+   },
+   {
+    "heading": "Three contract lengths, and what a month's freedom is priced at",
+    "html": "<p>Most providers bury the short-term option. Hey! prints all three, which makes the trade legible. Superfast 150 is £23 on 24 months, £25 on 12 months and £28 on a 30-day rolling deal; Megafast 400 is £33, £35 and £39; Gigafast 900 is £43, £45 and £55. The rolling versions also carry a £39 installation charge that the two longer terms waive.</p><p>So the premium for being able to leave whenever you like is £5 a month on the entry tier, £6 in the middle and £12 at the top. Put the installation charge back in and a rolling Superfast 150 costs £375 in its first year against £276 on the 24-month deal — £99 more, of which £39 is the install and £60 is the monthly difference. On Gigafast the same sum is £660 plus £39 against £516, a gap of £183. Whether that is worth paying depends entirely on how likely the household is to move, and on a network this size that question has an unusually sharp answer.</p><p>The 12-month term is the one most people will ignore and probably should not. It costs £2 a month more than the two-year deal on every tier — £24 over a year — and it halves the length of the commitment. That is a cheaper insurance policy than the rolling contract by a wide margin.</p>"
+   },
+   {
+    "heading": "The April steps, and the promise that changed on 12 May 2026",
+    "html": "<p>Every advertised price now carries two further numbers beside it. Superfast 150 is £23 until April 2027, £25 from then, £27 from April 2028. Megafast 400 goes £33, £35, £37. Gigafast 900 goes £43, £45, £47. The step is £2 a year on every residential tier, applied each April, and clause 25.3 of the residential terms puts it plainly: the monthly plan charge <em>\"will increase by a specific amount each calendar year\"</em>, taking effect each April and set out in the contract summary.</p><p>Those figures are new. Until 12 May 2026 the company sold its packages at a flat rate for the life of the contract and said so; the rises were introduced for new customers from that date. It is a genuine reduction in what the product offers, and the honest way to measure it is to run the term out. A Superfast 150 contract started in September 2026 pays seven months at £23, twelve at £25 and five at £27: <strong>£596 over the two years</strong>, against £552 if the opening price had held. The £2 steps cost £44 across the term and lift the true average to £24.83 a month. The same £44 applies to Megafast and Gigafast, because the step is the same in cash on every tier — which means it stings proportionally hardest at the cheap end.</p><p>What can be said for it is that £2 is a stated amount rather than a formula, so a buyer can do this sum before signing instead of after. Contracts sold from 17 January 2025 are required to express any rise in pounds rather than as a percentage tied to inflation, and Hey! prints its steps on the package tile. The number is small, it is disclosed, and it is still £44.</p>"
+   },
+   {
+    "heading": "Where an altnet customer stands when the line goes down",
+    "html": "<p>This is the section that separates a small network from a large one, and it is not in the provider's favour. Ofcom runs an automatic compensation scheme that pays a fixed sum without the customer having to ask: <strong>£10.34 for each calendar day</strong> a fault goes unrepaired beyond two working days, <strong>£32.31</strong> for a missed engineer appointment, and <strong>£6.46 for each day</strong> a new service starts late. The rates were last uprated on 20 July 2026 and rise with inflation each year.</p><p>The scheme is voluntary, and ten providers have signed it: BT, EE, Hyperoptic, Plusnet, Sky including NOW Broadband, TalkTalk, Utility Warehouse, Virgin Media, Vodafone and Zen Internet. Hey! Broadband is not among them. Its residential terms contain exactly one compensation promise — <em>\"£5 per a day\"</em> where a phone number transfer runs more than one business day past the agreed date. There is nothing at all for a broadband outage. On a wet week in February that is the difference between roughly £72 arriving automatically and a phone call where the customer is asking for a goodwill gesture.</p><p>The complaints route itself is sound as far as it goes. Complaints go to 0330 822 2878 or to the published complaints address; the code promises acknowledgement of an email within two working days and a response <em>\"wherever possible, within 28 working days\"</em>. After six weeks, or earlier if the company decides it can do no more, it must issue a deadlock letter and the case can go to CISAS, the Ofcom-approved dispute service run by CEDR, which is free to residential and small business customers. Twenty-eight working days is close to six calendar weeks, so in practice the two timescales arrive together.</p>"
+   },
+   {
+    "heading": "Nobody independent has measured this company",
+    "html": "<p>Ofcom publishes quarterly complaints volumes per 100,000 customers, and for the three months to March 2026 the fixed broadband table reads: Plusnet 4, Sky 5, EE 6, Virgin Media 6, BT 7, Vodafone 8, TalkTalk Group 10, against an industry average of 6. Hey! Broadband does not appear. Neither do any of the other altnets — Ofcom only names providers above a market-share threshold, and 40,000 customers is nowhere near it.</p><p>The same gap shows up in consumer survey work. Which? questioned 5,235 broadband customers in January 2026 and scored Zen Internet top on 84%, then Hyperoptic 77%, Community Fibre 72%, Plusnet 71%, Vodafone 67%, EE 66%, BT and Utility Warehouse 65%, Sky 62%, TalkTalk and Virgin Media 59% and NOW Broadband last on 54%. Hey! Broadband is absent from that list too. Two rivals of a similar shape — Hyperoptic and Community Fibre — are big enough to be measured and both score above every national brand, which is the fair point in the smaller networks' favour. It is not evidence about this one.</p><p>The financial picture is similarly thin. Hey Broadband Ltd files small-company accounts, so no audited turnover or profit figure is on the public record. The most recent set covers the year to 31 March 2025 and was filed on 30 December 2025, after the accounting period was shortened in June that year; the next set is due by 31 December 2026. A reader who wants to know how solid the company behind a two-year contract is will not find the answer at Companies House, and that is worth knowing rather than guessing at.</p>"
+   },
+   {
+    "heading": "Clauses to read before the two years start",
+    "html": "<p>Moving house is the sharp one. Section 21.3 requires 30 days' notice and makes the early termination charge payable <em>\"regardless of whether you are able to purchase our Services at your new address\"</em>. On a network covering roughly 1.3% of UK homes, the overwhelming likelihood is that a mover cannot take the service with them and pays out the balance of the term anyway. The charge is capped at the remaining monthly fees, so leaving a 24-month Gigafast deal after eight months leaves 16 monthly fees outstanding, or about £688 before the April steps are counted. Anyone whose plans include moving should look hard at the 12-month or rolling price.</p><p>Three more clauses are worth the minute. The company can suspend or end the agreement for listed reasons and also <em>\"for any other reason (or no reason)\"</em>, in which case it will try to give at least 15 days' notice (section 23.1). Total liability is capped at £10,000 for all claims in any 12-month period (section 20.3b), with indirect loss and business interruption excluded outright. And while the packages are sold as unlimited, section 6.1d.iii requires usage to stay at what the company <em>\"think[s] is a reasonable level for domestic use\"</em>, with no threshold published.</p><p>On speed, the marketing is careful and the contract is more careful still. The advertised figures are described as average download speeds, with a wired connection recommended and the note that they are not achievable on a single device over WiFi. Section 19.4 disclaims responsibility for anything affecting speed that is beyond reasonable control and section 19.6 declines to promise a consistently fault-free service. No minimum guaranteed speed is published anywhere on the package pages — the figure that, under Ofcom's voluntary speed codes, gives a customer a documented right to walk away if the line underperforms. Whether Hey! has signed those codes could not be established from Ofcom's own published material and needs confirming with the company.</p><p>The charge list is blunt. An engineer visit or technical survey is £60. An unreturned router is £90, an unreturned extender £89, an unreturned optical network terminal £45, and damaged equipment £120. Relocating the service is £140, a replacement patch cord £50, and a failed payment £10, with late payment interest at 4% above Barclays Bank base rate. Equipment must come back within 14 days of the agreement ending, at the customer's cost. Against that, the cooling-off period runs 14 days from activation, and section 25.2 gives 30 days to walk away without penalty if a change to the contract leaves the customer significantly worse off.</p>"
+   },
+   {
+    "heading": "Everyday Fibre, and two company documents that disagree",
+    "html": "<p>Hey! runs a social tariff called Everyday Fibre: 100Mbps on a 12-month term, free installation, 30 days' notice to leave and no early termination charge. Nine benefits qualify — Universal Credit, Pension Credit, Income Support, income-related Jobseeker's Allowance, income-related Employment and Support Allowance, Housing Benefit, Personal Independence Payment, Attendance Allowance and care leaver support — and the account holder has to be the claimant. Eligibility is re-checked every 12 months; a household that no longer qualifies is offered a standard tariff or the exit.</p><p>That is a better-than-average social tariff, and it is worth saying how little used these things are. Ofcom's pricing report of 26 February 2026 found 532,000 customers on a fixed or mobile social tariff in June 2025, an annual increase of just 26,000, with take-up below 9% of eligible households and 70% of those households unaware the tariffs existed as at October 2025. More than 30 providers offered one by December 2025, against three in 2020, at £12.50 to £24 a month for broadband. Anybody on one of those nine benefits should check before paying £23 for Superfast 150.</p><p>They should also check the price, because the company's own paperwork gives two different answers. The residential price guide effective July 2026 lists Everyday Fibre 100Mb at <strong>£19 a month</strong>; the Everyday Fibre terms and conditions on the same website say <strong>£16 per month</strong>. Both documents are live. Three pounds a month is £36 a year to a household on benefits, so the number needs confirming on the phone rather than assumed from either page. The same price guide also prints mesh WiFi at £100 a month on a rolling term against £10 on 12 and 24 months, which reads like a misplaced decimal rather than a price.</p><p>One last figure in the company's favour: a £100 bill credit is advertised for customers who join on a 24-month contract using One Touch Switch, the industry process that lets the new provider handle the changeover. On Superfast 150 that credit is worth more than four months of the subscription, and it is the single largest incentive on the price list.</p>"
+   }
+  ],
+  "pros": [
+   "Upload matches download on every tier — 150Mbps, 400Mbps or 900Mbps in both directions, where Openreach-based fibre is heavily asymmetric",
+   "£23 a month entry price sits below Ofcom's £31.05 average in-bundle spend for standalone broadband in Q2 2025",
+   "Router and standard installation included free on 12 and 24-month terms, with no activation fee",
+   "All three contract lengths are published, so the cost of staying flexible is visible before signing",
+   "Annual increases are stated as £2 in cash, printed beside the opening price, rather than tied to an inflation formula",
+   "£100 bill credit for joining on 24 months through One Touch Switch",
+   "Everyday Fibre social tariff at 100Mbps covers nine qualifying benefits, with no exit charge and 30 days' notice",
+   "CISAS membership gives a free, independent route after six weeks, and complaints are acknowledged within two working days",
+   "Network, installation and fault repair sit inside one company rather than being split between a retailer and Openreach"
+  ],
+  "cons": [
+   "Not a signatory to Ofcom's automatic compensation scheme, so the £10.34 a day for an unrepaired fault, £32.31 for a missed appointment and £6.46 a day for a late installation do not apply — the contract's only compensation promise is £5 a day for a delayed number transfer",
+   "Moving home does not release you: section 21.3 charges the balance of the term regardless of whether the service is available at the new address, and the network reaches about 1.3% of UK homes",
+   "Flat pricing ended on 12 May 2026 — the £2 April steps add £44 to a 24-month Superfast 150 contract and lift the real average to £24.83 a month",
+   "Too small to appear in Ofcom's quarterly complaints table or in Which?'s January 2026 survey of 5,235 customers, so there is no independent measure of its service at all",
+   "No minimum guaranteed speed is published, advertised figures are described as average download speeds, and the contract disclaims responsibility for speed and promises no fault-free service",
+   "The residential price guide and the Everyday Fibre terms give different prices for the same social tariff — £19 against £16 a month",
+   "Equipment and visit charges are steep: £60 an engineer visit, £90 an unreturned router, £120 for damage, £140 to relocate and £10 for a failed payment",
+   "The company may suspend or end the agreement \"for any other reason (or no reason)\" on 15 days' notice, and caps its total liability at £10,000 across any 12 months",
+   "Small-company accounts mean no audited turnover or profit figure is on the public record for a business asking for a two-year commitment"
+  ],
+  "verdict": "If the address check comes back green, this is a strong offer: 150Mbps both ways for £23, 900 both ways for £43, no installation charge and a router in the box. The symmetrical upload is a real advantage over anything sold across the Openreach network, and the £2 April steps are small and printed in advance. The risks are the ones that come with a 410,000-premises network rather than a national one. There is no automatic compensation when the line fails, no independent complaints or satisfaction score to check, and an early termination charge that follows you to an address the company almost certainly cannot serve. Anyone who might move inside two years should take the 12-month deal at £25 and treat the £24 a year as the price of the option.",
+  "faqs": [
+   {
+    "q": "What does Hey! Broadband cost?",
+    "a": "<p>On a 24-month term, £23 a month for 150Mbps, £33 for 400Mbps and £43 for 900Mbps, all symmetrical, with free installation and router. A 12-month term adds £2 a month to each. A 30-day rolling contract costs £28, £39 or £55 and carries a £39 installation charge. Every tier rises by £2 in April 2027 and again in April 2028.</p>"
+   },
+   {
+    "q": "Is the upload speed really the same as the download?",
+    "a": "<p>Yes. Superfast 150 is 150Mbps each way, Megafast 400 is 400Mbps each way and Gigafast 900 is 900Mbps each way. Fibre sold over the Openreach network is asymmetric by design, so a 500Mbps package there typically uploads at around 70Mbps to 75Mbps. Hey! describes its figures as average download speeds and recommends a wired connection.</p>"
+   },
+   {
+    "q": "Can I get it where I live?",
+    "a": "<p>Probably not, unless you are in one of F&amp;W Networks' build areas in southern England and the Thames Valley. The network had passed more than 410,000 premises across over 30 locations, including Horsham, Crawley, East Grinstead, Redhill, Cranleigh, High Wycombe, Ealing and Southall. Against a UK housing stock of 30.5 million homes, that is roughly 1.3%. Use the address checker before anything else.</p>"
+   },
+   {
+    "q": "What happens if I move house?",
+    "a": "<p>You give 30 days' notice and, if you are still inside the minimum term, you pay the early termination charge — and section 21.3 says that applies whether or not the service is available at your new address. The charge cannot exceed the monthly fees left to run. Given how small the footprint is, treat a possible move as a reason to take the 12-month or rolling deal.</p>"
+   },
+   {
+    "q": "Do I get compensation if the broadband goes down?",
+    "a": "<p>Not automatically. Ofcom's automatic compensation scheme pays £10.34 for each day a fault goes unrepaired, £32.31 for a missed appointment and £6.46 for each day a new line starts late, but it is voluntary and only ten providers have joined — BT, EE, Hyperoptic, Plusnet, Sky, TalkTalk, Utility Warehouse, Virgin Media, Vodafone and Zen. Hey! Broadband is not one of them. The only payment written into its residential terms is £5 a day for a delayed phone number transfer.</p>"
+   },
+   {
+    "q": "How do I complain, and who do I go to if that fails?",
+    "a": "<p>Call 0330 822 2878 or email the complaints team, who aim to acknowledge within two working days and respond within 28 working days. If six weeks pass without resolution, or the company issues a deadlock letter sooner, you can take the case to CISAS, the Ofcom-approved dispute service run by CEDR. It is free for residential and small business customers.</p>"
+   },
+   {
+    "q": "Is there a cheaper deal if I claim benefits?",
+    "a": "<p>Yes — Everyday Fibre gives 100Mbps on a 12-month term with free installation, no early termination charge and 30 days' notice. Nine benefits qualify, including Universal Credit, Pension Credit, Housing Benefit, Personal Independence Payment and Attendance Allowance, and eligibility is re-checked yearly. Confirm the price when you call: the July 2026 price guide says £19 a month and the tariff's own terms say £16.</p>"
+   }
+  ]
+ },
+ {
   "slug": "hiscox-tradesman-insurance-review",
   "title": "Hiscox Tradesman Insurance",
   "meta_title": "Hiscox Tradesman Insurance: Cover From £5.20 a Month",
