@@ -496,6 +496,15 @@ footer a{color:#dde4ec;text-decoration:none;margin-right:18px}
 .tflab{display:block;font-size:11.5px;text-transform:uppercase;letter-spacing:.3px;color:var(--mut);margin-top:2px}
 .tfck{display:block;font-size:11.5px;color:var(--mut);margin-top:4px}
 .tnote{font-size:13.5px;color:var(--mut);margin:0 0 10px}
+.hub-intro p{margin:0 0 12px}
+.guide{margin:28px 0 0}
+.guide h2{font-size:21px;margin:26px 0 10px}
+.guide p,.guide li{line-height:1.65}
+.guide ul{margin:0 0 14px 20px}
+.faq{border:1px solid var(--line);border-radius:8px;padding:12px 15px;margin:0 0 9px;background:#fff}
+.faq summary{font-weight:700;cursor:pointer}
+.faq[open] summary{margin-bottom:8px}
+.faq p{margin:0}
 .tmore{display:inline-block;margin-top:7px;font-size:13px;font-weight:600;color:var(--brand)}
 .tbtn{display:inline-block;background:var(--brand);color:#fff;font-weight:700;padding:9px 16px;border-radius:6px;font-size:14px;white-space:nowrap}
 .tbtn:hover{background:#1739a8}
@@ -1075,6 +1084,181 @@ for p in posts:
     if _pub: urls.append((f'/{p["slug"]}/', p['modified']))
     sizes.append(n)
 
+# ------------------------------------------------------------------ hub guides
+# A category hub answers "who are the providers". It does not answer "which one,
+# and why" - and that second question is what people actually type. The reports of
+# 19 September 2026 found 235 comparison-shaped queries with real demand and not
+# one page on the site written to answer any of them: "best phone insurance"
+# (129 Google impressions), "phone insurance comparison" (69), "compare iphone
+# insurance" (78), "plumbing and drainage cover comparison" (96 AI citations).
+#
+# A guide goes on the hub rather than on a new URL, because a new page would
+# compete with the hub for the same query and split what little authority the
+# site has. The table stays high on the page - it is the part an answer engine
+# lifts - and the prose sits underneath it.
+#
+# Every figure must come from the provider's own documents, with the date it was
+# checked, exactly like the provider pages. A guide with no numbers in it is the
+# thin content this site was penalised for in the first place.
+GUIDES = {
+ 'phone-insurance': {
+  'checked': '19 September 2026',
+  'meta_title': 'Best Phone Insurance UK: The Excess Is the Real Price',
+  'meta_description': 'UK phone insurance runs £1.49 to £5.99 a month, but the excess is £40 to £165. '
+                      'What each provider charges to claim, and who actually underwrites them.',
+  'lead':
+    '<p>Phone insurance sold direct in the UK starts at <strong>£1.49 a month</strong> and reaches '
+    '<strong>£5.99</strong>, and the premium is the smaller half of what you pay. Every policy in this '
+    'comparison charges an excess of <strong>£40 to £150</strong> when you claim, and one of them adds '
+    '<strong>£30 surcharges</strong> that stack on top of that. Figures were checked against each '
+    'provider&rsquo;s own policy documents between 1 and 19 September 2026.</p>'
+    '<p>The table below is the short answer. Underneath it is the part that decides whether any of this '
+    'is worth buying for your phone: what it costs to actually make a claim, how old your handset is '
+    'allowed to be, and which of these companies is carrying the risk.</p>',
+  'sections': [
+   {'heading': 'The monthly price tells you almost nothing',
+    'html':
+     '<p>Put the premium and the excess together and the ranking changes completely.</p>'
+     '<p><strong>Row.co.uk</strong> is the cheapest at <strong>£1.49 a month</strong>, or £17.88 for a '
+     'year. Its standard excess is <strong>£40</strong> if the gadget is insured for £200 or less and '
+     '<strong>£75</strong> above that, which covers every current smartphone. Then come the surcharges: '
+     '<strong>£30 more</strong> for a loss or theft claim, <strong>£30 more</strong> for a claim made '
+     'abroad, and <strong>£30 more</strong> for a claim in the first three months. Those stack. A phone '
+     'lost on holiday in month two carries a <strong>£165 excess</strong> &mdash; £182.88 all in, on the '
+     'policy that advertises £1.49.</p>'
+     '<p><strong>Insurance2go</strong> opens at <strong>£1.99 a month</strong> on its Essential tier and '
+     '<strong>£3.49</strong> on Full. Its excess runs <strong>£50 to £150</strong> depending on the '
+     'handset, and it is not published anywhere before you complete a quote. There is also an Early '
+     'Excess, charged on top of the standard one for any claim within <strong>31 days</strong> of the '
+     'policy starting, whose amount is not published either.</p>'
+     '<p><strong>Protect Your Bubble</strong> is the dearest at <strong>£5.99 a month</strong> for an '
+     'iPhone 17, and the most transparent: it publishes its excesses in full, model by model, before you '
+     'buy. They run <strong>£50 to £150</strong>, set by device and by claim type &mdash; £100 for damage '
+     'and £150 for theft on a Pro Max.</p>'
+     '<p>None of that makes any of them bad value against a £1,199 handset. It does mean the cheapest '
+     'monthly price and the cheapest claim are not the same policy, and the gap between them is larger '
+     'than the gap between the premiums.</p>'},
+   {'heading': 'Two of these are the same insurer wearing different names',
+    'html':
+     '<p>A comparison is only worth making if the things being compared are actually different. Two of '
+     'these are not.</p>'
+     '<p><strong>Row.co.uk</strong> is administered by BIG Warranties Limited, and the risk is carried by '
+     '<strong>Collinson Insurance, a trading name of Astrenska Insurance Limited</strong> &mdash; firm '
+     'reference <strong>202846</strong>. <strong>Insurance2go</strong> is a brand of Loyal Insurance '
+     'Services, administered by Citymain, and the insurer on its current gadget wording is '
+     '<strong>Collinson Insurance, a trading name of Astrenska Insurance Limited</strong>, firm reference '
+     '<strong>202846</strong>. The same company.</p>'
+     '<p><strong>Protect Your Bubble</strong> is built the other way round. The brand, the underwriter '
+     'and the claims handler are one legal person: <strong>Assurant General Insurance Limited</strong>, '
+     'firm reference <strong>202735</strong>, an authorised insurer since 1989 and regulated by the '
+     'Prudential Regulation Authority as well as the FCA. One firm reference to check, one complaints '
+     'address, and no argument about which party in a chain owns the problem.</p>'
+     '<p>Choosing between two brands that share an insurer is a choice about price, excess and service, '
+     'not about who pays the claim. Worth knowing before you treat it as spreading your risk.</p>'},
+   {'heading': 'How old your phone is decides most of this',
+    'html':
+     '<p>This is the rule that quietly removes most people from most of this market, and it is nothing to '
+     'do with price.</p>'
+     '<ul>'
+     '<li><strong>Row.co.uk</strong> &mdash; the device must be <strong>under 12 months old</strong> at '
+     'the date of application.</li>'
+     '<li><strong>Protect Your Bubble</strong> &mdash; the first device on a policy must be '
+     '<strong>under 12 months old</strong>. Additional gadgets can be up to 36 months.</li>'
+     '<li><strong>Insurance2go</strong> &mdash; up to <strong>36 months</strong>, UK purchase only.</li>'
+     '</ul>'
+     '<p>If your phone is two years old, two of the three are closed to you before price enters the '
+     'conversation, and Insurance2go is the answer by default rather than by merit. If your phone is new, '
+     'all three are open and the excess is what to compare.</p>'
+     '<p>There are waiting periods to read as well. Row pays nothing at all in the <strong>first 14 '
+     'days</strong> of a policy. Protect Your Bubble and Insurance2go both load the excess for early '
+     'claims. None of these is a policy to buy with a cracked screen already in your pocket.</p>'},
+   {'heading': 'Loss is the claim people buy it for, and it is the one that is restricted',
+    'html':
+     '<p>Ask someone why they insure a phone and most say they are worried about losing it. It is the '
+     'peril every one of these policies treats differently from the rest.</p>'
+     '<p><strong>Protect Your Bubble</strong> does not include loss at all in the base policy. It costs '
+     '<strong>£1.50 per item per month</strong> on top &mdash; a 25% increase on the £5.99 headline '
+     '&mdash; and it cannot be bought at any price on laptops, MacBooks, desktop PCs or monitors.</p>'
+     '<p><strong>Row.co.uk</strong> includes it, then limits it: <strong>one theft or loss claim per '
+     'policy year</strong>, against unlimited claims for accidental damage and breakdown, plus the £30 '
+     'excess surcharge.</p>'
+     '<p>All three cover the bill somebody runs up on a stolen phone, and the clocks are short. Protect '
+     'Your Bubble pays unauthorised network charges up to <strong>£10,000</strong>, running from '
+     'discovery plus <strong>24 hours</strong>. Insurance2go pays <strong>£1,000</strong>, also within '
+     '<strong>24 hours</strong> of discovering the theft or loss. Row pays up to <strong>£1,000</strong> '
+     'including VAT for <strong>48 hours</strong> after a valid theft claim. The limit matters less than '
+     'the clock: report it the moment you notice.</p>'},
+   {'heading': 'The independent ratings here are older than they look',
+    'html':
+     '<p>Two of these providers lead with an independent rating, and both are worth checking the date on.'
+     '</p>'
+     '<p>Insurance2go publishes a <strong>Defaqto 5 Star</strong> rating dated <strong>1 February '
+     '2019</strong>. Defaqto reissues annually, so that is seven cycles old. Row.co.uk shows a Smart '
+     'Money People score of <strong>4.51 out of 5 from 247 reviews</strong>, last reviewed <strong>31 '
+     'March 2019</strong>. Protect Your Bubble holds <strong>Defaqto 5 Stars in 2023, 2024 and '
+     '2025</strong>, with nothing shown for 2026, and publishes its own claims acceptance rate of '
+     '<strong>96.7%</strong> for July to December 2025.</p>'
+     '<p>A current rating is not proof of a good policy and an old one is not proof of a bad one. But a '
+     'badge from 2019 is describing a product that has been rewritten since, and it should carry the '
+     'weight of a seven-year-old review rather than a current one.</p>'},
+   {'heading': 'Where this comparison stops',
+    'html':
+     '<p>Two of the five providers listed above are not in the analysis on this page, and it is better to '
+     'say so than to pad it out.</p>'
+     '<p><strong>Go Compare</strong> is not an insurer and does not belong in a like-for-like comparison '
+     'of policies. It is a comparison service that introduces you to gadget insurers, so using it is an '
+     'alternative to reading this page rather than an option on it.</p>'
+     '<p><strong>Switched On Insurance</strong> has not yet been checked against its own policy '
+     'documents. Its figures are not quoted here for that reason. When it has been read properly it will '
+     'appear in this comparison with a date attached, like everything else.</p>'
+     '<p>Everything above was taken from each provider&rsquo;s own policy wording, key facts documents '
+     'and published excess tables, on the dates shown. Premiums and excesses change; confirm the current '
+     'figures with the provider before you buy.</p>'},
+  ],
+  'faqs': [
+   {'q': 'What is the cheapest phone insurance in the UK?',
+    'a': '<p>Of the providers compared here, Row.co.uk is the cheapest by monthly premium at £1.49 a '
+         'month, or £1.41 paid annually. Insurance2go opens at £1.99 on its Essential tier and Protect '
+         'Your Bubble at £5.99. The cheapest premium is not the cheapest claim: Row adds £30 excess '
+         'surcharges for loss or theft, for claiming abroad and for claiming in the first three months, '
+         'and they stack.</p>'},
+   {'q': 'How much is the excess on phone insurance?',
+    'a': '<p>Between £40 and £150 on a single claim, before surcharges. Row.co.uk charges £40 where the '
+         'gadget is insured for £200 or less and £75 above that. Insurance2go quotes £50 to £150 by '
+         'handset but does not publish the figure before you run a quote. Protect Your Bubble publishes '
+         'its full excess table model by model, from £50 to £150, set by device and by claim type.</p>'},
+   {'q': 'Is losing my phone covered?',
+    'a': '<p>Not automatically. Protect Your Bubble excludes loss from the base policy and charges £1.50 '
+         'per item per month to add it, and will not sell it at all on laptops or desktop computers. '
+         'Row.co.uk includes loss but allows only one theft or loss claim per policy year and adds a £30 '
+         'excess for it. Read the loss line before the price line.</p>'},
+   {'q': 'Can I insure a phone that is two years old?',
+    'a': '<p>Only with Insurance2go of the three checked here, which accepts devices up to 36 months old '
+         'bought in the UK. Row.co.uk requires the device to be under 12 months old at application, and '
+         'Protect Your Bubble requires the first device on a policy to be under 12 months old, although '
+         'additional gadgets added later can be up to 36 months.</p>'},
+   {'q': 'Who actually underwrites these policies?',
+    'a': '<p>Row.co.uk and Insurance2go are both carried by Collinson Insurance, a trading name of '
+         'Astrenska Insurance Limited, firm reference 202846 &mdash; the same insurer behind two '
+         'different brands. Protect Your Bubble is a trading name of Assurant General Insurance Limited, '
+         'firm reference 202735, which sells, underwrites and handles the claim itself.</p>'},
+  ],
+ },
+}
+
+def guide_html(g):
+    """The prose that turns a list of providers into a comparison."""
+    secs = ''.join(f'<h2>{esc(s["heading"])}</h2>{s["html"]}' for s in g.get('sections', []))
+    faq = ''
+    if g.get('faqs'):
+        faq = ('<h2>Common questions</h2>'
+               + ''.join(f'<details class="faq"><summary>{esc(f["q"])}</summary>{f["a"]}</details>'
+                         for f in g['faqs']))
+    return (f'<div class="guide">{secs}{faq}'
+            f'<p class="checked">Figures were taken from each provider&rsquo;s own published documents '
+            f'on the dates shown, most recently {esc(g["checked"])}. Prices and excesses change &mdash; '
+            f'confirm the current figures with the provider before you buy.</p></div>')
+
 # ---- child category hubs
 for parent in TOP:
     for c in children[parent]:
@@ -1083,6 +1267,14 @@ for parent in TOP:
         items = {"@context": "https://schema.org", "@type": "ItemList",
                  "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": x['title'],
                                       "url": f"{SITE}/{x['slug']}/"} for i, x in enumerate(lst)]}
+        _gq = GUIDES.get(c, {}).get('faqs')
+        if _gq:
+            items = {"@context": "https://schema.org", "@graph": [
+                {k: v for k, v in items.items() if k != '@context'},
+                {"@type": "FAQPage", "mainEntity": [
+                    {"@type": "Question", "name": f["q"],
+                     "acceptedAnswer": {"@type": "Answer",
+                                        "text": re.sub(r'<[^>]+>', '', f["a"])}} for f in _gq]}]}
         intro = catintro.get(c) or (f'Compare {len(lst)} {catname[c].lower()} providers side by side. '
                                     'We list cover, features and current offers so you can see the differences at a glance.')
         # ONE listing per hub. This used to render the table AND a card list of the
@@ -1142,10 +1334,16 @@ for parent in TOP:
             sib_links = ('<div class="related"><h2>Other ' + esc(NAVNAME[parent]) + ' categories</h2><div class="grid">'
                          + ''.join(f'<a href="{cat_url(k)}">{cat_icon(k, 34)}{esc(catname[k])}</a>'
                                    for k in sibs_cat) + '</div></div>')
+        # A guide, where one exists, replaces the generic intro and adds the prose
+        # underneath the table. The table stays ABOVE it: the table is the part an
+        # answer engine lifts and a reader scans, the prose is what earns the rank.
+        _g = GUIDES.get(c)
+        _head = (f'<div class="hub-intro">{_g["lead"]}</div>' if _g
+                 else f'<div class="hub-intro">{esc(intro)}</div>')
         body = (crumbs(cr) + f'<div class="layout cat-{c}"><main>'
                 f'<div class="hubhead">{cat_icon(c, 64, eager=True)}<h1>Compare {esc(catname[c])}</h1></div>'
-                f'<div class="hub-intro">{esc(intro)}</div>'
-                + DISCLOSURE + table
+                + _head + DISCLOSURE + table
+                + (guide_html(_g) if _g else '')
                 + sib_links + '</main>' + sidebar(c) + '</div>')
         # "from 1 UK providers side by side" is what a template writes and a person
         # never would; the one-provider category gets its own sentence.
@@ -1153,8 +1351,11 @@ for parent in TOP:
                   [f'Compare {catname[c]} from {len(lst)} UK providers side by side' + nc
                    for nc in name_clause(brand_names(catname[c], lst))])
         _desc = fit_desc(_heads, SEC_TAIL.get(parent, SEC_TAIL['shopping']), DESC_EXTRA)
-        n = write(cat_url(c), shell(f'Compare {catname[c]} — {len(lst)} UK Providers | Compare100',
-                                    _desc, cat_url(c), body, items))
+        _title = (_g.get('meta_title') if _g and _g.get('meta_title')
+                  else f'Compare {catname[c]} — {len(lst)} UK Providers | Compare100')
+        if _g and _g.get('meta_description'):
+            _desc = _g['meta_description']
+        n = write(cat_url(c), shell(_title, _desc, cat_url(c), body, items))
         _lm = max((x['modified'] for x in lst), default=datetime.now().strftime('%Y-%m-%d'))
         urls.append((cat_url(c), _lm)); sizes.append(n)
 
