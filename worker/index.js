@@ -53,6 +53,25 @@ export default {
     // Match with and without the trailing slash — old inbound links are
     // inconsistent about it, and a 404 is a 404 either way.
     const path = url.pathname;
+
+    // The RSS feed lives at /feed/ because that is the URL WordPress used and the
+    // one Pinterest is subscribed to. It is generated as site/feed.xml, because a
+    // file with no extension gets no content type from the asset router and a feed
+    // reader is entitled to reject text/html. Serve the asset here and type it
+    // properly. No asset matches /feed/ itself, so this script always sees it.
+    if (path === "/feed" || path === "/feed/") {
+      const res = await env.ASSETS.fetch(new URL("/feed.xml", url.origin));
+      if (res.ok) {
+        return new Response(res.body, {
+          status: 200,
+          headers: {
+            "content-type": "application/rss+xml; charset=utf-8",
+            "cache-control": "public, max-age=1800",
+          },
+        });
+      }
+    }
+
     const alt = path.endsWith("/") ? path.slice(0, -1) : path + "/";
     const target = REDIRECTS[path] || REDIRECTS[alt];
 

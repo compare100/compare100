@@ -373,7 +373,7 @@ for s, p in catparent.items():
     if p in TOP: children[p].append(s)
 for k in children: children[k].sort(key=lambda s: catname.get(s, s))
 
-def cat_icon(slug, size=54):
+def cat_icon(slug, size=54, eager=False):
     # alt="" is deliberate and must stay. Every one of these icons sits inside a
     # link or heading that already carries the same words - the insurance icon is
     # next to "Insurance". An empty alt is what the W3C tells you to use for a
@@ -383,8 +383,11 @@ def cat_icon(slug, size=54):
     # not one of them without adjacent text.
     u = caticon.get(slug, '')
     if not u: return ''
+    # eager=True for the icon in a page heading: it is above the fold on every
+    # hub, so lazy-loading it can only delay the paint it is part of.
     return (f'<img class="cicon" src="{u}" alt="" width="{size}" height="{size}" '
-            f'loading="lazy" decoding="async">')
+            + ('fetchpriority="high" ' if eager else 'loading="lazy" ')
+            + 'decoding="async">')
 
 def cat_url(slug):
     p = catparent.get(slug, '')
@@ -1014,7 +1017,11 @@ for p in posts:
     body_html = fix_links(''.join(paragraphs(p['content'])))
     offer = ''
     if p['offer_url'] or p['logo']:
-        img = f'<img src="{p["logo"]}" alt="{esc(p["title"])} logo" width="180" height="180" loading="lazy" decoding="async">' if p['logo'] else ''
+        # NOT lazy, and high priority. This is the largest thing above the fold on a
+        # review page, which makes it the element Largest Contentful Paint is timing.
+        # Deferring the image you are being measured on is the classic own goal:
+        # the browser will not even start fetching it until layout has settled.
+        img = f'<img src="{p["logo"]}" alt="{esc(p["title"])} logo" width="180" height="180" fetchpriority="high" decoding="async">' if p['logo'] else ''
         btn = f'<a class="btn" href="{p["offer_url"]}" rel="sponsored nofollow noopener" target="_blank">{esc(p["btn"])}</a>' if p['offer_url'] else ''
         offer = f'<div class="offer">{img}{btn}</div>'
 
@@ -1136,7 +1143,7 @@ for parent in TOP:
                          + ''.join(f'<a href="{cat_url(k)}">{cat_icon(k, 34)}{esc(catname[k])}</a>'
                                    for k in sibs_cat) + '</div></div>')
         body = (crumbs(cr) + f'<div class="layout cat-{c}"><main>'
-                f'<div class="hubhead">{cat_icon(c, 64)}<h1>Compare {esc(catname[c])}</h1></div>'
+                f'<div class="hubhead">{cat_icon(c, 64, eager=True)}<h1>Compare {esc(catname[c])}</h1></div>'
                 f'<div class="hub-intro">{esc(intro)}</div>'
                 + DISCLOSURE + table
                 + sib_links + '</main>' + sidebar(c) + '</div>')
@@ -1165,7 +1172,7 @@ for parent in TOP:
                    f'<span style="font-size:14px;font-weight:400;color:#5b6875">({len(lst)} providers)</span></h2>'
                    f'<div class="grid">{chips}</div>')
     body = (crumbs(cr) + f'<div class="layout cat-{parent}"><main>'
-            f'<div class="hubhead">{cat_icon(parent, 64)}<h1>Compare UK {NAVNAME[parent]} Deals</h1></div>'
+            f'<div class="hubhead">{cat_icon(parent, 64, eager=True)}<h1>Compare UK {NAVNAME[parent]} Deals</h1></div>'
             f'<div class="hub-intro">Browse every {NAVNAME[parent].lower()} category on Compare100 and compare UK providers side by side.</div>'
             + blocks + '</main>' + sidebar(parent) + '</div>')
     _su = section_url(parent)
@@ -1467,6 +1474,69 @@ for u, m in urls:
     sm.append(f'<url><loc>{SITE}{u}</loc><lastmod>{m}</lastmod></url>')
 sm.append('</urlset>')
 open(os.path.join(OUT, 'sitemap.xml'), 'w').write('\n'.join(sm))
+
+# ---- RSS feed
+# WordPress served one at /feed/ and Pinterest was subscribed to it. Nothing has
+# generated it since the migration, so Pinterest has been reporting the feed as
+# unfetchable ever since. The Worker maps /feed/ onto this file and sets the
+# content type, because /feed/ has no extension for the asset router to type it by.
+#
+# Newest first, by the date the page was last checked or modified. Absolute URLs
+# throughout: relative ones are invalid in RSS, and a reader has no page to
+# resolve them against.
+def _rfc822(iso):
+    try:
+        return datetime.strptime(iso, '%Y-%m-%d').strftime('%a, %d %b %Y 09:00:00 +0000')
+    except Exception:
+        return datetime.now().strftime('%a, %d %b %Y 09:00:00 +0000')
+
+_MIME = {'.webp': 'image/webp', '.png': 'image/png', '.jpg': 'image/jpeg',
+         '.jpeg': 'image/jpeg', '.gif': 'image/gif', '.svg': 'image/svg+xml'}
+
+_feed_items = sorted((x for x in posts if x.get('status', 'publish') == 'publish'),
+                     key=lambda x: x['modified'], reverse=True)[:30]
+_rss = ['<?xml version="1.0" encoding="UTF-8"?>',
+        '<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"',
+        '     xmlns:atom="http://www.w3.org/2005/Atom"',
+        '     xmlns:media="http://search.yahoo.com/mrss/">',
+        '<channel>',
+        '<title>Compare100</title>',
+        f'<link>{SITE}/</link>',
+        '<description>UK providers compared side by side &#8212; insurance, money, travel, '
+        'mobiles, utilities, motoring and shopping. Figures checked against each '
+        'provider&#8217;s own published terms.</description>',
+        '<language>en-GB</language>',
+        f'<lastBuildDate>{_rfc822(max((x["modified"] for x in _feed_items), default=""))}</lastBuildDate>',
+        f'<atom:link href="{SITE}/feed/" rel="self" type="application/rss+xml"/>',
+        f'<image><url>{SITE}{OG_DEFAULT}</url><title>Compare100</title>'
+        f'<link>{SITE}/</link></image>']
+for _x in _feed_items:
+    _rw = REWRITTEN.get(_x['slug'], {})
+    _u = f'{SITE}/{_x["slug"]}/'
+    _t = html.unescape(_rw.get('title') or _x['title'])
+    _d = html.unescape(_rw.get('meta_description') or _x.get('seo_desc') or '') or f'{_t} reviewed by Compare100.'
+    _img = SITE + (_x['logo'] or OG_DEFAULT)
+    _mime = _MIME.get(os.path.splitext(_img)[1].lower(), 'image/jpeg')
+    _cat = catname.get(primary_cat(_x), '')
+    _body = (f'<p><img src="{esc(_img)}" alt="{esc(_t)}" width="400" height="400"></p>'
+             f'<p>{esc(_d)}</p>'
+             + (f'<p>Checked {esc(_rw["checked"])} against the provider&#8217;s own '
+                f'published terms.</p>' if _rw.get('checked') else ''))
+    _rss += ['<item>',
+             f'<title>{esc(_t)}</title>',
+             f'<link>{_u}</link>',
+             f'<guid isPermaLink="true">{_u}</guid>',
+             f'<pubDate>{_rfc822(_x["modified"])}</pubDate>',
+             (f'<category>{esc(_cat)}</category>' if _cat else ''),
+             f'<description>{esc(_d)}</description>',
+             f'<content:encoded><![CDATA[{_body}]]></content:encoded>',
+             f'<enclosure url="{esc(_img)}" length="0" type="{_mime}"/>',
+             f'<media:content url="{esc(_img)}" medium="image" type="{_mime}"/>',
+             '</item>']
+_rss += ['</channel>', '</rss>']
+open(os.path.join(OUT, 'feed.xml'), 'w', encoding='utf-8').write(
+    '\n'.join(l for l in _rss if l))
+print(f'feed    {len(_feed_items)} items written to /feed/')
 # robots.txt — AI crawlers are deliberately ALLOWED. Bing already sends this site
 # 42x the traffic Google does, and Bing feeds ChatGPT; being the source a chatbot
 # cites is free referral traffic an affiliate site cannot otherwise buy. The only
