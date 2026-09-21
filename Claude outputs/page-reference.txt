@@ -1,0 +1,115 @@
+page_slug | section | provider_or_product | verification_date | has_headline | key_facts
+--------------------------------------------------------------------------------------------------------------
+aa-car-check | HPI Checks | AA Car Check | 2026-09-21 | yes | 11
+aa-vehicle-inspections | Vehicle Inspections | AA Vehicle Inspections Review: £110 to £339, With a Battery Test | 2026-09-15 | yes | 9
+about-us | (none) | About Compare100 | 2026-08-16 | no | 9
+admiral-car-insurance-review | Car Insurance Deals | Admiral Car Insurance Review | 2026-08-16 | no | 11
+admiral-home-insurance-review | Home Insurance | Admiral Home Insurance Review: Buildings and Contents Cover | 2026-08-16 | no | 10
+admiral-motorbike-insurance-review | Motorbike Insurance | Admiral Motorbike Insurance Review | 2026-08-16 | no | 9
+admiral-van-insurance-review | Van Insurance | Admiral Van Insurance Review | 2026-08-16 | no | 8
+aldermore-savings-account | Savings Accounts | Aldermore Savings Accounts: The Fixed-Term Specialist | 2026-08-15 | no | 13
+aph-airport-parking | Airport Parking | APH Airport Parking Review | 2026-09-15 | yes | 9
+auto-trader-cars-for-sale | Cars for Sale | Auto Trader Cars for Sale | 2026-08-15 | no | 14
+aviva-car-insurance-review | Car Insurance Deals | Aviva Car Insurance | 2026-08-22 | no | 8
+aviva-landlord-insurance-review | Landlord's Insurance | Aviva Landlord Insurance Review | 2026-08-26 | no | 10
+aviva-over-50s-insurance | Over 50's Insurance | Aviva Over 50s Life Insurance Review | 2026-09-01 | no | 10
+aviva-travel-insurance-review | Travel Insurance | Aviva Travel Insurance Review | 2026-08-16 | no | 11
+axa-home-insurance-review | Home Insurance | AXA Home Insurance Review | 2026-08-23 | no | 9
+axa-landlord-insurance-review | Landlord's Insurance | AXA Landlord Insurance Review | 2026-08-26 | no | 10
+axa-tradesman-insurance-review | Tradesman Insurance | AXA Tradesman Insurance Review | 2026-09-02 | no | 10
+barclays-personal-loan | Loans | Barclays Personal Loan: the Rate You Only See Once You Bank There | 2026-09-13 | yes | 6
+branded-beauty-luxe-beauty-deals | Health and Beauty | Branded Beauty Review: Clearance Prices on High Street Makeup Brands | 2026-09-17 | yes | 8
+breeze-esim-review | SIM Only | breeze eSIM Review: Plans, Networks and the Small Print | 2026-09-06 | no | 10
+british-seniors-over-50s-insurance | Over 50's Insurance | British Seniors Over 50s Life Insurance Review | 2026-09-14 | yes | 15
+brittany-ferries-ferry-tickets | Ferry Tickets | Brittany Ferries Ferry Tickets: Routes, Fares and the Rules Behind Them | 2026-09-07 | no | 12
+business-mobiles-deals | Business Mobiles | BusinessMobiles.com Review: Business Contracts Across EE, O2, Vodafone and Three | 2026-09-06 | no | 10
+carmoola-car-finance | Car Finance | Carmoola Car Finance Review: Rates, Limits and What It Won't Fund | 2026-09-04 | no | 12
+carphone-warehouse-new-phone-contract-deals | New Phone Contract | Carphone Warehouse New Phone Contract Deals: The Real 24-Month Cost | 2026-09-04 | no | 12
+carphone-warehouse-phones | Just Phones | Carphone Warehouse Phones: Prices, Networks and the Small Print | 2026-09-04 | no | 10
+carphone-warehouse-sim-only | SIM Only | Carphone Warehouse SIM Only | 2026-09-16 | yes | 12
+carwow-cars-for-sale | Cars for Sale | Carwow Cars for Sale | 2026-08-15 | no | 12
+cazoo-cars-for-sale | Cars for Sale | Cazoo Cars for Sale | 2026-08-15 | no | 11
+cazoo-sell-my-car | Sell Your Car | Cazoo Sell My Car | 2026-09-15 | yes | 12
+close-brothers-savings-account | Savings Accounts | Close Brothers Savings: £10,000 Minimum, 4.85% Ceiling | 2026-08-15 | no | 13
+comfort-breakdown-insurance-review | Breakdown Insurance | Comfort Insurance Motorhome Breakdown Cover Review | 2026-08-31 | no | 12
+compare-boat-insurance-review | Boat Insurance | Compare-Boat-Insurance.co.uk Boat Insurance | 2026-08-23 | no | 11
+compare-your-travel-insurance | Travel Insurance | Compare Your Travel Insurance Review: 26 Insurers, One Gibraltar Licence | 2026-09-17 | yes | 9
+coverwise-travel-insurance | Travel Insurance | Coverwise Travel Insurance Review: Five Levels, One Medical Limit | 2026-09-18 | yes | 10
+cynergy-bank-savings-account | Savings Accounts | Cynergy Bank Savings Accounts: Rates, Bonus Trap and Verdict | 2026-08-15 | no | 13
+direct-line-car-insurance-review | Car Insurance Deals | Direct Line Car Insurance | 2026-08-19 | no | 8
+direct-line-landlord-insurance-review | Landlord's Insurance | Direct Line Landlord Insurance | 2026-08-21 | no | 10
+eversure-breakdown-insurance-review | Breakdown Insurance | Eversure Breakdown Cover Review | 2026-08-29 | no | 12
+first-direct-1st-account | Current Accounts | first direct 1st Account: the £175 Switch, the 7% Saver and the HSBC Rule Behind Both | 2026-09-12 | yes | 10
+game-over-bean-bags | Gaming and Accessories | Game Over Bean Bags | 2026-09-18 | yes | 8
+hastings-direct-car-insurance-review | Car Insurance Deals | Hastings Direct Car Insurance Review | 2026-08-22 | no | 9
+haven-knox-johnston-boat-insurance-review | Boat Insurance | Haven Knox-Johnston Boat Insurance | 2026-08-23 | no | 14
+hey-broadband | Broadband | Hey! Broadband review | 2026-09-18 | yes | 10
+hiscox-tradesman-insurance-review | Tradesman Insurance | Hiscox Tradesman Insurance | 2026-08-25 | no | 8
+holiday-extras-airport-parking | Airport Parking | Holiday Extras Airport Parking: Prices, Fare Types and What the Voucher Is Worth | 2026-09-11 | yes | 10
+home-emergency-assist-plumbing-insurance | Plumbing Insurance | Home Emergency Assist Review | 2026-09-19 | yes | 10
+homeserve-plumbing-insurance | Plumbing Insurance | HomeServe Plumbing and Drainage Insurance | 2026-09-14 | yes | 10
+hostelling-international-hostels | Hostels | Hostelling International Hostels: Membership, Booking Terms and What HI Actually Runs | 2026-09-05 | no | 14
+hostelworld-hostels | Hostels | Hostelworld Review: The Deposit, the Balance and What You Pay at the Door | 2026-09-05 | no | 15
+hpi-checks | HPI Checks | HPI Check Review: The Register Behind Everyone Else's Car Check | 2026-09-07 | no | 10
+insurance2go-phone-insurance | Phone Insurance | Insurance2go Phone Insurance Review | 2026-09-01 | no | 14
+insure4boats-boat-insurance-review | Boat Insurance | Insure4Boats Review: Small Craft, Jet Skis and the Conditions Attached | 2026-08-30 | no | 13
+insuremore-travel-insurance-review | Travel Insurance | InsureMore Travel Insurance Review | 2026-08-31 | no | 12
+john-lewis-home-insurance-review | Home Insurance | John Lewis Home Insurance Review | 2026-08-21 | no | 13
+john-lewis-televisions | Televisions | John Lewis Televisions | 2026-09-20 | yes | 8
+kwik-fit-servicing | Servicing | Kwik Fit Servicing Review: Prices, Guarantees and the Paperwork | 2026-09-08 | no | 10
+kwik-fit-tyres | Tyres | Kwik Fit Tyres: Fitted Prices, the Label and What the Law Demands | 2026-09-08 | no | 12
+laterooms-hotel-deals | Hotels | LateRooms Hotel Deals | 2026-09-19 | yes | 8
+leeds-building-society-cash-isa | ISA's | Leeds Building Society Cash ISA Review | 2026-08-15 | no | 10
+legal-general-life-insurance | Life Insurance | Legal & General Life Insurance Review: Underwriting, Cover and Claims | 2026-09-03 | no | 14
+lloyds-bank-cash-isa | ISA's | Lloyds Bank Cash ISA Review | 2026-08-15 | no | 12
+lloyds-bank-club-lloyds-account | Current Accounts | Club Lloyds: 3.00% on a Narrow Band, 8.00% on the Saver Behind It | 2026-09-16 | yes | 12
+lloyds-bank-personal-loan | Loans | Lloyds Bank Personal Loan | 2026-09-13 | yes | 10
+loungekey-airport-lounge | Airport Lounge | LoungeKey Airport Lounge | 2026-09-21 | yes | 10
+lv-home-insurance-review | Home Insurance | LV= Home Insurance Review | 2026-08-21 | no | 14
+moneybox-cash-isa | ISA's | Moneybox Cash ISA Review | 2026-08-15 | no | 11
+motors-co-uk-cars-for-sale | Cars for Sale | Motors.co.uk Cars for Sale | 2026-08-15 | no | 12
+mymoneycomparison-breakdown-insurance-review | Breakdown Insurance | MyMoneyComparison Breakdown Insurance Review | 2026-09-02 | no | 12
+national-tyres-and-autocare-servicing | Servicing | National Tyres and Autocare Servicing: Prices, the MOT Sum and the Halfords Stamp | 2026-09-08 | no | 12
+nationwide-cash-isa | ISA's | Nationwide Cash ISA Review | 2026-08-15 | no | 12
+nationwide-flexdirect-account | Current Accounts | Nationwide FlexDirect Review: 5% AER, £295 of Value, and the £1,500 a Month It Asks For | 2026-09-09 | no | 10
+nationwide-savings-account | Savings Accounts | Nationwide Savings Accounts: Member Rates and the Catch | 2026-08-15 | no | 12
+natwest-credit-cards | Credit Cards | NatWest Credit Cards: Eight Cards, from 12.9% to 40.7% APR | 2026-09-09 | no | 16
+noble-marine-boat-insurance-review | Boat Insurance | Noble Marine Boat Insurance Review | 2026-09-01 | no | 12
+octopus-energy-gas | Gas | Octopus Energy Gas: The Unit Rate, The Standing Charge and Who Sets Them | 2026-09-16 | yes | 13
+parkers-cars-for-sale | Cars for Sale | Parkers Cars for Sale | 2026-08-16 | no | 13
+performance-direct-motorbike-insurance-review | Motorbike Insurance | Performance Direct Motorbike Insurance Review | 2026-09-02 | no | 10
+pitchup-campsites-and-resorts | Campsites and Resorts | Pitchup.com Review: What the 15% Deposit Buys, and Who You Are Really Booking With | 2026-09-09 | no | 14
+protect-your-bubble-phone-insurance | Phone Insurance | Protect Your Bubble Phone Insurance: The Price, The Excess and Who Actually Pays | 2026-09-13 | yes | 10
+purple-parking-airport-parking | Airport Parking | Purple Parking Review: Prices, Car Parks and the Small Print | 2026-09-07 | no | 12
+quick-mortgages | Mortgage Deals | Quick Mortgages Review: A Fee-Free Birmingham Broker Paid by the Lender | 2026-09-05 | no | 12
+quotezone-car-insurance-review | Car Insurance Deals | Quotezone.co.uk Car Insurance | 2026-08-16 | no | 10
+quotezone-home-insurance-review | Home Insurance | Quotezone.co.uk Home Insurance | 2026-08-16 | no | 13
+quotezone-landlord-insurance-review | Landlord's Insurance | Quotezone.co.uk Landlord Insurance | 2026-08-17 | no | 15
+quotezone-motorbike-insurance-review | Motorbike Insurance | Quotezone.co.uk Motorbike Insurance | 2026-08-18 | no | 10
+quotezone-tradesman-insurance-review | Tradesman Insurance | Quotezone.co.uk Tradesman Insurance | 2026-08-19 | no | 10
+quotezone-travel-insurance-review | Travel Insurance | Quotezone.co.uk Travel Insurance | 2026-08-19 | no | 13
+quotezone-van-insurance-review | Van Insurance | Quotezone.co.uk Van Insurance | 2026-08-19 | no | 12
+rac-vehicle-inspections | Vehicle Inspections | RAC Vehicle Inspections Review: 307 Points and a 20-Mile Road Test | 2026-09-14 | yes | 9
+row-co-uk-phone-insurance | Phone Insurance | Row.co.uk Phone Insurance Review | 2026-09-03 | no | 15
+saga-landlord-insurance-review | Landlord's Insurance | Saga Landlord Insurance Review | 2026-08-30 | no | 11
+saga-travel-insurance-review | Travel Insurance | Saga Travel Insurance Review | 2026-08-16 | no | 13
+samboat-boat-rental |  Catamaran or Motorboat Worldwide" | SamBoat Review: 50,000 Boats, a French Contract and Who Carries the Risk | 2026-09-19 | yes | 12
+santander-credit-cards | Credit Cards | Santander Credit Cards Review: Five Cards, 34 Months at 0% and the Fee Arithmetic | 2026-09-12 | yes | 8
+santander-savings-account | Savings Accounts | Santander Savings Accounts: What the 8% Actually Pays | 2026-08-15 | no | 12
+simply-business-tradesman-insurance-review | Tradesman Insurance | Simply Business Tradesman Insurance Review | 2026-09-03 | no | 10
+smart-cover-plumbing-insurance | Plumbing Insurance | Smart Cover Plumbing and Drainage Insurance | 2026-08-30 | no | 11
+start-rescue-breakdown-insurance-review | Breakdown Insurance | Start Rescue Breakdown Cover Review | 2026-08-23 | no | 14
+tesco-mobile-new-phone-contract | New Phone Contract | Tesco Mobile Phone Contracts Reviewed | 2026-09-10 | no | 11
+the-aa-breakdown-insurance-review | Breakdown Insurance | AA Breakdown Cover Review | 2026-08-27 | no | 15
+the-aa-europa-bike-insurance-review | Motorbike Insurance | AA Motorbike Insurance (Europa Bike) Review | 2026-08-29 | no | 10
+the-aa-van-insurance-review | Van Insurance | AA Van Insurance | 2026-08-28 | no | 15
+total-car-check | HPI Checks | Total Car Check Review: A £9.99 Report and a Free One That Is Genuinely Free | 2026-09-11 | no | 11
+towergate-boat-insurance-review | Boat Insurance | Towergate Boat Insurance | 2026-08-28 | no | 15
+towergate-tradesman-insurance | Tradesman Insurance | Towergate Tradesman Insurance (now Everywhen) | 2026-09-21 | yes | 12
+trading-212-cash-isa | ISA's | Trading 212 Cash ISA Review | 2026-08-15 | no | 10
+trainline-train-tickets | Train Tickets | Trainline Review: The Booking Fee, the Refund Ladder and Who Pays When You Are Late | 2026-09-20 | yes | 8
+tyres-net | Tyres | Tyres.net Review: What 750 Prices for One Tyre Size Leave Out | 2026-09-20 | yes | 10
+voyager-travel-insurance-review | Travel Insurance | Voyager Travel Insurance Review | 2026-08-28 | no | 10
+wicked-quotes-motorbike-insurance-review | Motorbike Insurance | Wicked Quotes Motorbike Insurance Review | 2026-08-31 | no | 10
+--------------------------------------------------------------------------------------------------------------
+111 pages | 1239 key facts | 29 with a headline | expected maximum rows 1268

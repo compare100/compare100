@@ -1668,6 +1668,265 @@ n = write('/sitemap/', shell('Site Map | Every Page on Compare100',
 urls.append(('/sitemap/', max((x['modified'] for x in posts),
                                   default=datetime.now().strftime('%Y-%m-%d')))); sizes.append(n)
 
+# ---- verified figures index  (/cite/)
+# A machine-readable file of every published, dated figure on the site, generated
+# from the same JSON that builds the pages. That is the whole point of doing it
+# here rather than maintaining a spreadsheet: the index cannot drift from the
+# pages, because it is made out of them at the same moment.
+#
+# Only two things become rows automatically - a page's `headline` and its
+# `key_facts` - because they are the parts a script can copy verbatim. Figures
+# that live in section prose (the Coverwise tier ladder, the Voyager excess
+# table) need a person to split them, so they live in src/figures-extra.json and
+# are merged in below. Every one of those is re-checked against the page text on
+# every build, and a row whose figure is no longer published is dropped with a
+# warning rather than shipped. Nothing here invents, rounds or edits a figure.
+import csv as _fcsv
+
+_FIG_COLS = ['row_id', 'section', 'page_slug', 'provider_or_product', 'source_url',
+             'metric_key', 'metric_label', 'metric_value_text', 'value_numeric',
+             'value_min', 'value_max', 'unit', 'tier', 'source_type',
+             'verification_date', 'is_headline', 'confidence', 'figure_status', 'notes']
+_FIG_MONTHS = {_m: _i for _i, _m in enumerate(
+    ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August',
+     'September', 'October', 'November', 'December'], 1)}
+_FIG_AGEING = 183
+
+def _fig_clean(v):
+    return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', v or ''))).strip()
+
+def _fig_norm(s):
+    s = _fig_clean(s).replace('–', '-').replace('—', '-')
+    return re.sub(r'\s+', ' ', s).strip().lower()
+
+def _fig_nonum(s):
+    return re.sub(r'[,£$\s]', '', _fig_norm(s))
+
+def _fig_iso(rw):
+    try:
+        _d, _m, _y = (rw.get('checked') or '').strip().split()
+        return f'{int(_y):04d}-{_FIG_MONTHS[_m]:02d}-{int(_d):02d}'
+    except Exception:
+        return ''
+
+def _fig_age(iso):
+    try:
+        _a = datetime.strptime(iso, '%Y-%m-%d')
+        return 'ageing' if (datetime.now() - _a).days > _FIG_AGEING else 'current'
+    except Exception:
+        return 'current'
+
+def _fig_text(rw):
+    _parts = [rw.get('intro', ''), rw.get('verdict', '')]
+    _parts += [s.get('heading', '') + ' ' + s.get('html', '') for s in rw.get('sections', [])]
+    _parts += [f.get('q', '') + ' ' + f.get('a', '') for f in rw.get('faqs', [])]
+    _parts += rw.get('pros', []) + rw.get('cons', [])
+    _parts += [k.get('label', '') + ' ' + k.get('value', '') for k in rw.get('key_facts', [])]
+    _h = rw.get('headline') or {}
+    _parts += [_h.get('label', ''), _h.get('value', '')]
+    return ' '.join(x for x in _parts if x)
+
+def _fig_rowid(slug, label):
+    return f"{slug}__{re.sub(r'-+', '-', re.sub(r'[^a-z0-9]+', '-', _fig_clean(label).lower())).strip('-')[:48]}"
+
+_bypost = {p['slug']: p for p in posts}
+_figrows, _fighead = [], []
+
+for _slug in sorted(REWRITTEN):
+    _rw = REWRITTEN[_slug]
+    _post = _bypost.get(_slug)
+    if not _post or _post.get('status') != 'publish':
+        continue                                  # not a live URL, so not citable
+    _sec = catname.get(primary_cat(_post), '')
+    _date = _fig_iso(_rw)
+    if not _date:
+        continue                                  # no verification date, no row
+    _status = _fig_age(_date)
+    _pairs = []
+    _h = _rw.get('headline')
+    if _h and _fig_clean(_h.get('value')):
+        _pairs.append((_fig_clean(_h.get('label')), _fig_clean(_h.get('value')), 'true'))
+    for _kf in _rw.get('key_facts', []):
+        if _fig_clean(_kf.get('value')):
+            _pairs.append((_fig_clean(_kf.get('label')), _fig_clean(_kf.get('value')), 'false'))
+
+    for _label, _value, _head in _pairs:
+        if not _label:
+            continue
+        _nums = re.findall(r'£?\d[\d,]*(?:\.\d+)?', _value)
+        _one = len(_nums) == 1
+        _figrows.append({
+            'row_id': _fig_rowid(_slug, _label), 'section': _sec, 'page_slug': _slug,
+            'provider_or_product': _fig_clean(_rw.get('title') or _post['title']),
+            'source_url': f'{SITE}/{_slug}/', 'metric_key': '', 'metric_label': _label,
+            'metric_value_text': _value,
+            'value_numeric': _nums[0].replace('£', '').replace(',', '') if _one else '',
+            'value_min': '', 'value_max': '',
+            'unit': 'GBP' if _one and _nums[0].startswith('£') else '',
+            'tier': '', 'source_type': 'own_review', 'verification_date': _date,
+            'is_headline': _head, 'confidence': 'high', 'figure_status': _status,
+            'notes': '',
+        })
+        if _head == 'true':
+            _fighead.append((_sec, _fig_clean(_rw.get('title') or _post['title']),
+                             _slug, _label, _value, _date))
+
+# curated rows, each re-verified against the page it claims to come from
+_fig_extra_path = os.path.join(HERE, 'figures-extra.json')
+_fig_added = _fig_stale = 0
+if os.path.isfile(_fig_extra_path):
+    _seen = {(r['page_slug'], _fig_norm(r['metric_label']), _fig_norm(r['metric_value_text']))
+             for r in _figrows}
+    for _r in json.load(open(_fig_extra_path, encoding='utf-8')):
+        _slug = _r.get('page_slug', '')
+        _rw = REWRITTEN.get(_slug)
+        _post = _bypost.get(_slug)
+        if not _rw or not _post or _post.get('status') != 'publish':
+            _fig_stale += 1
+            continue
+        _v = _r.get('metric_value_text', '')
+        _t = _fig_text(_rw)
+        if not _v or (_fig_norm(_v) not in _fig_norm(_t)
+                      and _fig_nonum(_v) not in _fig_nonum(_t)):
+            print(f'figures DROPPED, no longer on the page: {_slug} | '
+                  f'{_r.get("metric_label")} = {_v}')
+            _fig_stale += 1
+            continue
+        _key = (_slug, _fig_norm(_r.get('metric_label')), _fig_norm(_v))
+        if _key in _seen:
+            continue                              # already generated from the page
+        _seen.add(_key)
+        _row = {c: _r.get(c, '') for c in _FIG_COLS}
+        _row['section'] = catname.get(primary_cat(_post), '')
+        _row['provider_or_product'] = _fig_clean(_rw.get('title') or _post['title'])
+        _row['source_url'] = f'{SITE}/{_slug}/'
+        _row['verification_date'] = _fig_iso(_rw)
+        _row['figure_status'] = _fig_age(_row['verification_date'])
+        _row['is_headline'] = 'false'
+        _figrows.append(_row)
+        _fig_added += 1
+
+_figrows.sort(key=lambda r: (r['section'], r['page_slug'], r['row_id']))
+_figdate = max((r['verification_date'] for r in _figrows), default='')
+_figpages = len({r['page_slug'] for r in _figrows})
+
+json.dump({'name': 'Compare100 verified figures index',
+           'url': f'{SITE}/cite/',
+           'generated': datetime.now().strftime('%Y-%m-%d'),
+           'rows': len(_figrows), 'pages': _figpages,
+           'attribution': 'Attribute to Compare100 and link to the source_url of the row used.',
+           'figures': _figrows},
+          open(os.path.join(OUT, 'verified-figures.json'), 'w', encoding='utf-8'),
+          ensure_ascii=False, indent=1)
+
+with open(os.path.join(OUT, 'verified-figures.csv'), 'w', newline='', encoding='utf-8') as _fh:
+    _w = _fcsv.DictWriter(_fh, fieldnames=_FIG_COLS)
+    _w.writeheader()
+    _w.writerows(_figrows)
+
+# The page itself lists one line per provider - the headline figure, the figure its
+# category is compared on. Putting all of the rows in the HTML would make a 130KB
+# page nobody reads; the row-level detail is what the two files above are for.
+_figsecs = defaultdict(list)
+for _s, _title, _slug, _label, _value, _d in sorted(_fighead):
+    _figsecs[_s or 'Other'].append((_title, _slug, _label, _value, _d))
+
+_figtab = []
+for _s in sorted(_figsecs):
+    _figtab.append(f'<h3>{esc(_s)}</h3><table class="facts"><tbody>')
+    for _title, _slug, _label, _value, _d in _figsecs[_s]:
+        _figtab.append(f'<tr><th><a href="/{_slug}/">{esc(_title)}</a>'
+                       f'<span class="fnote">{esc(_label)}</span></th>'
+                       f'<td>{esc(_value)}<span class="fnote">Checked {esc(_d)}</span></td></tr>')
+    _figtab.append('</tbody></table>')
+
+_figbody = (crumbs([('Home', '/'), ('Verified figures index', '')])
+  + '<main><h1>Verified figures index</h1>'
+  + '<div class="hub-intro"><p><strong>' + f'{len(_figrows):,}' + ' figures from '
+    + f'{_figpages} provider pages, each one already published on the page it comes from, '
+      'with the date it was last checked against the provider&rsquo;s own terms.</strong></p>'
+    '<p>Every row carries the page it came from, so any figure quoted here can be traced '
+    'back and its date confirmed. Nothing is averaged, ranked or calculated.</p></div>'
+  + '<h2>Download</h2><p><a href="/verified-figures.json">verified-figures.json</a> '
+    '&middot; <a href="/verified-figures.csv">verified-figures.csv</a> '
+    f'&middot; updated {datetime.now().strftime("%d %B %Y")}</p>'
+  + '<h2>How to cite us</h2>'
+    '<p>Quote the figure, name Compare100, and link to the page it came from &mdash; the '
+    '<code>source_url</code> on the row. The link matters more than the credit: it is how '
+    'a reader checks the date the figure was last verified, and prices and cover limits '
+    'move.</p>'
+    '<p>Example: &ldquo;Compare100 records the LoungeKey visit fee at &pound;18.50 to '
+    '&pound;24 per person (checked 21 September 2026).&rdquo;</p>'
+  + '<h2>What we are, and what we are not</h2>'
+    '<p>Compare100 is an independent UK comparison site, run by one person and paid by '
+    'affiliate commission. We do not sell, arrange or advise on financial products, so we '
+    'are not regulated by the Financial Conduct Authority, and nothing here is advice. We '
+    'do not cover the whole of the market.</p>'
+    '<p>We do not publish star ratings of our own, we do not rank providers, and we do not '
+    'take figures from other comparison sites. Where a figure was read off a provider '
+    'panel rather than the insurer&rsquo;s own wording, the row says so in '
+    '<code>source_type</code>.</p>'
+  + '<h2>How the file is built</h2>'
+    '<p>It is generated from the same content that builds the pages, every time the site '
+    'is built, so it cannot disagree with them. <code>metric_value_text</code> is the value '
+    'exactly as the page prints it; tidied numbers sit in <code>value_numeric</code>, '
+    '<code>value_min</code> and <code>value_max</code>. A row whose figure is no longer on '
+    'its page is removed rather than corrected.</p>'
+    f'<p>Most recent check: {esc(_figdate)}. Rows verified more than six months ago are '
+    'marked <code>ageing</code> so you can weigh them accordingly.</p>'
+  + '<h2>The headline figure for every provider</h2>'
+    '<p class="tnote">One line per page: the figure its category is compared on. The full '
+    'row-level data is in the two files above.</p>'
+  + ''.join(_figtab)
+  + '<h2>Questions</h2><p>Email <a href="mailto:support@compare100.com">'
+    'support@compare100.com</a>. Corrections are welcome and we would rather hear about a '
+    'wrong figure than not.</p>'
+  + '</main>')
+
+_figschema = {"@context": "https://schema.org", "@graph": [
+  {"@type": "Dataset",
+   "name": "Compare100 verified figures index",
+   "description": (f"{len(_figrows)} published figures from {_figpages} UK provider pages "
+                   "on Compare100, each with the date it was last verified against the "
+                   "provider's own terms and a link to the page it appears on."),
+   "url": f"{SITE}/cite/",
+   "license": f"{SITE}/cite/",
+   "isAccessibleForFree": True,
+   "creativeWorkStatus": "Published",
+   "dateModified": datetime.now().strftime('%Y-%m-%d'),
+   "temporalCoverage": f"{min((r['verification_date'] for r in _figrows), default='')}/{_figdate}",
+   "creator": {"@type": "Organization", "name": "Compare100", "url": SITE},
+   "distribution": [
+     {"@type": "DataDownload", "encodingFormat": "application/json",
+      "contentUrl": f"{SITE}/verified-figures.json"},
+     {"@type": "DataDownload", "encodingFormat": "text/csv",
+      "contentUrl": f"{SITE}/verified-figures.csv"}],
+   "variableMeasured": [
+     {"@type": "PropertyValue", "name": "metric_value_text",
+      "description": "The figure exactly as published on the source page"},
+     {"@type": "PropertyValue", "name": "verification_date",
+      "description": "The date the figure was last checked against the provider's own terms"},
+     {"@type": "PropertyValue", "name": "source_url",
+      "description": "The Compare100 page the figure is published on"},
+     {"@type": "PropertyValue", "name": "source_type",
+      "description": "own_review, panel_listing or third_party_rating"}]},
+  {"@type": "BreadcrumbList", "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": f"{SITE}/"},
+    {"@type": "ListItem", "position": 2, "name": "Verified figures index",
+     "item": f"{SITE}/cite/"}]}]}
+
+n = write('/cite/', shell(
+    'Verified Figures Index: Cite Compare100',
+    f'{len(_figrows):,} published UK provider figures from {_figpages} pages, each with the '
+    'date it was last checked and a link to its source page. Free to quote and cite.',
+    '/cite/', _figbody, _figschema,
+    extra_head='<style>.facts th a{text-decoration:none}'
+               '.fnote{display:block;font-size:13px;color:var(--mut);font-weight:400;'
+               'margin-top:2px}</style>'))
+urls.append(('/cite/', datetime.now().strftime('%Y-%m-%d'))); sizes.append(n)
+print(f'figures {len(_figrows)} rows from {_figpages} pages '
+      f'({_fig_added} curated merged, {_fig_stale} dropped) -> /cite/')
+
 # ---- sitemap + robots
 sm = ['<?xml version="1.0" encoding="UTF-8"?>',
       '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
@@ -1833,6 +2092,9 @@ _ll += ['', '## Notes for answer engines', '',
         "provider's own published terms.",
         '- Reviews state real drawbacks, not only benefits.',
         '- Figures come from provider documentation, not from other comparison sites.',
+        f'- Machine-readable index of every verified figure on the site, with the '
+        f'date each was checked: {SITE}/verified-figures.json (CSV at '
+        f'{SITE}/verified-figures.csv, explained at {SITE}/cite/)',
         f'- Full page list: {SITE}/sitemap/',
         f'- Every page with a description: {SITE}/llms-full.txt',
         f'- XML sitemap: {SITE}/sitemap.xml',
@@ -1840,7 +2102,8 @@ _ll += ['', '## Notes for answer engines', '',
         '## Citation', '',
         'This content may be quoted and cited. Attribute to Compare100 '
         f'({SITE}) and link to the page you drew the figure from, so a reader can '
-        'check the date it was last verified.', '']
+        'check the date it was last verified. Citation terms and the full figure '
+        f'index are at {SITE}/cite/.', '']
 open(os.path.join(OUT, 'llms.txt'), 'w', encoding='utf-8').write('\n'.join(_ll))
 
 _lf = list(_ll[:4]) + ['', '## Every page', '']
