@@ -1,5 +1,139 @@
 [
  {
+  "slug": "aa-car-check",
+  "title": "AA Car Check",
+  "meta_title": "AA Car Check Review: £14.99, or Five for £29.99",
+  "meta_description": "The AA sells a full vehicle history check for £14.99, or five for £29.99. What the £30,000 guarantee covers, who you are buying from, and what it misses.",
+  "checked": "21 September 2026",
+  "headline": {
+   "label": "Cheapest full check",
+   "value": "£14.99 for one full check, or £29.99 for five (£6.00 each)"
+  },
+  "intro": "<p>A full AA car check costs <strong>£14.99</strong> for a single registration, or <strong>£29.99</strong> for a Multicheck covering five vehicles — £6.00 each. Both prices were taken on 21 September 2026 from theaacarcheck.com and from the AA's own vehicle-check page, which quote the same figures. The report is delivered on screen the moment you pay, with a copy emailed to you.</p><p>For that money you get the searches a private buyer actually worries about: outstanding finance, a stolen marker on the Police National Computer, an insurance total loss, a mileage discrepancy, plate and colour changes, the number of previous keepers, a DVLA scrapped marker and a V5C and VIN match, plus what the site calls \"more than 72 other pieces of information\". Behind it sits a register of over 7 million current finance agreements. The AA attaches a guarantee of up to £30,000, running for two years from the date of the check.</p><p>The badge is the AA's; the report is not. Every page of the service carries the line <strong>\"Powered by HPI\"</strong>, and the small print is blunter than that: the contract for the check itself is with <strong>HPI Limited</strong>, company number 4068979, of 8A Platform, New Station Street, Leeds LS1 4JB. The website it sits on belongs to Automobile Association Developments Limited (company 1878835, Fanum House, Basing View, Basingstoke RG21 4EA), and the trade marks belong to AA Brand Management Limited. The customer line, 0113 222 2012, is a Leeds number. None of that costs you anything — HPI compiles the register the rest of the trade licenses, and as the next section shows, the AA badge is the cheaper way to buy it in bulk — but it decides who you are arguing with if the report turns out to be wrong.</p>",
+  "key_facts": [
+   {
+    "label": "Full check",
+    "value": "£14.99 for one registration"
+   },
+   {
+    "label": "Multicheck",
+    "value": "£29.99 for five vehicles — £6.00 each"
+   },
+   {
+    "label": "Who you contract with",
+    "value": "HPI Limited, company 4068979, 8A Platform, New Station Street, Leeds LS1 4JB"
+   },
+   {
+    "label": "Who owns the website",
+    "value": "Automobile Association Developments Limited, company 1878835, Fanum House, Basing View, Basingstoke RG21 4EA"
+   },
+   {
+    "label": "Guarantee",
+    "value": "Up to £30,000 on title, for two years from the date of the check"
+   },
+   {
+    "label": "Value claims",
+    "value": "Capped at £15,000 where a recorded total loss was missed"
+   },
+   {
+    "label": "Finance register",
+    "value": "Over 7 million current agreements"
+   },
+   {
+    "label": "Mileage register",
+    "value": "National Mileage Register, quoted at over 200 million readings"
+   },
+   {
+    "label": "Customer line",
+    "value": "0113 222 2012, Monday to Friday 8am to 6pm"
+   },
+   {
+    "label": "Same report from HPI direct",
+    "value": "£19.99 single, or £29.99 for three"
+   },
+   {
+    "label": "AA parent, year to 31 January 2026",
+    "value": "£1,505m revenue, 3.3m paid personal members, 2,753 patrols"
+   }
+  ],
+  "sections": [
+   {
+    "heading": "£14.99 once, £6.00 five times — and HPI charges more for less",
+    "html": "<p>One registration is £14.99. Five are £29.99, which works out at £6.00 apiece, and the AA prints that unit price on the buying page rather than leaving you to divide. Anybody checking two or three cars on a weekend of viewings is past the break-even before the second report: two singles cost £29.98, a penny under the bundle that covers five.</p><p>Set that against the company actually writing the reports. HPI sells the identical full check under its own brand at <strong>£19.99</strong>, and its MultiCheck bundle is <strong>£29.99 for three</strong> — £10.00 each. The AA's £29.99 buys five. Same data, same register, same Leeds call centre, and the licensee's bundle is £4.00 a check cheaper than the compiler's. HPI also sells a cut-down Basic Check at £9.99 that leaves out the finance search; the AA does not offer a stripped version at all, which is the more honest range of the two, because the finance answer is the one people are paying for.</p><p>There is no members' discount. The AA charges its 3.3 million paid personal members the same £14.99 it charges anyone else, which is worth knowing before you go looking for the member price that exists on its inspections and breakdown products.</p>"
+   },
+   {
+    "heading": "Nine registers, one report",
+    "html": "<p>The sample report names what gets searched, and it is more than the marketing bullet points suggest. The finance answer comes from agreements lenders have registered with HPI — over 7 million live at any one time. Stolen markers come from the Police National Computer. Total-loss and theft claims come from insurers' own records. Mileage readings come from the National Mileage Register, described in the report as holding over 200 million recorded mileages. On top of those sit a manufacturer recall register, a security watch register for vehicles flagged as high-risk, a plate transfer register, DVLA registration data and manufacturer specification data.</p><p>That last group is why a report runs to dozens of fields that have nothing to do with risk. The sample prints torque of 420.7 lb-ft, 425.1 BHP, 0-60 mph in 5.0s, a 165 mph maximum, combined fuel economy of 20.2 mpg and an estimated fuel cost of £2,729 over 12,000 miles. It is padding, but it is accurate padding, and it lets you check the V5C describes the car in front of you.</p><p>The searches that genuinely cannot be had for nothing are four: finance, stolen markers, insurance write-offs, and mileage readings taken from outside the MOT record. Everything else on the report — tax status, MOT expiry, first registration date, engine size, fuel type, CO2 — the DVLA publishes free.</p>"
+   },
+   {
+    "heading": "What the £30,000 promise is actually attached to",
+    "html": "<p>The guarantee has two ceilings, not one. The terms set \"the maximum limit of indemnity under the HPI Guarantee in respect of a failure to acquire good title\" at £30,000, and they attach a condition to it: you must have supplied the VIN, the registration mark, and the serial number and issue date from the V5C. Run the check on the registration alone and you have not met it. The second ceiling, £15,000, applies to a different loss — a fall in the car's market value because it had been written off or declared an insurance total loss and that was not recorded on the register when you searched.</p><p>Both run for two years from the date of the check, not from the date you bought the car. The exclusions then take out a long list: vehicles carrying a stolen or security watch alert, cars with a recorded mileage discrepancy, anything bought more than 30% below retail market value, \"Q\" prefix and suffix registrations, cars bought without a valid MOT where one was required, vehicles from salvage auctions, cloned vehicles, vehicles previously registered outside mainland Britain, and any purchase by a motor trader or anyone buying to sell on at a profit.</p><p>Read as a group, those exclusions describe the bargain-hunting, paperwork-light purchase where something is most likely to be wrong. A buyer paying close to book price for an MOT'd car with a clean V5C is well covered. A buyer tempted by something 35% under the odds is not covered at all, and that is the buyer reaching for a £14.99 check.</p>"
+   },
+   {
+    "heading": "The sample report on sale in 2026 was run in January 2017",
+    "html": "<p>The specimen report the AA publishes to show you what you are buying carries a check date of <strong>11/01/2017</strong> and a tax expiry of <strong>01 February 2017</strong>. Its subject is a 2007 Chrysler 300C SRT-8 with an estimated market value of £7,590, and its mileage table stops in 2013.</p><p>Two details give the age away as more than cosmetic. The write-off flagged on it is <strong>\"Category C\"</strong>, dated 11/02/2015. Category C no longer exists: the Association of British Insurers replaced categories A, B, C and D with A (scrap), B (break), S (structurally damaged repairable) and N (non-structurally damaged repairable) on <strong>1 October 2017</strong>, nine months after that report was run. A buyer who studies the specimen to learn what a bad result looks like is learning a vocabulary the industry retired almost a decade ago.</p><p>The second is the price. The sample's payment line reads \"HPI Check: 19.99\", discounted to zero — HPI's price, on the AA's website, £5.00 above what the AA charges. It is a small thing and it is not a lie, but a nine-year-old specimen with an obsolete damage category and a competitor's price on it is the clearest evidence on the site of how thin the AA layer over this product really is.</p>"
+   },
+   {
+    "heading": "Seven-year-old statistics, and what the current ones say",
+    "html": "<p>The numbers on the AA's sales page are sourced, dated and old. The footnote credits \"HPI Ltd 2019 data\" for all of them: one in three cars checked carries some hidden history, one in three is still on finance, one in four has had a plate change, 1,815 cars a day show a mileage discrepancy, 2,205 a day turn out to be insurance write-offs, and 109 a day are identified as currently stolen. Crediting the source and the year is better practice than most of the trade manages. Leaving 2019 figures on a 2026 page is still asking a reader to act on evidence collected before the pandemic changed both used-car prices and vehicle crime.</p><p>Annualised, the daily figures claim roughly 662,000 mileage discrepancies, 805,000 write-offs and 39,800 stolen identifications a year. Against that, the Office for National Statistics recorded <strong>312,250 vehicle offences</strong> in England and Wales in the year ending March 2026, published on 23 July 2026 and <strong>down 11%</strong> on the year before, inside 1.6 million recorded thefts of all kinds. The two counts measure different things — a register hit is not a police report — but a falling crime figure sitting beside a static seven-year-old marketing statistic is the sort of gap a buyer should price in.</p>"
+   },
+   {
+    "heading": "Where the write-off answer comes from, and what changed in November 2025",
+    "html": "<p>No insurer tells HPI directly that it has written a car off. The industry files those claims into a shared register that used to be called the Motor Insurance Anti-Fraud and Theft Register, and from <strong>24 November 2025</strong> it has been accessed through the Motor Insurers' Bureau's Vehicle Salvage and Theft Data service instead — a renaming rather than a new database, but the label on every older guide is now out of date. The MIB describes its contents as records of claims relating to written-off and stolen vehicles, defined by the ABI's Salvage Code of Practice.</p><p>Two things follow for anyone reading a clean report. The categories are the ABI's, and the code setting them is a voluntary industry framework, not law — so the letter attached to a damaged car depends on an engineer applying a code his employer has agreed to follow. And the entry only exists if an insurer was involved and filed it. A car repaired privately after a serious shunt, or bought back by its owner before a claim was settled, leaves nothing for any check to find. A blank field means nothing has been reported. It does not mean nothing happened.</p>"
+   },
+   {
+    "heading": "Most of this is free on the AA's own used-car site",
+    "html": "<p>AA Cars, the used-car marketplace carrying the same badge, runs a history check at no charge on the vehicles listed there. Its free check covers whether the car is recorded as currently stolen, whether an insurance write-off is recorded, a current third-party trace, plate changes, colour changes, mileage data, whether the car is an import, and the number of keepers. The page says so plainly, and adds that the check \"won't tell you if any outstanding finance is present on the vehicle\".</p><p>Compare that with the £14.99 list and the paid extra shrinks to one answer — finance — plus the guarantee, the recall and security-watch searches, and the specification padding. Finance is the answer worth paying for on a private sale, because it is the one that can cost you the car. But a buyer on the AA's own forecourt listings is being offered free what the AA's other site charges £14.99 for, minus the single field, and neither page mentions the other.</p><p>The free government services fill in more of the gap. GOV.UK's MOT history service gives every test result since 2005, including the mileage recorded at each test, failure items and advisories, which is a rough clocking check in itself; its vehicle enquiry service gives tax status and expiry, SORN, MOT expiry, date of first registration, last V5C issue date, year of manufacture, engine size, fuel type and CO2.</p>"
+   },
+   {
+    "heading": "No regulator, and a dispute link pointing at a platform that shut in 2025",
+    "html": "<p>A vehicle data check is not a regulated financial service. There is no FCA permission behind it, no Financial Ombudsman Service to escalate to, and no ratings agency — Defaqto, Fairer Finance or anyone else — that scores car checks. The AA is a regulated firm for its insurance business; none of that regulation touches this £14.99 purchase.</p><p>What the terms offer instead has expired. They say: \"By law, we are required to provide a link from our website to the EU Online Dispute Resolution Platform. We are not obliged to use ADR should you have a complaint with us.\" That platform <strong>ceased to operate on 20 July 2025</strong>, and the obligation it refers to stopped applying to UK traders years before that. The sentence that follows it — that they are not obliged to use alternative dispute resolution — remains entirely true. The cancellation clause is dated in the same way, ending your right to cancel \"under The Consumer Protection Distance Selling Regulations 2000\", a set of rules revoked on 13 June 2014.</p><p>The protection that does apply is statutory and worth knowing, because nothing on the site mentions it. A paid report is digital content under the Consumer Rights Act 2015: section 34 requires satisfactory quality, section 35 fitness for a purpose you made known, section 36 that it matches its description. Sections 42 to 44 give you repair or replacement first and a price reduction after that, section 46 covers damage caused to your own device, and section 47 stops a trader contracting out of any of it. On a £14.99 report a price reduction is £14.99 — which is precisely why the £30,000 guarantee, with all its exclusions, is the part of this product that matters.</p>"
+   }
+  ],
+  "pros": [
+   "£29.99 for five checks is £6.00 each — cheaper per report than HPI's own three-for-£29.99 bundle of the identical product",
+   "Only one paid tier, and it includes the outstanding finance search rather than holding it back for an upsell",
+   "Guarantee of up to £30,000 on title for two years, with the conditions and exclusions published in full rather than summarised",
+   "Nine named registers, including the Police National Computer, a manufacturer recall search and a security watch register",
+   "Report delivered instantly and emailed, with a phone line answered Monday to Friday 8am to 6pm",
+   "The sales-page statistics are credited to a named source with a year attached, which most of the trade does not bother with"
+  ],
+  "cons": [
+   "The specimen report used to sell the service was run on 11/01/2017, shows a tax expiry of February 2017 and flags a \"Category C\" write-off — a category abolished on 1 October 2017",
+   "That same specimen prints a price of £19.99, which is HPI's price rather than the AA's £14.99",
+   "Every statistic on the sales page is credited to 2019 data and presented without qualification in 2026",
+   "The £30,000 ceiling only applies if you supplied the VIN, the registration mark and the V5C serial number and issue date; a registration-only check does not reach it",
+   "The guarantee excludes cars bought more than 30% below retail value, cars without a valid MOT, Q-registrations, cloned vehicles, salvage auction purchases, vehicles previously registered outside mainland Britain and anyone buying to sell at a profit",
+   "The terms still direct complaints to the EU Online Dispute Resolution Platform, which ceased operating on 20 July 2025, and still cite the Consumer Protection (Distance Selling) Regulations 2000, revoked on 13 June 2014",
+   "The AA's own used-car site gives away the stolen, write-off, plate change, colour change, mileage, import and keeper searches for nothing, and neither page acknowledges the other",
+   "Paid AA members get no discount on the check, unlike the AA's inspection products",
+   "No FCA permission, no Financial Ombudsman Service and no ratings agency covers vehicle data checks, so a refused guarantee claim ends at your card issuer or the small claims court"
+  ],
+  "verdict": "As a way of buying an HPI report, the AA badge is the better deal: £14.99 against £19.99 for a single check, and £6.00 a check in the five-pack against £10.00 in HPI's own three-pack. The data is identical because it is the same company supplying it, and the range is simpler, with no stripped-down tier that quietly drops the finance search. What you are paying for, once the free government services and the AA's own free listing check are taken off, is really the finance answer and the guarantee — and the guarantee is narrower than £30,000 suggests, conditional on details a casual buyer will not have to hand. The presentation deserves better than it gets: a 2017 sample report with a retired damage category, 2019 statistics and a complaints route pointing at a platform that closed in 2025 are all things the AA could fix in an afternoon.",
+  "faqs": [
+   {
+    "q": "How much is an AA car check?",
+    "a": "<p>£14.99 for one full check. The Multicheck is £29.99 and covers five vehicles, which is £6.00 each. There is no cheaper cut-down tier, and paid AA members pay the same price as everyone else.</p>"
+   },
+   {
+    "q": "Is the AA check the same as an HPI check?",
+    "a": "<p>Yes. The service is marked \"Powered by HPI\", and the terms name HPI Limited of Leeds as the company you contract with. The AA sells it for £14.99 against HPI's own £19.99, and five checks for £29.99 against HPI's three for the same money.</p>"
+   },
+   {
+    "q": "What does the £30,000 guarantee actually cover?",
+    "a": "<p>A failure to acquire good title — broadly, undisclosed finance — up to £30,000, and only where you supplied the VIN, registration mark and the V5C serial number and issue date. A missed insurance total loss is treated as a fall in value and capped at £15,000. Both last two years from the date of the check, and neither applies to trade buyers, cars bought more than 30% below retail value, Q-plated or cloned vehicles, salvage auction purchases or cars without a valid MOT where one was required.</p>"
+   },
+   {
+    "q": "Can I get any of this without paying?",
+    "a": "<p>A good deal of it. AA Cars runs a free history check covering stolen markers, recorded write-offs, plate and colour changes, mileage data, imports and keeper numbers, but not finance. GOV.UK gives every MOT result since 2005 with the mileage at each test, plus tax, SORN, first registration and V5C issue dates. The paid check adds the finance search, the guarantee, the recall and security watch searches and the specification data.</p>"
+   },
+   {
+    "q": "What happens if the report turns out to be wrong?",
+    "a": "<p>You claim under the guarantee, which is dealt with by HPI in Leeds rather than by the AA. If that fails there is no ombudsman: a car check is not a regulated financial service. Your fallback is the Consumer Rights Act 2015, which treats the report as digital content and gives you repair, replacement and then a price reduction — on a £14.99 report, a price reduction is £14.99 — or a chargeback through your card issuer.</p>"
+   }
+  ]
+ },
+ {
   "slug": "aa-vehicle-inspections",
   "title": "AA Vehicle Inspections Review: £110 to £339, With a Battery Test",
   "meta_title": "AA Vehicle Inspection Review: Prices, Points, Battery Test",
@@ -534,6 +668,112 @@
    {
     "q": "What does it cost to cancel?",
     "a": "<p>Between £60 and £160 depending on circumstances, plus around £15 for amendments. Worth factoring in if you change vans regularly.</p>"
+   }
+  ]
+ },
+ {
+  "slug": "airport-lounges-airport-lounge",
+  "title": "Airport Lounges Airport Lounge",
+  "meta_title": "Airport Lounges: What a UK Lounge Pass Really Costs",
+  "meta_description": "Pre-booked UK airport lounge entry runs £29.99 to £64 an adult. What Airport Lounges sells, who runs the rooms, and the booking rules that decide refunds.",
+  "checked": "21 September 2026",
+  "headline": {
+   "label": "Cost of one lounge visit",
+   "value": "£29.99–£64 per adult, pre-booked — UK lounge operators' own published prices, checked 21 September 2026"
+  },
+  "intro": "<p>Airport Lounges sells lounge entry one visit at a time, and a pre-booked UK visit costs between <strong>£29.99 and £64 an adult</strong> at the prices the companies running those rooms were publishing on 21 September 2026. There is no membership, no annual fee and no card to hold: you pick an airport, pick a date, pay once and walk in.</p><p>That suits the traveller who flies twice a year. A lounge pass bought outright is the only route into these rooms for anyone without a premium bank account or a business-class boarding pass, and it is priced the same whether you fly once or fifty times. UK airports handled <strong>302 million passengers in 2025</strong>, a record the Civil Aviation Authority confirmed on 24 February 2026, and a paid seat away from the gate is one of the few things at an airport you can still fix in advance for a known price.</p><p>What you are buying, though, belongs to somebody else. Airport Lounges is a reseller: the rooms are run by Swissport, by Manchester Airports Group's CAVU business and by Plaza Premium, and it is their rules on how long you may stay, how late you may arrive and whether you get your money back that apply to your booking. Check the operator's own price before you pay, because that is the number the reseller is marking up or matching.</p>",
+  "key_facts": [
+   {
+    "label": "What it sells",
+    "value": "Single-visit airport lounge entry, pre-booked for a named date and flight"
+   },
+   {
+    "label": "Who runs the lounges",
+    "value": "Third parties — Swissport (Aspire, No1, Club Aspire, My Lounge, Clubrooms), CAVU Experiences (EMEA) Limited (Escape) and Plaza Premium"
+   },
+   {
+    "label": "Typical UK price",
+    "value": "£31 at Humberside and Inverness, £38 at Gatwick North, £50 at Heathrow Terminal 3, £64 for Suite by Aspire at Newcastle"
+   },
+   {
+    "label": "Standard stay",
+    "value": "Three hours before your scheduled departure; extra hours sold separately"
+   },
+   {
+    "label": "Cancellation",
+    "value": "Typically 24 hours' notice; inside that window the operators keep the money"
+   },
+   {
+    "label": "Regulated?",
+    "value": "No. A lounge pass is not a package holiday, carries no ATOL protection and has no financial regulator behind it"
+   },
+   {
+    "label": "Corporate identity",
+    "value": "No company registered at Companies House under the name Airport Lounges — checked 21 September 2026"
+   }
+  ],
+  "sections": [
+   {
+    "heading": "What a UK lounge visit costs in September 2026",
+    "html": "<p>Swissport publishes a price for every Aspire-family lounge it runs in the UK, and the spread is wider than most people expect. The cheapest are <strong>£31</strong> at Humberside and Inverness and <strong>£32</strong> at Aberdeen's Northern Lights and Glasgow's Upperdeck. In the south, Club Aspire at Gatwick South is <strong>£34</strong>, the No1 Lounge at Gatwick North is <strong>£38</strong>, Club Aspire at Heathrow Terminal 5 is <strong>£40</strong>, My Lounge at Heathrow Terminal 3 is <strong>£44</strong> and the No1 Lounge in the same terminal is <strong>£50</strong>. Manchester Terminal 3 is <strong>£37</strong>; the C Gates lounge in Terminal 2 is <strong>£46</strong>. At the top, Luxe by Aspire at Liverpool and Newcastle is <strong>£57</strong> and Suite by Aspire at Newcastle is <strong>£64</strong>.</p><p>CAVU's Escape Lounges, which you will find at Manchester, Stansted, East Midlands and Edinburgh among others, start at <strong>£29.99 per person</strong> pre-booked. Children under three go in free, and a single booking may carry no more than three children or infants.</p><p>Two levers move the number. Booking ahead rather than paying at the door is worth <strong>up to 20%</strong> by No1 Lounges' own reckoning, and a pre-booked visit there carries delay cover, so a late flight does not cost you a second entry. Arriving early costs extra: the three hours before departure are included and additional hours are sold as an add-on. Against that, Which? researchers paid an average of <strong>£42</strong> across the lounges they visited, with individual entries ranging from <strong>£16.99 to £68</strong> — so a reseller quoting much above the operator's own published figure is not saving anyone anything.</p>"
+   },
+   {
+    "heading": "The rooms belong to somebody else",
+    "html": "<p>Edinburgh Airport is the clearest illustration. Three lounges sit airside — an Aspire Lounge, the Turkish Airlines Lounge run by Plaza Premium Group, and an Escape Lounge — and all three are operated by third-party companies rather than by the airport. Book any of them through any seller and the contract behind your ticket is with that operator.</p><p>Swissport GB Ltd is the name in the footer of the Aspire estate, which now runs to more than 100 lounges worldwide across the UK, Europe, Australia, the Middle East, Africa, North America and Asia. The No1, Clubrooms, My Lounge and Club Aspire brands all sit inside it, which is why one price list covers all four. The Escape Lounges are run in the UK by <strong>CAVU Experiences (EMEA) Limited</strong>, 6th Floor Olympic House, Manchester Airport, M90 1QX — the commercial arm of Manchester Airports Group — with sister companies in Chicago and Carlton South, Victoria handling the American and Australian rooms.</p><p>This matters for one practical reason. If the room is full, the coffee machine is broken or staff turn you away at the desk, the seller who took your card is not the party that can fix it, and the operator's terms are the ones a complaint is judged against. Keep the operator's name and the booking reference together, and raise a problem with whichever of the two the terms name — on a resold booking that is usually the seller first, the operator second.</p>"
+   },
+   {
+    "heading": "Three hours, one hour late, and no refund",
+    "html": "<p>The booking rules are tighter than a restaurant reservation and looser than a flight, and almost nobody reads them before paying. Outside the United States, Escape Lounge bookings must be made <strong>at least 12 hours</strong> before your arrival time, so there is no walking up to the website from the departures hall. Cancellation needs <strong>at least 24 hours' notice</strong>; inside that window the wording is blunt — bookings cancelled within 24 hours of the arrival date “will not be refunded”. Once the booking has started, no amendment can be made at all.</p><p>Arrive late and the seat may be gone. Escape reserves the right to free a seat if you have not turned up within <strong>one hour</strong> of the booked time. Edinburgh's lounge terms say a booking that goes unused simply expires and is not refundable, and that bookings are not transferable to another person or another lounge — you cannot hand a pass you cannot use to the friend you are travelling with. Amendments there can be made online up to 24 hours before departure.</p><p>Stay lengths vary by brand rather than by seller: three hours at a standard Escape Lounge, two at a 1903 Lounge, two and a half to three at the Executive and Essence rooms. Only an adult of 18 or over may make a booking. There is a smart-casual dress code, footwear at all times, clothing with offensive slogans refused, and an expectation that guests “drink sensibly” — the free bar is not unlimited in practice, and staff can refuse entry or ask you to leave.</p>"
+   },
+   {
+    "heading": "Which? sent researchers into 28 lounges",
+    "html": "<p>There is no Defaqto or Fairer Finance for airport lounges, so the nearest thing to an independent rating is the survey Which? published on <strong>22 November 2025</strong>. Its researchers visited <strong>28 UK lounges</strong>, mostly between July and September 2025, scoring each on food, comfort, space and views.</p><p>Only about a third managed three stars or better. The best of them were Clubrooms at Gatwick South at 3.5 stars for £44 to £50 and Clubrooms at Birmingham, also 3.5, at £48. The worst was Club Aspire at Heathrow Terminal 5, which scored <strong>one star</strong> at £42, while Suite by Aspire at Newcastle — the most expensive room in the survey at <strong>£68</strong> — managed 2.5 and the Escape Lounge at Manchester Terminal 1 scored two. Prices have run well ahead of inflation: the average of £42 compares with <strong>£25 in 2017</strong>, a rise of 68%.</p><p>Which? travel editor Rory Boland put the value case plainly: “Instead of paying over £40 for a lukewarm buffet breakfast on a dirty plate, you can get a lot more for your money by visiting a bar or restaurant.” That is worth weighing before booking, and it cuts both ways — the cheaper regional rooms at £31 and £32 have to beat a sit-down breakfast and a drink by a much smaller margin than a £64 suite does.</p>"
+   },
+   {
+    "heading": "Where the money protection stops",
+    "html": "<p>A lounge pass sits in an awkward gap in consumer law, and a reseller sits in the middle of it.</p><p>Start with the card. Section 75 of the Consumer Credit Act 1974 makes a credit card company equally liable with the trader for misrepresentation or breach of contract — but section 75(3)(b) excludes any single item with a cash price of <strong>£100 or less</strong>, or more than £30,000. At £29.99 to £64, one lounge pass falls under the floor, and so does a pair of them. Paying by credit card buys you a chargeback claim against the card scheme and nothing stronger; debit card holders have chargeback alone.</p><p>Then the cooling-off period, which does not exist here. Regulation 28(1)(h) of the Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013 removes the usual 14-day right to cancel an online purchase where the contract is for “catering or services related to leisure activities” on a specific date. A lounge booked for a named flight is exactly that, so the operator's own 24-hour rule is the only cancellation right you have.</p><p>Nor is any of this a package. Buy a lounge pass on its own and there is no ATOL cover, no Package Travel Regulations protection and no financial regulator standing behind the seller, because selling entry to a room is not a regulated activity. If the seller fails between your payment and your flight, recovering the money is a chargeback question rather than a claim against a protection scheme. That is a reason to book close to travel rather than months out.</p>"
+   },
+   {
+    "heading": "The checks we could not complete",
+    "html": "<p>Two things about Airport Lounges itself could not be verified, and both should be resolved before a reader hands over card details.</p><p>The first is corporate identity. A Companies House search on 21 September 2026 for a company registered under the name Airport Lounges returns <strong>no results at all</strong>. That does not mean the business is not real — plenty of sites trade under a name that differs from the registered one — but it does mean the trading name alone will not tell you which company takes your money, where it is registered or what its accounts look like. The site's own terms should name the legal entity and a company number; look for both before booking, and treat their absence as a reason to pay by credit card.</p><p>The second is the site itself. Both <code>www.airportlounges.com</code> and <code>www.airport-lounges.co.uk</code> block automated retrieval, so the prices, the lounge list, the cancellation terms and the complaints route on those pages could not be read or quoted here. Every figure on this page therefore comes from the companies that run the lounges, from the Civil Aviation Authority, from Which? or from the legislation itself. Compare the seller's quote against the operator's published price for the same room on the same date — Swissport and CAVU both publish theirs — and check the cancellation deadline in writing before you pay, because a resold booking can carry the seller's terms on top of the operator's.</p>"
+   }
+  ],
+  "pros": [
+   "One purchase, no membership and no annual fee — the only route into these rooms for an occasional flyer without a premium card",
+   "Regional lounges are genuinely cheap: £31 at Humberside and Inverness, £32 at Aberdeen and Glasgow",
+   "Pre-booking beats the walk-up price by up to 20% and, at No1 Lounges, includes delay cover if your flight slips",
+   "Children under three go free at Escape Lounges, which takes the sting out of a family booking",
+   "A known price fixed in advance, at airports where almost nothing else is"
+  ],
+  "cons": [
+   "The prices, terms and complaints route on airportlounges.com and airport-lounges.co.uk cannot be read by automated checks, so none of the seller's own claims could be verified here",
+   "No company is registered at Companies House under the name Airport Lounges, so the trading name does not identify who takes your money",
+   "You are buying a third party's room under that third party's rules — the seller controls the stay length, the capacity and the refund, and none of them are its own",
+   "At £29.99 to £64 a pass, every booking falls below the £100 Section 75 floor, so a credit card gives you chargeback and nothing more",
+   "There is no 14-day cooling-off right on a dated leisure booking, and inside 24 hours the operators keep the money whether you turn up or not",
+   "Which? found only about a third of 28 UK lounges worth three stars or better, at an average price of £42 — the room may not be worth the pass"
+  ],
+  "verdict": "Airport Lounges is a booking front for rooms run by Swissport, CAVU and Plaza Premium, and it is competing on price and convenience rather than on anything it owns. That is a perfectly reasonable thing to buy — a single visit at £31 in Aberdeen or £34 at Gatwick South is decent value against airport food prices, and there is no membership to carry. Do two things first. Check the same lounge on the operator's own site for the same date, because the operator publishes its price and the reseller's margin sits on top of it. And read the cancellation deadline: outside 24 hours you are usually fine, inside it you have bought a non-refundable ticket to a room you may not like, with no Section 75 claim to fall back on.",
+  "faqs": [
+   {
+    "q": "How much does a UK airport lounge cost to book?",
+    "a": "<p>Between £29.99 and £64 an adult on the operators' own September 2026 price lists. Escape Lounges start at £29.99, Aspire charges £31 at Humberside and Inverness, £38 at Gatwick North and £50 for the No1 Lounge at Heathrow Terminal 3, and Suite by Aspire at Newcastle is £64. Which? found an average of £42 across 28 lounges in its November 2025 survey.</p>"
+   },
+   {
+    "q": "Can I cancel a lounge booking and get my money back?",
+    "a": "<p>Usually only with at least 24 hours' notice. Escape Lounges will not refund a booking cancelled within 24 hours of the arrival time, and no amendment is possible once the booking has started. Edinburgh's lounge terms say an unused booking expires unrefunded and cannot be transferred to another person or lounge. The 14-day online cancellation right does not apply, because regulation 28(1)(h) of the Consumer Contracts Regulations 2013 excludes leisure services booked for a specific date.</p>"
+   },
+   {
+    "q": "How long can I stay in the lounge?",
+    "a": "<p>Three hours before your scheduled departure at a standard Escape Lounge and across the Aspire and No1 estate, with extra hours sold as an add-on if you want to arrive earlier. A 1903 Lounge allows two hours and the Executive and Essence rooms two and a half to three. Turn up more than an hour after your booked time and the seat can be released.</p>"
+   },
+   {
+    "q": "Is a lounge pass protected if the seller goes bust?",
+    "a": "<p>Not by ATOL, and not by Section 75 either. A lounge pass bought on its own is not a package holiday, so the Package Travel Regulations and ATOL do not apply, and at under £100 a pass it falls below the Section 75 threshold in the Consumer Credit Act 1974. The practical remedy is a card chargeback, which is why booking close to the travel date rather than months ahead is the safer habit.</p>"
+   },
+   {
+    "q": "Can I take children into an airport lounge?",
+    "a": "<p>Yes at most, with limits. Escape Lounges admit children aged three to 15 at a charge, let infants under three in free, and cap a single booking at three children or infants. The booking itself must be made by someone aged 18 or over. The 1903 Lounges are adults-only unless a child is accompanying an adult whose access came with an airline ticket.</p>"
    }
   ]
  },
@@ -6722,6 +6962,126 @@
    {
     "q": "What happens if I cannot keep up the payments?",
     "a": "<p>Contact Lloyds before missing a payment rather than taking a repayment holiday, which the bank itself says is not intended to solve money troubles. Lenders have been under strengthened obligations since the FCA's PS24/2 rules took effect on 4 November 2024, which built the tailored support approach into the consumer credit rulebook permanently. Free help is also available from the debt advice charities.</p>"
+   }
+  ]
+ },
+ {
+  "slug": "loungekey-airport-lounge",
+  "title": "LoungeKey Airport Lounge",
+  "meta_title": "LoungeKey: What One Airport Lounge Visit Really Costs",
+  "meta_description": "A LoungeKey visit costs £18.50 to £24 per person and your bank sets the price, against £38 to £48 at the desk. Who runs it and what the contract says.",
+  "checked": "21 September 2026",
+  "headline": {
+   "label": "Cost of one lounge visit",
+   "value": "£18.50–£24 per person per visit — set by your card issuer, guests charged the same"
+  },
+  "intro": "<p>One airport lounge visit through LoungeKey costs <strong>£24 per person</strong> if your card is a Monzo Premium or Monzo Max account, or <strong>£18.50 per person</strong> on a Barclaycard Avios Plus. Walk up to the same kind of desk without a card behind you and Which? found UK lounges charging £38 to £43 in advance and up to £48 on the door in its most recent round of visits. On a family of four, that gap is most of the price of the flight seats.</p><p>LoungeKey is run by Priority Pass Limited, a London company that has been trading under one name or another since <strong>3 July 1992</strong> and now sits inside the Collinson group at 3 More London Riverside. Collinson is family-owned, registered in England and Wales as company 11141096, employs more than 2,500 people across 19 locations and runs five businesses, of which airport experiences is the oldest. Its better-known sister brand, Priority Pass, reaches 1,900-plus lounges and airport experiences in over 600 cities and 143 countries. LoungeKey is the same machinery sold a different way.</p><p>You cannot buy LoungeKey. There is no membership page, no annual fee and no checkout — it only reaches you attached to a payment card, and the bank that issued that card, not LoungeKey, decides what a visit costs you, how many visits are free and whether guests are included. If you are shopping for a lounge pass you can buy outright for one trip, this is not that product, and the card comparison is where the decision actually gets made.</p>",
+  "key_facts": [
+   {
+    "label": "Operated by",
+    "value": "Priority Pass Limited, company 02728518, incorporated 3 July 1992"
+   },
+   {
+    "label": "Registered office",
+    "value": "3 More London Riverside, 5th Floor, London SE1 2AQ"
+   },
+   {
+    "label": "Parent group",
+    "value": "Collinson, company 11141096, 2,500+ staff in 19 locations"
+   },
+   {
+    "label": "Cheapest UK card rate found",
+    "value": "£18.50 per person per visit (Barclaycard Avios Plus, £20 a month)"
+   },
+   {
+    "label": "Typical UK card rate",
+    "value": "£24 per person per visit (Monzo Premium and Monzo Max)"
+   },
+   {
+    "label": "Guests",
+    "value": "Charged the same per-person fee, and must enter with you"
+   },
+   {
+    "label": "Pre-booking",
+    "value": "Extra where a lounge offers it — Monzo quotes at least £6 on top"
+   },
+   {
+    "label": "Contract dated",
+    "value": "Conditions of Use effective 28 June 2023, governed by English law"
+   },
+   {
+    "label": "Complaint window",
+    "value": "Six months from the visit, to LoungeKey rather than the lounge"
+   },
+   {
+    "label": "Sister brand",
+    "value": "Priority Pass — 1,900+ lounges, 600+ cities, US$99 to US$469 a year"
+   }
+  ],
+  "sections": [
+   {
+    "heading": "What a visit costs, and who sets the number",
+    "html": "<p>LoungeKey publishes no price. Its Conditions of Use say only that lounge and merchant visits are “subject to a per-person, per-visit, charge”, and Mastercard's own Airport Experiences FAQ, which runs on the same programme, says you will be charged “the prevailing lounge visit fee” without ever printing one. The figure lives in your card issuer's terms, so that is where to look.</p><p>Two UK issuers publish theirs plainly. Monzo says holders of Monzo Premium and Monzo Max, and their guests, get into around 1,100 lounges worldwide “for a flat fee of £24 per person, per visit”, with pre-booking adding at least £6 on top where a lounge offers it. Barclaycard puts the Avios Plus rate at £18.50 per lounge pass per person across more than 1,000 lounges, on a card costing £20 a month. For comparison, HSBC prices its Premier credit card's lounge benefit — the sister Priority Pass programme rather than LoungeKey — at £24 a visit for the cardholder and £24 per person for guests, while the Premier World Elite Mastercard gives the cardholder unlimited access and still charges £24 a head for anyone they bring.</p><p>Some cards include a number of free visits before the fee starts. Those are the issuer's, not LoungeKey's: the Mastercard FAQ confirms complimentary visits run from 1 January to 31 December, are set by the card issuer, and that “unused visits are not transferable and cannot be carried over to the following year”. Whatever you owe is debited later to the card on file rather than taken at the lounge desk, so no payment is made at the point of entry and nothing is signed except the record of how many people walked in.</p>"
+   },
+   {
+    "heading": "One brand, two registered companies and a parent",
+    "html": "<p>The contract names its counterparty precisely: “LoungeKey means Priority Pass Limited of 3 More London Riverside, London, SE1 2AQ, Company No. 02728518.” That company is active at Companies House, was incorporated on 3 July 1992 under the name Assistsolve Limited and took its present name 24 days later, files as an activities-of-membership-organisations business and last made up accounts to 30 April 2025.</p><p>A second active company, Lounge Key Limited, number 08792537, was incorporated on 27 November 2013 at the same address with the same filing pattern, and it is the one the Conditions of Use send written data-protection requests to. The portal footer, meanwhile, reads “Copyright © 2025 LoungeKey Ltd”. The privacy notice on loungekey.com identifies the data controller as nothing more specific than “LoungeKey … a company registered in England and Wales, at 3 More London Riverside”, giving an email address but no company number, which leaves a reader who wants to know which legal entity holds their travel data with two candidates and no way to tell from the page itself.</p><p>Behind both sits Collinson, which also owns Priority Pass and Airport Dimensions, the business that builds and runs lounges rather than selling access to them. Which entity actually processes your payment depends on where you fly: the Conditions of Use name seven merchants of record by region, with Priority Pass Limited covering Europe, the Middle East and Africa, Priority Pass, Inc. covering the Americas outside Peru, and separate companies for Asia Pacific, mainland China, India, Peru and Taiwan.</p>"
+   },
+   {
+    "heading": "Card, boarding pass, ID — and a seat that might not exist",
+    "html": "<p>Entry is conditional on three things together: a valid means of access, a valid boarding pass, and any further identification the lounge asks for, which can include a passport, national identity card or driving licence. A photograph of your card will not do, and neither will reading out the card number — the contract rules both out by name. You tell the desk you are entering on LoungeKey, staff read the card or digital code electronically, and they enter the number of guests, who have to register and walk in at the same time as you.</p><p>Two limits catch people out. Lounges inside a Schengen-designated pier are only reachable if you are travelling between Schengen countries, which quietly removes a slice of the European network from a UK departure. And your issuer may cap how often you can use the benefit in a period or at the same airport; where it does, the contract makes the issuer responsible for telling you, and expressly disclaims LoungeKey's liability if the issuer does not.</p><p>Nothing about the visit is guaranteed. The lounges belong to third parties, access is “subject to capacity restrictions”, and LoungeKey accepts that it has no control over whether you are admitted, how many people are let in, what is on offer, the opening hours or how long you are allowed to stay. It undertakes reasonable endeavours and no more. That is a normal arrangement for a distributor, and it is the reason a busy Friday evening at a single-lounge airport can end with a card that works and a door that does not open.</p>"
+   },
+   {
+    "heading": "What Which? found inside 20 UK lounges",
+    "html": "<p>The trade has no ratings agency, but Which? runs the nearest thing to one. Its researchers visited 20 UK airport lounges anonymously between February and September 2024, scored each between one and five stars on facilities, quiet and family space, runway views and the food and drink, and published the results on 26 October 2024. Only five of the 20 managed three stars or better. Prices quoted alongside the scores were for an 8am Saturday entry booked through whichever of the airport's or the lounge's own site was cheaper.</p><p>Value was the recurring complaint. Lounges averaging £29 to pre-book in 2019 were reaching £40, a rise of 37 per cent, while made-to-order food and spa treatments were quietly withdrawn. The two one-star scores both went to Heathrow: Plaza Premium Terminal 5, at up to £47.50 on the door or £43 in advance, where the coffee machine was broken, and the No1 Lounge at Terminal 3. Plaza Premium Terminal 2 charged £48 at the door for two stars. At the other end, Gatwick My Lounge South and Edinburgh Plaza Premium both scored four, at £38 and with a children's area that keeps the noise away from the bar. Showers, where they exist, cost an extra £20 to £28 on top of entry.</p><p>Read against the card rates, that survey is the strongest argument for using a card benefit rather than paying at the desk: the £24 or £18.50 buys the identical room that somebody beside you paid £48 for. It is also a warning that the room may not be worth either figure, and the card fee buys no influence over which lounge you end up in.</p>"
+   },
+   {
+    "heading": "The clauses that decide what happens when it goes wrong",
+    "html": "<p>Price changes reach you indirectly. LoungeKey may amend lounge or merchant charges “at any time on providing 30 days' notice”, but where the benefit came through a card, the notice goes to the card provider, who “is responsible for advising Customer”. Refusing a change means giving 30 days' written notice to the bank, not to LoungeKey. A separate clause reserves the right to increase fees of any kind on 30 days' notice.</p><p>Membership is held on a short lead. LoungeKey “reserves the right at any time in its sole discretion and without notice to revoke Programme membership or terminate Programme”, and may cancel without refund any membership it finds in breach. If your card is cancelled or moved to a product outside the programme and charges are left outstanding, the contract says it may pursue legal action to recover them — and any lounge entered on an invalid card, guests included, is charged to you.</p><p>Complaints have a clock on them. Anything arising from a lounge or merchant visit must be raised within six months, and it goes to LoungeKey rather than the venue that actually turned you away, on +44 (0) 208 865 0767 or by post to PO Box 815, Haywards Heath RH16 9LR. Cancellation, refunds and anything about the benefit itself go to the card provider instead. The Conditions of Use took effect on 28 June 2023, can be changed by being posted on the site, and are governed by English law with the non-exclusive jurisdiction of the English courts.</p>"
+   }
+  ],
+  "pros": [
+   "A visit costs £18.50 to £24 per person against £38 to £48 paid at a UK lounge desk, for the same room",
+   "No membership fee of its own — the cost sits in the card, and the lounge rate is the only extra",
+   "Guests pay the same per-person rate as the cardholder rather than a penalty rate",
+   "Around 1,100 lounges worldwide, with the sister Priority Pass network reaching 1,900-plus in 143 countries",
+   "Nothing is paid at the desk: the charge goes to the card on file, and entry can be card-free with the digital membership card",
+   "The counterparty is named and traceable — Priority Pass Limited, company 02728518, trading since 1992 inside a 2,500-person group"
+  ],
+  "cons": [
+   "LoungeKey publishes no price anywhere: the contract says only “a per-person, per-visit, charge” and the FAQ only “the prevailing lounge visit fee”, so the cost has to be found in your bank's terms",
+   "You cannot buy it — access exists only as a card benefit, and the fee, the free-visit allowance and the guest rules are all the issuer's to change",
+   "Notice of a price rise is served on your bank, not on you, and it is then the bank's job to pass it on",
+   "Membership can be revoked “at any time in its sole discretion and without notice”, and a membership found in breach is cancelled without refund",
+   "Access is never guaranteed: lounges are third parties, entry is subject to capacity, and LoungeKey disclaims control over admission, hours and how long you stay",
+   "Complaints must be made within six months and go to LoungeKey, while cancellation goes to your card provider — three parties, none of them the lounge",
+   "One brand covers two registered companies at one address, and the privacy notice names neither company number"
+  ],
+  "verdict": "As a way of getting into an airport lounge, LoungeKey is genuinely cheap: £24 a head on a Monzo Premium or Max account and £18.50 on Barclaycard Avios Plus, against the £38 to £48 Which? recorded at UK desks in 2024. As a product to choose, it barely exists, because you cannot buy it and every number that matters is set by whichever bank put it on your card. Compare the cards, not the programme — and check the lounge itself, because only five of the 20 Which? visited scored three stars out of five.",
+  "faqs": [
+   {
+    "q": "How much does a LoungeKey visit cost?",
+    "a": "<p>It depends on the card. Monzo charges £24 per person per visit on Monzo Premium and Monzo Max, and Barclaycard charges £18.50 per person on Avios Plus. LoungeKey itself never publishes a figure — its Conditions of Use refer only to “a per-person, per-visit, charge” — so the number in your card's terms is the one that applies to you.</p>"
+   },
+   {
+    "q": "Can I buy LoungeKey membership directly?",
+    "a": "<p>No. LoungeKey is distributed only through card issuers and other organisations; there is no consumer checkout. If you want a pass you can buy outright, the sister brand Priority Pass sells annual membership at US$99, US$329 and US$469 depending on tier, covering 1,900-plus lounges and airport experiences in more than 600 cities.</p>"
+   },
+   {
+    "q": "Do guests pay the same as the cardholder?",
+    "a": "<p>Usually yes. Monzo applies the same £24 flat fee to guests, and HSBC charges £24 per guest even on its unlimited-access Premier World Elite card. Guests have to register and walk into the lounge at the same time as you, and the desk records how many people entered on your card.</p>"
+   },
+   {
+    "q": "What do I need to show at the lounge?",
+    "a": "<p>Three things: a valid means of access — an eligible payment card, digital membership card or code — a valid boarding pass, and any further identification the lounge asks for, which may be a passport, national identity card or driving licence. A photograph of the card or the card number read aloud will not be accepted.</p>"
+   },
+   {
+    "q": "Who do I complain to if a lounge turns me away?",
+    "a": "<p>LoungeKey, not the lounge, and within six months of the visit — by phone on +44 (0) 208 865 0767 or by post to PO Box 815, Haywards Heath RH16 9LR. Anything about the benefit itself, including cancelling it, goes to your card provider instead. The Conditions of Use are governed by English law.</p>"
+   },
+   {
+    "q": "Is LoungeKey the same as Priority Pass?",
+    "a": "<p>They are separate brands run by the same company. The LoungeKey contract defines the programme as being provided by Priority Pass Limited, company 02728518, and both sit inside the Collinson group at 3 More London Riverside. Priority Pass is sold direct to consumers as an annual membership; LoungeKey is sold to banks as a benefit to attach to a card.</p>"
    }
   ]
  },
