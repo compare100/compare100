@@ -7,9 +7,20 @@
 <link>https://compare100.com/</link>
 <description>UK providers compared side by side &#8212; insurance, money, travel, mobiles, utilities, motoring and shopping. Figures checked against each provider&#8217;s own published terms.</description>
 <language>en-GB</language>
-<lastBuildDate>Wed, 23 Sep 2026 09:00:00 +0000</lastBuildDate>
+<lastBuildDate>Thu, 24 Sep 2026 09:00:00 +0000</lastBuildDate>
 <atom:link href="https://compare100.com/feed/" rel="self" type="application/rss+xml"/>
 <image><url>https://compare100.com/wp-content/uploads/icons/og-default.jpg</url><title>Compare100</title><link>https://compare100.com/</link></image>
+<item>
+<title>Agoda Hotels</title>
+<link>https://compare100.com/agoda-hotels/</link>
+<guid isPermaLink="true">https://compare100.com/agoda-hotels/</guid>
+<pubDate>Thu, 24 Sep 2026 09:00:00 +0000</pubDate>
+<category>Hotels</category>
+<description>Agoda lists over 6 million properties and publishes what a hotel pays for a top-three slot: 10%, 12% or 15% extra. Prices and small print, 24 September 2026.</description>
+<content:encoded><![CDATA[<p><img src="https://compare100.com/wp-content/uploads/2025/07/Agoda-Logo.webp" alt="Agoda Hotels" width="400" height="400"></p><p>Agoda lists over 6 million properties and publishes what a hotel pays for a top-three slot: 10%, 12% or 15% extra. Prices and small print, 24 September 2026.</p><p>Checked 24 September 2026 against the provider&#8217;s own published terms.</p>]]></content:encoded>
+<enclosure url="https://compare100.com/wp-content/uploads/2025/07/Agoda-Logo.webp" length="0" type="image/webp"/>
+<media:content url="https://compare100.com/wp-content/uploads/2025/07/Agoda-Logo.webp" medium="image" type="image/webp"/>
+</item>
 <item>
 <title>A2Z Airport Parking: Compare &amp; Book</title>
 <link>https://compare100.com/a2z-airport-parking-compare-book/</link>
@@ -328,17 +339,6 @@
 <content:encoded><![CDATA[<p><img src="https://compare100.com/wp-content/uploads/2025/06/britishseniors_logo-1.webp" alt="British Seniors Over 50s Life Insurance Review" width="400" height="400"></p><p>British Seniors over 50s cover starts at £4.52 a month, pays double for accidental death and is now underwritten by Aviva. Ages, limits and the small print.</p><p>Checked 14 September 2026 against the provider&#8217;s own published terms.</p>]]></content:encoded>
 <enclosure url="https://compare100.com/wp-content/uploads/2025/06/britishseniors_logo-1.webp" length="0" type="image/webp"/>
 <media:content url="https://compare100.com/wp-content/uploads/2025/06/britishseniors_logo-1.webp" medium="image" type="image/webp"/>
-</item>
-<item>
-<title>Lloyds Bank Personal Loan</title>
-<link>https://compare100.com/lloyds-bank-personal-loan/</link>
-<guid isPermaLink="true">https://compare100.com/lloyds-bank-personal-loan/</guid>
-<pubDate>Sun, 13 Sep 2026 09:00:00 +0000</pubDate>
-<category>Loans</category>
-<description>Lloyds Bank lends £1,000 to £50,000 at 7.4% APR representative. The rate bands, the 58-day early settlement rule and the current account you need first.</description>
-<content:encoded><![CDATA[<p><img src="https://compare100.com/wp-content/uploads/2025/06/Lloyds-Bank-Logo-1-2.webp" alt="Lloyds Bank Personal Loan" width="400" height="400"></p><p>Lloyds Bank lends £1,000 to £50,000 at 7.4% APR representative. The rate bands, the 58-day early settlement rule and the current account you need first.</p><p>Checked 13 September 2026 against the provider&#8217;s own published terms.</p>]]></content:encoded>
-<enclosure url="https://compare100.com/wp-content/uploads/2025/06/Lloyds-Bank-Logo-1-2.webp" length="0" type="image/webp"/>
-<media:content url="https://compare100.com/wp-content/uploads/2025/06/Lloyds-Bank-Logo-1-2.webp" medium="image" type="image/webp"/>
 </item>
 </channel>
 </rss>

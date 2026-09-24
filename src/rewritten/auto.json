@@ -808,6 +808,118 @@
   ]
  },
  {
+  "slug": "agoda-hotels",
+  "title": "Agoda Hotels",
+  "meta_title": "Agoda Review: What Moves a Hotel to the Top of Its List",
+  "meta_description": "Agoda lists over 6 million properties and publishes what a hotel pays for a top-three slot: 10%, 12% or 15% extra. Prices and small print, 24 September 2026.",
+  "checked": "24 September 2026",
+  "headline": {
+   "label": "Cheapest advertised London room, per night",
+   "value": "£49 a night — Travelodge's own published London lead-in rate, the class of room Agoda resells; Agoda itself publishes no city lead-in price, checked 24 September 2026"
+  },
+  "intro": "<p>Agoda's press office puts the catalogue at \"over 6 million hotels and holiday properties, plus flights, activities, and more\", sold in more than 200 markets, in 39 languages, with customer support in 16 of them. Those are the company's own figures, read on 24 September 2026. Behind them sits Booking Holdings (Nasdaq: BKNG), which turned over $26.9 billion in 2025 and employed about 24,300 people at the end of it.</p><p>The useful part for a British traveller is the pricing model rather than the size. Agoda grew up selling Asia to Asia — Booking Holdings' own annual report still describes it as \"a leading online accommodation reservation service catering primarily to consumers in the Asia-Pacific region, with headquarters in Singapore\" — and it carries habits from that market: heavy discounting, a large share of rooms you pay for at the desk rather than in advance, and a search page that is openly, published-price-list openly, influenced by what hotels pay to sit near the top of it.</p><p>That last point is the reason this page is worth reading before you book. Agoda prints the rate card for its own search results on its partner site, and the Competition and Markets Authority made it promise, in writing, to tell you when money has moved a hotel up the page.</p>",
+  "key_facts": [
+   {
+    "label": "Who you are booking with",
+    "value": "Agoda Company Pte. Ltd., the Singapore company named in its 2019 undertakings to the CMA at 30 Cecil Street, Prudential Tower, Singapore; its partner-facing terms give the address as 36 Robinson Road, #20-01 City House"
+   },
+   {
+    "label": "UK presence",
+    "value": "Agoda International Pte. Ltd., overseas company FC030522 (Singapore registration 200914710H), UK establishment BR015519 registered on 25 October 2011 at 2nd Floor, The Monument Building, 11 Monument Street, London"
+   },
+   {
+    "label": "Parent",
+    "value": "Booking Holdings Inc. (Nasdaq: BKNG) — revenue $26.9bn in 2025, about 24,300 staff; sister brand Booking.com lists roughly 4.4 million properties"
+   },
+   {
+    "label": "Catalogue",
+    "value": "\"over 6 million hotels and holiday properties\", 200-plus markets, 39 languages on the platform, 16 languages of support, about 7,500 staff"
+   },
+   {
+    "label": "What a top-three slot costs a hotel",
+    "value": "Sponsored Listing buys spots 1–3 or 11–13 on a cost-per-booking basis; the Agoda Growth Program charges 10%, 12% or 15% extra commission per booking for a ranking boost and a Preferred Partner badge"
+   },
+   {
+    "label": "How you pay",
+    "value": "Prepaid to Agoda, or Property Collect — \"Agoda's solution for guests to pay for their booking upon arrival at the property\", with Agoda's cut offset against the hotel's other payouts"
+   },
+   {
+    "label": "Binding promises to the regulator",
+    "value": "Undertakings signed under Part 8 of the Enterprise Act 2002, in force from 24:00 on 1 September 2019, covering ranking disclosure, labelled paid slots, total prices and countdown timers"
+   },
+   {
+    "label": "Rules that apply",
+    "value": "No financial regulator; a hotel-only booking is outside ATOL, which covers \"a package trip that includes a flight\"; no independent ratings body assesses booking platforms"
+   }
+  ],
+  "sections": [
+   {
+    "heading": "What a London room costs, and where the number actually comes from",
+    "html": "<p>Agoda does not publish a lead-in price for a city. LateRooms tells you London starts at £34 before you type anything; HotelPlanner prints a London average of $111.36 for a three-star group rate. On Agoda the price exists only inside the search tool, which means the cheapest advertised London room is whatever the platform decides to show you on the day, and it cannot be quoted in advance.</p><p>The floor is still knowable, because the cheapest large supplier in London publishes it. Travelodge, which runs over 80 hotels across Central and Greater London and more than 625 in total, advertises rooms \"from £49 in London\" and thousands under £35 elsewhere in the country, bookable up to 355 days ahead. It also says, flatly: \"You will always find our lowest prices on our website.\" On a budget chain room, then, an Agoda price beating £49 is a genuine find and a price above it is worth a thirty-second check on the hotel's own site before you commit.</p><p>Where Agoda tends to earn its place is the opposite end of the catalogue — independents, Asian city hotels and apartments that never appear on a British chain's booking engine at all, and where there is no direct rate to compare against.</p>"
+   },
+   {
+    "heading": "The ranking has a price list, and Agoda prints it",
+    "html": "<p>Most platforms keep the mechanics of their search results vague. Agoda does the opposite on its partner site, and the numbers are specific enough to be useful to a traveller reading them from the other side.</p><p>The first product is Sponsored Listing, described as \"the only marketing solution that guarantees prominent placement in the search results on Agoda's platforms\" — a guaranteed slot in positions 1 to 3, or 11 to 13, bought on a cost-per-booking basis rather than by auction, because a flat rate is \"not available…due to variances in market demand\". Agoda's pitch to hotels reports campaigns running 30 days or more since January 2024 averaging 124% more impressions, 32% more clicks, 23% more bookings and a 13x return. The sentence that matters most to a shopper sits in the same pitch: \"90% of bookings are made with properties listed in the top 5 search ranks.\"</p><p>The second is the Agoda Growth Program, a longer commitment with three tiers of extra commission on every booking — 10% on basic, 12% on standard, 15% on premium — in exchange for a search ranking boost, a Preferred Partner badge on the listing and the property page, up to 90% more spending on metasearch engines such as Google Hotels and Kayak, up to 80% more on pay-per-click advertising and exposure across what Agoda counts as 10,000-plus affiliate networks. There is a 90-day minimum commitment and one free two-week trial per property. Agoda's 2024 figures for the standard tier: 1.5 times the impressions, 37% more revenue, 42% more net room nights.</p><p>Read those two products together and a hotel paying 15% above its contracted commission is buying a documented advantage over the identical hotel next door that did not. That is not a scandal — every marketplace sells visibility — but it is the reason the first result is not the best result, and it is why the regulator took an interest.</p>"
+   },
+   {
+    "heading": "The promises Agoda made to the CMA, and what they oblige it to show you",
+    "html": "<p>On 6 February 2019 the Competition and Markets Authority announced enforcement action against six booking sites — Expedia, Booking.com, Agoda, Hotels.com, ebookers and trivago — over search ranking, pressure selling, discount claims and hidden charges. Agoda Company Pte. Ltd. signed undertakings under Part 8 of the Enterprise Act 2002, in relation to the Consumer Protection from Unfair Trading Regulations 2008, and paragraphs 1 to 23 took effect at \"24:00 hours on 1 September 2019\".</p><p>The document is worth knowing in outline because it is still the clearest statement of what Agoda has to do. \"Money Earned\" is defined as a payment received by Agoda \"which may affect the Position of a Hotel\", and Agoda must state clearly and prominently that money earned may affect the ranking of results. A \"Guaranteed Slot Listing\" — a hotel guaranteed a pre-determined position solely because it paid — must be labelled as such and set apart from the rest. The total price, including compulsory charges, must appear next to its constituent parts, and a sort by price must sort by the total. A price cannot be presented as time-limited if it survives the deadline, and a countdown timer may not imply a deadline that does not exist.</p><p>The CMA's own summary of the commitments is blunter: the sites agreed not to give \"a false impression of the availability or popularity of a hotel\" and to display \"all compulsory charges such as taxes, booking or resort fees in the headline price\". Agoda had to report on implementation by 1 March 2020 and on effectiveness by 1 March 2021, and must produce a further report within one month whenever the CMA asks in writing.</p>"
+   },
+   {
+    "heading": "Two ways to pay, and they protect you differently",
+    "html": "<p>Some Agoda rates are prepaid; many are Property Collect, which Agoda describes to hotels as \"Agoda's solution for guests to pay for their booking upon arrival at the property\". On those bookings the hotel takes the whole selling price at the desk and Agoda recovers its share by deducting it from the property's other payouts — \"Agoda will deduct the compensation of Property Collect bookings from your other prepaid bookings to avoid manual invoicing\". There is also a variant that holds the room without a card at all.</p><p>For the traveller, the difference decides what happens when something goes wrong. Pay the hotel on arrival and Agoda has never touched your money, so there is nothing for it to refund. Prepay by credit card and section 75 of the Consumer Credit Act 1974 makes the card issuer jointly liable with the seller on purchases above £100 and up to £30,000, which is the strongest protection available on a hotel booking; a deposit paid on the card is enough to bring the whole price into scope. Pay by debit card and you are left with a card scheme chargeback, which is an industry arrangement rather than a statutory right.</p><p>One more boundary is worth stating plainly. A room on its own is not a package holiday, so ATOL does not apply: the scheme covers \"a package trip that includes a flight\", and it explicitly does not cover accommodation-only bookings. Agoda does sell flights, and whether it holds a UK ATOL for flight-plus-hotel sales could not be confirmed for this review — the CAA's ATOL holder search is the place to check before booking the two together.</p>"
+   },
+   {
+    "heading": "Who you are contracting with, and where the argument would be heard",
+    "html": "<p>Agoda is a Singapore business with a long-standing British footprint. Agoda International Pte. Ltd. is registered at Companies House as overseas company FC030522, Singapore registration 200914710H, and its UK establishment BR015519 has been open since 25 October 2011, currently at 2nd Floor, The Monument Building, 11 Monument Street, London, with accounts filed to 31 December 2025. The consumer-facing company named in the CMA undertakings is a different one, Agoda Company Pte. Ltd., given there as 30 Cecil Street, Prudential Tower; its partner terms of use put it at 36 Robinson Road, #20-01 City House, and make that agreement subject to Singapore law and the \"exclusive jurisdiction of the courts of Singapore\".</p><p>The group above it is regulated harder in Brussels than in London. The European Commission designated Booking a gatekeeper under the Digital Markets Act on 13 May 2024 for the intermediation service Booking.com (case DMA.100019), and Booking Holdings' 2025 annual report records that the designation, together with Booking.com's status as a Very Large Online Platform under the Digital Services Act, brought \"new requirements and scrutiny\". Neither designation names Agoda. In the UK the relevant instrument is the Digital Markets, Competition and Consumers Act 2024, whose consumer provisions came into force on 7 April 2025: they prohibit drip pricing, ban fake reviews, and let the CMA decide for itself that consumer law has been broken and fine up to 10% of global turnover.</p><p>The terms themselves move often — version 8.0 of the property agreement took effect on 8 June 2026, version 7.0 on 21 February 2025 and version 6.0 on 8 December 2023 — and a UK and EEA exhibit covering the Platform-to-Business Regulation 2019/1150, which requires marketplaces to disclose the main parameters behind their rankings, has been attached since January 2021.</p>"
+   },
+   {
+    "heading": "What the listing does not tell you about the property",
+    "html": "<p>A large share of Agoda's six million properties are apartments and holiday homes rather than hotels, and the British rules for those have been changing under everybody's feet. In England, a letting is subject to fire safety, gas, carbon monoxide and electrical obligations enforced by the Health and Safety Executive and the fire service rather than by any travel body, and the promised mandatory national registration scheme for short-term lets is still \"not yet in force\", expected to begin during 2026. Until it starts there is no register a guest can search, and a listing's own description is the only account of what the place is.</p><p>Star ratings on the results page are not an inspection either. In Britain the assessing bodies are the AA and VisitEngland, whose inspectors stay anonymously and grade the property; a star count typed into a listing by its owner is a claim, not an assessment. The same distinction applies to the guest score beside a price: it is an average of past customers, useful in bulk, and not an award from anybody.</p><p>On the product side Agoda is moving quickly. It opened a limited public beta of an AI assistant that turns \"travel ideas into bookable trips\" on 15 September 2026, and has been publishing a steady run of partnership and technology announcements through the year — with Singapore Tourism Board in August 2026 among them.</p>"
+   }
+  ],
+  "pros": [
+   "Publishes the actual rate card for its own search results — 10%, 12% or 15% extra commission for a ranking boost, and guaranteed slots at positions 1–3 or 11–13 — which almost no rival platform puts in writing",
+   "Bound by dated, specific undertakings to the CMA covering ranking disclosure, labelled paid placements, total prices and countdown timers, in force since 1 September 2019",
+   "Over 6 million properties in more than 200 markets, with depth in Asian cities and independents that British chains and direct booking engines never list",
+   "Property Collect rates let you hold a room and pay the hotel on arrival, with a variant that does not need a card at all",
+   "Backed by Booking Holdings, a $26.9bn-revenue parent with about 24,300 staff, rather than a thinly capitalised intermediary",
+   "Support offered around the clock in 16 languages, with the platform itself running in 39"
+  ],
+  "cons": [
+   "No lead-in price is published for any city, so you cannot see what a destination starts at without running a search — LateRooms and HotelPlanner both publish theirs openly",
+   "The order of the results is for sale: a hotel paying 15% above its contracted commission buys a ranking boost over an identical hotel that did not, and the shopper sees only a Preferred Partner badge with no published explanation of how far a payment moves a listing",
+   "Agoda's own pitch to hotels states that 90% of bookings go to properties in the top five ranks, which is precisely why paid placement is worth buying and why the first screen should not be read as the best value",
+   "On a Property Collect booking Agoda never holds your money, so it has nothing to refund if the room is not as described, and a card payment made only at the hotel desk is outside section 75",
+   "The consumer contracts with a Singapore company, and the partner-facing terms are governed by Singapore law with exclusive jurisdiction in Singapore courts; the UK establishment is a branch of an overseas company, not a British contracting party",
+   "The consumer terms of use, the best price guarantee wording and the cancellation rules could not be read for this review — those pages return no text to anything other than a live browser session, so the liability cap and the guarantee conditions remain unverified",
+   "Reports Agoda made to the CMA on implementation (due 1 March 2020) and effectiveness (due 1 March 2021) are not published, so there is no public record of how well the 2019 promises were kept"
+  ],
+  "verdict": "Agoda is the most candid of the big booking platforms about how its search results are built, and that candour is the reason to use it carefully rather than a reason to avoid it: when a marketplace tells hotels that 90% of bookings land in the top five ranks and then sells those ranks at 10%, 12% and 15%, the sensible traveller scrolls. It earns its keep on independents and Asian city hotels, where there is often no direct rate to check against, and it is least useful on a British chain room, where Travelodge's own £49 London lead-in and its promise that its website always has its lowest price are one click away. Prepay by credit card if the booking matters, because section 75 is worth more than any platform guarantee, and read what the price excludes before you agree to pay the hotel on arrival.",
+  "faqs": [
+   {
+    "q": "Is a hotel booked through Agoda financially protected?",
+    "a": "<p>Not by a travel scheme. ATOL covers \"a package trip that includes a flight\" and does not cover accommodation-only bookings, and no financial regulator oversees hotel booking. The protection that does apply is your card: a prepaid booking over £100 and up to £30,000 on a credit card brings section 75 of the Consumer Credit Act 1974 into play, making the issuer jointly liable with the seller. A room paid for at the hotel desk has neither.</p>"
+   },
+   {
+    "q": "Does paying Agoda more move a hotel up the search results?",
+    "a": "<p>Agoda says so itself, to hotels. Sponsored Listing guarantees positions 1 to 3 or 11 to 13 on a cost-per-booking basis, and the Agoda Growth Program charges 10%, 12% or 15% extra commission per booking for a ranking boost, a Preferred Partner badge and heavier metasearch and pay-per-click spending. Under its 2019 undertakings to the CMA, Agoda must tell you clearly that money earned may affect the ranking and must label guaranteed slots.</p>"
+   },
+   {
+    "q": "Why can I pay some Agoda rooms at the hotel and others in advance?",
+    "a": "<p>They are two commercial models. Prepaid rates are collected by Agoda; Property Collect rates are collected by the hotel on arrival, with Agoda's share deducted from the property's other payouts rather than invoiced. Paying at the desk keeps your money in your account for longer, and it also means the platform is holding nothing on your behalf if the stay goes wrong.</p>"
+   },
+   {
+    "q": "Who is Agoda owned by, and who would I sue?",
+    "a": "<p>Agoda is part of Booking Holdings Inc. (Nasdaq: BKNG), which reported $26.9bn of revenue for 2025. The trading company named in Agoda's undertakings to the CMA is Agoda Company Pte. Ltd. of Singapore; a separate group company, Agoda International Pte. Ltd., has had a registered UK establishment (BR015519) in the City of London since 25 October 2011. Agoda's partner-facing terms are governed by Singapore law with exclusive jurisdiction in Singapore.</p>"
+   },
+   {
+    "q": "Are the star ratings and guest scores on Agoda independent?",
+    "a": "<p>No. In Britain the assessing bodies are the AA and VisitEngland, whose inspectors stay anonymously and grade the hotel; a star count on a listing is supplied by the property or a third party. Guest scores are averages of past customers' ratings, which are useful in volume and are not an award, an inspection or a ratings-agency assessment.</p>"
+   }
+  ]
+ },
+ {
   "slug": "airport-lounges-airport-lounge",
   "title": "Airport Lounges Airport Lounge",
   "meta_title": "Airport Lounges: What a UK Lounge Pass Really Costs",
