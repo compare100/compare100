@@ -1808,11 +1808,17 @@ if os.path.isfile(_fig_extra_path):
 
 _figrows.sort(key=lambda r: (r['section'], r['page_slug'], r['row_id']))
 _figdate = max((r['verification_date'] for r in _figrows), default='')
+# Everything the page and the files stamp themselves with comes from the data, not
+# from the clock. Using datetime.now() here rewrote a 1MB file every single day.
+try:
+    _figpretty = datetime.strptime(_figdate, '%Y-%m-%d').strftime('%d %B %Y').lstrip('0')
+except Exception:
+    _figpretty = _figdate
 _figpages = len({r['page_slug'] for r in _figrows})
 
 json.dump({'name': 'Compare100 verified figures index',
            'url': f'{SITE}/cite/',
-           'generated': datetime.now().strftime('%Y-%m-%d'),
+           'generated': _figdate,
            'rows': len(_figrows), 'pages': _figpages,
            'attribution': 'Attribute to Compare100 and link to the source_url of the row used.',
            'figures': _figrows},
@@ -1820,7 +1826,10 @@ json.dump({'name': 'Compare100 verified figures index',
           ensure_ascii=False, indent=1)
 
 with open(os.path.join(OUT, 'verified-figures.csv'), 'w', newline='', encoding='utf-8') as _fh:
-    _w = _fcsv.DictWriter(_fh, fieldnames=_FIG_COLS)
+    # lineterminator is not optional here: csv writes CRLF by default and the
+    # repository normalises text to LF, which leaves the file permanently dirty
+    # in the working tree and fails the publish workflow's commit step.
+    _w = _fcsv.DictWriter(_fh, fieldnames=_FIG_COLS, lineterminator='\n')
     _w.writeheader()
     _w.writerows(_figrows)
 
@@ -1849,7 +1858,7 @@ _figbody = (crumbs([('Home', '/'), ('Verified figures index', '')])
     'back and its date confirmed. Nothing is averaged, ranked or calculated.</p></div>'
   + '<h2>Download</h2><p><a href="/verified-figures.json">verified-figures.json</a> '
     '&middot; <a href="/verified-figures.csv">verified-figures.csv</a> '
-    f'&middot; updated {datetime.now().strftime("%d %B %Y")}</p>'
+    f'&middot; updated {esc(_figpretty)}</p>'
   + '<h2>How to cite us</h2>'
     '<p>Quote the figure, name Compare100, and link to the page it came from &mdash; the '
     '<code>source_url</code> on the row. The link matters more than the credit: it is how '
@@ -1893,7 +1902,7 @@ _figschema = {"@context": "https://schema.org", "@graph": [
    "license": f"{SITE}/cite/",
    "isAccessibleForFree": True,
    "creativeWorkStatus": "Published",
-   "dateModified": datetime.now().strftime('%Y-%m-%d'),
+   "dateModified": _figdate,
    "temporalCoverage": f"{min((r['verification_date'] for r in _figrows), default='')}/{_figdate}",
    "creator": {"@type": "Organization", "name": "Compare100", "url": SITE},
    "distribution": [
@@ -1923,7 +1932,7 @@ n = write('/cite/', shell(
     extra_head='<style>.facts th a{text-decoration:none}'
                '.fnote{display:block;font-size:13px;color:var(--mut);font-weight:400;'
                'margin-top:2px}</style>'))
-urls.append(('/cite/', datetime.now().strftime('%Y-%m-%d'))); sizes.append(n)
+urls.append(('/cite/', _figdate)); sizes.append(n)
 print(f'figures {len(_figrows)} rows from {_figpages} pages '
       f'({_fig_added} curated merged, {_fig_stale} dropped) -> /cite/')
 
