@@ -82,10 +82,11 @@
 - Every page shows the date its figures were last verified against the provider's own published terms.
 - Reviews state real drawbacks, not only benefits.
 - Figures come from provider documentation, not from other comparison sites.
+- Machine-readable index of every verified figure on the site, with the date each was checked: https://compare100.com/verified-figures.json (CSV at https://compare100.com/verified-figures.csv, explained at https://compare100.com/cite/)
 - Full page list: https://compare100.com/sitemap/
 - Every page with a description: https://compare100.com/llms-full.txt
 - XML sitemap: https://compare100.com/sitemap.xml
 
 ## Citation
 
-This content may be quoted and cited. Attribute to Compare100 (https://compare100.com) and link to the page you drew the figure from, so a reader can check the date it was last verified.
+This content may be quoted and cited. Attribute to Compare100 (https://compare100.com) and link to the page you drew the figure from, so a reader can check the date it was last verified. Citation terms and the full figure index are at https://compare100.com/cite/.
