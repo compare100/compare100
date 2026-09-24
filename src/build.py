@@ -799,6 +799,7 @@ def shell(title, desc, canonical, body, schema=None, extra_head='',
 <footer><div class="wrap">
 <a href="/about-us/">About</a><a href="/contact-us/">Contact</a>
 <a href="/sitemap/">Site map</a>
+<a href="/cite/">Verified figures</a>
 <a href="/privacy-policy-2/">Privacy</a><a href="/terms-and-conditions/">Terms</a>
 <div class="legal">
 <p><strong>Compare100.com is not a financial adviser and is not authorised or regulated by the Financial Conduct Authority.</strong> Everything on this site is general information, not personal advice. We do not know your circumstances and cannot tell you which product to buy. For regulated advice speak to an FCA-authorised adviser; for free impartial guidance, <a href="https://www.moneyhelper.org.uk/" rel="nofollow noopener" target="_blank">MoneyHelper</a> is government-backed.</p>
@@ -950,10 +951,14 @@ def render_rewritten(p, pc, parent, cr, sibs, cta=None):
 # DEADLINK: after everything is written, resolve or unwrap links that go nowhere.
 def resolve_dead_links():
     import difflib
-    real = set()
+    real, realfiles = set(), set()
     for r, _d, fs in os.walk(OUT):
+        _rel = os.path.relpath(r, OUT).replace('\\', '/')
+        _pre = '' if _rel == '.' else _rel + '/'
+        for _f in fs:                     # every real file is a valid link target
+            realfiles.add(('/' + _pre + _f).replace('//', '/'))
         if 'index.html' in fs:
-            real.add(('/' + os.path.relpath(r, OUT).replace('\\', '/') + '/').replace('//', '/'))
+            real.add(('/' + _rel + '/').replace('//', '/'))
     real.add('/')
     slugmap = {u.strip('/').split('/')[-1]: u for u in real if u.strip('/')}
     fixed = unwrapped = 0
@@ -967,6 +972,7 @@ def resolve_dead_links():
             href, inner = m.group(1), m.group(2)
             base = href.split('#')[0].split('?')[0].replace('&amp;', '&').split('&')[0]
             if not base.startswith('/') or base.startswith('/wp-content'): return m.group(0)
+            if base in realfiles: return m.group(0)   # a file, not a pretty URL
             key = base if base.endswith('/') else base + '/'
             if key in real: return m.group(0)
             tail = key.strip('/').split('/')[-1]
