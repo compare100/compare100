@@ -1558,6 +1558,142 @@
   ]
  },
  {
+  "slug": "amazon-fitness-wearables",
+  "title": "Amazon Fitness Wearables: The Fees, The Cover and What the Sensor Is Allowed to Claim",
+  "meta_title": "Amazon Fitness Trackers: Accuracy, Cover and Safety",
+  "meta_description": "Which? put wrist heart-rate error at 1.1% to 2.58% across 58 devices. Amazon's watch fees, Renewed cover and two Fitbit notices, checked 25 September 2026.",
+  "checked": "25 September 2026",
+  "intro": "<p>A fitness tracker sold on Amazon can cost anything from about £2 to close to £250, and the sellers crowding the cheap end are there partly because of the fee: Amazon takes 15% of a watch's price up to £225 and 5% of anything above that, against a flat 7% in Consumer Electronics. Those rates come from Amazon's own seller pricing page, read on 25 September 2026; the price band is Which?'s, from its fitness tracker buying guide.</p><p>Breadth is what the shop is for. Every serious wearable brand lists there alongside a long tail of £20 bands, and the marketplace machinery behind them is more visible than most shoppers realise. Amazon says it identified, seized and disposed of more than 15 million counterfeit products worldwide in 2025, and that its Counterfeit Crimes Unit has pursued more than 32,000 bad actors through litigation and criminal referrals since it was set up in 2020. Sellers using Fulfilment by Amazon have to label CE-marked goods with the contact details of a Responsible Person, which is the one piece of paperwork a buyer can check on the parcel.</p><p>One thing is worth knowing before you read a single product description. Nothing a wearable does under the heading of fitness is a regulated medical device. The MHRA's own guidance on stand-alone software says that \"the monitoring of general fitness, general health and general wellbeing is not usually considered to be a medical purpose\", and that apps and software monitoring sport or fitness, heart rate included, \"are not considered to be medical devices\". That is not a complaint about Amazon or about any brand. It is the frame the whole category sits in, and the rest of this page follows from it.</p>",
+  "headline": {
+   "label": "Guarantee behind the device",
+   "value": "1 year on an Amazon Renewed product — but traditional wristwatches are excluded from the Renewed Guarantee, so a refurbished watch rests on the seller's own terms (checked 25 September 2026)"
+  },
+  "key_facts": [
+   {
+    "label": "Seller referral fee on watches",
+    "value": "15% of the price up to £225, then 5%, minimum 25p"
+   },
+   {
+    "label": "Referral fee on sports and outdoors",
+    "value": "15% flat, minimum 25p"
+   },
+   {
+    "label": "Amazon Renewed Guarantee",
+    "value": "1 year from receipt — traditional wristwatches excluded"
+   },
+   {
+    "label": "Regulatory status of fitness features",
+    "value": "Not a medical device: fitness heart-rate monitoring is not a medical purpose (MHRA)"
+   },
+   {
+    "label": "Best wrist heart-rate accuracy measured",
+    "value": "1.1% error, Apple, across 58 devices tested by Which? (3 February 2026)"
+   },
+   {
+    "label": "Fitbit notices on the OPSS register",
+    "value": "2 — Ionic recall 4 March 2022, Sense and Versa 3 report 20 January 2025"
+   },
+   {
+    "label": "Fitbit security update promise",
+    "value": "At least 2 years after a model is last sold on Fitbit.com or the Google Store"
+   },
+   {
+    "label": "Refund window after cancelling",
+    "value": "14 days from the day Amazon receives the goods back (reg 34, Consumer Contracts Regulations 2013)"
+   },
+   {
+    "label": "Amazon's own wearable",
+    "value": "Halo switched off 31 July 2023; purchases in the preceding 12 months refunded"
+   }
+  ],
+  "sections": [
+   {
+    "heading": "What a wrist sensor is allowed to say it does",
+    "html": "<p>Medical devices in Great Britain run on the Medical Devices Regulations 2002 (SI 2002 No 618, as amended), which still carries the old European directives rather than the EU's 2017 regulations. Anything that counts as a device has to be registered with the MHRA before it is placed on the Great Britain market, has to carry a UKCA mark or a still-accepted CE mark, and, where the manufacturer sits outside the UK, has to have a UK Responsible Person who holds written authority from that manufacturer and keeps the declaration of conformity and technical file available for inspection. CE-marked devices under the old directives are accepted in Great Britain until 30 June 2028; devices carrying EU MDR or IVDR marks, and in vitro diagnostics under the old IVD directive, until 30 June 2030.</p><p>Almost none of that touches a step counter. The MHRA's software guidance (version 1.10f) puts general fitness, general health and general wellbeing outside the definition, and says heart-rate monitoring for sport or fitness is not a medical device — with one exception, \"where the intention is to investigate the physiological processes\". Its newer guidance on digital mental health technology, updated on 3 July 2025, applies the same two-step test: does the product have a medical purpose, and does it do enough computationally to count, rather than merely storing, archiving, communicating or searching. A product aimed at sub-clinical or wellbeing-level symptoms stays outside; the same product aimed at clinically relevant ones comes inside, and most software that supplies diagnostic information lands in class IIa.</p><p>The practical consequence for a shopper is narrow and worth holding on to. A resting heart rate, a sleep score, a stress reading and a step count on a tracker bought from Amazon have been assessed by nobody. No regulator has looked at them, no approved body has signed anything, and the number on the screen is the manufacturer's own claim about its own sensor.</p>"
+   },
+   {
+    "heading": "Apple publishes an error rate for its ECG app; the fitness features have none",
+    "html": "<p>The exception in the paragraph above is where the regulated features live, and Apple's ECG app is the clearest example a buyer can actually read about. Apple's own support documentation gives the trial figures: in a clinical study of roughly 600 subjects the app showed 99.6% specificity for sinus rhythm classification and 98.3% sensitivity for classifying atrial fibrillation, with the caveat that \"real world use of the ECG app may result in a greater number of strips being deemed inconclusive and not classifiable\".</p><p>The limits are published in the same place, and they are blunt. The app runs on Apple Watch Series 4 or later and all Apple Watch Ultra models, not on Apple Watch SE. It \"is not intended for use by people under 22 years old\". It \"cannot detect a heart attack\", \"cannot detect blood clots or a stroke\", and cannot detect high blood pressure, congestive heart failure, high cholesterol or other forms of arrhythmia.</p><p>Set those numbers against the rest of the category and the asymmetry is the useful finding. A feature that went through a conformity assessment publishes a sensitivity figure, a minimum age and a list of things it cannot do. A feature sold as fitness publishes a marketing figure and nothing else. On a listing page the two sit a centimetre apart in the same bullet list.</p>"
+   },
+   {
+    "heading": "Fifteen per cent to £225, and why the watch aisle is so deep",
+    "html": "<p>Amazon's referral fees are published openly and they shape what a category looks like. Watches pay 15% of the portion of the total price up to £225 and 5% of any portion above it, with a 25p minimum. Jewellery pays 20% then 5% at the same £225 line. Sports and Outdoors pays a flat 15%. Electronic Accessories pays 15% up to £100 and 8% above. Consumer Electronics and Computers both pay 7%. On top of the referral fee a seller pays either £25 a month excluding VAT on the Professional plan or 75p per item sold on the Individual plan.</p><p>Those rates do real work. A £180 watch hands Amazon £27; the same £180 spent on a device classified as consumer electronics hands over £12.60. A £400 watch pays £33.75 — 15% of the first £225 plus 5% of the remaining £175 — so the marginal cost of selling an expensive watch falls away sharply above that line, while the cost of selling a cheap one does not. That is the commercial logic behind a category that is thick at £20 and thick again at £300, with less between.</p><p>It also explains something a shopper sees without being told. Where the same physical product can plausibly be listed as a watch, an accessory or consumer electronics, there is an eight percentage point incentive to pick the cheapest classification, and the category a listing sits in is chosen by the seller.</p>"
+   },
+   {
+    "heading": "Renewed is a written standard that stops at the wristwatch",
+    "html": "<p>Amazon Renewed is the strongest consumer protection Amazon operates in hardware, and it is a proper specification rather than a badge. The Renewed Guarantee \"will be valid for one year after a customer's receipt of a Renewed product\". Batteries, \"when present, must have a capacity that exceeds 80% of the new equivalent\". Sellers cannot enter the programme casually: £20,000 of qualifying refurbished purchase invoices in the previous 90 days (£1 million for Apple smartphones), an order defect rate of 0.8% or less on a trailing 90 days, and a minimum of 10 images of a sample unit.</p><p>Read the quality policy for a wearable, though, and it runs out. The document's appendices cover wireless devices, personal computers, printers, small kitchen appliances, power tools and lawn and garden equipment, and softlines. It explicitly excludes \"traditional wristwatches\" from the Renewed Guarantee, and it does not mention smartwatches or fitness bands at all. Amazon's seller-facing page lists phones, cameras, headphones, kitchen appliances, power tools, personal computers, tablets, televisions and video game consoles as examples and points to programme policies for the full list, which is not published to shoppers.</p><p>So the sentence a refurbished-laptop buyer relies on cannot be relied on for a refurbished watch, and the exact position of a smartwatch under the policy could not be established from the documents that are public. That needs confirming with Amazon rather than assuming either way. What is certain is that the 80% battery floor is Amazon's own number, and on a wearable it would matter more than on anything else: a tracker whose selling point is multi-day battery life can meet the standard having already lost a fifth of it.</p>"
+   },
+   {
+    "heading": "Two Fitbit notices sit on the public register",
+    "html": "<p>The Office for Product Safety and Standards publishes every UK recall and safety report free, and a search for the word smartwatch on 25 September 2026 returned three entries. Two are Fitbit and one is a recall of Dorland 'Intrinsically Safe' electronic equipment sold via Amazon, published 7 April 2025 and rated serious.</p><p>The first Fitbit entry is case 2203-0041, dated 4 March 2022 and published on 9 March 2022: a recall from end users of the Fitbit Ionic, model FB503, made between January 2017 and December 2020 in Taiwan and China. The battery \"can overheat, presenting a risk of burns when the product is in use\", and the notice records the product as breaching the General Product Safety Regulations 2005. Owners were told to stop using it and register for a refund.</p><p>The second is case 2509-0315, a product safety report dated 20 January 2025 covering the Fitbit Sense and Versa 3, manufactured between August 2020 and September 2022 and sold from September 2020 to September 2023. The risk is again burns from batteries overheating in normal use, rated low. The remedy is the interesting part: Fitbit LLC deployed a remote firmware update in January 2025 that reduces battery capacity to mitigate the overheating, pushed by email, device notification and the app, with factory resets applied to devices that had not taken it. Owners may qualify for what the notice calls an appeasement; neither the OPSS notice nor the UK-facing support pages state a sterling amount, so what it is worth needs confirming with Fitbit.</p><p>One search tip, because the register rewards precision and punishes vagueness. Smartwatch returns three results and fitbit returns two, but fitness tracker returns 576, because the search treats the words as alternatives and matches every fitness machine and every fitting on the database. Read a small number carefully in both directions: two notices on the best-known brand in the category is reassuring about a business that can be found and made to act, and says nothing at all about a £19 band from a seller nobody has tested.</p>"
+   },
+   {
+    "heading": "Support ends before the strap does",
+    "html": "<p>A wearable is a computer, and its useful life is decided by software as much as by the case. Google publishes the security update commitment for Fitbit devices in one table, and the promise is \"security updates for at least two years after the applicable device is last sold on Fitbit.com or the Google Store\".</p><p>The dates in that table are worth reading next to the safety notice above. Support for the Fitbit Sense ended in September 2025 and for the Versa 3 in December 2025 — the two models named in the January 2025 report are both out of security support now, while stock of them still turns up for sale. The Charge 5 also ended in December 2025, the Inspire 2 in April 2026 and the Luxe in June 2026. Current models run longer: the Charge 6, Inspire 3, Sense 2 and Versa 4 are listed to February 2028, and the Fitbit Air to May 2028.</p><p>Amazon has been on the other side of this. Its own wearable was withdrawn: Amazon stopped supporting Halo on 31 July 2023, and from 1 August 2023 \"Amazon Halo devices, and the Amazon Halo app, will no longer function\". It refunded purchases of the Halo View, Halo Band, Halo Rise and accessory bands made in the preceding 12 months, plus unused prepaid subscription fees, and gave customers until 1 August 2023 to download or delete their health data before the rest was deleted. A 12-month refund window is a reasonable gesture and it is also the measure of the risk: a wearable bought 13 months earlier was worth nothing the day the servers went off.</p>"
+   },
+   {
+    "heading": "Sending back something you have already worn",
+    "html": "<p>Buying online carries a cancellation right that a shop does not have to give, and the money side of it is set out in regulation 34 of the Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013. The trader \"must reimburse all payments, other than payments for delivery, received from the consumer\", within 14 days of receiving the goods back where it has not offered to collect them, or 14 days after being told of the decision to cancel where it has.</p><p>Regulation 34(9) is the part that bites on a wearable. Where \"the value of the goods is diminished by any amount as a result of handling of the goods by the consumer beyond what is necessary to establish the nature, characteristics and functioning of the goods, the trader may recover that amount from the consumer, up to the contract price\". Trying a watch on and checking that the sensor lights up is establishing how it works. Wearing it for a fortnight of training, showering in it and scuffing the bezel is not, and the deduction is lawful. The protection in regulation 34(11) is that no deduction may be made at all if the trader failed to give the cancellation information in the first place.</p><p>Amazon's own returns window and its rules on worn goods could not be quoted here. Every path on www.amazon.co.uk refuses automated retrieval under its robots file, re-tested on a help page on 25 September 2026, so the store's published terms are readable by a person in a browser and not by anything else. Read them yourself before you buy a watch you may send back, and treat the statutory position above as the floor rather than the whole answer.</p>"
+   },
+   {
+    "heading": "Independent testing, and the point at which it goes behind a paywall",
+    "html": "<p>Which? published the most useful comparison in this category on 3 February 2026, and it is about the one thing every wearable claims. It measured 58 devices against medical-grade chest straps, counting how often the watch disagreed with the strap. Apple came out lowest overall at 1.1% error, then Oppo at 1.47% and Google at 1.79%; Garmin sat at 2.5% and Samsung at 2.58%. The spread within a brand was wider than the gap between brands in places — Google managed 0.74% at rest and 3.08% while walking.</p><p>Two caveats belong with those figures. The brand samples are uneven: Oppo was represented by a single model, Google and Polar by two each, so a brand average is not a model verdict. And error against a chest strap is a measure of agreement, not of clinical accuracy — the strap is the reference, not the truth.</p><p>The same testing programme is unsparing about the cheap end. One tracker recorded 10,000 steps when 3,400 had been taken, out by 66%, which is the sort of result that turns a health target into a number. Which? says good trackers commonly cost £80 to £150 while the category runs from as little as £2 to close to £250, and it rates comfort, distance, blood oxygen where claimed, battery life and day-to-day consistency alongside steps and heart rate. The individual test scores and the model-by-model table are members-only; the brand accuracy figures above are the part published openly. Saying so is more honest than working around it.</p>"
+   },
+   {
+    "heading": "The rules tightened in June 2025, and again in June 2026",
+    "html": "<p>Two changes have landed since these devices became mainstream, and both point the same way. The Medical Devices (Post-market Surveillance Requirements) (Amendment) (Great Britain) Regulations 2024, SI 2024 No 1368, were made on 16 December 2024 and came into force six months later. They oblige a manufacturer to run a post-market surveillance plan that is \"clear, organised and searchable\" for the life of the device, to report a serious incident no later than 15 days after becoming aware of it, a serious public health threat within 2 days and a death or unanticipated serious deterioration within 10 days, to report significant increases in the frequency or severity of incidents as a trend, and to produce a periodic safety update report within a year of the device going on sale and then at least annually. Records are kept for 15 years for an implantable device and 10 years for anything else. None of that applies to a device that is not a medical device, which is the point: the rules that produce a public paper trail stop exactly where the fitness label starts.</p><p>The other change came from the advertising regulator, and it is recent. On 17 June 2026 the ASA upheld four complaints against Hume Health LLC over adverts for its smart scales and its wearable band, which had been promoted as \"YOUR 2026 STROKE DETECTOR\", as \"like wearing an ICU monitor on your wrist\" and as giving \"the same data as those DEXA scans\". The ASA found breaches of CAP Code rules 12.1 and 12.2 — medical claims for products with no MHRA registration or applicable conformity marking, and claims liable to discourage people from seeking essential treatment — as well as rules 3.1, 3.7 and 3.11 on misleading and exaggerated claims. On the same day it upheld a ruling against HealthTracker Apps, trading as Blood Pressure Monitor App, where a colour-coded chart \"implied the app could analyse users' blood pressure readings to indicate whether they were normal, borderline or high\" when the app only logged what was typed into it.</p><p>Neither ruling is about Amazon, and neither is about the established brands. They are about the wording used to sell wrist sensors, which is the wording a marketplace listing is written in, and they set out plainly what a product with no conformity marking may not claim.</p>"
+   }
+  ],
+  "pros": [
+   "The widest selection in the category, from roughly £2 bands to premium watches, with the brands and the long tail in one place",
+   "Seller costs are published rather than hidden: 15% to £225 then 5% on watches, 7% on consumer electronics, 25p minimum, £25 a month or 75p an item",
+   "Fulfilment by Amazon requires CE-marked goods to carry the Responsible Person's contact details on the product, packaging, parcel or an accompanying document",
+   "Amazon reports seizing more than 15 million counterfeit products in 2025 and pursuing more than 32,000 bad actors since 2020",
+   "Where Renewed does apply, it is a written standard: one-year guarantee, batteries above 80% of new capacity, a £20,000 invoice bar and a 0.8% order defect ceiling for sellers",
+   "Amazon refunded Halo purchases made in the 12 months before the product was switched off, and let customers export their health data first"
+  ],
+  "cons": [
+   "The Renewed Guarantee excludes traditional wristwatches and says nothing about smartwatches, so the one-year cover a refurbished laptop carries may not exist on a refurbished watch — and the full permitted-product list is published only to sellers",
+   "A watch pays 15% referral fee to £225 where the same sensor sold as consumer electronics pays 7%, and the seller chooses the category the listing sits in",
+   "No fitness feature on any of these devices has been assessed by a regulator: the MHRA treats fitness heart-rate monitoring as outside the medical device rules, so the numbers on screen are the manufacturer's own claim",
+   "Amazon's own store pages refuse automated retrieval, re-tested 25 September 2026, so its returns window, its rules on worn goods, its delivery promises and its prices could not be quoted or checked here",
+   "Which?'s model-by-model scores are behind membership; only the brand-level accuracy figures are public, and the brand samples are as small as one model",
+   "Security support on Fitbit's Sense ended in September 2025 and on the Versa 3 in December 2025 — the two models in the January 2025 safety report — while stock still appears for sale",
+   "Amazon Halo shows the platform risk in the category: devices and app stopped working on 1 August 2023 and refunds reached only purchases made in the previous 12 months"
+  ],
+  "verdict": "As a place to buy a fitness wearable Amazon is hard to beat on range and on price, and it is more transparent about its own economics than most retailers: the 15% referral fee to £225, the 7% on consumer electronics and the £25 monthly plan are all published. The gap is cover rather than choice. Renewed's one-year guarantee, the strongest thing Amazon offers on hardware, excludes traditional wristwatches and is silent on smartwatches, and the store's own returns terms cannot be read by anything but a browser. Buy the brand's warranty as much as the device — Polar publishes two years, and Fitbit publishes the date its security updates stop — check the model against the free OPSS register before you pay, and treat every fitness number on the box as a claim nobody has audited. The one figure on this page that came from a regulated feature, Apple's 98.3% sensitivity for atrial fibrillation, exists precisely because that feature was assessed and the fitness ones were not.",
+  "faqs": [
+   {
+    "q": "Is a fitness tracker bought on Amazon a medical device?",
+    "a": "<p>No. The MHRA's guidance on stand-alone software says the monitoring of general fitness, general health and general wellbeing is not usually a medical purpose, and that monitoring heart rate for sport or fitness is not a medical device. Specific features can be regulated separately — Apple's ECG app is the clearest example — and those carry a UKCA or accepted CE mark and an MHRA registration. Everything else on the device has been assessed by nobody.</p>"
+   },
+   {
+    "q": "Does the Amazon Renewed one-year guarantee cover a refurbished smartwatch?",
+    "a": "<p>The Renewed quality policy explicitly excludes traditional wristwatches from the guarantee and does not mention smartwatches or fitness bands, and the full list of permitted products is published only to sellers. So the answer could not be established from public documents and is worth asking Amazon before buying refurbished. Where Renewed does apply the guarantee runs for one year from receipt and batteries must exceed 80% of the capacity of a new equivalent.</p>"
+   },
+   {
+    "q": "How accurate is wrist heart-rate measurement?",
+    "a": "<p>Which? measured 58 devices against medical-grade chest straps and published the results on 3 February 2026: Apple 1.1% error, Oppo 1.47%, Google 1.79%, Garmin 2.5% and Samsung 2.58%. Accuracy varies by activity more than by brand in places — Google was 0.74% out at rest and 3.08% out while walking. Brand samples were small, with one Oppo model and two each from Google and Polar, so treat the figures as brand averages rather than model verdicts.</p>"
+   },
+   {
+    "q": "Can I return a fitness tracker I have already worn?",
+    "a": "<p>Distance selling gives you a cancellation right, and regulation 34 of the Consumer Contracts Regulations 2013 says the trader must reimburse all payments other than delivery within 14 days of getting the goods back. But regulation 34(9) lets it deduct for any loss of value caused by handling beyond what is necessary to establish the nature, characteristics and functioning of the goods. Trying it on is fine; two weeks of training in it is not, and the deduction can run up to the contract price. No deduction is allowed if you were never given the cancellation information.</p>"
+   },
+   {
+    "q": "Have any fitness wearables been recalled in the UK?",
+    "a": "<p>Yes. The OPSS register holds a recall from end users of the Fitbit Ionic, model FB503, dated 4 March 2022, over a battery that can overheat and cause burns, and a product safety report of 20 January 2025 on the Fitbit Sense and Versa 3 for the same risk, rated low, remedied by a firmware update that reduces battery capacity. Searching the register is free at gov.uk; use a single tight keyword, because smartwatch returns three results while fitness tracker returns 576.</p>"
+   },
+   {
+    "q": "How long will a tracker keep getting software updates?",
+    "a": "<p>Google commits to security updates for Fitbit devices for at least two years after the model is last sold on Fitbit.com or the Google Store, and publishes the end date for every model. The Sense ended in September 2025, the Versa 3 and Charge 5 in December 2025, the Inspire 2 in April 2026 and the Luxe in June 2026, while the Charge 6, Inspire 3, Sense 2 and Versa 4 run to February 2028. Other brands do not all publish an equivalent table, so check before you buy an older model cheaply.</p>"
+   },
+   {
+    "q": "What can a wearable legally claim in its advertising?",
+    "a": "<p>Less than some listings suggest. On 17 June 2026 the ASA upheld complaints against Hume Health LLC for advertising a wearable band as a stroke detector and as being like wearing an ICU monitor on the wrist, finding breaches of CAP Code rules 12.1 and 12.2 because the products had no MHRA registration or applicable conformity marking, as well as rules 3.1, 3.7 and 3.11 on misleading and exaggerated claims. A separate ruling the same day went against an app whose colour-coded chart implied it could analyse blood pressure readings when it only logged what was typed in.</p>"
+   }
+  ]
+ },
+ {
   "slug": "aph-airport-parking",
   "title": "APH Airport Parking Review",
   "meta_title": "APH Parking Review: Prices, Which? Score, Free Cancellation",
