@@ -7,9 +7,20 @@
 <link>https://compare100.com/</link>
 <description>UK providers compared side by side &#8212; insurance, money, travel, mobiles, utilities, motoring and shopping. Figures checked against each provider&#8217;s own published terms.</description>
 <language>en-GB</language>
-<lastBuildDate>Fri, 25 Sep 2026 09:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sat, 26 Sep 2026 09:00:00 +0000</lastBuildDate>
 <atom:link href="https://compare100.com/feed/" rel="self" type="application/rss+xml"/>
 <image><url>https://compare100.com/wp-content/uploads/icons/og-default.jpg</url><title>Compare100</title><link>https://compare100.com/</link></image>
+<item>
+<title>Amazon Furniture</title>
+<link>https://compare100.com/amazon-furniture/</link>
+<guid isPermaLink="true">https://compare100.com/amazon-furniture/</guid>
+<pubDate>Sat, 26 Sep 2026 09:00:00 +0000</pubDate>
+<category>Furniture</category>
+<description>Amazon takes 15% on furniture to £175 and 10% above. What that buys: room-of-choice delivery, a 30-day return window, and a label worth checking.</description>
+<content:encoded><![CDATA[<p><img src="https://compare100.com/wp-content/uploads/2025/07/Amazon-Logo-10-7.webp" alt="Amazon Furniture" width="400" height="400"></p><p>Amazon takes 15% on furniture to £175 and 10% above. What that buys: room-of-choice delivery, a 30-day return window, and a label worth checking.</p><p>Checked 26 September 2026 against the provider&#8217;s own published terms.</p>]]></content:encoded>
+<enclosure url="https://compare100.com/wp-content/uploads/2025/07/Amazon-Logo-10-7.webp" length="0" type="image/webp"/>
+<media:content url="https://compare100.com/wp-content/uploads/2025/07/Amazon-Logo-10-7.webp" medium="image" type="image/webp"/>
+</item>
 <item>
 <title>Amazon Children&#x27;s Fashion</title>
 <link>https://compare100.com/amazon-childrens-fashion/</link>
@@ -328,17 +339,6 @@
 <content:encoded><![CDATA[<p><img src="https://compare100.com/wp-content/uploads/2026/01/Car-Phone-Warehouse-1.webp" alt="Carphone Warehouse SIM Only" width="400" height="400"></p><p>The cheapest SIM-only plan here is £6 a month for 20GB. We price what the contract length is worth, which brand roams free, and how the cashback arrives.</p><p>Checked 16 September 2026 against the provider&#8217;s own published terms.</p>]]></content:encoded>
 <enclosure url="https://compare100.com/wp-content/uploads/2026/01/Car-Phone-Warehouse-1.webp" length="0" type="image/webp"/>
 <media:content url="https://compare100.com/wp-content/uploads/2026/01/Car-Phone-Warehouse-1.webp" medium="image" type="image/webp"/>
-</item>
-<item>
-<title>APH Airport Parking Review</title>
-<link>https://compare100.com/aph-airport-parking/</link>
-<guid isPermaLink="true">https://compare100.com/aph-airport-parking/</guid>
-<pubDate>Tue, 15 Sep 2026 09:00:00 +0000</pubDate>
-<category>Airport Parking</category>
-<description>APH has parked cars since 1980 and scored 80% with Which? in March 2026. Gatwick park and ride from £7.49 a day, plus the cancellation tiers to read first.</description>
-<content:encoded><![CDATA[<p><img src="https://compare100.com/wp-content/uploads/2025/06/aph-logo.webp" alt="APH Airport Parking Review" width="400" height="400"></p><p>APH has parked cars since 1980 and scored 80% with Which? in March 2026. Gatwick park and ride from £7.49 a day, plus the cancellation tiers to read first.</p><p>Checked 15 September 2026 against the provider&#8217;s own published terms.</p>]]></content:encoded>
-<enclosure url="https://compare100.com/wp-content/uploads/2025/06/aph-logo.webp" length="0" type="image/webp"/>
-<media:content url="https://compare100.com/wp-content/uploads/2025/06/aph-logo.webp" medium="image" type="image/webp"/>
 </item>
 </channel>
 </rss>
