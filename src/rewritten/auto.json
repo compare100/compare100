@@ -3122,6 +3122,144 @@
   ]
  },
  {
+  "slug": "apple-watch-fitness-wearables",
+  "title": "Apple Watch: What £219 to £900 Buys, and Which Health Features Apple Stands Behind",
+  "meta_title": "Apple Watch from £219: Prices, Cover and Health Claims",
+  "meta_description": "Apple Watch runs £219 to £900 in the UK: the one-year guarantee, AppleCare+ at a £49 excess and which sensors a regulator has seen. Checked 29 Sept 2026.",
+  "checked": "29 September 2026",
+  "intro": "<p>Apple Watch starts at <strong>£219</strong> for the SE 3 and runs to <strong>£369</strong> for the Series 12, <strong>£650</strong> for the Ultra 4 and <strong>£900</strong> for the Hermès Ultra 4. Those are Apple's own UK store prices, read on 29 September 2026, and they are the same whichever shop you buy from, because Apple sets them.</p><p>What the money buys is unusually well documented. Apple publishes tech specs down to the glass — Ceramic Shield 2 on the Series 12, which Apple says is 60 per cent tougher than the Ion-X it replaced, a 2,000-nit display, 64GB of storage, 50-metre water resistance to ISO 22810:2010 and an IP6X dust rating. It publishes battery behaviour: up to 24 hours of everyday use on the Series 12, up to 50 hours on the Ultra 4 and up to 84 hours with that watch in Low Power Mode, and a battery designed to hold 80 per cent of its original capacity after 1,000 complete charge cycles. And for the health features that a regulator has actually looked at, it publishes the trial that got them there — which almost nothing else on a wrist does.</p><p>One rule decides whether any of it is relevant to you. An Apple Watch cannot be set up without an iPhone: Apple's own specifications for the Series 12, the Ultra 4 and the SE 3 all require an iPhone 11 or later, or an iPhone SE from the second generation onwards, running iOS 27. There is no Android app and no standalone mode. A £369 watch paired to a Pixel is a paperweight.</p>",
+  "headline": {
+   "label": "Guarantee behind the device",
+   "value": "1 year of hardware cover from Apple — extendable to 24 months with AppleCare+ for Apple Watch, which charges a £49 excess per accidental-damage repair and replaces the battery once it falls below 80% of its original capacity (checked 29 September 2026)"
+  },
+  "key_facts": [
+   {
+    "label": "Price ladder",
+    "value": "SE 3 £219, Series 12 £369, Ultra 4 £650, Hermès Series 12 £850, Hermès Ultra 4 £900"
+   },
+   {
+    "label": "Standard hardware guarantee",
+    "value": "1 year, on top of your Consumer Rights Act 2015 rights against the retailer"
+   },
+   {
+    "label": "AppleCare+ term and excess",
+    "value": "24 months (36 for Hermès and Edition); £49 per accidental-damage repair, £55 on Hermès and Edition"
+   },
+   {
+    "label": "Theft and loss cover",
+    "value": "£89 excess, up to 2 claims in any 12 months, underwritten by AIG"
+   },
+   {
+    "label": "Who carries the insurance risk",
+    "value": "American International Group UK Limited, FCA firm reference 781109 — not Apple"
+   },
+   {
+    "label": "Sleep apnoea notification accuracy",
+    "value": "66.3% sensitivity and 98.5% specificity in a 1,499-person study (Apple's UK instructions for use)"
+   },
+   {
+    "label": "Blood Oxygen and wrist temperature",
+    "value": "Apple labels both “not for medical use” in its own tech specs footnotes"
+   },
+   {
+    "label": "Battery design life",
+    "value": "80% of original capacity at 1,000 complete charge cycles"
+   },
+   {
+    "label": "Return window",
+    "value": "14 calendar days from delivery, from Apple Retail UK Limited (company number 04996702)"
+   },
+   {
+    "label": "Required to work at all",
+    "value": "iPhone 11 or later, or iPhone SE 2nd generation or later, on iOS 27"
+   }
+  ],
+  "sections": [
+   {
+    "heading": "Three watches, £431 apart",
+    "html": "<p>The range splits cleanly. The <strong>SE 3 at £219</strong> is the cheap way in: a 1,000-nit display, up to 18 hours of normal use and 32 hours in Low Power Mode, seven hours of outdoor workout, 64GB of storage and 50-metre water resistance. Apple's own comparison table marks two things as not applicable on it — the ECG app and the Blood Oxygen app — while listing heart rate tracking, heart rate variability, high and low heart rate notifications, irregular rhythm notifications, sleep score and sleep apnoea notifications as present.</p><p>The <strong>Series 12 at £369</strong> adds the electrical heart sensor, a third-generation one, plus a blood oxygen sensor, a depth gauge good to six metres and a water temperature sensor. Apple puts it in 42mm and 46mm cases, on an S11 chip, with a peak brightness of 2,000 nits and 24 hours of everyday battery. Fifteen minutes on the charger now returns up to 12 hours of use, which Apple says is 50 per cent more than the model before it, and outdoor workout life is up 25 per cent to ten hours.</p><p>The <strong>Ultra 4 at £650</strong> is a different proposition again: 50 hours of normal use, 84 hours in Low Power Mode, 45 hours in Max Extended Workout mode, a 3,000-nit display, 100-metre water resistance and certification to EN13319 for recreational scuba to 40 metres. It weighs 63.0 grams in natural titanium and Apple rates it for operation between 0°C and 35°C off the wrist, widening to −20°C to 55°C on it. The Hermès versions — £850 on the Series 12 case, £900 on the Ultra 4 — are the same watches with different straps and a dial.</p>"
+   },
+   {
+    "heading": "The sensors a regulator has seen, and the ones Apple disclaims",
+    "html": "<p>This is the useful distinction on any wrist device, and Apple is one of the few makers where you can settle it from the manufacturer's own paperwork rather than guessing.</p><p>Some features go through a medical device route. Sleep apnoea notifications have a formal instructions-for-use document, published in British English on Apple's regulatory portal, which describes the feature as analysing sensor data “to identify patterns of breathing disturbances suggestive of moderate-to-severe sleep apnoea”. It names Apple Inc. at One Apple Park Way, Cupertino as the manufacturer and gives a dedicated address, medicalcompliance@group.apple.com, for regulatory correspondence. The ECG app and irregular rhythm notifications sit on the same side of the line, and both carry a 22-year age floor in Apple's tech specs.</p><p>Other features do not, and Apple says so in its own footnotes rather than burying it. The Blood Oxygen app is described as being “for wellness purposes only and not for medical use”. Wrist temperature sensing is “not intended for medical use”. Both readings appear in the Health app beside numbers that have been through a regulator, with nothing on the watch face to tell them apart.</p><p>That asymmetry is worth more than any accuracy claim, because it is the only reliable signal a buyer gets. A feature that has been assessed publishes a number and a list of things it cannot do. A feature that has not publishes neither.</p>"
+   },
+   {
+    "heading": "A third of cases missed, and Apple prints the figure",
+    "html": "<p>The sleep apnoea instructions give the trial. The validation study ran on <strong>1,499 participants aged 18 and over</strong> and produced a <strong>sensitivity of 66.3 per cent</strong> against a <strong>specificity of 98.5 per cent</strong>.</p><p>Read those two numbers together. High specificity means a notification is unlikely to be a false alarm — if the watch tells you something, it is probably worth acting on. Sensitivity of 66.3 per cent means roughly a third of people who do have moderate-to-severe sleep apnoea will never get the notification at all. Silence from the watch is not a clean bill of health, and the document does not pretend otherwise.</p><p>The mechanics matter too. The feature works in sequential 30-day windows and needs at least ten days of breathing disturbance data inside one before it can say anything, so a watch worn only at weekends will never produce a result. It is indicated for adults 18 and over who have not already been diagnosed.</p><p>Hypertension notifications follow the same shape on a different schedule — 30-day evaluation periods, a prompt to confirm any finding with a proper blood pressure cuff over seven days, and a set of exclusions that rules out anyone under 22, anyone pregnant and anyone already diagnosed with hypertension.</p>"
+   },
+   {
+    "heading": "Upgrading can take a health feature away from you",
+    "html": "<p>Apple's own support documentation carries a sentence that ought to be on the buying page: <em>“Hypertension Notifications might not be available on Apple Watch Series 12 or Apple Watch Ultra 4 in your region.”</em> The feature is otherwise supported on a Series 9 or later and an Ultra 2 or later.</p><p>The reason is regulatory rather than technical. Each new sensor array is a new device in the eyes of a national regulator, and clearance for the 2026 hardware has not landed everywhere the 2025 hardware is already cleared. The practical result is that somebody trading in a Series 11 for a Series 12 can find a feature they had has gone, and there is no way to get it back other than waiting.</p><p>Check the feature availability page for your own country before ordering, and check it again rather than relying on this paragraph — it is the sort of fact that changes without announcement. If hypertension notifications are the reason you are buying, that check is the whole purchase decision.</p>"
+   },
+   {
+    "heading": "One year from Apple, twenty-four months from AIG",
+    "html": "<p>The standard position is one year of hardware cover from Apple, sitting on top of whatever the Consumer Rights Act 2015 gives you against the shop that sold it. AppleCare+ for Apple Watch extends that to <strong>24 months</strong>, or 36 on Hermès and Edition models, and adds accidental damage at a <strong>£49 excess per repair</strong> — £55 on Hermès and Edition. It also replaces the battery once capacity drops below 80 per cent of the original specification, which is the same threshold Apple uses to define the end of the battery's design life.</p><p>The part most buyers never read is who is actually on the hook. AppleCare+ with Theft and Loss is <strong>underwritten exclusively by American International Group UK Limited</strong>, of The AIG Building, 58 Fenchurch Street, London EC3M 4AB, <strong>FCA firm reference number 781109</strong>. Apple sells and administers it as an insurance intermediary on AIG's behalf: Apple Retail UK Limited holds <strong>firm reference number 598851</strong>, and Apple Distribution International acts as its appointed representative. Theft and loss claims carry an <strong>£89 excess</strong> and are capped at two in any 12 months.</p><p>Apple's terms of business are candid about the money. The document states plainly that Apple receives commission from AIG as a percentage of the premium, and that AIG pays Apple a flat fee per policy to handle claims on its behalf. It also states that neither Apple nor AIG gives advice or a personal recommendation. That is a sale, not guidance, and the paperwork says so.</p><p>Because it is a regulated insurance contract, the consumer protections are the familiar ones: complaints escalate to the Financial Ombudsman Service at South Quay Plaza, 183 Marsh Wall, London E14 9SR, and the Financial Services Compensation Scheme would cover 90 per cent of a claim with no upper limit if the insurer failed. Cancel within 30 days of buying the plan outright and the refund is in full; after that it is pro rata, less the value of anything already claimed.</p>"
+   },
+   {
+    "heading": "AppleCare One changed the arithmetic on 4 August",
+    "html": "<p>Apple brought AppleCare One to the UK on <strong>4 August 2026</strong>. It costs <strong>£16.99 a month</strong> and covers up to three products, with further devices at <strong>£4.99 a month each</strong>. Apple's own example is a household protecting an iPhone, an iPad and an Apple Watch together, which it says saves up to <strong>£11.48 a month</strong> against buying three separate plans.</p><p>Two conditions do the work. Products can be added if they are <strong>up to four years old</strong> and in good condition, which is a genuine opening — a watch bought in 2023 can be brought under cover, where AppleCare+ has to be bought close to purchase. Headphones are the exception at under one year. Devices may need a diagnostic check first, and only hardware signed in to the same Apple Account qualifies.</p><p>Run the sums before signing up. £16.99 a month is <strong>£203.88 a year</strong>, which is most of an SE 3 and more than half a Series 12. Against three devices with a history of cracked screens it is straightforward value; against one watch it is not.</p>"
+   },
+   {
+    "heading": "Batteries, repairs and the number Apple will not print",
+    "html": "<p>Apple states the battery is designed to keep up to 80 per cent of its original capacity at <strong>1,000 complete charge cycles</strong>. On a watch charged daily that is roughly three years before a noticeable decline, and the figure is a design target rather than a promise.</p><p>What Apple does not publish is what fixing it costs. The Apple Watch service page offers a pricing tool and a caveat — an inspection is needed before a personalised estimate, and estimated fees are for out-of-warranty service and subject to VAT — but no printed price per model. For a category where the repair bill decides whether the watch is worth keeping, that is a real gap, and it is the one number a shopper cannot get before they walk in.</p><p>The selling entity for the UK online store is <strong>Apple Retail UK Limited</strong>, 13th Floor, One Angel Court, London EC2R 7HJ, <strong>company number 04996702</strong>. Its published policy gives <strong>14 calendar days from delivery</strong> to return standard hardware with the receipt, packaging and accessories, for any reason.</p>"
+   },
+   {
+    "heading": "What the public registers show",
+    "html": "<p>Two independent records are worth checking on any wearable, and both are free.</p><p>The first is the Office for Product Safety and Standards register of alerts, reports and recalls. A keyword search on “apple watch” returned <strong>23 entries</strong> on 29 September 2026 — the search matches any of the words, so most concern unrelated watches and toys. <strong>No Apple Watch appears on it.</strong> The two Apple-adjacent entries are a recall of the Belkin BoostCharge Pro Fast Wireless Charger for Apple Watch and Power Bank 10K, references 2410-0061 and 2411-0129 dated 6 November 2024, and a counterfeit “Apple” branded USB-C power adapter, reference 2507-0047 dated 28 July 2025. Neither is Apple's own hardware, and the second is a warning about the accessory market rather than about Apple.</p><p>The second is the Advertising Standards Authority's rulings index. Checked on 29 September 2026 it showed <strong>no formal ruling upheld against Apple</strong> and five cases resolved informally — an outcome where the advertiser amends or withdraws the ad without a published adjudication. The largest of those attracted <strong>41 complaints</strong> and was closed on 11 January 2023. Informal resolution is not the same as vindication, but for a company advertising at this volume it is a clean-ish record, and the ASA index is searchable if you want to check it for yourself before the next campaign.</p><p>On measured accuracy the picture is also good. Which? tested 58 devices against medical-grade chest straps in a report published on 3 February 2026 and put Apple at the top on wrist heart-rate error, at 1.1 per cent. The full model-by-model table is behind a membership.</p>"
+   }
+  ],
+  "pros": [
+   "The regulated health features come with published evidence: a 1,499-person validation study, 66.3% sensitivity and 98.5% specificity, in a document written for the UK market",
+   "Apple labels its unassessed features honestly in its own tech specs — Blood Oxygen is “for wellness purposes only and not for medical use” and wrist temperature is “not intended for medical use”",
+   "A real entry price at £219 for the SE 3 that still carries irregular rhythm notifications, sleep apnoea notifications, sleep score and 50-metre water resistance",
+   "AppleCare+ is a properly regulated insurance contract, not a shop guarantee: AIG carries the risk under FCA firm reference 781109, with the Ombudsman and FSCS behind it",
+   "AppleCare One accepts hardware up to four years old, so an older watch can be brought under cover rather than being stuck outside it",
+   "Battery design life is stated rather than implied — 80% of original capacity at 1,000 complete charge cycles — and AppleCare+ replaces the battery at that threshold",
+   "The Ultra 4 is genuinely specified for the job at £650: 50 hours of normal use, 100-metre water resistance and EN13319 certification for scuba to 40 metres"
+  ],
+  "cons": [
+   "Buying the newest watch can cost you a health feature: Apple's own support pages say hypertension notifications “might not be available on Apple Watch Series 12 or Apple Watch Ultra 4 in your region”, while a Series 9 or Ultra 2 has them",
+   "Sensitivity of 66.3% means roughly a third of moderate-to-severe sleep apnoea cases produce no notification at all, and nothing on the watch tells a user that silence is not reassurance",
+   "Blood Oxygen and wrist temperature readings sit in the Health app next to regulated measurements with no visible distinction, and the disclaimer is a footnote on a specifications page most buyers never open",
+   "None of it works without an iPhone 11 or later on iOS 27 — there is no Android app and no standalone mode, so a £369 watch is unusable to anyone outside Apple's phone range",
+   "Apple publishes no out-of-warranty repair or battery price for Apple Watch: the service page requires an inspection for a personalised estimate, so the cost of the most likely repair is unknowable before you commit",
+   "AppleCare One at £16.99 a month is £203.88 a year, more than half the price of a Series 12, and it only makes sense across three or more devices",
+   "The health exclusions rule out several groups most likely to want the features: hypertension notifications are closed to under-22s, to anyone pregnant and to anyone already diagnosed, and the ECG app and irregular rhythm notifications both carry a 22-year floor",
+   "AppleCare+ with Theft and Loss is sold without advice or a personal recommendation, and Apple is paid commission by AIG as a percentage of the premium plus a flat fee for handling claims — disclosed in the terms of business, not at the point of sale"
+  ],
+  "verdict": "Apple Watch is the best-documented wearable you can buy in the UK, and that is the reason to buy one rather than any single specification. Prices are fixed and clear — £219, £369, £650 — the battery design life is stated, the guarantee is one year with a regulated 24-month extension behind it, and the health features that have been through a regulator publish the trial that got them there, including the unflattering half. A sensitivity of 66.3% on sleep apnoea is a number most makers would never print. Against that, three things deserve care before ordering: the Series 12 and Ultra 4 may not carry hypertension notifications in your region when the cheaper, older model does; Blood Oxygen and temperature are wellness readings dressed in the same typeface as clinical ones; and no Apple Watch does anything at all without a recent iPhone. Check the feature availability list for your country, decide whether £49 an incident is worth £203.88 a year across your household rather than on this watch alone, and buy on the model that has what you actually want cleared.",
+  "faqs": [
+   {
+    "q": "How long is the guarantee on an Apple Watch in the UK?",
+    "a": "<p>One year of hardware cover from Apple as standard. AppleCare+ for Apple Watch extends it to 24 months, or 36 months on Hermès and Edition models, and adds accidental damage at a £49 excess per repair (£55 on Hermès and Edition). Separately, the Consumer Rights Act 2015 gives you rights against the retailer that are not limited to a year.</p>"
+   },
+   {
+    "q": "Does Apple Watch work with an Android phone?",
+    "a": "<p>No. Apple's specifications for the Series 12, Ultra 4 and SE 3 all require an iPhone 11 or later, or an iPhone SE from the second generation onwards, running iOS 27. There is no Android app and no standalone setup.</p>"
+   },
+   {
+    "q": "Which Apple Watch health features are actually regulated?",
+    "a": "<p>Sleep apnoea notifications, the ECG app, irregular rhythm notifications and hypertension notifications go through a medical device route and publish evidence and limits — the sleep apnoea instructions for use, for instance, give a 1,499-person study at 66.3% sensitivity and 98.5% specificity. Blood Oxygen and wrist temperature do not: Apple's own footnotes call them wellness features not intended for medical use.</p>"
+   },
+   {
+    "q": "Will the Series 12 have hypertension notifications?",
+    "a": "<p>Not necessarily. Apple's support documentation states that hypertension notifications “might not be available on Apple Watch Series 12 or Apple Watch Ultra 4 in your region”, while listing the feature as supported on a Series 9 or later and an Ultra 2 or later. Clearance is granted country by country, so check Apple's feature availability page for the UK before upgrading if the feature matters to you.</p>"
+   },
+   {
+    "q": "Who insures AppleCare+ with Theft and Loss?",
+    "a": "<p>American International Group UK Limited, FCA firm reference number 781109, at The AIG Building, 58 Fenchurch Street, London EC3M 4AB. Apple sells and administers it as an intermediary — Apple Retail UK Limited holds firm reference 598851 — and receives commission from AIG plus a flat fee per policy for handling claims. Complaints go to the Financial Ombudsman Service, and the FSCS would cover 90% of a claim with no upper limit.</p>"
+   },
+   {
+    "q": "What does an out-of-warranty Apple Watch battery replacement cost?",
+    "a": "<p>Apple does not publish a figure. Its Apple Watch service page offers a pricing tool but states that the product must be inspected for a personalised estimate, and that estimated fees are for out-of-warranty service and subject to VAT. Under AppleCare+ the battery is replaced at no extra fee once capacity falls below 80% of the original specification.</p>"
+   },
+   {
+    "q": "How long do I have to return an Apple Watch bought online?",
+    "a": "<p>Fourteen calendar days from delivery, for any reason, with the receipt, original packaging and accessories. The seller is Apple Retail UK Limited, 13th Floor, One Angel Court, London EC2R 7HJ, company number 04996702.</p>"
+   }
+  ]
+ },
+ {
   "slug": "ats-euromaster-tyres",
   "title": "ATS Euromaster Tyres: The Chain Has Closed, the Guarantee Has Not",
   "meta_title": "ATS Euromaster Closed: Your Tyre Guarantee Still Stands",
