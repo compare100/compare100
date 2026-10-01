@@ -75,6 +75,29 @@ for it in ch.findall('item'):
     )
     (posts if ty in ('post', 'blog') else pages).append(rec)
 
+# ---- permanently removed pages ------------------------------------------
+# Removed 27 September 2026 following a trade mark notice from Stobbs acting for
+# Lloyds Bank plc (ref 21996/30013, dated 23 September 2026). These slugs are
+# dropped here, before anything else runs, so they disappear from the pages, the
+# category hubs, the comparison tables on sibling pages, the sitemap, the RSS
+# feed, llms.txt, the search index and the verified figures index in one move.
+#
+# Do NOT simply delete the entry from src/rewritten/ - that only reverts the page
+# to the original WordPress copy, which still carries the brand. And do NOT add a
+# 301 to a category hub: the URL has to stop resolving. worker/index.js answers
+# all four with 410 Gone so Google and Bing drop them rather than keep retrying.
+REMOVED = {
+    'lloyds-bank-cash-isa',
+    'lloyds-bank-club-lloyds-account',
+    'lloyds-bank-mortgage-deals',
+    'lloyds-bank-personal-loan',
+}
+_before = len(posts) + len(pages)
+posts[:] = [_p for _p in posts if _p['slug'] not in REMOVED]
+pages[:] = [_p for _p in pages if _p['slug'] not in REMOVED]
+_gone = _before - (len(posts) + len(pages))
+print(f'removed {_gone} page(s) suppressed by name: {", ".join(sorted(REMOVED))}')
+
 # top-level category icons live inside the /compare-uk-*-deals/ pages (first 150x150 image)
 DEALS_MAP = {'compare-uk-insurance-deals': 'insurance', 'compare-uk-money-deals': 'money',
              'compare-uk-travel-deals': 'travel', 'compare-uk-mobile-deals': 'mobile-phones',
@@ -94,6 +117,53 @@ _att_set = {relpath(u) for u in atts.values()}
 for _k, _v in list(caticon.items()):
     _f = _full(_v)
     if _f in _att_set: caticon[_k] = _f
+
+# The same trade mark notice covers the brand wherever it appears, not only on the
+# four pages. The original WordPress copy carries a "you can also compare X, Y and
+# Lloyds Bank" paragraph on seven sibling pages, and image titles for logo files
+# that have been deleted from the repository. Scrub both out of the source content
+# before anything is rendered, rather than editing src/wxr/ - that stays the
+# pristine export, and a scrub here is visible and survives a re-import.
+# Remove the link/image first - the brand sits inside an <a> in the source, so a
+# plain-text replacement never matches - then repair the punctuation the removal
+# leaves behind, or the page ships "offerings from Santander , Nationwide , and ."
+_LL_LINK = re.compile(r'<a[^>]*href="[^"]*lloyds[^"]*"[^>]*>.*?</a>', re.I | re.S)
+_LL_IMG  = re.compile(r'<img[^>]*lloyds[^>]*>', re.I)
+_LL_WORD = re.compile(r'\bLloyds(?:\s+Bank)?\b', re.I)
+_LL_EMPTY = re.compile(r'<(code|strong|em|b|i|span)>\s*</\1>', re.I)
+_LL_TIDY = [
+    # "A , B , C , and ."  ->  "A , B and C."   (put the conjunction back)
+    (re.compile(r',\s*([^,]{1,160}?)\s*,\s*and\s*\.'), r' and \1.'),
+    (re.compile(r'(?:\s*,)+\s*and\s*\.'), '.'),
+    (re.compile(r',(?:\s*,)+'), ','),
+    (re.compile(r'\b(from|like|including)\s*,\s*'), r'\1 '),
+    (re.compile(r'\b(from|like|including)\s+and\s+'), r'\1 '),
+    (re.compile(r'\s*,\s*\.'), '.'),
+    # Horizontal whitespace only. \s{2,} here would swallow the blank lines the
+    # WordPress copy uses to separate its paragraphs, rewriting every line of
+    # every page that mentions the brand and burying the real edit in churn.
+    (re.compile(r'[^\S\n]{2,}'), ' '),
+    (re.compile(r'[^\S\n]+\n'), '\n'),
+]
+
+def _scrub_lloyds(t):
+    if not t or 'loyds' not in t.lower(): return t
+    t = _LL_LINK.sub('', t)
+    t = _LL_IMG.sub('', t)
+    t = _LL_WORD.sub('', t)                 # any bare mention left in the copy
+    t = _LL_EMPTY.sub('', t)                # <code></code> the link left behind
+    for rx, rep in _LL_TIDY: t = rx.sub(rep, t)
+    return t
+
+_ll_hits = 0
+for _p in posts + pages:
+    for _f in ('content', 'excerpt', 'title'):
+        _v = _p.get(_f)
+        if isinstance(_v, str) and 'loyds' in _v:
+            _p[_f] = _scrub_lloyds(_v)
+            _ll_hits += 1
+if _ll_hits:
+    print(f'scrub   brand removed from {_ll_hits} source field(s) on sibling pages')
 
 # ---- affiliate link overrides -------------------------------------------
 # Paste your network deeplinks into the 'your_affiliate_url' column of

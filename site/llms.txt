@@ -5,7 +5,7 @@
 ## Sections
 
 - [Insurance](https://compare100.com/compare-uk-insurance-deals/): 59 providers across 12 categories
-- [Money](https://compare100.com/compare-uk-money-deals/): 37 providers across 8 categories
+- [Money](https://compare100.com/compare-uk-money-deals/): 33 providers across 8 categories
 - [Travel](https://compare100.com/compare-uk-travel-deals/): 61 providers across 11 categories
 - [Mobiles](https://compare100.com/compare-uk-mobile-deals/): 34 providers across 6 categories
 - [Utilities](https://compare100.com/compare-uk-utility-deals/): 30 providers across 6 categories
@@ -28,10 +28,10 @@
 - [Van Insurance](https://compare100.com/category/insurance/uk-van-insurance-providers/): 3 providers compared
 - [Car Finance](https://compare100.com/category/money/car-finance/): 1 providers compared
 - [Credit Cards](https://compare100.com/category/money/uk-credit-cards/): 5 providers compared
-- [Current Accounts](https://compare100.com/category/money/uk-current-accounts/): 5 providers compared
-- [ISA's](https://compare100.com/category/money/compare-uk-isa-accounts/): 5 providers compared
-- [Loans](https://compare100.com/category/money/compare-uk-loans/): 5 providers compared
-- [Mortgage Deals](https://compare100.com/category/money/compare-uk-mortgage-deals/): 6 providers compared
+- [Current Accounts](https://compare100.com/category/money/uk-current-accounts/): 4 providers compared
+- [ISA's](https://compare100.com/category/money/compare-uk-isa-accounts/): 4 providers compared
+- [Loans](https://compare100.com/category/money/compare-uk-loans/): 4 providers compared
+- [Mortgage Deals](https://compare100.com/category/money/compare-uk-mortgage-deals/): 5 providers compared
 - [Pensions](https://compare100.com/category/money/compare-uk-pensions/): 5 providers compared
 - [Savings Accounts](https://compare100.com/category/money/compare-uk-savings-accounts/): 5 providers compared
 - [Airport Lounge](https://compare100.com/category/travel/best-uk-airport-lounge-deals/): 5 providers compared

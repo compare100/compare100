@@ -72,6 +72,41 @@ export default {
       }
     }
 
+    // Permanently removed 27 September 2026 after a trade mark notice from Stobbs
+    // acting for Lloyds Bank plc. 410 Gone rather than 404: it tells Google and
+    // Bing the page is deliberately gone and will not come back, which drops it
+    // from the index faster and stops the crawlers retrying. Not a 301 — the URL
+    // must stop resolving, not point somewhere else.
+    const GONE = new Set([
+      "/lloyds-bank-cash-isa/",
+      "/lloyds-bank-club-lloyds-account/",
+      "/lloyds-bank-mortgage-deals/",
+      "/lloyds-bank-personal-loan/",
+      // the WordPress-era dated URLs that used to 301 into them
+      "/2025/04/21/lloyds-bank-cash-isa/",
+      "/2025/04/21/lloyds-bank-club-lloyds-account/",
+      "/2025/04/21/lloyds-bank-mortgage-deals/",
+      "/2025/04/21/lloyds-bank-personal-loan/",
+    ]);
+    const gonePath = path.endsWith("/") ? path : path + "/";
+    if (GONE.has(gonePath)) {
+      return new Response(
+        "<!doctype html><html lang=\"en-GB\"><head><meta charset=\"utf-8\">" +
+        "<meta name=\"robots\" content=\"noindex, nofollow\">" +
+        "<title>Page removed</title></head><body>" +
+        "<h1>Page removed</h1><p>This page has been permanently removed.</p>" +
+        "<p><a href=\"/\">Compare100 home</a></p></body></html>",
+        {
+          status: 410,
+          headers: {
+            "content-type": "text/html; charset=utf-8",
+            "x-robots-tag": "noindex, nofollow",
+            "cache-control": "no-store",
+          },
+        }
+      );
+    }
+
     const alt = path.endsWith("/") ? path.slice(0, -1) : path + "/";
     const target = REDIRECTS[path] || REDIRECTS[alt];
 

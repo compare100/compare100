@@ -63,8 +63,31 @@ def _written_under_new_rules(page):
     except Exception:
         return True
 
+# Slugs that must never be published again, whatever the queue says. Removed on
+# 27 September 2026 after a trade mark notice from Stobbs acting for Lloyds Bank plc
+# (ref 21996/30013). build.py also refuses to render them, but this is the control
+# that matters: it runs inside the GitHub Action as well as inside the writing run,
+# so a page cannot reach the site even if a future run picks the slug off the queue
+# and ignores the playbook. Do not remove without Andy's explicit instruction.
+BLOCKED_SLUGS = {
+    'lloyds-bank-cash-isa',
+    'lloyds-bank-club-lloyds-account',
+    'lloyds-bank-mortgage-deals',
+    'lloyds-bank-personal-loan',
+}
+BLOCKED_TERMS = ('lloyds bank', 'lloydsbank.com')
+
+
 def check(page, siblings):
     fails = []
+    if page.get('slug') in BLOCKED_SLUGS:
+        return 0, 0, 0, ['slug is permanently blocked (trade mark notice, '
+                         '27 September 2026) - this page must not be published']
+    _blob = json.dumps(page, ensure_ascii=False).lower()
+    _hit = [t for t in BLOCKED_TERMS if t in _blob]
+    if _hit:
+        fails.append(f"blocked trade mark term present: {', '.join(_hit)} "
+                     "- removed under a trade mark notice, 27 September 2026")
     t = text_of(page)
     words = len(t.split())
 
