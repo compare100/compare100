@@ -4262,6 +4262,125 @@
   ]
  },
  {
+  "slug": "auto-trader-sell-my-car",
+  "title": "Autotrader Sell My Car",
+  "meta_title": "Autotrader Sell My Car: Free Dealer Auction in 48 Hours",
+  "meta_description": "Sell to 5,000+ trade buyers for £0, free collection, same-day payment in 48 hours. What the free route costs you, and the 49% joint venture behind it.",
+  "checked": "2 October 2026",
+  "headline": {
+   "label": "What selling costs you",
+   "value": "£0 — free dealer auction, free home collection and same-day payment in as little as 48 hours (a private advert costs extra and the price table is unreadable)"
+  },
+  "intro": "<p>Autotrader will get your car sold for <strong>£0</strong>. More than <strong>5,000</strong> trade buyers bid against each other for it, collection from your door is free, payment is made the same day, and the highest offer can land <strong>in as little as 48 hours</strong>. Those are Autotrader's own terms from its sell-to-a-dealer pages, read on 2 October 2026.</p><p>It is also the largest audience in the country to sell into. Autotrader's results for the year to 31 March 2026 report over nine million unique visitors a month spending 548 million minutes on the site, 11 times the time given to its nearest rival and six times that given to all its main competitors combined, against an average 451,000 cars advertised. The business has been doing this since John Madejski started a regional classified magazine called Thames Valley Trader in 1977; it put up its first website in 1996 and listed in London on 24 March 2015.</p><p>One thing is worth knowing before you start, and it is a point in the service's favour rather than against it. The free route is not Autotrader buying your car. It is run through <strong>Dealer Auction</strong>, the trade wholesale marketplace Autotrader owns <strong>49%</strong> of, so your car goes into a live auction in front of professional buyers rather than to one firm quoting one price. The dealer who wins it is the paying customer; you are not.</p>",
+  "sections": [
+   {
+    "heading": "Two ways out of a car, and they do not cost the same",
+    "html": "<p>Autotrader offers a private seller two entirely separate products, and the money runs in opposite directions.</p><p><strong>The dealer auction is free.</strong> You enter the registration, add the detail and the photographs, and Dealer Auction's buyers bid. Autotrader's own page quotes <strong>over 5,000 trusted dealers</strong>, a sale <strong>in 48 hours or less</strong>, free collection from your home and same-day payment. The marketplace behind it is <strong>Dealer Auction Limited, company number 11514206</strong>, which advertises more than <strong>4,000</strong> registered sellers, over <strong>5,000</strong> active trade buyers, <strong>11,000</strong> fresh vehicles added a month and <strong>600</strong> auctions ending every day. That is a real wholesale market, not a single buying desk, and it is the reason the competition between bidders is worth something.</p><p><strong>The private advert is not free</strong>, and this is where the page runs into a wall. Autotrader prices private adverts by how much the vehicle is worth — its help centre says you must \"select whether you're a private or trade seller, and the correct price band for how much your vehicle is worth\", that cars and vans are priced differently in Great Britain and Northern Ireland, and that \"the package to keep your advert live until sold is only available for cars being sold privately\". The price table itself sits at <code>autotrader.co.uk/sell-my-car/advertising-prices</code> and it does not render to anything a reader or a machine can read: the page returns \"Hmm, seems there's no items to display\" where the figures should be, and the same template is empty for vans, so the numbers load client-side. <strong>We could not verify a single private advert price and are not going to guess one</strong> — get it on screen before you commit, because the price band is decided by your car's value rather than by a flat fee.</p><p>What the advert buys is reach. Autotrader puts the private seller audience at <strong>over 9.5 million people each month</strong>, which it describes as <strong>3.5 times</strong> its competitors.</p>"
+   },
+   {
+    "heading": "£23.6m, falling 11%, and what that says about the paid advert",
+    "html": "<p>Autotrader is a listed company, so the sell-side of its business is audited rather than asserted. The figures below are from the full-year results published on <strong>21 May 2026</strong>, covering the year to 31 March 2026.</p><ul><li><strong>Group revenue:</strong> £624.3m, up 4% from £601.1m</li><li><strong>Operating profit:</strong> £392.7m, up 4% from £376.8m</li><li><strong>Basic earnings per share:</strong> 34.17p, up 8% from 31.66p</li><li><strong>Consumer Services revenue:</strong> £38.8m, <strong>down 8%</strong> from £42.4m</li><li><strong>Private revenue — what people like you pay to advertise:</strong> <strong>£23.6m, down 11%</strong> from £26.6m</li><li><strong>Share of profit from Dealer Auction:</strong> £4.1m, <strong>up 14%</strong> from £3.6m</li><li><strong>Average retailer forecourts advertising:</strong> 13,942, down 0.5% from 14,013</li></ul><p>Read those last three lines together and the shape of the business is clear. The money private sellers hand over is shrinking by double digits a year while the money made from the trade buying their cars is growing. Autotrader is not hiding this: the results state plainly that private revenue comes from \"individual sellers who pay to advertise their vehicle on the Autotrader marketplace\" and that the Dealer Auction profit rose on \"a higher volume of vehicle transactions\".</p><p>For a seller that is mostly good news, because it means the free route is the one the company has every reason to keep improving. The caution is the other half of the same fact: a product with revenue falling 11% a year is not usually the one getting the investment, and the unreadable price page is consistent with that.</p>"
+   },
+   {
+    "heading": "What a used car is actually fetching the month you sell it",
+    "html": "<p>Autotrader publishes a monthly retail price index, and the August 2026 edition, released on <strong>8 September 2026</strong>, is the number to argue from:</p><ul><li><strong>Average used car asking price:</strong> £17,131, down 0.1% year on year and 0.4% on the month</li><li><strong>Average days to sell:</strong> 30</li><li><strong>Transactions:</strong> up 2.6% year on year</li><li><strong>Cars aged 10 to 15 years:</strong> £7,183, up 6.9% — the strongest band in the market</li><li><strong>Cars aged one to three years:</strong> down 1.8%</li><li><strong>Used electric cars:</strong> £25,095 average, up 3.8%, selling in 27 days; three-to-five-year-old electric models up 9.4% to £20,351</li></ul><p>Two independent checks are worth running against that. The Office for National Statistics measures second-hand car prices inside the inflation figures, and its annual rate for August 2026, released on <strong>16 September 2026</strong>, was <strong>-2.5%</strong>, having moved from +0.4% in March through -1.2% in June and -1.9% in July. The two series are not contradicting each other: one tracks what sellers are asking on a forecourt, the other what buyers actually pay across the whole second-hand market, and the gap is the discount being negotiated. On volume, the Society of Motor Manufacturers and Traders counted <strong>2,009,318</strong> used car transactions in the second quarter of 2026, up 0.7%, for a first-half total of <strong>4,025,550</strong>; battery electric transactions jumped <strong>67.0%</strong> to <strong>110,761</strong> and took a record 5.5% share, while petrol slipped 1.2% to 1,121,243 and diesel fell 7.2% to 620,045.</p><p>If your car is a ten-year-old petrol hatchback, that market is running in your favour. If it is an eighteen-month-old lease return, it is not.</p><p>Autotrader's free valuation tool is a reasonable starting point for either. It is built on <strong>over 800,000</strong> adverts and prices shared by <strong>over 3,500</strong> dealer websites plus auction and ex-fleet data, and it is refreshed daily. Note what it assumes: a car \"in good condition for its age\" with minor wear and tear only, with service history gaps, damage and missing MOT certificates all capable of pulling the real figure below the estimate. It quotes a private sale price and a part-exchange price separately, which is the honest way to show it.</p>"
+   },
+   {
+    "heading": "Whose company you are actually dealing with",
+    "html": "<p>The brand changed its spelling this year and the paperwork records it. <strong>Autotrader Limited, company number 03909628</strong>, was incorporated on <strong>19 January 2000</strong> and sits at No.3 Circle Square, 3 Hawkshaw Street, Manchester M1 7BL. Companies House shows it trading as AUTO TRADER LIMITED until <strong>16 January 2026</strong> and, before March 2014, as TRADER PUBLISHING LIMITED. Its registered activity code is still <strong>58142</strong> — publishing of consumer and business journals and periodicals — which is a small monument to a business that started as a magazine on a newsagent's shelf. The listed parent is Autotrader Group plc, company <strong>09439967</strong>. The group employed <strong>1,239</strong> people at the end of March 2026, down from 1,290.</p><p>The limits of what the platform takes on are set out in its terms for online enquiries, deals and reservations, and they are blunter than most. \"Autotrader is not a party to the sale of the Vehicle to you,\" it says, and \"There will be a separate legal contract between you and the Dealer for the purchase of the Vehicle.\" Its liability under those terms \"shall not in any circumstances exceed <strong>£0</strong> in total\". Where a buyer reserves a car through the site, the pre-authorised reservation payment is handled by Stripe and released within <strong>7 days</strong> if the deal is not completed, and the terms are explicit that it \"is not a Part payment or deposit towards the price of the Vehicle\". That wording governs the buying journey rather than your sale, but it tells you how the company sees its role: it introduces, it does not underwrite.</p><p>On the buying side the same year brought real investment — Deal Builder reached <strong>6,700</strong> retailers from 2,000, with <strong>175,000</strong> vehicles live and <strong>137,000</strong> deals carrying a full reservation against 49,000 the year before. None of it changes what happens when something goes wrong with your sale: there is no financial regulator over the sale of a second-hand car and no ombudsman to escalate to, so your remedy is the dealer, the courts, or Autotrader's own complaints team.</p>"
+   },
+   {
+    "heading": "The paperwork nobody else is going to do",
+    "html": "<p>Selling privately puts three jobs on you that a dealer sale would absorb.</p><p><strong>Tell DVLA, and do it the day the car goes.</strong> Until the record changes you are the registered keeper, which means the speeding tickets and the parking charges are yours. GOV.UK is specific about the money: once you have told DVLA, \"your vehicle tax will be cancelled\" and you \"get a refund for any full months of remaining vehicle tax\" — full months only, so the timing of a sale is worth a few pounds. Tax does not travel with the car: \"The tax is not transferred to you when you buy the vehicle\", and your buyer has to tax it before driving away. Say so when you hand over the keys, because a buyer who drives off untaxed tends to ring the last keeper first.</p><p><strong>Take the money carefully.</strong> UK Finance's Annual Fraud Report 2026 counted <strong>175,809</strong> purchase scam cases in 2025 costing <strong>£118.1m</strong>, an average of <strong>£671</strong> a case, with losses up <strong>20%</strong> on the year and cases up 5%. Across all authorised push payment fraud the figures were <strong>£576.4m</strong> and <strong>248,070</strong> cases, up 19% and 7%, with <strong>78%</strong> of losses reimbursed to victims; <strong>66%</strong> of cases began online, though those tend to be smaller and account for 32% of losses. Those numbers describe buyers being defrauded rather than sellers, which is exactly why a buyer standing on your drive will be nervous, and why a bank transfer that clears before the keys move is the normal answer.</p><p><strong>Know what the rules stop other people doing.</strong> Since <strong>6 April 2025</strong>, Schedule 20 of the Digital Markets, Competition and Consumers Act 2024 lists practices banned in all circumstances. Paragraph <strong>25</strong> catches \"falsely claiming or creating the false impression that the trader is not acting for purposes relating to the trader's business or falsely representing oneself as a consumer\" — the trader hiding behind a private advert, which is the oldest trick in this market and now unlawful outright. Paragraph <strong>13</strong> does the same for fake and incentivised reviews. The point for you is that a genuine private seller is now competing against fewer disguised dealers, and that the same rule binds you if you are selling more than the odd car.</p><p>Autotrader's own advertising guidelines are stricter than you might expect and they apply to your listing. You must \"state the full sale price of the vehicle\" inclusive of everything on consumer channels, \"state the full mileage\" in full digits rather than abbreviated, and keep both consistent across the advert; prices shown as \"£8000 + VAT\" are removed or amended as misleading, as are adverts for a car that has already sold. The sting is in the enforcement line: \"No refunds or credits will be given for adverts or videos removed for breaching guidelines.\"</p>"
+   },
+   {
+    "heading": "Where this leaves a seller short",
+    "html": "<p>Four things deserve a seller's attention before they choose the free route.</p><p><strong>Free means trade price, and Autotrader says so itself.</strong> Its part-exchange pages state that a part-exchange valuation \"will be slightly less than what you would get if you sold your car privately\" because \"the dealer will be buying your car from you to resell it, meaning they'll incur costs for stocking and preparation\". The same logic applies to the auction. The <strong>£17,131</strong> average asking price in its own August index is a retail shop window, not a cheque to a private seller, and the <strong>30</strong> days a forecourt waits for that money is part of what the bidding dealer is pricing in.</p><p><strong>The auction's small print is not on the auction page.</strong> The sell-to-a-dealer page sets out three steps, the 48-hour timescale, free collection and same-day payment, and stops. It does not say whether a winning offer can be reduced when the collecting dealer inspects the car, it publishes no list of vehicles the auction will not take — outstanding finance, category write-offs, imports, non-runners, high mileage — and it names no cancellation charge. Rivals in this category publish their refusals and their fees in a table. <strong>Read the terms the offer arrives with</strong>, and treat anything the headline page does not mention as unsettled rather than absent.</p><p><strong>You cannot find out what an advert costs without starting one.</strong> A price list that will not display is a poor way to sell a paid product, and it makes the two routes impossible to compare on paper. Combined with private revenue falling <strong>11%</strong> to <strong>£23.6m</strong>, it is hard to read the paid advert as a priority.</p><p><strong>And the safety advice is odd.</strong> Autotrader's own guide to meeting a buyer says, in terms, \"Always meet potential buyers at your home.\" The rest of that page is sound — ask for a driving licence, never let a stranger take the car out alone, check that your insurance or theirs covers the test drive, take a note of the car they arrive in, walk away if you feel uneasy — but handing your home address to everyone who answers an advert is a choice, not a default, and plenty of sellers will prefer a supermarket car park and a second person present. One more number from the same results, for context on a company in the middle of a lot of change: employee engagement fell <strong>19</strong> percentage points to <strong>72%</strong>.</p>"
+   }
+  ],
+  "pros": [
+   "The dealer auction costs the seller £0, with free home collection and same-day payment",
+   "Over 5,000 trade buyers bidding competitively, and a sale possible in 48 hours or less",
+   "Run through Dealer Auction Limited (company 11514206), a genuine wholesale market with 11,000 fresh vehicles a month and 600 auctions ending daily",
+   "The largest selling audience in the UK — over nine million unique visitors a month, 11x the nearest competitor",
+   "Free, no-obligation valuation built on 800,000+ adverts and 3,500+ dealer websites, refreshed daily, quoting private and part-exchange prices separately",
+   "Audited public-company figures rather than self-reported marketing numbers, published 21 May 2026",
+   "An \"until sold\" advert package exists and is reserved for private sellers",
+   "Advertising guidelines ban \"+VAT\" pricing, abbreviated mileage and adverts for cars already sold, which keeps honest listings competitive"
+  ],
+  "cons": [
+   "Private advert prices are set by vehicle value band and the price table does not display — we could not verify a single figure",
+   "The free route is a trade sale: Autotrader's own pages concede a dealer pays \"slightly less than what you would get if you sold your car privately\"",
+   "The sell-to-a-dealer page names no excluded vehicles, no cancellation charge and no right to revise an offer after inspection, so none of it can be checked up front",
+   "Private revenue fell 11% to £23.6m while profit from the trade auction rose 14% — the paid advert is the shrinking half of the business",
+   "Liability under the online deals and reservations terms \"shall not in any circumstances exceed £0 in total\"",
+   "No financial regulator and no ombudsman over a used car sale — escalation means the dealer or the courts",
+   "Autotrader's own safety guide tells private sellers to \"always meet potential buyers at your home\"",
+   "No refunds or credits if your advert is pulled for breaching the advertising guidelines"
+  ],
+  "verdict": "Take the free dealer auction if you want the car gone, the money certain and the weekend back: £0 to sell, over 5,000 trade buyers bidding, free collection and same-day payment inside 48 hours is the strongest no-cost disposal route in this comparison, and Dealer Auction being a real wholesale marketplace rather than one buying desk is what makes the bidding worth having. Accept that you are selling at trade and not at the £17,131 average asking price Autotrader's own index reports, and read the offer's terms for inspection and cancellation before a lorry arrives, because the marketing page covers none of that. Pay for a private advert instead if your car is desirable, unusual or cheap enough that a few hundred pounds matters more than a fortnight of messages — nine million visitors a month is the biggest shop window in Britain — but insist on seeing the price for your value band before you commit, since the published table cannot be read. Either way, tell DVLA the day the car leaves and claim the full months of tax back.",
+  "key_facts": [
+   {
+    "label": "Who you contract with",
+    "value": "Autotrader Limited, company 03909628, incorporated 19 January 2000 — renamed from Auto Trader Limited on 16 January 2026"
+   },
+   {
+    "label": "Cost to sell to a dealer",
+    "value": "£0, including free home collection and same-day payment"
+   },
+   {
+    "label": "Who runs the auction",
+    "value": "Dealer Auction Limited, company 11514206 — a joint venture Autotrader owns 49% of"
+   },
+   {
+    "label": "Trade buyers bidding",
+    "value": "Over 5,000 active, with 600 auctions ending daily"
+   },
+   {
+    "label": "Time to an offer",
+    "value": "In as little as 48 hours"
+   },
+   {
+    "label": "Private advert price",
+    "value": "Set by vehicle value band; the published price table does not display — unverified"
+   },
+   {
+    "label": "Average used car asking price",
+    "value": "£17,131, down 0.1% year on year (Autotrader retail price index, August 2026)"
+   },
+   {
+    "label": "What sellers pay Autotrader in total",
+    "value": "£23.6m private revenue in the year to 31 March 2026, down 11%"
+   },
+   {
+    "label": "Regulator",
+    "value": "None — no FCA permission and no ombudsman covers the sale of a used car"
+   }
+  ],
+  "faqs": [
+   {
+    "q": "Does it cost anything to sell my car to a dealer through Autotrader?",
+    "a": "<p>No. The sell-to-a-dealer auction is free to the seller, and that includes collection from your home and payment on the same day. Autotrader is paid by the trade: its share of profit from Dealer Auction, the wholesale marketplace it owns 49% of, was £4.1m in the year to 31 March 2026, up 14%. A private advert, by contrast, is a paid product priced by how much your car is worth.</p>"
+   },
+   {
+    "q": "How much is an Autotrader private advert?",
+    "a": "<p>We could not verify it. Autotrader prices private adverts in bands based on the vehicle's value, with different prices in Great Britain and Northern Ireland, but the price table at autotrader.co.uk/sell-my-car/advertising-prices returns \"Hmm, seems there's no items to display\" instead of figures, and the van equivalent is empty too. Get the price for your band on screen before you commit. The one documented detail is that the package keeping an advert live until the car sells is only offered to private sellers.</p>"
+   },
+   {
+    "q": "Will I get less selling to a dealer than selling privately?",
+    "a": "<p>Yes, and Autotrader says as much. Its part-exchange pages explain that a dealer's valuation \"will be slightly less than what you would get if you sold your car privately\" because the dealer carries the stocking and preparation costs before reselling. Its August 2026 index put the average used car asking price at £17,131 with cars taking 30 days to sell — both of those are the dealer's costs, not your proceeds.</p>"
+   },
+   {
+    "q": "What do I have to do about tax and the DVLA?",
+    "a": "<p>Tell DVLA as soon as the car changes hands. Your vehicle tax is then cancelled and you get a refund for any full months remaining, so a sale early in the month costs you the rest of it. The tax does not transfer to the buyer, who must tax the car before driving it. Until DVLA's record changes you remain the registered keeper, which means any fines follow you.</p>"
+   },
+   {
+    "q": "Is a private car sale regulated?",
+    "a": "<p>No. There is no Financial Conduct Authority permission over selling a used car and no ombudsman scheme to escalate to, and the Consumer Rights Act protects buyers from traders rather than from private individuals. What has changed is the law on dealers pretending otherwise: since 6 April 2025, paragraph 25 of Schedule 20 to the Digital Markets, Competition and Consumers Act 2024 bans a trader from \"falsely representing oneself as a consumer\" in all circumstances.</p>"
+   }
+  ]
+ },
+ {
   "slug": "aviva-car-insurance-review",
   "title": "Aviva Car Insurance",
   "meta_title": "Aviva Car Insurance Review: Limits, Excesses and Extras",
