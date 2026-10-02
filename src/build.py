@@ -444,20 +444,36 @@ for s, p in catparent.items():
 for k in children: children[k].sort(key=lambda s: catname.get(s, s))
 
 def cat_icon(slug, size=54, eager=False):
-    # alt="" is deliberate and must stay. Every one of these icons sits inside a
-    # link or heading that already carries the same words - the insurance icon is
-    # next to "Insurance". An empty alt is what the W3C tells you to use for a
-    # decorative image; filling it in would make a screen reader announce the
-    # label twice on every icon on every page. Bing's site scanner flags it as a
-    # missing alt. Bing's scanner is wrong here. Checked August 2026: 4,043 icons,
-    # not one of them without adjacent text.
+    """A category icon, drawn as a CSS background rather than an <img>.
+
+    These icons are decorative: every one sits inside a link or heading that
+    already carries the same words - the insurance icon is next to the word
+    "Insurance". The correct markup for that is an <img> with alt="", which tells
+    a screen reader to skip the picture so the label is announced once instead of
+    twice. Bing's site scanner does not make that distinction: it counts alt=""
+    as a missing alt and reported 13 URLs on 1 October 2026.
+
+    Filling the alt in would have silenced Bing by making the page worse for
+    anyone using a screen reader. Painting the icon as a background image instead
+    settles it honestly - there is no <img> element to audit, the markup still
+    carries no duplicate text, and nothing changes on screen.
+
+    Two things depend on this and must not be broken:
+      - the size has to stay inline. a.sidecat used to resize these in CSS, which
+        an inline style would now beat, so the call sites pass 22 directly.
+      - the image manifest at the end of this file reads url(...) as well as
+        src="...", or these 69 files would look unreferenced and be reported as
+        missing on every build.
+    """
     u = caticon.get(slug, '')
     if not u: return ''
-    # eager=True for the icon in a page heading: it is above the fold on every
-    # hub, so lazy-loading it can only delay the paint it is part of.
-    return (f'<img class="cicon" src="{u}" alt="" width="{size}" height="{size}" '
-            + ('fetchpriority="high" ' if eager else 'loading="lazy" ')
-            + 'decoding="async">')
+    # eager is kept for call-site compatibility. A background image cannot carry
+    # fetchpriority, and these are 2-4 KB each, so it no longer changes anything.
+    # Quoted, with the two characters CSS would otherwise choke on escaped. No
+    # current filename needs it; one uploaded as "Men's Fashion Icon.webp" would.
+    _u = u.replace('\\', '\\\\').replace("'", "\\'")
+    return (f"<span class=\"cicon\" style=\"background-image:url('{_u}');"
+            f'width:{size}px;height:{size}px"></span>')
 
 def cat_url(slug):
     p = catparent.get(slug, '')
@@ -655,12 +671,11 @@ ul.howto li{border:1px solid var(--line);border-left:4px solid var(--brand);bord
 .hub-intro{background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:18px 20px;margin-bottom:22px;font-size:15.5px;border-left:5px solid var(--accent,var(--brand))}
 .hubhead{display:flex;align-items:center;gap:14px;margin:6px 0 12px}
 .hubhead h1{margin:0}
-.cicon{object-fit:contain;flex:0 0 auto;display:inline-block;vertical-align:middle}
+.cicon{background-size:contain;background-repeat:no-repeat;background-position:center;flex:0 0 auto;display:inline-block;vertical-align:middle}
 .cathead{display:flex;align-items:center;gap:11px}
 .cathead a{text-decoration:none}
 .grid a .cicon{display:block;margin:0 auto 8px}
 a.sidecat{display:flex!important;align-items:center;gap:9px}
-a.sidecat .cicon{width:22px;height:22px}
 """
 
 def nav_html():
@@ -670,10 +685,12 @@ def nav_html():
 def sidebar(active=''):
     out = ['<aside><h4>Browse categories</h4><ul>']
     for s in TOP:
-        out.append(f'<li><a class="sidecat" href="{section_url(s)}">{cat_icon(s, 24)}<strong>{NAVNAME[s]}</strong></a></li>')
+        # 22, not 24/26: a.sidecat .cicon used to force that size in CSS, and the
+        # inline size on a background icon would now win. Same pixels as before.
+        out.append(f'<li><a class="sidecat" href="{section_url(s)}">{cat_icon(s, 22)}<strong>{NAVNAME[s]}</strong></a></li>')
         for k in children[s]:
             if s == active or k == active:
-                out.append(f'<li><a class="sidecat" href="{cat_url(k)}">{cat_icon(k, 26)}{catname[k]}</a></li>')
+                out.append(f'<li><a class="sidecat" href="{cat_url(k)}">{cat_icon(k, 22)}{catname[k]}</a></li>')
     out.append('</ul></aside>')
     return ''.join(out)
 
@@ -2257,9 +2274,12 @@ _need = set()
 for _dir, _, _fs in os.walk(OUT):
     for _f in _fs:
         if not _f.endswith('.html'): continue
-        for _u in re.findall(r'(?:src|href)="(/wp-content/uploads/[^"]+)"',
-                             open(os.path.join(_dir, _f), encoding='utf-8').read()):
-            _need.add(_u.split('?')[0])
+        _src = open(os.path.join(_dir, _f), encoding='utf-8').read()
+        # url(...) as well as src="...": the category icons are CSS backgrounds,
+        # and leaving them out here would report 69 live files as unreferenced.
+        for _u in re.findall(r'(?:src|href)="(/wp-content/uploads/[^"]+)"'
+                             r'|url\([\'"]?(/wp-content/uploads/[^)\'"]+)[\'"]?\)', _src):
+            _need.add((_u[0] or _u[1]).split('?')[0])
 open(os.path.join(OUT, 'images-needed.txt'), 'w', encoding='utf-8').write(
     '\n'.join(sorted(_need)) + '\n')
 print(f'images  {len(_need)} referenced by the built pages')
