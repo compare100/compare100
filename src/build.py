@@ -216,6 +216,46 @@ def _checked_to_iso(text):
     except Exception:
         return ''
 
+# ---- pages that exist only as rewritten content --------------------------
+# Everything above this point comes out of the WordPress export, and REWRITTEN
+# only ever REPLACES the copy for a slug the export already has. A page about a
+# provider the old site never covered has no export record to replace, so one
+# has to be made for it here.
+#
+# Set "new_page": true in the rewritten JSON and supply what WordPress would
+# have: cats, logo, offer_url, btn and date. Everything else the page needs is
+# already in the rewritten structure.
+#
+# Two things are checked rather than assumed, because both fail silently:
+# a slug that collides with an existing page would quietly shadow it, and a
+# category nicename that does not exist would put the page in a hub that is
+# never built, so it would vanish from the site with no error.
+_existing_slugs = {_p['slug'] for _p in posts + pages}
+_new = 0
+for _slug, _pg in sorted(REWRITTEN.items()):
+    if not _pg.get('new_page'): continue
+    if _slug in _existing_slugs:
+        raise SystemExit(f'ERROR   new_page "{_slug}" collides with a page from the '
+                         f'WordPress export. Pick a different slug or drop new_page.')
+    _bad = [c[0] for c in _pg.get('cats', []) if c[0] not in catparent]
+    if _bad:
+        raise SystemExit(f'ERROR   new_page "{_slug}" is filed under categories that do '
+                         f'not exist: {", ".join(_bad)}')
+    _d = (_pg.get('date') or _checked_to_iso(_pg.get('checked', ''))
+          or datetime.now().strftime('%Y-%m-%d'))
+    posts.append(dict(
+        title=_pg.get('title', _slug), slug=_slug, type='post',
+        date=_d, modified=_d, content='', excerpt='',
+        seo_title=_pg.get('meta_title', ''), seo_desc=_pg.get('meta_description', ''),
+        focuskw='', logo=_pg.get('logo', ''),
+        offer_url=_pg.get('offer_url', ''), btn=_pg.get('btn', 'Get Quotes'),
+        cats=[tuple(c) for c in _pg.get('cats', [])], status='publish',
+    ))
+    _existing_slugs.add(_slug)
+    _new += 1
+if _new:
+    print(f'new     {_new} page(s) with no WordPress source, built from rewritten content')
+
 _restamped = 0
 for _p in posts + pages:
     _rw = REWRITTEN.get(_p['slug'])
@@ -897,6 +937,19 @@ def shell(title, desc, canonical, body, schema=None, extra_head='',
 
 DISCLOSURE = '<p class="disc"><strong>Affiliate disclosure:</strong> we may earn a commission if you take out a product through links on this page. It costs you nothing extra and does not influence how providers are listed.</p>'
 
+def disclosure_for(p):
+    """The standard disclosure, unless the page declares a different interest.
+
+    The standard line says we may earn a commission. On a page where that is not
+    true - a referral link that pays nothing, a provider with no affiliate
+    programme - printing it anyway would be a false statement about money on a
+    site that carries an FCA disclaimer. A page can set "disclosure" in its
+    rewritten JSON to say what the real interest is instead.
+    """
+    own = (p or {}).get('disclosure', '').strip()
+    if not own: return DISCLOSURE
+    return f'<p class="disc"><strong>Our interest:</strong> {own}</p>'
+
 def crumbs(items):
     parts = ['<div class="crumb">']
     parts.append(' &rsaquo; '.join(
@@ -1009,9 +1062,14 @@ def render_rewritten(p, pc, parent, cr, sibs, cta=None):
         if not (cta and cta[0]):
             return ''
         url, btn, name = cta
+        # The commission line is wrong on a page that declares a different
+        # interest - a referral link that pays nothing, a provider with no
+        # affiliate programme. Those pages state their interest once, in the
+        # disclosure, and the button says only where it goes.
+        _note = ('We may earn a commission &mdash; it costs you nothing extra.'
+                 if not p.get('disclosure') else 'It costs you nothing extra.')
         return (f'<div class="cta"><div><strong>{esc(label)}</strong>'
-                f'<span>Opens {esc(name)} in a new tab. We may earn a commission '
-                f'&mdash; it costs you nothing extra.</span></div>'
+                f'<span>Opens {esc(name)} in a new tab. {_note}</span></div>'
                 f'<a class="btn" href="{url}" rel="sponsored nofollow noopener" '
                 f'target="_blank">{esc(btn)}</a></div>')
 
@@ -1023,7 +1081,7 @@ def render_rewritten(p, pc, parent, cr, sibs, cta=None):
         body = (f'<h1>{esc(p["title"])}</h1>'
                 f'<div class="meta">Rates and terms checked {checked} &middot; '
                 f'{catname.get(pc,"")} &middot; Compare100 editorial team</div>'
-                + DISCLOSURE + p.get('intro','')
+                + disclosure_for(p) + p.get('intro','')
                 # FAQs sit BEFORE the verdict so the page closes on the verdict and
                 # its button. Questions are supporting detail; the verdict is the
                 # closing argument, and it should be the last thing read.
