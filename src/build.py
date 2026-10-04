@@ -748,6 +748,12 @@ def fit_title(t, limit=60):
     for sep in (' | ', ' \u2014 ', ' \u2013 ', ' - ', ': '):
         if sep in t:
             head = t.rsplit(sep, 1)[0].strip()
+            # A head this short is a brand, not a title. Returning it throws away
+            # every descriptive word and ships something like "Compare100.com" to
+            # the search results, which is exactly how the homepage title was lost.
+            # Fall through to the word-boundary cut instead, which keeps the words.
+            if len(html.unescape(head)) < limit // 3:
+                break
             if len(html.unescape(head)) <= limit:
                 return head
     cut = t[:limit]
@@ -1758,7 +1764,13 @@ i.addEventListener('input',function(){clearTimeout(t);t=setTimeout(go,120)});
 document.addEventListener('click',function(e){if(!r.contains(e.target)&&e.target!==i)r.hidden=true});
 })();
 </script>"""
-n = write('/', shell('Compare100.com | Compare UK Insurance, Money, Travel and Utility Deals',
+# The descriptive half goes FIRST. This title used to read
+# "Compare100.com | Compare UK Insurance, Money, Travel and Utility Deals", which
+# is 70 characters, so fit_title trimmed it at the pipe and kept the head - and
+# the head was the bare domain. The homepage, the single most-shown title on the
+# site, went to search engines as "Compare100.com" and nothing else. Bing flagged
+# it as "Title too short" and it was right.
+n = write('/', shell('Compare UK Insurance, Money & Travel Deals | Compare100',
                      f'Compare {_provider_total} UK providers side by side across insurance, money, travel, '
                      'mobiles, utilities, motoring and shopping. Free to use, with a review of every one.',
                      '/', home + SEARCH_JS,
@@ -2242,11 +2254,19 @@ for _s in TOP:
     _ll.append(f'- [{NAVNAME[_s]}]({SITE}{section_url(_s)}): {_n} providers across '
                f'{sum(1 for _c in children[_s] if bycat.get(_c))} categories')
 _ll += ['', '## Categories', '']
+# Each category names its providers rather than just counting them. The spec
+# wants llms.txt small enough to sit in a model's context, and it still is - the
+# names cost a few KB against a 75 KB llms-full.txt. What they buy is that an
+# answer engine asked "who does Compare100 compare for dual fuel?" can answer
+# from this file instead of fetching another one, and a model that only ever
+# reads llms.txt now knows every provider on the site exists.
 for _s in TOP:
     for _c in children[_s]:
         if bycat.get(_c):
+            _who = ', '.join(_x['title'] for _x in sorted(bycat[_c], key=lambda z: z['title']))
             _ll.append(f'- [{catname[_c]}]({SITE}{cat_url(_c)}): '
-                       f'{len(bycat[_c])} providers compared')
+                       f'{len(bycat[_c])} providers compared &mdash; {_who}'
+                       .replace('&mdash;', '—'))
 _ll += ['', '## Notes for answer engines', '',
         '- Every page shows the date its figures were last verified against the '
         "provider's own published terms.",

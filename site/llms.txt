@@ -14,68 +14,68 @@
 
 ## Categories
 
-- [Boat Insurance](https://compare100.com/category/insurance/uk-boat-insurance-deals/): 5 providers compared
-- [Breakdown Insurance](https://compare100.com/category/insurance/uk-breakdown-insurance-providers/): 6 providers compared
-- [Car Insurance Deals](https://compare100.com/category/insurance/uk-car-insurance-providers/): 6 providers compared
-- [Home Insurance](https://compare100.com/category/insurance/uk-home-insurance-providers/): 6 providers compared
-- [Landlord's Insurance](https://compare100.com/category/insurance/uk-landlord-insurance-deals/): 5 providers compared
-- [Life Insurance](https://compare100.com/category/insurance/uk-life-insurance-deals/): 5 providers compared
-- [Motorbike Insurance](https://compare100.com/category/insurance/uk-motorbike-insurance-providers/): 5 providers compared
-- [Over 50's Insurance](https://compare100.com/category/insurance/uk-over-50s-insurance-deals/): 5 providers compared
-- [Plumbing Insurance](https://compare100.com/category/insurance/uk-plumbing-insurance-deals/): 4 providers compared
-- [Tradesman Insurance](https://compare100.com/category/insurance/uk-tradesman-insurance-deals/): 5 providers compared
-- [Travel Insurance](https://compare100.com/category/insurance/uk-travel-insurance-providers/): 7 providers compared
-- [Van Insurance](https://compare100.com/category/insurance/uk-van-insurance-providers/): 3 providers compared
-- [Car Finance](https://compare100.com/category/money/car-finance/): 1 providers compared
-- [Credit Cards](https://compare100.com/category/money/uk-credit-cards/): 5 providers compared
-- [Current Accounts](https://compare100.com/category/money/uk-current-accounts/): 4 providers compared
-- [ISA's](https://compare100.com/category/money/compare-uk-isa-accounts/): 4 providers compared
-- [Loans](https://compare100.com/category/money/compare-uk-loans/): 4 providers compared
-- [Mortgage Deals](https://compare100.com/category/money/compare-uk-mortgage-deals/): 5 providers compared
-- [Pensions](https://compare100.com/category/money/compare-uk-pensions/): 5 providers compared
-- [Savings Accounts](https://compare100.com/category/money/compare-uk-savings-accounts/): 5 providers compared
-- [Airport Lounge](https://compare100.com/category/travel/best-uk-airport-lounge-deals/): 5 providers compared
-- [Airport Parking](https://compare100.com/category/travel/best-uk-airport-parking-deals/): 7 providers compared
-- [Campsites and Resorts](https://compare100.com/category/travel/campsites-and-resorts/): 5 providers compared
-- [Cheap Flights](https://compare100.com/category/travel/best-uk-cheap-flights/): 5 providers compared
-- [Ferry Tickets](https://compare100.com/category/travel/compare-uk-ferry-tickets/): 5 providers compared
-- [Holiday Car Hire](https://compare100.com/category/travel/compare-uk-holiday-car-hire/): 5 providers compared
-- [Hostels](https://compare100.com/category/travel/compare-uk-hostels/): 5 providers compared
-- [Hotels](https://compare100.com/category/travel/compare-uk-hotel-deals/): 8 providers compared
-- [Train Tickets](https://compare100.com/category/travel/train-tickets/): 5 providers compared
-- [UK Boating Holidays](https://compare100.com/category/travel/compare-uk-boating-holidays/): 6 providers compared
-- [Worldwide Cruises](https://compare100.com/category/travel/compare-uk-worldwide-cruises/): 5 providers compared
-- [Business Mobiles](https://compare100.com/category/mobile-phones/business-mobiles/): 6 providers compared
-- [Just Phones](https://compare100.com/category/mobile-phones/just-phones/): 5 providers compared
-- [New Phone Contract](https://compare100.com/category/mobile-phones/new-phone-contract/): 6 providers compared
-- [Phone Insurance](https://compare100.com/category/mobile-phones/phone-insurance/): 5 providers compared
-- [Recycle Your Phone](https://compare100.com/category/mobile-phones/recycle-your-phone/): 5 providers compared
-- [SIM Only](https://compare100.com/category/mobile-phones/sim-only/): 8 providers compared
-- [Broadband](https://compare100.com/category/utilities/broadband/): 6 providers compared
-- [Business Dual Fuel](https://compare100.com/category/utilities/business-dual-fuel/): 5 providers compared
-- [Dual Fuel](https://compare100.com/category/utilities/dual-fuel/): 6 providers compared
-- [Electricity](https://compare100.com/category/utilities/electricity/): 6 providers compared
-- [Gas](https://compare100.com/category/utilities/gas/): 6 providers compared
-- [Satellite Internet](https://compare100.com/category/utilities/satellite-internet/): 5 providers compared
-- [Cars for Sale](https://compare100.com/category/motoring/cars-for-sale/): 5 providers compared
-- [HPI Checks](https://compare100.com/category/motoring/hpi-checks/): 5 providers compared
-- [New Cars](https://compare100.com/category/motoring/new-cars/): 10 providers compared
-- [Sell Your Car](https://compare100.com/category/motoring/sell-your-car/): 5 providers compared
-- [Servicing](https://compare100.com/category/motoring/servicing/): 5 providers compared
-- [Tyres](https://compare100.com/category/motoring/tyres/): 5 providers compared
-- [Vehicle Inspections](https://compare100.com/category/motoring/vehicle-inspections/): 5 providers compared
-- [Vehicle Parts](https://compare100.com/category/motoring/vehicle-parts/): 6 providers compared
-- [Children's Fashion](https://compare100.com/category/shopping/childrens-fashion/): 6 providers compared
-- [Computers](https://compare100.com/category/shopping/computers/): 5 providers compared
-- [Fitness & Wearables](https://compare100.com/category/shopping/fitness-and-wearables/): 6 providers compared
-- [Furniture](https://compare100.com/category/shopping/furniture/): 6 providers compared
-- [Gaming and Accessories](https://compare100.com/category/shopping/gaming-and-accessories/): 7 providers compared
-- [Groceries](https://compare100.com/category/shopping/groceries/): 6 providers compared
-- [Health and Beauty](https://compare100.com/category/shopping/health-and-beauty/): 7 providers compared
-- [Men's Fashion](https://compare100.com/category/shopping/mens-fashion/): 5 providers compared
-- [Smart Things](https://compare100.com/category/shopping/smart-things/): 5 providers compared
-- [Televisions](https://compare100.com/category/shopping/televisions/): 6 providers compared
-- [Women's Fashion](https://compare100.com/category/shopping/womens-fashion/): 6 providers compared
+- [Boat Insurance](https://compare100.com/category/insurance/uk-boat-insurance-deals/): 5 providers compared — Compare-Boat-Insurance.co.uk Boat Insurance, Haven Knox-Johnston Boat Insurance, Insure4Boats Boat Insurance, Noble Marine Insurance Boat Insurance, Towergate Boat Insurance
+- [Breakdown Insurance](https://compare100.com/category/insurance/uk-breakdown-insurance-providers/): 6 providers compared — Alfred Household Bills Membership, Comfort Insurance Breakdown Insurance, Eversure.com Breakdown Insurance, MyMoneyComparison.com Breakdown Insurance, Start Rescue Breakdown Insurance, The AA Breakdown Insurance
+- [Car Insurance Deals](https://compare100.com/category/insurance/uk-car-insurance-providers/): 6 providers compared — Admiral Car Insurance, Alfred Household Bills Membership, Aviva Car Insurance, Direct Line Car Insurance, Hastings Direct Car Insurance, Quotezone.co.uk Car Insurance
+- [Home Insurance](https://compare100.com/category/insurance/uk-home-insurance-providers/): 6 providers compared — AXA Home Insurance, Admiral Insurance Home Insurance, Alfred Household Bills Membership, John Lewis Home Insurance, LV= Home Insurance, Quotezone.co.uk Home Insurance
+- [Landlord's Insurance](https://compare100.com/category/insurance/uk-landlord-insurance-deals/): 5 providers compared — AXA Landlord’s Insurance, Aviva Landlord’s Insurance, Direct Line Landlord’s Insurance, Quotezone.co.uk Landlord’s Insurance, Saga Landlord’s Insurance
+- [Life Insurance](https://compare100.com/category/insurance/uk-life-insurance-deals/): 5 providers compared — Aviva Life Insurance, Legal & General Life Insurance, MyMoneyComparison.com Life Insurance, Vavista Life Insurance, Zurich Life Insurance
+- [Motorbike Insurance](https://compare100.com/category/insurance/uk-motorbike-insurance-providers/): 5 providers compared — Admiral Insurance Motorbike Insurance, Performance Direct Motorbike Insurance, Quotezone.co.uk Motorbike Insurance, The AA Motorbike Insurance, Wicked Quotes Motorbike Insurance
+- [Over 50's Insurance](https://compare100.com/category/insurance/uk-over-50s-insurance-deals/): 5 providers compared — Aviva Over 50’s Insurance, British Seniors Over 50’s Insurance, Sainsbury’s Bank Over 50’s Insurance, Shepherds Friendly Over 50’s Insurance, Sunlife.co.uk Over 50’s Insurance
+- [Plumbing Insurance](https://compare100.com/category/insurance/uk-plumbing-insurance-deals/): 4 providers compared — British Gas Plumbing Insurance, Home Emergency Assist Plumbing Insurance, HomeServe Plumbing Insurance, Smart Cover Plumbing Insurance
+- [Tradesman Insurance](https://compare100.com/category/insurance/uk-tradesman-insurance-deals/): 5 providers compared — AXA Tradesman Insurance, Hiscox Tradesman Insurance, Quotezone.co.uk Tradesman Insurance, Simply Business Tradesman Insurance, Towergate Tradesman Insurance
+- [Travel Insurance](https://compare100.com/category/insurance/uk-travel-insurance-providers/): 7 providers compared — Aviva Travel Insurance, Compare Your Travel Insurance Review: Compare Quotes Fast in the UK, Coverwise Travel Insurance – Cheap Cover with 24/7 Medical Assistance, Insuremore.co.uk Travel Insurance, Quotezone.co.uk Travel Insurance, Saga Travel Insurance, Voyager Travel Insurance
+- [Van Insurance](https://compare100.com/category/insurance/uk-van-insurance-providers/): 3 providers compared — Admiral Insurance Van Insurance, Quotezone.co.uk Van Insurance, The AA Van Insurance
+- [Car Finance](https://compare100.com/category/money/car-finance/): 1 providers compared — Carmoola Car Finance Review
+- [Credit Cards](https://compare100.com/category/money/uk-credit-cards/): 5 providers compared — American Express Credit Cards, Barclaycard Credit Cards, HSBC Credit Cards, NatWest Credit Cards, Santander Credit Cards
+- [Current Accounts](https://compare100.com/category/money/uk-current-accounts/): 4 providers compared — First Direct 1st Account, Monzo Current Account, Nationwide FlexDirect Account, Santander Edge Account
+- [ISA's](https://compare100.com/category/money/compare-uk-isa-accounts/): 4 providers compared — Leeds Building Society Cash ISA, Moneybox Cash ISA, Nationwide Cash ISA, Trading 212 Cash ISA
+- [Loans](https://compare100.com/category/money/compare-uk-loans/): 4 providers compared — Barclays Personal Loan, NatWest Personal Loan, Santander Personal Loan, Tesco Bank Personal Loan
+- [Mortgage Deals](https://compare100.com/category/money/compare-uk-mortgage-deals/): 5 providers compared — Barclays Mortgage Deals, Coventry Building Society Mortgage Deals, Nationwide Mortgage Deals, Quick Mortgages Review: Compare UK Mortgage Deals and Get Advice, Santander Mortgage Deals
+- [Pensions](https://compare100.com/category/money/compare-uk-pensions/): 5 providers compared — Aviva Pension, Legal & General Pension, PensionBee Pension, Scottish Widows Pension, Standard Life Pension
+- [Savings Accounts](https://compare100.com/category/money/compare-uk-savings-accounts/): 5 providers compared — Aldermore Savings Account, Close Brothers Savings Account, Cynergy Bank Savings Account, Nationwide Savings Account, Santander Savings Account
+- [Airport Lounge](https://compare100.com/category/travel/best-uk-airport-lounge-deals/): 5 providers compared — Airport Lounges Airport Lounge, DragonPass Airport Lounge, LoungeKey Airport Lounge, Loungepass.com Airport Lounge, Priority Pass Airport Lounge
+- [Airport Parking](https://compare100.com/category/travel/best-uk-airport-parking-deals/): 7 providers compared — A2Z Airport Parking – Compare & Book, APH Airport Parking, Airport Parking Shop Airport Parking, Holiday Extras Airport Parking, Looking4Parking Airport Parking, Park and Go Airport Parking, Purple Parking Airport Parking – Compare Park & Ride vs Meet and Greet
+- [Campsites and Resorts](https://compare100.com/category/travel/campsites-and-resorts/): 5 providers compared — Campsites.co.uk Campsites and Resorts, Eurocamp Campsites and Resorts, Gusto Camp Campsites and Resorts, Hipcamp Campsites and Resorts, Pitchup Campsites and Resorts
+- [Cheap Flights](https://compare100.com/category/travel/best-uk-cheap-flights/): 5 providers compared — Google Flights Cheap Flights, Kayak Cheap Flights, Momondo Cheap Flights, Secret Flight Club Cheap Flights, Skyscanner Cheap Flights
+- [Ferry Tickets](https://compare100.com/category/travel/compare-uk-ferry-tickets/): 5 providers compared — Brittany Ferries Ferry Tickets – UK to France & Spain, DFDS Ferry Tickets, Direct Ferries Ferry Tickets, P&O Ferries Ferry Tickets: Your Smooth Gateway to Europe & Beyond in 2025, Stena Line Ferry Tickets
+- [Holiday Car Hire](https://compare100.com/category/travel/compare-uk-holiday-car-hire/): 5 providers compared — Avis Holiday Car Hire, Europcar Holiday Car Hire, Holiday Autos Holiday Car Hire, Rentalcars.com Holiday Car Hire, Sixt Holiday Car Hire
+- [Hostels](https://compare100.com/category/travel/compare-uk-hostels/): 5 providers compared — Backpackers.com Hostels, Catered Ski Chalets Hostels, Hostelling International Hostels, Hostelworld Hostels, St Christopher’s Inns Hostels
+- [Hotels](https://compare100.com/category/travel/compare-uk-hotel-deals/): 8 providers compared — Agoda Hotels, Booking.com Hotels, Expedia Hotels, HotelPlanner Hotels, Hotels.com Hotels, LateRooms.com – Last-Minute Hotel Deals, Luxury Escapes – Exclusive Hotel Deals, Trip.com – Global Hotel Deals
+- [Train Tickets](https://compare100.com/category/travel/train-tickets/): 5 providers compared — Avanti West Coast Train Tickets, Eurostar Train Tickets, LNER Train Tickets, National Rail Train Tickets, Trainline Train Tickets
+- [UK Boating Holidays](https://compare100.com/category/travel/compare-uk-boating-holidays/): 6 providers compared — Anglo Welsh UK Boating Holidays: Explore Iconic UK Canals with No License Needed in 2025, Black Prince Holidays UK Boating Holidays, Le Boat Boating Holidays: Your Ultimate Guide to Self-Drive UK Canal & River Adventures in 2025, Richardsons Boating Holidays UK Boating Holidays, SamBoat Boat Rental: Hire a Yacht, Catamaran or Motorboat Worldwide, Waterways Holidays UK Boating Holidays: Explore 40+ UK Waterways with No Experience Needed in 2025
+- [Worldwide Cruises](https://compare100.com/category/travel/compare-uk-worldwide-cruises/): 5 providers compared — Cruise Critic Worldwide Cruises: Your Essential Guide to Reviews & Deals in 2025, Cruise Nation Worldwide Cruises: Your Gateway to Unbeatable Cruise Deals in 2025, MSC Cruises Worldwide Cruises: Elegant Voyages & Family Adventures in 2025, P&O Cruises Worldwide Cruises: Luxurious Sea Journeys & Tailored Experiences in 2025, Royal Caribbean Worldwide Cruises: Your Ultimate Adventure for Global Exploration in 2025
+- [Business Mobiles](https://compare100.com/category/mobile-phones/business-mobiles/): 6 providers compared — BT Business Mobiles, BusinessMobiles.com Deals – Business Mobile Contracts & Upgrades, EE Business Mobiles, O2 Business Mobiles, Three Business Mobiles, Vodafone Business Mobiles
+- [Just Phones](https://compare100.com/category/mobile-phones/just-phones/): 5 providers compared — Affordable Mobiles No Contract Phones, Carphone Warehouse Phones: Compare Handset Deals and Save, Currys No Contract Phones, Mobiles.co.uk No Contract Phones, Samsung No Contract Phones
+- [New Phone Contract](https://compare100.com/category/mobile-phones/new-phone-contract/): 6 providers compared — Carphone Warehouse New Phone Contract Deals, EE New Phone Contract, O2 New Phone Contract, Tesco Mobile New Phone Contract, Three New Phone Contract, Vodafone New Phone Contract
+- [Phone Insurance](https://compare100.com/category/mobile-phones/phone-insurance/): 5 providers compared — Go Compare Phone Insurance, Insurance2go Phone Insurance, Protect Your Bubble Phone Insurance, Row.co.uk Phone Insurance, Switched On Insurance Phone Insurance
+- [Recycle Your Phone](https://compare100.com/category/mobile-phones/recycle-your-phone/): 5 providers compared — Envirofone Recycle Your Phone, Mazuma Mobile Recycle Your Phone, MusicMagpie Recycle Your Phone, O2 Recycle Your Phone, Vodafone Recycle Your Phone
+- [SIM Only](https://compare100.com/category/mobile-phones/sim-only/): 8 providers compared — Alfred Household Bills Membership, Carphone Warehouse SIM Only Deals: Compare Plans and Save, Lebara SIM Only, Smarty SIM Only, Voxi SIM Only, breeze eSIM Review: Travel Data Plans You Can Set Up in Minutes, giffgaff SIM Only, iD Mobile SIM Only
+- [Broadband](https://compare100.com/category/utilities/broadband/): 6 providers compared — Alfred Household Bills Membership, BT Broadband, Hey Broadband, Sky Broadband, TalkTalk Broadband, Virgin Media Broadband
+- [Business Dual Fuel](https://compare100.com/category/utilities/business-dual-fuel/): 5 providers compared — British Gas Business Dual Fuel, EDF Energy Business Dual Fuel, Octopus Energy Business Dual Fuel, Scottish Power Business Dual Fuel, TotalEnergies Business Dual Fuel
+- [Dual Fuel](https://compare100.com/category/utilities/dual-fuel/): 6 providers compared — Alfred Household Bills Membership, British Gas Dual Fuel, E.ON Next Dual Fuel, EDF Energy Dual Fuel, Octopus Energy Dual Fuel, Utility Warehouse Dual Fuel
+- [Electricity](https://compare100.com/category/utilities/electricity/): 6 providers compared — Alfred Household Bills Membership, British Gas Electricity, EDF Energy Electricity, OVO Energy Electricity, Octopus Energy Electricity, Scottish Power Electricity
+- [Gas](https://compare100.com/category/utilities/gas/): 6 providers compared — Alfred Household Bills Membership, British Gas, Octopus Energy Gas, SSE Gas, So Energy Gas, Utility Warehouse Gas
+- [Satellite Internet](https://compare100.com/category/utilities/satellite-internet/): 5 providers compared — Avonline Broadband Satellite Internet, Bigblu Broadband Satellite Internet, Konnect Satellite Internet, OneWeb Satellite Internet, Starlink Satellite InternetStarlink UK Satellite Internet (2026 Guide)
+- [Cars for Sale](https://compare100.com/category/motoring/cars-for-sale/): 5 providers compared — Auto Trader Cars for Sale, Carwow Cars for Sale, Cazoo Cars for Sale, Motors.co.uk Cars for Sale, Parkers Cars for Sale
+- [HPI Checks](https://compare100.com/category/motoring/hpi-checks/): 5 providers compared — AA Car Check, CarVertical, HPI Checks, RAC Vehicle History Check, Total Car Check
+- [New Cars](https://compare100.com/category/motoring/new-cars/): 10 providers compared — Audi New Cars, BYD New Cars, Ford New Cars, Honda New Cars, Mercedes-Benz New Cars, Nissan New Cars, Tesla New Cars, Toyota New Cars, Vauxhall New Cars, Volkswagen New Cars
+- [Sell Your Car](https://compare100.com/category/motoring/sell-your-car/): 5 providers compared — Auto Trader Sell My Car, Carwow Sell My Car, Cazoo Sell My Car, Motorway Sell Your Car, We Buy Any Car, Sell Your Car
+- [Servicing](https://compare100.com/category/motoring/servicing/): 5 providers compared — ATS Euromaster Servicing, Formula One Autocentres Servicing, Kwik Fit Servicing, Mr Clutch Servicing, National Tyres and Autocare Servicing
+- [Tyres](https://compare100.com/category/motoring/tyres/): 5 providers compared — ATS Euromaster Tyres, Black Circles Tyres, Kwik Fit Tyres, MyTyres, Tyres.Net
+- [Vehicle Inspections](https://compare100.com/category/motoring/vehicle-inspections/): 5 providers compared — AA Vehicle Inspections, CarExamer, ClickMechanic, My Car Inspections, RAC Vehicle Inspections
+- [Vehicle Parts](https://compare100.com/category/motoring/vehicle-parts/): 6 providers compared — AutoDoc Vehicle Parts, Buy Car Parts Vehicle Parts, EBC Brakes Vehicle Parts, Euro Car Parts Vehicle Parts, Online Car Parts UK Vehicle Parts, The Battery Guys Vehicle Parts
+- [Children's Fashion](https://compare100.com/category/shopping/childrens-fashion/): 6 providers compared — Amazon Children's Fashion, Gap Kids Children's Fashion, JoJo Maman Bébé Children's Fashion, Marks & Spencer Children's Fashion, Next Children's Fashion, Vertbaudet Children's Fashion
+- [Computers](https://compare100.com/category/shopping/computers/): 5 providers compared — Amazon Computers, Dell UK Computers, Ebuyer Computers, HP UK Computers, Lenovo UK Computers
+- [Fitness & Wearables](https://compare100.com/category/shopping/fitness-and-wearables/): 6 providers compared — Amazon Fitness & Wearables, Apple Watch Fitness & Wearables, Fitbit Fitness & Wearables, Garmin Fitness & Wearables, Polar Fitness & Wearables, Samsung Wearables Fitness & Wearables
+- [Furniture](https://compare100.com/category/shopping/furniture/): 6 providers compared — Amazon Furniture, Dunelm Furniture, Habitat Furniture, IKEA Furniture, Made.com Furniture, Wayfair Furniture
+- [Gaming and Accessories](https://compare100.com/category/shopping/gaming-and-accessories/): 7 providers compared — Amazon Gaming and Accessories, Argos Gaming and Accessories, Currys Gaming and Accessories, GAME Gaming and Accessories, Game Over Bean Bags – Gaming Seating for Comfort & Support, Logitech G Gaming and Accessories, Razer Gaming and Accessories
+- [Groceries](https://compare100.com/category/shopping/groceries/): 6 providers compared — Amazon Groceries, Asda Groceries, Ocado Groceries, Sainsbury's Groceries, Tesco Groceries, Waitrose Groceries
+- [Health and Beauty](https://compare100.com/category/shopping/health-and-beauty/): 7 providers compared — Amazon Health and Beauty, Boots Health and Beauty, Branded Beauty - Luxe Beauty Deals, Cult Beauty Health and Beauty, Lookfantastic Health and Beauty, Superdrug Health and Beauty, The Body Shop Health and Beauty
+- [Men's Fashion](https://compare100.com/category/shopping/mens-fashion/): 5 providers compared — ASOS Men's Fashion, Amazon Men's Fashion, Burton Men's Fashion, Moss Bros Men's Fashion, River Island Men's Fashion
+- [Smart Things](https://compare100.com/category/shopping/smart-things/): 5 providers compared — Amazon Smart Things, Currys Smart Tech, Google Store Smart Things, John Lewis Smart Home, Philips Hue Smart Things
+- [Televisions](https://compare100.com/category/shopping/televisions/): 6 providers compared — Amazon Televisions, Argos Televisions, Currys Televisions, John Lewis Televisions, LG UK Televisions, Samsung UK Televisions
+- [Women's Fashion](https://compare100.com/category/shopping/womens-fashion/): 6 providers compared — ASOS Women's Fashion, Amazon Women's Fashion, Boohoo Women's Fashion, H&M Women's Fashion, Missguided Women's Fashion, Zara Women's Fashion
 
 ## Notes for answer engines
 
