@@ -11934,6 +11934,138 @@
   ]
  },
  {
+  "slug": "monzo-current-account",
+  "title": "Monzo Current Account",
+  "meta_title": "Monzo Current Account: 1st for Service, 3.65% Savings",
+  "meta_description": "Monzo ranks 1st of 17 UK providers for service quality at 79%. Savings pots pay 2.75% to 3.65% AER depending on plan. Rates and fees checked 6 October 2026.",
+  "checked": "6 October 2026",
+  "headline": {
+   "label": "Interest, first 12 months",
+   "value": "None on the account balance; 2.75% AER on Instant Access Savings on the free plan, up to 3.65% AER on Select Access with Perks at &pound;9 a month"
+  },
+  "intro": "<p>Monzo finished <strong>first of the 17 largest current account providers</strong> in the service quality survey every big UK bank is obliged to publish, with <strong>79%</strong> of its customers in Great Britain saying they would recommend it and <strong>85%</strong> on online and mobile banking. Ipsos surveyed 17,055 people for the August 2026 edition. Every figure on this page was checked on 6 October 2026 against Monzo's own pages, rate tables and legal documents.</p><p>The business behind that score has stopped being a startup. Monzo Bank Limited reported revenue of <strong>&pound;1.7bn</strong> for the year to 31 March 2026, a 39% rise, with gross profit of &pound;1.0bn, adjusted profit before tax of <strong>&pound;172.6m</strong> and customer deposits of <strong>&pound;25.7bn</strong>, up 55%. It counts <strong>15.2 million</strong> customers, three million of them added during that year, and 10.4 million who open the app in a given month. Card spending through it came to &pound;73.0bn. It sits on the Financial Services Register under firm reference number <strong>730427</strong>, holds its own banking licence rather than riding on somebody else's, and eligible deposits are protected by the Financial Services Compensation Scheme up to <strong>&pound;120,000</strong> per person.</p><p>Two things are worth knowing before you open the app. The current account itself pays <strong>no interest on your balance</strong> on any plan: every rate Monzo advertises belongs to a separate savings pot, and which rate you get depends on which of four plans you pay for &mdash; free, Extra at &pound;3 a month, Perks at &pound;9, or Max from &pound;19. And Monzo's own switching page carried <strong>no cash bonus</strong> on 6 October 2026 for moving an account across, which several rivals were offering. What it sells instead is the day-to-day product its own customers rank first in the country, and a savings rate that climbs with the subscription.</p>",
+  "key_facts": [
+   {
+    "label": "Provider",
+    "value": "Monzo Bank Limited, Financial Services Register firm reference number 730427, company 09446231"
+   },
+   {
+    "label": "Monthly account fee",
+    "value": "&pound;0 on the free plan; &pound;3 Extra, &pound;9 Perks, from &pound;19 Max"
+   },
+   {
+    "label": "Interest on the current account balance",
+    "value": "None, on every plan"
+   },
+   {
+    "label": "Instant Access Savings",
+    "value": "2.75% AER free, 3.00% Extra, 3.25% Perks, 3.50% Max (all variable)"
+   },
+   {
+    "label": "Select Access Savings",
+    "value": "3.15% AER on free and Extra, 3.65% on Perks and Max, with two or fewer withdrawals a year and a &pound;500 minimum"
+   },
+   {
+    "label": "Arranged overdraft",
+    "value": "19%, 29% or 39% EAR variable by credit score, limits up to &pound;2,000"
+   },
+   {
+    "label": "Cash deposits",
+    "value": "&pound;1 per deposit at any PayPoint or Post Office"
+   },
+   {
+    "label": "Deposit protection",
+    "value": "&pound;120,000 under the FSCS, on Monzo's own licence"
+   },
+   {
+    "label": "Service quality, Great Britain",
+    "value": "1st of 17 providers, 79% overall, August 2026"
+   }
+  ],
+  "sections": [
+   {
+    "heading": "What the four plans cost, and what the savings rate actually buys",
+    "html": "<p>Monzo puts all eight of its savings rates on one page, which is more than most banks manage, so the sum below is one anybody can check. Instant Access Savings pays <strong>2.75% AER</strong> (variable) on the free plan, 3.00% on Extra, 3.25% on Perks and <strong>3.50% on Max</strong>. Select Access pays <strong>3.15%</strong> on the free plan and on Extra, and <strong>3.65%</strong> on Perks and Max, provided you make two or fewer withdrawals a year and keep at least &pound;500 in it. Interest is paid monthly.</p><p>Set those rates against what the plans cost over a year and the picture sharpens. Extra is &pound;36 a year and lifts Instant Access by 0.25 of a percentage point, so the subscription only pays for itself once you hold <strong>&pound;14,400</strong> in the pot. Perks is &pound;108 a year for half a point, which needs <strong>&pound;21,600</strong>. Max is &pound;228 a year for three quarters of a point, which needs <strong>&pound;30,400</strong>. Below those balances the subscription costs more than the extra interest it unlocks, and the non-savings benefits have to carry it.</p><p>Select Access is where the arithmetic gets blunter. Free and Extra pay the identical 3.15%, so an Extra subscriber who keeps savings there pays &pound;36 a year for a rate the free plan already has. Perks and Max both pay 3.65%, so the extra &pound;120 a year that Max costs over Perks buys nothing at all on that pot. Only one of the three paid plans changes the Select Access rate.</p><p>There is a tax line worth drawing too. &pound;30,400 at 3.50% produces about <strong>&pound;1,064</strong> of interest in a year, which is just past the &pound;1,000 personal savings allowance a basic-rate taxpayer gets, and more than double the &pound;500 a higher-rate taxpayer gets. The balance at which the Max subscription starts paying for itself is roughly the balance at which the interest starts being taxed.</p><p>For context, Bank Rate has been <strong>3.75%</strong> since 18 December 2025, after 4.00% in August 2025 and 4.25% that May. Monzo's best advertised savings rate, 3.65% on Select Access with a paid plan, sits below Bank Rate, and the free plan's 2.75% sits a full percentage point below it.</p>"
+   },
+   {
+    "heading": "From Focus FS Limited to 15.2 million customers",
+    "html": "<p>Companies House records Monzo Bank Limited, company number <strong>09446231</strong>, as incorporated on <strong>18 February 2015</strong> under the name <strong>FOCUS FS LIMITED</strong>, renamed on 21 October 2016. Its registered office is Broadwalk House, 5 Appold Street, London EC2A 2AG, and it files under SIC code 64191, banks. Eleven and a half years from a shell company to &pound;25.7bn of deposits is unusually fast for a British bank, and the growth has not stopped: deposits rose 55% in the year to 31 March 2026, revenue 39% and card spending 32%.</p><p>The single licence matters more than it sounds. Where a bank runs several brands on one authorisation, a customer holding accounts with two of those brands has one &pound;120,000 of FSCS cover between them, not two. Monzo has no sibling brands to pool with, so the &pound;120,000 is whole. Monzo's own FSCS page works the example: &pound;80,000 in savings plus &pound;50,000 in the current account is &pound;130,000 of deposits, of which &pound;120,000 is paid and &pound;10,000 is not.</p><p>The same page is worth reading for what it excludes. A collective investment undertaking and a pension or retirement fund are both named as ineligible depositors, and Monzo now sells investments and pensions alongside the bank account. Money in those products is not covered by the deposit scheme in the way a savings pot is, and anybody moving a pension into the app should establish which protection does apply before they do it.</p>"
+   },
+   {
+    "heading": "Moving an account across takes seven working days",
+    "html": "<p>Monzo is a full member of the Current Account Switch Service, which means a switch completes in <strong>seven working days</strong> on a date you pick, incoming and outgoing payments move with it, payments sent to the old account are redirected, and the guarantee refunds any interest or charges on either account caused by a failure of the switch.</p><p>Switching is busier than it has been. Pay.UK reported <strong>608,528</strong> switches between January and June 2026, up from 439,324 in the first half of 2025 &mdash; a <strong>39%</strong> rise &mdash; with <strong>12.9 million</strong> switches since the service launched and 1.2 million in the preceding twelve months. That release is dated 30 July 2026. Monzo was third among the named net gainers for the first quarter of 2026, with <strong>21,894</strong> more switchers arriving than leaving, behind Nationwide's 58,448.</p><p>Three things do not come across, and all three catch people out. Recurring payments taken on your card rather than by Direct Debit &mdash; the way most streaming and gym subscriptions are collected &mdash; have to be set up again with each merchant. Savings accounts and ISAs cannot be switched through the service at all. And a joint account can only switch to another joint account, so a couple moving to Monzo need the joint account open at both ends first. Permissions you have granted to third-party apps through open banking do not transfer either.</p>"
+   },
+   {
+    "heading": "Three overdraft rates, and the one you get is decided for you",
+    "html": "<p>Monzo lends an arranged overdraft at <strong>19%, 29% or 39% EAR</strong> (variable), and which of the three you are offered depends on your credit score. Its own representative example is a &pound;1,200 overdraft used for 30 days at 39.0% EAR, costing <strong>&pound;32.94</strong>. Limits run <strong>up to &pound;2,000</strong>, subject to an affordability check. There are no arrangement fees, no usage fees and no charges for a declined payment &mdash; only interest, which accrues daily on the overdrawn balance and on interest already added.</p><p>Go past an arranged limit and Monzo charges the same rate it already charges you. With no arranged overdraft at all, an unarranged balance is charged at 39% EAR, capped at <strong>&pound;15.50 a month</strong>. Stay overdrawn for more than 60 days without paying anything in and Monzo can ask for 5% of the balance, with a <strong>minimum of &pound;10</strong>, giving at least 30 days' notice first.</p><p>Against Bank Rate at 3.75%, the top rung of 39% is more than ten times the cost of money, which is ordinary for an arranged overdraft since the fees were folded into the headline rate across the market. The structure is honest: one number, no fees behind it, and Monzo came <strong>first of 17 providers on overdraft services</strong> in the August 2026 survey, at 78%.</p><p>One oddity is worth flagging. The overdraft information document a customer is pointed to is version 1.2, <strong>dated 21 December 2021</strong> &mdash; nearly five years old. The rates in it still match the live product pages, so nothing in it is wrong, but a document that old invites the question of what else has not been revisited.</p>"
+   },
+   {
+    "heading": "The charges, and the test that decides which set applies to you",
+    "html": "<p>Monzo's fee information document is version 1.11, dated <strong>18 August 2026</strong>, and it is the document to read rather than the marketing pages. Keeping the account, Direct Debits, standing orders, UK transfers, UK card payments, spending in foreign currency on the card and a replacement card for a stolen or expired one are all <strong>&pound;0</strong>. Paying cash in costs <strong>&pound;1 per deposit</strong> at a PayPoint or Post Office. A replacement card for any other reason is free twice a year and then &pound;5, and &pound;30 if you need one sent abroad.</p><p>Cash machine allowances depend on a test Monzo calls the Fee Criteria. Meet it and UK and European Economic Area withdrawals are free with no cap, while withdrawals outside the EEA are free up to <strong>&pound;200 in a rolling 30 days</strong> and then cost 3%. Fail it and even UK and EEA withdrawals are only free up to <strong>&pound;400 in a rolling 30 days</strong>, after which the same 3% applies. The criteria are published: you need at least one of four things, including &pound;500 or more paid in with active Direct Debits running, eligible government payments, student loan payments, or a joint account shared with somebody who qualifies. Perks lifts the overseas allowance to <strong>&pound;600</strong> every 30 days and adds three fee-free cash deposits a month.</p><p>Receiving money in euros or another currency attracts a <strong>1% conversion fee</strong>, capped at &pound;1,000. Sending money abroad is about to change, and the same document gives both sides of it: until <strong>31 October 2026</strong> the fixed element is no more than &pound;9 with a variable element between 0% and 1.80%, and from <strong>1 November 2026</strong> the fee is &quot;less than &pound;0.80&quot; for most currencies but &quot;may be up to &pound;11 in some cases&quot;. For most people that is a sharp cut. Monzo does not say which currencies land on the &pound;11, and anybody sending money to a thinly traded currency should check the quote in the app before 1 November rather than assume the lower figure.</p>"
+   },
+   {
+    "heading": "A &pound;21m penalty, and the detail inside it",
+    "html": "<p>On <strong>7 July 2025</strong> the Financial Conduct Authority fined Monzo Bank Limited <strong>&pound;21,091,300</strong> over financial crime controls. The figure is after a 30% settlement discount, from &pound;30,130,475. The breaches were of Principle 3, which requires adequate risk management systems, and of a requirement imposed on Monzo under section 55L of the Financial Services and Markets Act 2000 that barred it from taking on new high-risk customers. The conduct covers 1 October 2018 to 4 August 2020, and then 5 August 2020 to 30 June 2022 once that requirement was in force.</p><p>The findings are specific. For most of the earlier period Monzo did not require address verification to open an account, so customers could register obviously implausible UK addresses. About <strong>53,600</strong> customers failed fraud screening at CIFAS, with more than half recommended for exit. After the restriction took effect, Monzo opened <strong>33,039</strong> accounts in breach of it, <strong>26,325</strong> of them for customers it had itself rated high-risk. And <strong>45%</strong> of transaction monitoring alerts were closed as &quot;undecided&quot; rather than investigated to a conclusion.</p><p>Two points of fairness. The conduct ended in June 2022, three years before the notice landed, and the growth that caused it &mdash; the bank went from a few hundred thousand customers to millions in that window &mdash; is the same growth that produced the service scores at the top of this page. And the failures were of control rather than of customer money: nobody's balance was lost. It is still the hardest fact about Monzo on the public record, and it is one no comparison table will show you.</p>"
+   },
+   {
+    "heading": "What Monzo's own complaints return admits",
+    "html": "<p>Banks publish their complaints twice a year, and Monzo's covers <strong>1 October 2025 to 31 March 2026</strong>. In that half year it opened <strong>67,488</strong> banking and credit card complaints and closed 70,687, a rate of <strong>2.39 per 1,000 accounts</strong>. It closed 35.91% within three days and a further 62.00% after three days but within eight weeks, which leaves about <strong>2.1%</strong> running past the eight-week mark at which a customer can take the case to the Financial Ombudsman Service. It upheld <strong>23.97%</strong>, and the main cause was recorded as &quot;product performance / features&quot;.</p><p>The uphold rate is the flattering number. Roughly one complaint in four going the customer's way is low for a current account provider, and taken with the complaint rate per 1,000 accounts it suggests most of what comes in is a query rather than a grievance. The three-day figure is the unflattering one: close to two complaints in three take longer than three days to resolve, which for a bank that exists entirely inside an app is slower than the ranking at the top of this page would lead you to expect.</p><p>The rest of the return is where the uncomfortable numbers are. Credit-related complaints ran at <strong>4.81 per 1,000</strong> accounts, double the banking rate, on 951 cases and a 19.86% uphold rate. Investments produced 169 complaints with <strong>31.65%</strong> upheld, and decumulation and pensions 101 complaints with <strong>36.95%</strong> upheld &mdash; the two highest uphold rates in the table, on the two products that sit outside deposit protection.</p>"
+   },
+   {
+    "heading": "Max at &pound;19 a month: who provides the cover, and who cannot buy it",
+    "html": "<p>Max is the plan where the subscription buys something other than a savings rate, and Monzo names the firms behind each benefit, which is more than many packaged accounts do. Worldwide travel insurance comes from <strong>Zurich</strong>, arranged through Qover: cancellation up to <strong>&pound;5,000</strong>, emergency medical up to <strong>&pound;10 million</strong>, lost valuables up to &pound;750, a car hire excess waiver up to &pound;3,000, winter sports included, and a <strong>&pound;50 excess</strong> per claim. Phone insurance comes from <strong>Assurant</strong>: up to &pound;2,000 for the handset and &pound;300 for accessories against loss, theft and accidental damage, with a <strong>&pound;75 excess</strong> and no more than <strong>two claims in 12 months</strong>. Breakdown cover is the <strong>RAC</strong>, attached to the person rather than to one vehicle, with home start, onward travel and recovery. Family can be added to all three for <strong>&pound;4 a month</strong>, covering up to five people.</p><p>Two conditions sit on it. Max carries a <strong>three-month minimum term</strong>, so the first commitment is &pound;57 rather than &pound;19. And it is sold to people aged <strong>18 to 69</strong>, which is the one hard eligibility line on the whole range: the plan whose main attraction is travel and breakdown cover is closed to the age group most likely to want it, and it is not clear from the public pages what happens to an existing subscriber who turns 70. That needs confirming with Monzo before anybody in their late sixties signs a three-month term.</p><p>Perks, at &pound;9, is the plan Monzo values at &quot;over &pound;300 a year&quot; in partner benefits: an annual Railcard, a weekly Greggs item, Uber One membership, a monthly Vue cinema ticket with 10% off food, and YouTube Premium Lite. Against a &pound;108 annual cost that would be good value, but Monzo does not itemise what it counts each benefit at, so the &pound;300 cannot be checked the way the savings rates can. It is also worth noting that the benefits only pay if you were going to buy those things anyway.</p>"
+   }
+  ],
+  "pros": [
+   "First of the 17 largest providers for overall service quality in Great Britain in the August 2026 Ipsos survey, at 79%, and first on online and mobile banking at 85%",
+   "Free plan with no monthly fee, no minimum pay-in to keep it open, and no interest charges unless you borrow",
+   "All eight savings rates published in a single table, so the cost of each plan can be measured against what it pays",
+   "&pound;120,000 of FSCS cover on Monzo's own banking licence, with no sibling brand to share the limit with",
+   "Arranged overdrafts carry interest only, with no arrangement, usage or refused-payment fees, and a &pound;15.50 monthly cap on unarranged charges",
+   "First of 17 providers on overdraft services in the same survey, at 78%",
+   "Switching completes in seven working days under the Current Account Switch Guarantee, which refunds interest and charges caused by a failed switch",
+   "Audited scale behind the app: &pound;1.7bn of revenue, &pound;172.6m of adjusted profit before tax and &pound;25.7bn of deposits in the year to 31 March 2026"
+  ],
+  "cons": [
+   "The current account pays no interest on your balance on any plan, so every rate quoted sits in a separate savings pot you have to move money into",
+   "The &pound;3-a-month Extra plan adds nothing to the Select Access rate &mdash; 3.15% on free and 3.15% on Extra &mdash; so an Extra subscriber saving that way pays &pound;36 a year for a rate they already had",
+   "Max costs &pound;120 a year more than Perks and pays the same 3.65% on Select Access, so the uplift has to come entirely from the insurance and the partner benefits",
+   "Max is sold only to people aged 18 to 69, so the plan built around travel, phone and breakdown cover is closed to anybody who has turned 70",
+   "Fined &pound;21,091,300 by the FCA on 7 July 2025 for financial crime control failures, including 33,039 accounts opened in breach of a regulatory restriction",
+   "Only 35.91% of banking complaints were closed within three days in the six months to 31 March 2026, and about 2.1% ran past eight weeks",
+   "Fee-free overseas cash withdrawals are capped at &pound;200 every 30 days on the free plan, a third of the &pound;600 Perks allows, and cash deposits cost &pound;1 each",
+   "No branches at all, so there is no counter service, no branch score in the service quality table, and paying in cash means a shop or a post office",
+   "The &pound;300-a-year figure Monzo puts on the Perks benefits is not itemised anywhere, so unlike the savings rates it cannot be checked before you subscribe"
+  ],
+  "verdict": "Monzo is the best-rated current account provider in Britain by the only independent measure the product has, and the free plan is genuinely free: no fee, no minimum balance, no interest on your money and none charged unless you borrow. Judge it on that and it is hard to beat. The paid plans are a different question, and the arithmetic is the answer rather than the marketing: Extra needs &pound;14,400 in a pot to pay for itself on interest alone, Perks &pound;21,600 and Max &pound;30,400, and on Select Access the &pound;3 plan buys no uplift at all. Max earns its &pound;19 through the Zurich travel cover, the Assurant phone policy and RAC breakdown rather than through the savings rate, and it is shut to anybody over 69. The &pound;21,091,300 fine of July 2025 is real and worth reading, though the conduct ended in 2022 and concerned controls rather than customer money. Open the free account on the service record; buy a plan only after doing the sum on your own balance.",
+  "faqs": [
+   {
+    "q": "Does the Monzo current account pay interest on your balance?",
+    "a": "<p>No. On every plan, including Max at &pound;19 a month, the current account balance earns nothing. The rates Monzo advertises &mdash; 2.75% to 3.50% AER on Instant Access Savings and 3.15% or 3.65% on Select Access &mdash; apply to money you move into a savings pot, not to money sitting in the account. Interest on the pots is paid monthly.</p>"
+   },
+   {
+    "q": "Is money in a Monzo account protected?",
+    "a": "<p>Yes. Monzo Bank Limited holds its own banking licence under firm reference number 730427, and eligible deposits are covered by the Financial Services Compensation Scheme up to &pound;120,000 per person. Because Monzo does not run other deposit brands, that limit is not shared. Monzo's own worked example: &pound;80,000 in savings plus &pound;50,000 in the current account is &pound;130,000, of which &pound;120,000 is paid out. Investments and pensions bought through the app are not deposits and are not covered on the same basis.</p>"
+   },
+   {
+    "q": "Does Monzo pay a switching bonus?",
+    "a": "<p>Not on 6 October 2026. Monzo's switching page sets out the Current Account Switch Guarantee &mdash; seven working days, payments moved and redirected, interest and charges refunded if the switch goes wrong &mdash; but advertises no cash payment for switching. Offers of this kind come and go, so check the app or the switch page before assuming either way.</p>"
+   },
+   {
+    "q": "How much does a Monzo overdraft cost?",
+    "a": "<p>One of three rates, depending on your credit score: 19%, 29% or 39% EAR variable, with limits up to &pound;2,000. Monzo's representative example is &pound;1,200 borrowed for 30 days at 39.0% EAR, which costs &pound;32.94. There are no fees of any kind on top. Without an arranged overdraft, an unarranged balance is charged at 39% EAR with a &pound;15.50 monthly cap.</p>"
+   },
+   {
+    "q": "Is a paid Monzo plan worth it for the savings rate alone?",
+    "a": "<p>Only above a certain balance. Extra costs &pound;36 a year for an extra 0.25 of a percentage point on Instant Access, which needs &pound;14,400 in the pot to break even. Perks costs &pound;108 for half a point, needing &pound;21,600. Max costs &pound;228 for three quarters of a point, needing &pound;30,400. On Select Access, free and Extra both pay 3.15% and Perks and Max both pay 3.65%, so only Perks changes anything there.</p>"
+   },
+   {
+    "q": "Can you pay cash into a Monzo account?",
+    "a": "<p>Yes, at any PayPoint or Post Office, at a cost of &pound;1 per deposit. Perks includes three fee-free cash deposits a month. Cash withdrawals in the UK and the EEA are free if you meet Monzo's Fee Criteria &mdash; which needs one of four things, such as &pound;500 or more paid in with active Direct Debits &mdash; and otherwise free only up to &pound;400 in a rolling 30 days, then 3%. Outside the EEA the free allowance is &pound;200 every 30 days on the free plan and &pound;600 on Perks.</p>"
+   }
+  ]
+ },
+ {
   "slug": "mymoneycomparison-breakdown-insurance-review",
   "title": "MyMoneyComparison Breakdown Insurance Review",
   "meta_title": "MyMoneyComparison Breakdown Cover: One Form, Ten Quotes",

@@ -7,9 +7,20 @@
 <link>https://compare100.com/</link>
 <description>UK providers compared side by side &#8212; insurance, money, travel, mobiles, utilities, motoring and shopping. Figures checked against each provider&#8217;s own published terms.</description>
 <language>en-GB</language>
-<lastBuildDate>Mon, 05 Oct 2026 09:00:00 +0000</lastBuildDate>
+<lastBuildDate>Tue, 06 Oct 2026 09:00:00 +0000</lastBuildDate>
 <atom:link href="https://compare100.com/feed/" rel="self" type="application/rss+xml"/>
 <image><url>https://compare100.com/wp-content/uploads/icons/og-default.jpg</url><title>Compare100</title><link>https://compare100.com/</link></image>
+<item>
+<title>Monzo Current Account</title>
+<link>https://compare100.com/monzo-current-account/</link>
+<guid isPermaLink="true">https://compare100.com/monzo-current-account/</guid>
+<pubDate>Tue, 06 Oct 2026 09:00:00 +0000</pubDate>
+<category>Current Accounts</category>
+<description>Monzo ranks 1st of 17 UK providers for service quality at 79%. Savings pots pay 2.75% to 3.65% AER depending on plan. Rates and fees checked 6 October 2026.</description>
+<content:encoded><![CDATA[<p><img src="https://compare100.com/wp-content/uploads/2025/06/Monzo-Logo-1.webp" alt="Monzo Current Account" width="400" height="400"></p><p>Monzo ranks 1st of 17 UK providers for service quality at 79%. Savings pots pay 2.75% to 3.65% AER depending on plan. Rates and fees checked 6 October 2026.</p><p>Checked 6 October 2026 against the provider&#8217;s own published terms.</p>]]></content:encoded>
+<enclosure url="https://compare100.com/wp-content/uploads/2025/06/Monzo-Logo-1.webp" length="0" type="image/webp"/>
+<media:content url="https://compare100.com/wp-content/uploads/2025/06/Monzo-Logo-1.webp" medium="image" type="image/webp"/>
+</item>
 <item>
 <title>Santander Personal Loan</title>
 <link>https://compare100.com/santander-personal-loan/</link>
@@ -328,17 +339,6 @@
 <content:encoded><![CDATA[<p><img src="https://compare100.com/wp-content/uploads/2025/07/Amazon-Logo-10-9.webp" alt="Amazon Groceries Review: Delivery Fees, Date Codes and Who You Are Buying From" width="400" height="400"></p><p>Amazon grocery delivery is free for Prime members over £20 and £5.99 otherwise. We read the help pages, the food labelling law and the supplier survey.</p><p>Checked 26 September 2026 against the provider&#8217;s own published terms.</p>]]></content:encoded>
 <enclosure url="https://compare100.com/wp-content/uploads/2025/07/Amazon-Logo-10-9.webp" length="0" type="image/webp"/>
 <media:content url="https://compare100.com/wp-content/uploads/2025/07/Amazon-Logo-10-9.webp" medium="image" type="image/webp"/>
-</item>
-<item>
-<title>Amazon Gaming and Accessories</title>
-<link>https://compare100.com/amazon-gaming-and-accessories/</link>
-<guid isPermaLink="true">https://compare100.com/amazon-gaming-and-accessories/</guid>
-<pubDate>Sat, 26 Sep 2026 09:00:00 +0000</pubDate>
-<category>Gaming and Accessories</category>
-<description>Amazon gaming and accessories checked against its own seller and help pages: 15% fees, Luna at £8.99, PEGI ratings that are law, and the opened-software rule.</description>
-<content:encoded><![CDATA[<p><img src="https://compare100.com/wp-content/uploads/2025/07/Amazon-Logo-10-5.webp" alt="Amazon Gaming and Accessories" width="400" height="400"></p><p>Amazon gaming and accessories checked against its own seller and help pages: 15% fees, Luna at £8.99, PEGI ratings that are law, and the opened-software rule.</p><p>Checked 26 September 2026 against the provider&#8217;s own published terms.</p>]]></content:encoded>
-<enclosure url="https://compare100.com/wp-content/uploads/2025/07/Amazon-Logo-10-5.webp" length="0" type="image/webp"/>
-<media:content url="https://compare100.com/wp-content/uploads/2025/07/Amazon-Logo-10-5.webp" medium="image" type="image/webp"/>
 </item>
 </channel>
 </rss>
