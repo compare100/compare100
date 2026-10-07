@@ -2,8 +2,23 @@
 /wp-content/uploads/*
   Cache-Control: public, max-age=31536000, immutable
 
-# HTML must not be cached, or a rewritten page would keep serving the old copy.
+# NOTE: there is deliberately NO Cache-Control here.
+#
+# A request matching two rules inherits BOTH, and Cloudflare joins a repeated
+# header with a comma rather than letting the more specific rule win. With
+# "Cache-Control: public, max-age=0, must-revalidate" on /*, every image was
+# served as:
+#
+#   cache-control: public, max-age=0, must-revalidate, public, max-age=31536000, immutable
+#
+# must-revalidate is in that value, so the browser revalidates every image on
+# every page view and the immutable rule above does nothing. Verified live on
+# 7 October 2026 against the real response headers.
+#
+# Omitting it loses nothing: "public, max-age=0, must-revalidate" is exactly
+# what Cloudflare's static asset handler already sends by default, so HTML is
+# unchanged and the uploads rule finally applies on its own.
+# https://developers.cloudflare.com/workers/static-assets/headers/
 /*
-  Cache-Control: public, max-age=0, must-revalidate
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin

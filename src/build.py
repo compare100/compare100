@@ -186,14 +186,34 @@ for _p in posts:
 # Any JSON in pkg/rewritten/*.json replaces the original copy for those slugs.
 # Structure per page: slug,title,meta_title,meta_description,intro,sections,
 # key_facts,pros,cons,verdict,faqs,checked
+#
+# AUTO.JSON LOADS LAST, AND THAT IS NOT COSMETIC.
+# Later files overwrite earlier ones, and auto.json is the ONLY file the
+# publishing Action writes to - every scheduled rewrite ends up there. Under a
+# plain sorted() it landed third of eight, so any slug that also appears in a
+# later file (savings.json, travel-insurance.json, pages.json) had its finished
+# rewrite silently replaced by the older hand-made copy at build time. The work
+# was correct in D1, correct in auto.json, and absent from the site.
+# Found 7 October 2026 on aldermore-savings-account and saga-travel-insurance-review,
+# with 17 slugs exposed - including the savings and ISA pages, which earn more
+# answer-engine citations than anything else here. Putting auto.json last fixes
+# every slug at once and needs no decision about which copy is better: the
+# publisher's copy is always the newer one.
 REWRITTEN = {}
 _rwdir = os.path.join(HERE, 'rewritten')
 if os.path.isdir(_rwdir):
-    for _f in sorted(os.listdir(_rwdir)):
-        if not _f.endswith('.json'): continue
+    _rwfiles = sorted(_f for _f in os.listdir(_rwdir) if _f.endswith('.json'))
+    _rwfiles.sort(key=lambda _f: _f == 'auto.json')
+    _shadowed = {}
+    for _f in _rwfiles:
         for _pg in json.load(open(os.path.join(_rwdir, _f), encoding='utf-8')):
+            if _pg['slug'] in REWRITTEN: _shadowed.setdefault(_pg['slug'], []).append(_f)
             REWRITTEN[_pg['slug']] = _pg
     if REWRITTEN: print(f'rewrite {len(REWRITTEN)} pages have rewritten content')
+    # Name the duplicates rather than resolving them quietly. A slug in two files
+    # is a maintenance trap even when the right copy now wins.
+    for _s, _fs in sorted(_shadowed.items()):
+        print(f'rewrite DUPLICATE {_s}: also in {", ".join(_fs)} (newest copy used)')
 
 # A rewritten page was genuinely rewritten - so its modified date is the day it was
 # checked, not whatever WordPress last recorded. Without this the sitemap told Google
@@ -1099,6 +1119,66 @@ def render_rewritten(p, pc, parent, cr, sibs, cta=None):
                   f'current rate with the provider before applying.</p>')
     return body, faqs
 
+# Three faults the WordPress copy carries, all of them on pages that have not been
+# rewritten yet and none of them on a page that has. They are fixed here, at the end
+# of the build, because that is where every link already gets checked - and because
+# 191 pages are still waiting their turn in a queue that writes one page a day.
+#
+# 1. Links to a GOOGLE SEARCH FOR OUR OWN PAGE:
+#       google.com/search?q=https://compare100.com/oneweb-satellite-internet/
+#    Thirty-five of them. A reader who clicks one lands on a Google results page
+#    instead of our page, and the link equity goes to Google. Unwrap to the path.
+# 2. ANCHORS WITH href="" - 122 of them, one per page, every one reading
+#    "Compare100.com". An empty href re-loads the current page, so it is a broken
+#    link that no link checker reports. Keep the words, drop the anchor.
+# 3. INTERNAL LINKS WITH target="_blank" - 1,312 of them. Every internal link on
+#    those pages opens a new tab. Nobody wants forty tabs, and it is a WCAG 3.2.5
+#    complaint waiting to happen. Links to files under /wp-content keep their
+#    target: opening a PDF or an image in a new tab is a reasonable thing to do.
+# 4. DUPLICATED ATTRIBUTES on 162 anchors across 143 pages. The WordPress copy
+#    already carried target="_blank" rel="noreferrer noopener", and the affiliate
+#    wrapper appends its own rel="sponsored nofollow noopener" to the same tag.
+#    A browser uses the FIRST rel it sees, so on every one of those links the
+#    sponsored and nofollow tokens are silently discarded - paid links going out
+#    undisclosed. Merge the tokens into one rel instead of trusting attribute
+#    order, and keep a single target.
+# The wrapper comes in two shapes - /search?q=<url> and /url?sa=E&source=gmail&q=<url>
+# - so the target is found by reading the q parameter wherever it sits, not by
+# assuming it comes first. Our own URLs become a path, never an absolute
+# https://compare100.com/... link: the site must keep working if the domain moves.
+# Other people's URLs (one link to Ofgem goes through a Google search for Ofgem)
+# point at the site they name.
+_GOOGLE_HREF = re.compile(
+    r'href="(https?://(?:www\.)?google\.[a-z.]+/(?:search|url)\?[^"]*)"', re.I)
+_OWN_URL = re.compile(r'https?://(?:www\.)?compare100\.com(/[^\s"]*)', re.I)
+
+def _unwrap_google(m):
+    query = m.group(1).replace('&amp;', '&').split('?', 1)[1]
+    target = next((p[2:] for p in query.split('&') if p.startswith('q=')), '')
+    if not target.lower().startswith(('http://', 'https://')): return m.group(0)
+    own = _OWN_URL.match(target)
+    return f'href="{own.group(1) if own else target}"'
+_EMPTY_A = re.compile(r'<a\b[^>]*href=""[^>]*>(.*?)</a>', re.S | re.I)
+_REL_ATTR = re.compile(r'\srel="([^"]*)"', re.I)
+_TGT_ATTR = re.compile(r'\starget="([^"]*)"', re.I)
+
+def _dedupe_attrs(tag):
+    """One rel, one target, with every rel token kept."""
+    rels = _REL_ATTR.findall(tag)
+    tgts = _TGT_ATTR.findall(tag)
+    if len(rels) < 2 and len(tgts) < 2: return tag, False
+    seen, merged = set(), []
+    for _r in rels:
+        for _t in _r.split():
+            if _t.lower() not in seen:
+                seen.add(_t.lower()); merged.append(_t)
+    tag = _REL_ATTR.sub('', tag)
+    tag = _TGT_ATTR.sub('', tag)
+    ins = ''
+    if merged: ins += f' rel="{" ".join(merged)}"'
+    if tgts: ins += f' target="{tgts[0]}"'
+    return tag[:-1].rstrip() + ins + '>', True
+
 # DEADLINK: after everything is written, resolve or unwrap links that go nowhere.
 def resolve_dead_links():
     import difflib
@@ -1112,7 +1192,7 @@ def resolve_dead_links():
             real.add(('/' + _rel + '/').replace('//', '/'))
     real.add('/')
     slugmap = {u.strip('/').split('/')[-1]: u for u in real if u.strip('/')}
-    fixed = unwrapped = 0
+    fixed = unwrapped = degoogled = emptied = detargeted = deduped = 0
     for r, _d, fs in os.walk(OUT):
         if 'index.html' not in fs: continue
         p = os.path.join(r, 'index.html')
@@ -1136,9 +1216,39 @@ def resolve_dead_links():
                 return f'<a href="{slugmap[near[0]]}">{inner}</a>'
             unwrapped += 1
             return inner                      # dead: keep the words, drop the link
+        h, _n = _GOOGLE_HREF.subn(_unwrap_google, h)
+        degoogled += _n
         h = re.sub(r'<a href="([^"]+)"[^>]*>(.*?)</a>', sub, h, flags=re.S)
+
+        def _dedupe(m):
+            nonlocal deduped
+            tag, changed = _dedupe_attrs(m.group(0))
+            if changed: deduped += 1
+            return tag
+        h = re.sub(r'<a\b[^>]*>', _dedupe, h)
+
+        def _empty(m):
+            nonlocal emptied
+            emptied += 1
+            return m.group(1)                 # keep the words, drop the dead anchor
+        h = _EMPTY_A.sub(_empty, h)
+
+        def _detarget(m):
+            nonlocal detargeted
+            tag = m.group(0)
+            if 'target="_blank"' not in tag: return tag
+            href = re.search(r'href="([^"]*)"', tag)
+            if not href or not href.group(1).startswith('/'): return tag
+            if href.group(1).startswith('/wp-content'): return tag
+            detargeted += 1
+            return re.sub(r'\s*target="_blank"', '', tag)
+        h = re.sub(r'<a\b[^>]*>', _detarget, h)
+
         if h != orig: open(p, 'w', encoding='utf-8').write(h)
-    print(f'links   {fixed} repointed, {unwrapped} dead links unwrapped')
+    print(f'links   {fixed} repointed, {unwrapped} dead links unwrapped, '
+          f'{degoogled} unwrapped from a Google search, {emptied} empty anchors dropped, '
+          f'{detargeted} internal links no longer open a new tab, '
+          f'{deduped} anchors with duplicated rel/target merged')
 
 # ---------------------------------------------------------------- write
 # Some of the WordPress copy is double-encoded at source ("S&amp;amp;P" in the export,
@@ -1421,17 +1531,23 @@ for parent in TOP:
     for c in children[parent]:
         lst = bycat.get(c, [])
         cr = [('Home', '/'), (NAVNAME[parent], section_url(parent)), (catname[c], '')]
-        items = {"@context": "https://schema.org", "@type": "ItemList",
-                 "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": x['title'],
-                                      "url": f"{SITE}/{x['slug']}/"} for i, x in enumerate(lst)]}
+        # Always an @graph, so the BreadcrumbList travels with the ItemList. These
+        # hubs render a visible trail - Home > Insurance > Car Insurance Deals - but
+        # for months emitted no BreadcrumbList behind it, because shell() takes ONE
+        # schema object and the ItemList had the slot. Google therefore showed the
+        # URL in the result instead of the trail on the best-ranked pages on the
+        # site. Section hubs never had the clash and pass crumb_schema() directly.
+        _nodes = [{k: v for k, v in crumb_schema(cr).items() if k != '@context'},
+                  {"@type": "ItemList",
+                   "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": x['title'],
+                                        "url": f"{SITE}/{x['slug']}/"} for i, x in enumerate(lst)]}]
         _gq = GUIDES.get(c, {}).get('faqs')
         if _gq:
-            items = {"@context": "https://schema.org", "@graph": [
-                {k: v for k, v in items.items() if k != '@context'},
-                {"@type": "FAQPage", "mainEntity": [
-                    {"@type": "Question", "name": f["q"],
-                     "acceptedAnswer": {"@type": "Answer",
-                                        "text": re.sub(r'<[^>]+>', '', f["a"])}} for f in _gq]}]}
+            _nodes.append({"@type": "FAQPage", "mainEntity": [
+                {"@type": "Question", "name": f["q"],
+                 "acceptedAnswer": {"@type": "Answer",
+                                    "text": re.sub(r'<[^>]+>', '', f["a"])}} for f in _gq]})
+        items = {"@context": "https://schema.org", "@graph": _nodes}
         intro = catintro.get(c) or (f'Compare {len(lst)} {catname[c].lower()} providers side by side. '
                                     'We list cover, features and current offers so you can see the differences at a glance.')
         # ONE listing per hub. This used to render the table AND a card list of the
