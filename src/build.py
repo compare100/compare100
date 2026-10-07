@@ -756,10 +756,31 @@ def sidebar(active=''):
 
 def esc(s): return html.escape(s or '', quote=True)
 
-def fit_title(t, limit=60):
+# THE ONE NUMBER A TITLE HAS TO FIT, AND `quality-gate.py` MUST USE THE SAME ONE.
+#
+# It did not, and the cost was silent. The gate allowed 62 characters while
+# fit_title trimmed at 60, so a 61 or 62-character title passed review and was
+# then cut at its colon by the build, which keeps the head and discards the tail.
+# The tail is the half that earns the click. Four pages shipped like that:
+# `protect-your-bubble-phone-insurance` lost "£5.99, Unlimited Repairs" the day
+# after a whole run was spent writing it, `compare-your-travel-insurance` lost
+# "26 Insurers, Quotes From £8.23", `admiral-motorbike-insurance-review` lost
+# "Multi-Bike and Cover" and `anglo-welsh-uk-boating-holidays` lost "Prices,
+# Bases and Small Print".
+#
+# If this number changes, change it in `src/quality-gate.py` in the same commit,
+# and remember the gate is also copied into project knowledge for the scheduled
+# tasks - that copy has to be refreshed too or the runs validate against the old
+# limit. A title the gate accepts must be a title the build publishes whole.
+TITLE_MAX = 60
+
+def fit_title(t, limit=TITLE_MAX):
     """Google truncates around 60 characters. A title that gets cut mid-word
     loses the brand and reads as broken in the result. Trim at a separator or a
-    word boundary instead, keeping the front of the title where the keywords are."""
+    word boundary instead, keeping the front of the title where the keywords are.
+
+    Reaching the separator trim at all means the gate let something through that
+    it should have rejected: see TITLE_MAX above."""
     t = (t or '').strip()
     # Measure what the searcher sees: "&amp;" is five characters of source but
     # one character in a result snippet. Counting raw length trims good titles.

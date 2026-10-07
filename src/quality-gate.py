@@ -151,9 +151,15 @@ def check(page, siblings):
             continue                      # editorial pages have no verdict
         if not (page.get(f) or '').strip():
             fails.append(f"missing {f}")
+    # 60, not 62, and it must match TITLE_MAX in src/build.py. fit_title() there
+    # trims at that number by cutting the title at its last separator and keeping
+    # the head, so a 61-character title does not ship slightly shortened - it
+    # ships with its whole descriptive half removed. This limit was 62 until
+    # 7 October 2026 and four pages went out that way.
     mt = page.get('meta_title', '')
-    if len(mt) > 62:
-        fails.append(f"meta_title {len(mt)} chars (max 62)")
+    if len(mt) > 60:
+        fails.append(f"meta_title {len(mt)} chars (max 60 - build.py trims at 60 "
+                     f"by dropping everything after the last separator)")
     # The comparison table on the category hub shows one figure per provider, and
     # it can only be read as a comparison if every row answers the same question.
     # `headline` is that figure: the AER for a savings account, the excess for a
