@@ -3,13 +3,13 @@
   "slug": "moneybox-cash-isa",
   "title": "Moneybox Cash ISA Review",
   "meta_title": "Moneybox Cash ISA Review 2026: The 4th Withdrawal Trap",
-  "meta_description": "Moneybox pays 4.00% AER, but a 4th withdrawal drops you to 0.75%. And its 15-bank FSCS structure has a catch nobody mentions.",
-  "checked": "15 August 2026",
-  "intro": "<p>Moneybox advertises <strong>4.00% AER (variable)</strong> on its Cash ISA. Two details decide whether you keep it: <strong>0.55 percentage points is a bonus that expires after 12 months</strong>, and <strong>a fourth withdrawal in any 12-month period collapses your rate to 0.75% AER</strong> for the rest of that period.</p><p>That second number is the one to sit with. It is not a small trim &mdash; it is a fall of more than three percentage points, triggered by an action most savers would consider entirely normal. Letting your balance drop below £500 does the same thing.</p><p>There is also a second, quieter product. The <strong>Open Access Cash ISA</strong> pays <strong>3.80% AER</strong>, opens from <strong>£1</strong>, and allows <strong>unlimited withdrawals</strong> with no penalty at all. For a lot of people that is the better account, and Moneybox does not push it nearly as hard.</p>",
+  "meta_description": "Moneybox pays 4.71% AER, but a 4th withdrawal drops you to 0.75%. And its 16-bank FSCS structure has a catch nobody mentions.",
+  "checked": "7 October 2026",
+  "intro": "<p>Moneybox advertises <strong>4.71% AER (variable)</strong> on its Cash ISA, a new-customer rate dated 6 October 2026. Two details decide whether you keep it: <strong>1.26 percentage points is a bonus that expires after 12 months</strong>, and <strong>a fourth withdrawal in any 12-month period collapses your rate to 0.75% AER</strong> for the rest of that period.</p><p>That second number is the one to sit with. It is not a small trim &mdash; it is a fall of more than three percentage points, triggered by an action most savers would consider entirely normal. Letting your balance drop below £500 does the same thing.</p><p>There is also a second, quieter product. The <strong>Open Access Cash ISA</strong> pays <strong>3.80% AER</strong>, opens from <strong>£1</strong>, and allows <strong>unlimited withdrawals</strong> with no penalty at all. For a lot of people that is the better account, and Moneybox does not push it nearly as hard.</p>",
   "key_facts": [
    {
     "label": "Cash ISA rate",
-    "value": "4.00% AER variable &mdash; 3.45% underlying plus a 0.55% bonus for 12 months"
+    "value": "4.71% AER variable &mdash; 3.45% underlying plus a 1.26% bonus for 12 months"
    },
    {
     "label": "Open Access Cash ISA",
@@ -29,7 +29,7 @@
    },
    {
     "label": "Flexible ISA",
-    "value": "Yes &mdash; withdrawals can be replaced within the same tax year without using allowance"
+    "value": "No — Moneybox's terms state it does not offer one, so withdrawals cannot be replaced"
    },
    {
     "label": "Transfers in",
@@ -45,7 +45,7 @@
    },
    {
     "label": "FSCS",
-    "value": "Protected, but held across a 15-bank panel rather than by Moneybox &mdash; see below"
+    "value": "Protected, but held across a 16-bank panel rather than by Moneybox &mdash; see below"
    },
    {
     "label": "Which? customer score",
@@ -55,54 +55,54 @@
   "sections": [
    {
     "heading": "0.75%: what the fourth withdrawal actually costs",
-    "html": "<p>On a £10,000 balance the difference between 4.00% and 0.75% is roughly <strong>£325 a year</strong>. One withdrawal too many, and that is what you forfeit for the remainder of the 12-month window.</p><p>The window rolls continuously. It does not reset in April with the tax year. A withdrawal made in March still counts against you the following February, which is far less intuitive than it sounds and is where most of the anger in savings forums comes from.</p><p>One caveat worth being straight about: Moneybox's own pages are inconsistent on whether the free allowance is three withdrawals or four. The main product page says three per year; a support article says four are free. <strong>Assume three.</strong> If you are near the limit, contact them before moving money rather than relying on either page.</p><p>The consequence is simple. This is not an emergency fund. An emergency fund exists precisely for unpredictable access, and this account charges you heavily for it. It suits money with a known destination &mdash; a deposit, a tax bill, a wedding &mdash; where three touches a year is a realistic ceiling.</p>"
+    "html": "<p>On a £10,000 balance the difference between 4.71% and 0.75% is roughly <strong>£396 a year</strong>. One withdrawal too many, and that is what you forfeit for the remainder of the 12-month window.</p><p>The window rolls continuously. It does not reset in April with the tax year. A withdrawal made in March still counts against you the following February, which is far less intuitive than it sounds and is where most of the anger in savings forums comes from.</p><p>One caveat worth being straight about: Moneybox's own pages are inconsistent on whether the free allowance is three withdrawals or four. The main product page says three per year; a support article says four are free. <strong>Assume three.</strong> If you are near the limit, contact them before moving money rather than relying on either page.</p><p>The consequence is simple. This is not an emergency fund. An emergency fund exists precisely for unpredictable access, and this account charges you heavily for it. It suits money with a known destination &mdash; a deposit, a tax bill, a wedding &mdash; where three touches a year is a realistic ceiling.</p>"
    },
    {
-    "heading": "The 15-bank FSCS panel, and the risk hidden inside it",
-    "html": "<p>This is the genuinely unusual thing about Moneybox and almost nobody explains it properly.</p><p>Moneybox does not hold your money. It is not a bank. Cash ISA deposits are spread across a panel of fifteen institutions under client-asset rules, including Nationwide, HSBC, Barclays, NatWest, Bank of Scotland, Santander, Starling and several international banks.</p><p><strong>The upside:</strong> each of those banks carries its own FSCS limit of £120,000. In principle your total protection can exceed the £120,000 you would get at a single bank.</p><p><strong>The downside, which is the part that matters to most people:</strong> if you already bank with one of those fifteen, your Moneybox money may be <em>aggregated</em> with your existing balance at that institution for FSCS purposes. Someone with £100,000 at Nationwide and a large Moneybox ISA could find their effective cover is lower than they assumed, not higher.</p><p>None of the four bank or building society ISAs alongside this one carry that complication. If you hold significant balances at a high-street bank already, this is worth ten minutes of checking before you deposit.</p>"
+    "heading": "The 16-bank FSCS panel, and the risk hidden inside it",
+    "html": "<p>This is the genuinely unusual thing about Moneybox and almost nobody explains it properly.</p><p>Moneybox does not hold your money. It is not a bank. Cash ISA deposits are spread across a panel of sixteen institutions under client-asset rules, including Nationwide, HSBC, Barclays, NatWest, Santander and Starling alongside several international banks. Moneybox states it will never hold more than <strong>50%</strong> of the total with any single bank.</p><p><strong>The upside:</strong> each of those banks carries its own FSCS limit of £120,000. In principle your total protection can exceed the £120,000 you would get at a single bank.</p><p><strong>The downside, which is the part that matters to most people:</strong> if you already bank with one of those sixteen, your Moneybox money may be <em>aggregated</em> with your existing balance at that institution for FSCS purposes. Someone with £100,000 at Nationwide and a large Moneybox ISA could find their effective cover is lower than they assumed, not higher.</p><p>None of the four bank or building society ISAs alongside this one carry that complication. If you hold significant balances at a high-street bank already, this is worth ten minutes of checking before you deposit.</p>"
    },
    {
     "heading": "The bonus expiry, in money rather than percentages",
-    "html": "<p>On £10,000 the 0.55% bonus is worth about <strong>£55 across the first year</strong>. After twelve months the rate reverts to 3.45% variable.</p><p>It is also worth knowing the direction of travel. Moneybox was advertising 4.26% as recently as March 2026; it is 4.00% now. Variable means variable, and the underlying rate can move independently of the bonus.</p><p>Practically, this is a <em>diarised</em> account. Set a reminder for month eleven, compare 3.45% against the market, and transfer if it has slipped. ISA transfers preserve the wrapper, so moving costs nothing but a form. Savers who genuinely will not look again are better off with a flat-rate provider and no bonus mechanic.</p>"
+    "html": "<p>On £10,000 the 1.26% bonus is worth about <strong>£126 across the first year</strong>. After twelve months the rate reverts to <strong>3.45% variable</strong> &mdash; and that underlying rate has not moved since this page was first written, which is the detail that matters. Every penny of the increase from 4.00% to 4.71% is bonus, so the rate you drop to in year two is exactly what it always was.</p><p>The direction of travel says the same thing. Moneybox advertised 4.26% in March 2026, 4.00% in August and 4.71% in October, while the underlying rate sat at 3.45% throughout. The headline is a marketing dial; the floor underneath it is not moving.</p><p>Practically, this is a <em>diarised</em> account. Set a reminder for month eleven, compare 3.45% against the market, and transfer if it has slipped. ISA transfers preserve the wrapper, so moving costs nothing but a form. Savers who genuinely will not look again are better off with a flat-rate provider and no bonus mechanic.</p>"
    },
    {
     "heading": "Should you take the Open Access version instead?",
-    "html": "<p>For a large share of savers, yes.</p><p>The Open Access Cash ISA pays 3.80% rather than 4.00%. On £10,000 that gap is about <strong>£20 a year</strong>. In exchange you get a £1 minimum instead of £500, and unlimited penalty-free withdrawals instead of a 0.75% cliff edge.</p><p>Twenty pounds is a very small price for removing the single biggest risk in the headline product. Unless you are certain about your withdrawal pattern and want every last basis point, the Open Access account is the more sensible default &mdash; and it is the one Moneybox markets least.</p>"
+    "html": "<p>For a large share of savers, yes.</p><p>The Open Access Cash ISA pays 3.80% rather than 4.71%. On £10,000 that gap is about <strong>£91 a year</strong> &mdash; and this is where the answer has changed. When the headline was 4.00% the gap was around £20, which was a trivial price for removing the withdrawal cliff. At £91 it is a real decision.</p><p>In exchange for that £91 you get a <strong>£1 minimum instead of £500</strong> and unlimited penalty-free withdrawals instead of a 0.75% cliff edge. So the test is now arithmetic rather than obvious: if there is a realistic chance of a fourth withdrawal, the cliff costs <strong>£396</strong> and the insurance costs £91, and you take the insurance. If you are confident the money will sit still for a year, take the 4.71% and diarise month eleven. Note that the Open Access rate carries its own 0.55% bonus over a 3.25% underlying rate, so it expires too.</p>"
    }
   ],
   "pros": [
    "Competitive headline rate during the first 12 months",
    "Open Access variant offers 3.80% with unlimited withdrawals from £1",
-   "Genuine flexible ISA &mdash; withdrawals can be replaced within the tax year",
+   "Interest accrues daily and is paid on the first of each month",
    "Interest paid monthly, so partial months still earn",
-   "Deposits spread across 15 institutions, which can raise total FSCS cover",
+   "Deposits spread across 16 institutions, which can raise total FSCS cover",
    "Accepts transfers in, including from older building society ISAs"
   ],
   "cons": [
    "A 4th withdrawal collapses the rate to 0.75% AER &mdash; roughly £325 a year on £10,000",
    "Balance dipping below £500 triggers the same penalty",
-   "0.55% of the headline rate vanishes after 12 months, leaving 3.45%",
-   "FSCS deposits may aggregate with your existing bank, reducing effective cover",
+   "1.26% of the headline rate vanishes after 12 months, leaving the same 3.45% underlying rate it has paid all along",
+   "Not a flexible ISA, so anything you withdraw cannot be replaced without using fresh allowance",
    "Moneybox's own pages disagree on whether 3 or 4 withdrawals are free",
    "No branch, no joint account, no phone-based account management"
   ],
-  "verdict": "Take the Open Access version at 3.80% unless you have a specific reason not to &mdash; it removes the withdrawal cliff for about £20 a year on £10,000. The headline 4.00% account only makes sense for money with a known purpose that you will touch three times a year or fewer, and only if you diarise the bonus expiry at eleven months. If you already hold a large balance with Nationwide, HSBC, Barclays, NatWest or Santander, check the FSCS aggregation position before depositing anything substantial.",
+  "verdict": "The Open Access version at 3.80% still removes the withdrawal cliff, but it now costs about £91 a year on £10,000 rather than £20, so it is no longer the automatic answer it was two months ago. Take the headline 4.71% account if the money has a known purpose and will be touched three times a year or fewer, and diarise the bonus expiry at eleven months; take Open Access if a fourth withdrawal is plausible, because the cliff costs £396 and the insurance costs £91. Either way, this is not a flexible ISA &mdash; Moneybox says so in its own terms &mdash; so money you withdraw cannot be put back without using fresh allowance. And if you already hold a large balance with Nationwide, HSBC, Barclays, NatWest or Santander, check the FSCS aggregation position before depositing anything substantial.",
   "faqs": [
    {
     "q": "What happens on the fourth withdrawal?",
     "a": "<p>Your rate drops to 0.75% AER for the remainder of the rolling 12-month period. On £10,000 that is roughly £325 of lost interest. The window rolls continuously rather than resetting with the tax year.</p>"
    },
    {
-    "q": "Is the 4.00% rate guaranteed for a year?",
-    "a": "<p>No. It is variable, and it includes a 0.55% bonus that runs for 12 months. Both the underlying rate and the headline can change. Moneybox advertised 4.26% in March 2026 and 4.00% in August 2026.</p>"
+    "q": "Is the 4.71% rate guaranteed for a year?",
+    "a": "<p>No. It is variable, and it includes a 1.26% bonus that runs for 12 months. Both the underlying rate and the headline can change. Moneybox advertised 4.26% in March 2026, 4.00% in August and 4.71% in October, with the underlying rate at 3.45% throughout.</p>"
    },
    {
     "q": "How much is my money protected for?",
-    "a": "<p>The FSCS limit rose to £120,000 per banking licence on 1 December 2025. Moneybox spreads deposits across 15 institutions, each with its own limit &mdash; but if you already hold money at one of those banks, the balances may be combined when cover is calculated.</p>"
+    "a": "<p>The FSCS limit rose to £120,000 per banking licence on 1 December 2025. Moneybox spreads deposits across 16 institutions, each with its own limit &mdash; but if you already hold money at one of those banks, the balances may be combined when cover is calculated.</p>"
    },
    {
     "q": "What is the difference between the two Moneybox cash ISAs?",
-    "a": "<p>The Cash ISA pays 4.00% AER, needs £500 to open, and penalises the fourth withdrawal. The Open Access Cash ISA pays 3.80% AER, opens from £1, and allows unlimited withdrawals with no penalty.</p>"
+    "a": "<p>The Cash ISA pays 4.71% AER, needs £500 to open, and penalises the fourth withdrawal. The Open Access Cash ISA pays 3.80% AER, opens from £1, and allows unlimited withdrawals with no penalty. Neither is a flexible ISA.</p>"
    },
    {
     "q": "Can I transfer an existing ISA in?",
@@ -111,24 +111,24 @@
   ],
   "headline": {
    "label": "Best cash ISA rate",
-   "value": "4.00% AER variable &mdash; includes a 0.55% bonus for 12 months"
+   "value": "4.71% AER variable &mdash; includes a 1.26% bonus for 12 months"
   }
  },
  {
   "slug": "nationwide-cash-isa",
   "title": "Nationwide Cash ISA Review",
   "meta_title": "Nationwide Cash ISA Review 2026: Fixed Beats Easy Access",
-  "meta_description": "Nationwide's fixed ISAs run to 4.70% over five years and lead the market. Its easy-access ISA at 3.30% does not. Know which one you want.",
-  "checked": "15 August 2026",
-  "intro": "<p>Nationwide is really two propositions wearing one brand, and conflating them is how savers end up in the wrong account.</p><p><strong>Its fixed-rate ISA ladder is the best of any provider compared here</strong> &mdash; 4.40% for one year, 4.50% for two, 4.65% for three and <strong>4.70% for five</strong>. That five-year rate is the highest single figure in this entire comparison.</p><p><strong>Its easy-access offering is not competitive.</strong> The 1 Year Triple Access ISA pays 3.30% and cuts you to 1.05% on a fourth withdrawal &mdash; a worse rate and a similar penalty to app-based rivals paying 3.80% or more with fewer strings.</p><p>Decide which you actually need before looking at Nationwide, because the answer changes completely depending on the timeframe.</p>",
+  "meta_description": "Nationwide's fixed ISAs run to 4.70% over five years and lead this comparison. Its easy-access ISA at 3.30% does not. Know which one you want.",
+  "checked": "7 October 2026",
+  "intro": "<p>Nationwide is really two propositions wearing one brand, and conflating them is how savers end up in the wrong account.</p><p><strong>Its fixed-rate ISA ladder is the best of any provider compared here</strong> &mdash; 4.50% for one year, 4.55% for two, 4.65% for three and <strong>4.70% for five</strong>. That five-year rate is the highest <em>fixed</em> figure in this comparison, though Moneybox now advertises 4.71% on a variable rate with conditions attached to it.</p><p><strong>Its easy-access offering is not competitive.</strong> The 1 Year Triple Access ISA pays 3.30% and cuts you to 1.05% on a fourth withdrawal &mdash; a worse rate and a similar penalty to app-based rivals paying 3.80% or more with fewer strings.</p><p>Decide which you actually need before looking at Nationwide, because the answer changes completely depending on the timeframe.</p>",
   "key_facts": [
    {
     "label": "1-year fixed ISA",
-    "value": "4.40% AER fixed"
+    "value": "4.50% AER fixed"
    },
    {
     "label": "2-year fixed ISA",
-    "value": "4.50% AER fixed"
+    "value": "4.55% AER fixed"
    },
    {
     "label": "3-year fixed ISA",
@@ -136,7 +136,7 @@
    },
    {
     "label": "5-year fixed ISA",
-    "value": "<strong>4.70% AER fixed</strong> &mdash; highest rate in this comparison"
+    "value": "<strong>4.70% AER fixed</strong> &mdash; the highest fixed rate in this comparison"
    },
    {
     "label": "1 Year Triple Access ISA",
@@ -174,11 +174,11 @@
   "sections": [
    {
     "heading": "The fixed-rate ladder, and why the five-year is the interesting one",
-    "html": "<p>Most providers price the long end conservatively because they do not want to be locked into a high rate if the base rate falls. Nationwide has done the opposite: <strong>4.70% for five years</strong>, which is 30 basis points above its own one-year rate.</p><p>With the Bank of England base rate held at 3.75% for a fifth consecutive meeting in July 2026, a five-year fix above 4.5% is a bet that rates drift down from here. If that view is right, locking in now looks smart in three years' time. If rates rise instead, you are stuck &mdash; and Nationwide's early access terms mean closure and a charge, not a partial withdrawal.</p><p>The shorter terms are competitive rather than exceptional. Leeds Building Society edges Nationwide at one year (4.50% against 4.40%), while Nationwide takes it back at three years (4.65% against 4.50%) and five. If you are laddering across terms, the sensible split is Leeds for the one-year and Nationwide for anything three years or longer.</p>"
+    "html": "<p>Most providers price the long end conservatively because they do not want to be locked into a high rate if the base rate falls. Nationwide has done the opposite: <strong>4.70% for five years</strong>, which is 20 basis points above its own one-year rate.</p><p>With the Bank of England base rate held at 3.75% for a fifth consecutive meeting in July 2026, a five-year fix above 4.5% is a bet that rates drift down from here. If that view is right, locking in now looks smart in three years' time. If rates rise instead, you are stuck &mdash; and Nationwide's early access terms mean closure and a charge, not a partial withdrawal.</p><p>The shorter terms are competitive rather than exceptional. Leeds Building Society used to edge Nationwide at one year; Nationwide has now risen to match it, and both pay 4.50% at one year and 4.55% at two. Nationwide still takes the longer terms, but only just &mdash; 4.65% against Leeds&rsquo; 4.60% at three years and 4.70% against 4.65% at five. If you are laddering across terms, pick the short end on service rather than rate, and Nationwide for three years or longer.</p>"
    },
    {
     "heading": "Why the Triple Access ISA is the weak link",
-    "html": "<p>The 1 Year Triple Access ISA pays <strong>3.30% AER</strong> with three withdrawals permitted. A fourth cuts the rate to <strong>1.05%</strong>.</p><p>Set against the alternatives, that is hard to justify. Moneybox's Open Access ISA pays 3.80% with unlimited withdrawals and no penalty at all. Its headline Cash ISA pays 4.00%. Trading 212 was paying 4.56% from £1.</p><p>So Nationwide asks you to accept a lower rate <em>and</em> a withdrawal cap, which is the wrong side of both trades. Unless you specifically want your ISA sitting beside a Nationwide current account, there is no rate argument for this account.</p>"
+    "html": "<p>The 1 Year Triple Access ISA pays <strong>3.30% AER</strong> with three withdrawals permitted. A fourth cuts the rate to <strong>1.05%</strong>.</p><p>Set against the alternatives, that is hard to justify. Moneybox's Open Access ISA pays 3.80% with unlimited withdrawals and no penalty at all. Its headline Cash ISA pays 4.71%, bonus included. Trading 212 pays 3.6%, from £1, tracking the Bank of England base rate less 0.15 points.</p><p>So Nationwide asks you to accept a lower rate <em>and</em> a withdrawal cap, which is the wrong side of both trades. Unless you specifically want your ISA sitting beside a Nationwide current account, there is no rate argument for this account.</p>"
    },
    {
     "heading": "The mutual angle, and how much to weight it",
@@ -190,7 +190,7 @@
    }
   ],
   "pros": [
-   "5-year fixed at 4.70% AER &mdash; the highest rate in this comparison",
+   "5-year fixed at 4.70% AER &mdash; the highest fixed rate in this comparison",
    "3-year fixed at 4.65% also leads the field",
    "Which? customer score of 77%, joint highest here",
    "Mutual structure, with £100 Fairer Share paid to ~4.4m members in June 2026",
@@ -206,7 +206,7 @@
    "52.41% of its own banking complaints upheld, April to September 2025",
    "Sole accounts only, no joint option"
   ],
-  "verdict": "Use Nationwide for fixed-term money and look elsewhere for anything you might need. The three and five-year fixes at 4.65% and 4.70% are the strongest rates in this comparison, and if you believe the base rate drifts down from 3.75%, the five-year is a genuinely good bet. Avoid the Triple Access ISA &mdash; it is beaten on rate and on flexibility by several rivals simultaneously. If you are laddering, put your one-year money with Leeds and everything longer with Nationwide.",
+  "verdict": "Use Nationwide for fixed-term money and look elsewhere for anything you might need. The three and five-year fixes at 4.65% and 4.70% are the strongest rates in this comparison, and if you believe the base rate drifts down from 3.75%, the five-year is a genuinely good bet. Avoid the Triple Access ISA &mdash; it is beaten on rate and on flexibility by several rivals simultaneously. If you are laddering, there is now nothing between Nationwide and Leeds at one and two years, so choose on service; Nationwide takes anything three years or longer by five basis points.",
   "faqs": [
    {
     "q": "Is the five-year fix at 4.70% worth locking into?",
@@ -222,7 +222,7 @@
    },
    {
     "q": "How does Nationwide compare with Leeds Building Society?",
-    "a": "<p>Leeds wins the one-year fix at 4.50% against Nationwide's 4.40%. Nationwide wins at three years (4.65% against 4.50%) and five years (4.70% against 4.60%). Both scored 77% with Which?, though only Leeds is a Which? Recommended Provider.</p>"
+    "a": "<p>They are level at one year, both at 4.50%, and level at two, both at 4.55%. Nationwide wins at three years (4.65% against 4.60%) and five (4.70% against 4.65%), but by five basis points rather than the clear margin this page previously described. Both scored 77% with Which?, though only Leeds is a Which? Recommended Provider.</p>"
    },
    {
     "q": "How much of my money is protected?",
@@ -231,7 +231,7 @@
   ],
   "headline": {
    "label": "Best cash ISA rate",
-   "value": "4.70% AER &mdash; 5-year fixed. 4.40% at one year"
+   "value": "4.70% AER &mdash; 5-year fixed. 4.50% at one year"
   }
  },
  {
@@ -239,16 +239,16 @@
   "title": "Leeds Building Society Cash ISA Review",
   "meta_title": "Leeds BS Cash ISA 2026: A Which? Recommended Provider",
   "meta_description": "Leeds BS is one of only eight Which? Recommended savings providers and drew 79 Ombudsman cases against a big bank's 4,596. Rates and terms in full.",
-  "checked": "15 August 2026",
-  "intro": "<p>Leeds Building Society is the smallest name in this comparison and the only one carrying <strong>Which? Recommended Provider</strong> status &mdash; an award given to just eight of the thirty-nine savings providers surveyed in August 2026.</p><p>The complaints gap is the number that puts it in perspective. In the second half of 2025 the Financial Ombudsman took on <strong>79 new cases</strong> about Leeds. The figure for one large high-street bank was <strong>4,596</strong>. Leeds is a fraction of the size, so the raw comparison is unfair &mdash; but 79 cases across an entire half-year is a very small number in absolute terms however you scale it.</p><p>It also happens to lead this group on the one-year fix at <strong>4.50% AER</strong>.</p>",
+  "checked": "7 October 2026",
+  "intro": "<p>Leeds Building Society is the smallest name in this comparison and the only one carrying <strong>Which? Recommended Provider</strong> status &mdash; an award given to just eight of the thirty-nine savings providers surveyed in August 2026.</p><p>The complaints gap is the number that puts it in perspective. In the second half of 2025 the Financial Ombudsman took on <strong>79 new cases</strong> about Leeds. The figure for one large high-street bank was <strong>4,596</strong>. Leeds is a fraction of the size, so the raw comparison is unfair &mdash; but 79 cases across an entire half-year is a very small number in absolute terms however you scale it.</p><p>It also matches the best one-year fix in this group, at <strong>4.50% AER</strong> from a <strong>£100</strong> minimum.</p>",
   "key_facts": [
    {
     "label": "1-year fixed ISA",
-    "value": "4.50% AER fixed &mdash; best one-year rate in this comparison"
+    "value": "4.50% AER fixed &mdash; level with Nationwide, from a &pound;100 minimum"
    },
    {
     "label": "Longer fixed terms",
-    "value": "Around 4.60% at five years; Nationwide edges it at three and five years"
+    "value": "2 years 4.55%, 3 years 4.60%, 5 years 4.65% — all from a £100 minimum, £1,000,000 maximum"
    },
    {
     "label": "Which? customer score",
@@ -290,7 +290,7 @@
    },
    {
     "heading": "The one-year fix is where it wins",
-    "html": "<p>At <strong>4.50% AER</strong>, the one-year fixed ISA is the strongest twelve-month rate among the providers compared here. Nationwide pays 4.40% and one large high-street bank 4.00% on equivalent terms.</p><p>On a full £20,000 allowance the gap over that bank is about <strong>£100 in a single year</strong>, for an identical product with identical FSCS protection.</p><p>Beyond twelve months the picture reverses. Nationwide's three-year at 4.65% and five-year at 4.70% both beat Leeds. So the sensible construction, if you are splitting money across terms, is Leeds for the short end and Nationwide for the long &mdash; not loyalty to either.</p>"
+    "html": "<p>At <strong>4.50% AER</strong>, the one-year fixed ISA is the joint-strongest twelve-month rate among the providers compared here. Nationwide has risen to match it exactly; one large high-street bank pays 4.00% on equivalent terms. The minimum is <strong>£100</strong>, which is the lowest entry point of any fixed ISA in this comparison.</p><p>On a full £20,000 allowance the gap over that bank is about <strong>£100 in a single year</strong>, for an identical product with identical FSCS protection.</p><p>Beyond twelve months the picture tilts, but only just. Leeds pays <strong>4.55% at two years, 4.60% at three and 4.65% at five</strong>; Nationwide pays 4.55%, 4.65% and 4.70%. So they are level at two years and Nationwide is ahead by <strong>five basis points</strong> at three and five &mdash; on a full £20,000 allowance that is £10 a year, which is not a reason to choose a provider. Decide the long end on service and access, not on rate.</p><p>Leeds also runs the same four terms as <strong>Monthly Income</strong> versions at identical rates, which none of the app-based rivals here offer at all. Early access costs <strong>90 days&rsquo; interest at one year, 180 at two, 270 at three and 365 at five</strong>.</p>"
    },
    {
     "heading": "The complaints record is the real differentiator",
@@ -298,12 +298,12 @@
    },
    {
     "heading": "What you give up",
-    "html": "<p>Reach, mostly. The branch network is concentrated in Yorkshire and the surrounding region. If walking into a branch matters to you and you live in Cornwall, this is not a practical option.</p><p>The digital experience is also a step behind the app-first providers. Moneybox and Trading 212 are built as apps first with everything that implies for speed of opening and day-to-day management. Leeds is a traditional building society that has added online access, and it feels like it.</p><p>Rates on individual products move frequently and vary by term, so treat any figure &mdash; including the ones here &mdash; as a starting point rather than a quote. Confirm the current rate before applying.</p>"
+    "html": "<p>Reach, mostly. The branch network is concentrated in Yorkshire and the surrounding region. If walking into a branch matters to you and you live in Cornwall, this is not a practical option.</p><p>The digital experience is also a step behind the app-first providers. Moneybox and Trading 212 are built as apps first with everything that implies for speed of opening and day-to-day management. Leeds is a traditional building society that has added online access, and it feels like it.</p><p>Two things in the variable range are worth knowing before you open one. The <strong>Online Access Cash ISA pays 4.16%</strong> but drops to <strong>0.05%</strong> if the balance falls below £1,000, which is the sharpest cliff-edge in this comparison. And the older <strong>E-ISA and ISA Saver pay 1.45%</strong>, so an old Leeds ISA left alone is almost certainly in the wrong account. <strong>None of Leeds&rsquo; cash ISAs is a flexible ISA</strong> &mdash; money you withdraw cannot be replaced without using fresh allowance, which Trading 212 does allow.</p>"
    }
   ],
   "pros": [
    "Which? Recommended Provider &mdash; one of only 8 out of 39 surveyed",
-   "Best one-year fixed ISA rate here at 4.50% AER",
+   "Joint-best one-year fixed ISA rate here at 4.50% AER, from a £100 minimum",
    "87% Which? interest-rate score, second highest in this comparison",
    "Just 79 Ombudsman cases in H2 2025 &mdash; the lowest by a wide margin",
    "Member-owned building society rather than a shareholder-owned bank",
@@ -312,11 +312,11 @@
   "cons": [
    "Branch network concentrated in Yorkshire and the surrounding area",
    "Digital experience trails the app-first providers noticeably",
-   "Beaten by Nationwide on three-year and five-year fixed rates",
+   "Narrowly beaten by Nationwide at three and five years &mdash; 4.60% against 4.65%, and 4.65% against 4.70%",
    "Smaller product range than the high-street banks",
    "Rates move frequently, so published figures date quickly"
   ],
-  "verdict": "The most straightforwardly recommendable provider in this comparison, and the one to choose if you want a one-year fix. It is the only Which? Recommended Provider here, it pays the best twelve-month rate at 4.50%, and its Ombudsman record is remarkable even allowing for its size. Look to Nationwide instead if you want to fix for three years or longer, and to an app-based provider if slick digital management matters more to you than service quality.",
+  "verdict": "The most straightforwardly recommendable provider in this comparison, and the one to choose if you want a one-year fix. It is the only Which? Recommended Provider here, it matches the best twelve-month rate at 4.50% from a £100 minimum, and its Ombudsman record is remarkable even allowing for its size. Look to Nationwide instead if you want to fix for three years or longer, and to an app-based provider if slick digital management matters more to you than service quality.",
   "faqs": [
    {
     "q": "What makes Leeds a Which? Recommended Provider?",
@@ -332,7 +332,7 @@
    },
    {
     "q": "Should I pick Leeds or Nationwide?",
-    "a": "<p>Leeds for a one-year fix at 4.50% against Nationwide's 4.40%. Nationwide for three years (4.65%) or five (4.70%). Both scored 77% with Which?, but only Leeds holds Recommended Provider status.</p>"
+    "a": "<p>They are level at one year and two, both paying 4.50% and 4.55%. Nationwide is five basis points ahead at three years (4.65% against 4.60%) and five (4.70% against 4.65%) &mdash; about £10 a year on a full allowance. Both scored 77% with Which?, but only Leeds holds Recommended Provider status, so on these rates service is the tie-breaker.</p>"
    },
    {
     "q": "How many complaints does Leeds get?",
@@ -341,20 +341,20 @@
   ],
   "headline": {
    "label": "Best cash ISA rate",
-   "value": "4.50% AER fixed &mdash; best one-year rate in this comparison"
+   "value": "4.65% AER fixed &mdash; 5-year cash ISA, &pound;100 minimum"
   }
  },
  {
   "slug": "trading-212-cash-isa",
   "title": "Trading 212 Cash ISA Review",
-  "meta_title": "Trading 212 Cash ISA Review 2026: Top Rate, Odd Fit",
-  "meta_description": "Trading 212 scored 93% on rates with Which?, the highest here, paying around 4.56% from £1. But it is an investment platform, not a bank.",
-  "checked": "15 August 2026",
-  "intro": "<p>Trading 212 earned a Which? interest-rate score of <strong>93%</strong> in August 2026 &mdash; the highest of any provider in this comparison, and comfortably ahead of Leeds Building Society on 87% and Nationwide on 70%.</p><p>It pays around <strong>4.56% AER from £1</strong>, with no minimum balance, no withdrawal cap and no bonus that expires. For a saver who simply wants the best rate with the fewest conditions, that is a strong combination and the conditions genuinely are simple.</p><p>The consideration is structural rather than financial. Trading 212 is <strong>an investment platform that offers a cash ISA</strong>, not a bank or building society that also does investments. That difference shapes how your money is held and what the company's attention is actually on.</p>",
+  "meta_title": "Trading 212 Cash ISA: 3.6%, and Why It Tracks the Base Rate",
+  "meta_description": "Trading 212's cash ISA pays 3.6% AER, set at the Bank of England base rate minus 0.15 points. The lowest rate here, and the only flexible one.",
+  "checked": "7 October 2026",
+  "intro": "<p>Trading 212's cash ISA pays <strong>3.6% AER</strong> from <strong>£1</strong>, and the number is not set by anybody's marketing department. It is the <strong>Bank of England base rate minus 0.15 percentage points</strong>, published as a formula: with the base rate held at 3.75% since 17 September 2026, that arithmetic gives 3.60% exactly.</p><p>Two months ago this page described Trading 212 as the best rate in this comparison, at around 4.56%. It is now the <strong>lowest</strong> &mdash; below Moneybox's Open Access ISA at 3.80%, below Nationwide's fixed ladder and below Leeds. That is not a reversal of policy, it is the tracker doing exactly what it says: the rate followed the base rate down. Trading 212 still holds the highest Which? interest-rate score here at <strong>93%</strong>, ahead of Leeds on 87% and Nationwide on 70%, but that was scored in August 2026 when the rate was a point higher, so read it as a statement about the past.</p><p>What you get instead of a market-leading rate is a rate you can predict. Every other variable account in this comparison can be repriced at the provider's discretion; this one moves only when the Bank of England moves, and Trading 212 undertakes to give <strong>14 days' notice</strong> if it ever widens the 0.15-point margin.</p><p>The consideration is structural rather than financial. Trading 212 is <strong>an investment platform that offers a cash ISA</strong>, not a bank or building society that also does investments. That difference shapes how your money is held and what the company's attention is actually on.</p>",
   "key_facts": [
    {
     "label": "Rate",
-    "value": "Around 4.56% AER variable &mdash; confirm current rate before applying"
+    "value": "3.6% AER variable &mdash; a published tracker, not a discretionary rate"
    },
    {
     "label": "Minimum deposit",
@@ -369,8 +369,24 @@
     "value": "None &mdash; the headline rate is the actual rate"
    },
    {
+    "label": "Rate mechanism",
+    "value": "Base rate minus 0.15 points; changes immediately on a base rate move, with 14 days' notice if the margin widens"
+   },
+   {
+    "label": "Flexible ISA",
+    "value": "Yes &mdash; the only one in this comparison. Withdrawals can be replaced in the same tax year"
+   },
+   {
+    "label": "Interest",
+    "value": "Accrues daily, paid on the 3rd calendar day of each month"
+   },
+   {
+    "label": "FSCS",
+    "value": "£120,000 per partner bank; Trading 212 does not name the partner banks"
+   },
+   {
     "label": "Which? interest-rate score",
-    "value": "<strong>93%</strong> &mdash; highest in this comparison"
+    "value": "<strong>93%</strong> &mdash; highest here, but scored in August 2026 when the rate was far higher"
    },
    {
     "label": "Which? customer score",
@@ -396,7 +412,7 @@
   "sections": [
    {
     "heading": "No bonus, no minimum, no withdrawal cap",
-    "html": "<p>Every other provider in this comparison attaches a condition to its best rate. Moneybox requires £500 and penalises the fourth withdrawal at 0.75%. Nationwide's Triple Access cuts to 1.05% on a fourth withdrawal. One large high-street bank pays 0.75% unless you have £100,000. Leeds requires you to fix.</p><p>Trading 212 does none of that. One pound opens it, the rate is not propped up by an expiring bonus, and you can withdraw as often as you want without penalty.</p><p>That simplicity is worth real money because it removes the failure mode that catches most savers &mdash; the forgotten bonus expiry, the accidental fourth withdrawal, the balance that dipped below a threshold. If you want an account you can genuinely ignore, this is the one here that tolerates being ignored.</p>"
+    "html": "<p>Every other provider in this comparison attaches a condition to its best rate. Moneybox requires £500 and penalises the fourth withdrawal at 0.75%. Nationwide's Triple Access cuts to 1.05% on a fourth withdrawal. One large high-street bank pays 0.75% unless you have £100,000. Leeds requires you to fix.</p><p>Trading 212 does none of that. One pound opens it, the rate is not propped up by an expiring bonus, and you can withdraw as often as you want without penalty. It is also the <strong>only flexible ISA in this comparison</strong> &mdash; money you take out can be put back in the same tax year without using fresh allowance. Neither Moneybox nor Leeds offers that, and Moneybox says so explicitly in its terms.</p><p>That simplicity removes the failure mode that catches most savers: the forgotten bonus expiry, the accidental fourth withdrawal, the balance that dipped below a threshold. The honest question now is what it is worth. On £10,000, Moneybox&rsquo;s headline 4.71% pays about <strong>£111 more a year</strong> than 3.6%, and its Open Access account about <strong>£20 more</strong>. If you will genuinely never breach a withdrawal limit or miss a bonus expiry, those conditions cost you nothing and the extra interest is free. Trading 212 is the account for people who know they will not do the admin &mdash; and it now charges a visible premium for that.</p>"
    },
    {
     "heading": "An investment platform is not a bank",
@@ -404,30 +420,30 @@
    },
    {
     "heading": "Where the 93% rate score comes from and what it does not tell you",
-    "html": "<p>Which?'s interest-rate score reflects what a provider pays across its range relative to the market. Trading 212's 93% says it pays consistently well, not merely that one headline product looks good.</p><p>The customer score is a different measure and sits lower at <strong>74%</strong> &mdash; behind Leeds and Nationwide on 77%, ahead of one large high-street bank on 67%. And Trading 212 is <strong>not</strong> a Which? Recommended Provider, because that status requires strength on both measures.</p><p>Read together, the two scores say something coherent: excellent rates, decent but not exceptional service. For a cash ISA that you fund and leave, rates matter more than service. For anything where you expect to need help, the ranking would look different.</p>"
+    "html": "<p>Which?'s interest-rate score reflects what a provider pays across its range relative to the market. Trading 212's 93% says it paid consistently well across the survey period, not merely that one headline product looked good on the day. It is worth being clear about the date: the survey was August 2026, when this cash ISA was paying around 4.56%. At 3.6% the same score would not be awarded today, and nobody should open the account on the strength of it.</p><p>The customer score is a different measure and sits lower at <strong>74%</strong> &mdash; behind Leeds and Nationwide on 77%, ahead of one large high-street bank on 67%. And Trading 212 is <strong>not</strong> a Which? Recommended Provider, because that status requires strength on both measures.</p><p>Read together, the two scores say something coherent: excellent rates, decent but not exceptional service. For a cash ISA that you fund and leave, rates matter more than service. For anything where you expect to need help, the ranking would look different.</p>"
    },
    {
     "heading": "Who this suits and who it does not",
-    "html": "<p><strong>It suits</strong> a rate-focused saver comfortable managing money in an app, who wants unlimited access without a penalty structure, and who does not want to diarise a bonus expiry.</p><p><strong>It suits less well</strong> anyone who wants a traditional deposit-taker holding their money directly, anyone who may want branch or phone support, and anyone uneasy about holding cash on a platform whose main business is share dealing.</p><p>One practical point: because the rate is variable and not supported by a fixed bonus term, it can move at any time in either direction. It has been market-leading recently, which is not a guarantee about next year. Check it periodically like any variable account.</p>"
+    "html": "<p><strong>It suits</strong> a rate-focused saver comfortable managing money in an app, who wants unlimited access without a penalty structure, and who does not want to diarise a bonus expiry.</p><p><strong>It suits less well</strong> anyone who wants a traditional deposit-taker holding their money directly, anyone who may want branch or phone support, and anyone uneasy about holding cash on a platform whose main business is share dealing.</p><p>One practical point, and it is the whole case for the account: because the rate is a published tracker rather than a discretionary one, you can work out what it will be. If the Bank of England cuts to 3.50% in November, this account pays 3.35% the same day; if it holds, you stay at 3.6%. That is a different kind of certainty from a fixed rate, and a more useful one than a variable rate nobody can forecast &mdash; but it also means there is no prospect of it beating the market again unless the base rate rises.</p>"
    }
   ],
   "pros": [
-   "Highest Which? interest-rate score in this comparison at 93%",
-   "Around 4.56% AER from just £1",
+   "The only published rate formula here: Bank of England base rate minus 0.15 points",
+   "The only genuinely flexible ISA in this comparison &mdash; withdrawals can be replaced in the same tax year",
    "No withdrawal limits and no penalty rate",
    "No expiring bonus &mdash; the headline rate is the real rate",
    "Slick app-based management and fast account opening",
-   "No minimum balance to maintain the advertised rate"
+   "No minimum balance to maintain the advertised rate, and 14 days’ notice promised before the margin can widen"
   ],
   "cons": [
-   "An investment platform rather than a bank or building society",
-   "Cash is typically held with partner banks, which complicates FSCS positioning",
-   "Not a Which? Recommended Provider",
+   "At 3.6% it is now the lowest rate on this page, behind even Moneybox’s unrestricted Open Access ISA at 3.80%",
+   "An investment platform rather than a bank; cash sits with unnamed partner banks, with FSCS cover quoted per bank",
+   "Not a Which? Recommended Provider, and its 93% rate score was earned when the rate was around 4.56%",
    "Customer score of 74% trails Leeds and Nationwide",
    "Ombudsman cases rose around 56% between H1 and H2 2025",
    "App and web only &mdash; no branch or traditional phone service"
   ],
-  "verdict": "The best pure rate here, with the fewest strings attached, and the only account in this comparison that tolerates being forgotten about. If your priority is maximum interest on accessible cash and you are comfortable with an app-based investment platform, it is a strong choice. If you would rather a traditional deposit-taker held your money directly, or you want the reassurance of a Which? Recommended Provider, Leeds Building Society is the better fit at a modestly lower rate. Check where the cash is actually held before depositing a large balance.",
+  "verdict": "No longer the best rate here, and worth choosing for a different reason than it was two months ago. At 3.6% it pays the least of the four providers compared on this page, but it is the only one that tells you how its rate is calculated &mdash; base rate minus 0.15 points &mdash; and the only genuinely flexible ISA among them, so withdrawals can be replaced within the tax year. That combination suits a saver who wants accessible cash with no conditions to monitor and no admin to forget, and who would rather have a rate they can predict than a headline they have to re-check every few months. Anyone chasing the highest number should take Moneybox at 4.71% and diarise the bonus, or fix with Nationwide or Leeds. Check where the cash is actually held before depositing a large balance: Trading 212 says FSCS cover is £120,000 per partner bank but does not name the banks.",
   "faqs": [
    {
     "q": "Is Trading 212 a bank?",
@@ -435,11 +451,11 @@
    },
    {
     "q": "Is there a catch to the rate?",
-    "a": "<p>Not in the usual sense. There is no bonus period, no minimum balance and no withdrawal cap. The rate is variable, so it can change at any time, but it is not propped up by an introductory bonus that expires.</p>"
+    "a": "<p>Not in the usual sense. There is no bonus period, no minimum balance and no withdrawal cap. The rate is variable, but not at the provider&rsquo;s discretion: it is the Bank of England base rate minus 0.15 points, so it changes when the base rate changes and Trading 212 gives 14 days&rsquo; notice if it widens that margin. The catch, such as it is, is that the formula now produces the lowest rate on this page.</p>"
    },
    {
     "q": "How does it compare with Moneybox?",
-    "a": "<p>Trading 212 pays more from £1 with unlimited withdrawals. Moneybox's headline 4.00% needs £500 and drops to 0.75% on a fourth withdrawal. Moneybox's Open Access account at 3.80% is the closer comparison, and Trading 212 still pays more.</p>"
+    "a": "<p>Moneybox pays more on both of its accounts now. Its headline Cash ISA is 4.71%, though that needs £500, includes a bonus that expires after 12 months and drops to 0.75% on a fourth withdrawal; its Open Access account pays 3.80% with unlimited withdrawals. Trading 212's 3.6% is below both. What Trading 212 has that neither Moneybox account has is a published rate formula and a genuinely flexible ISA.</p>"
    },
    {
     "q": "How many complaints does it get?",
@@ -452,7 +468,7 @@
   ],
   "headline": {
    "label": "Best cash ISA rate",
-   "value": "Around 4.56% AER variable &mdash; no bonus, no withdrawal limits"
+   "value": "3.6% AER variable &mdash; Bank of England base rate minus 0.15 points"
   }
  }
 ]

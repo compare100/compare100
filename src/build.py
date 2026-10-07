@@ -1970,6 +1970,24 @@ _FIG_MONTHS = {_m: _i for _i, _m in enumerate(
     ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August',
      'September', 'October', 'November', 'December'], 1)}
 _FIG_AGEING = 183
+# MONEY PAGES GET A WEEK, NOT SIX MONTHS.
+#
+# One threshold for the whole site was wrong, and it hid a real failure. Nine
+# savings and ISA pages were all checked on 15 August 2026 and left alone; by
+# 7 October, Aldermore's fixed ladder had moved up 40 to 60 basis points, Cynergy
+# had closed its headline easy access account to new customers, Moneybox's bonus
+# had more than doubled and Trading 212 had fallen from 4.56% to 3.6%. Every one
+# of those figures sat on a category hub as the number a reader compares
+# providers on, and the weekly figures check reported all clear throughout,
+# because 53 days is nowhere near 183.
+#
+# A savings rate, an ISA rate, a representative APR or a mortgage product fee can
+# move in a week, so money rows are marked `ageing` after SEVEN days. That is not
+# a claim the page is wrong - it is an instruction to re-read it. An insurance
+# excess or a baggage limit genuinely does hold for months, so everything else
+# keeps the six-month rule.
+_FIG_AGEING_MONEY = 7
+_MONEY_CATS = set(children.get('money', []))
 
 def _fig_clean(v):
     return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', v or ''))).strip()
@@ -1988,10 +2006,11 @@ def _fig_iso(rw):
     except Exception:
         return ''
 
-def _fig_age(iso):
+def _fig_age(iso, cat=''):
+    _limit = _FIG_AGEING_MONEY if cat in _MONEY_CATS else _FIG_AGEING
     try:
         _a = datetime.strptime(iso, '%Y-%m-%d')
-        return 'ageing' if (datetime.now() - _a).days > _FIG_AGEING else 'current'
+        return 'ageing' if (datetime.now() - _a).days > _limit else 'current'
     except Exception:
         return 'current'
 
@@ -2020,7 +2039,7 @@ for _slug in sorted(REWRITTEN):
     _date = _fig_iso(_rw)
     if not _date:
         continue                                  # no verification date, no row
-    _status = _fig_age(_date)
+    _status = _fig_age(_date, primary_cat(_post))
     _pairs = []
     _h = _rw.get('headline')
     if _h and _fig_clean(_h.get('value')):
@@ -2080,7 +2099,7 @@ if os.path.isfile(_fig_extra_path):
         _row['provider_or_product'] = _fig_clean(_rw.get('title') or _post['title'])
         _row['source_url'] = f'{SITE}/{_slug}/'
         _row['verification_date'] = _fig_iso(_rw)
-        _row['figure_status'] = _fig_age(_row['verification_date'])
+        _row['figure_status'] = _fig_age(_row['verification_date'], primary_cat(_post))
         _row['is_headline'] = 'false'
         _figrows.append(_row)
         _fig_added += 1
@@ -2160,8 +2179,10 @@ _figbody = (crumbs([('Home', '/'), ('Verified figures index', '')])
     'exactly as the page prints it; tidied numbers sit in <code>value_numeric</code>, '
     '<code>value_min</code> and <code>value_max</code>. A row whose figure is no longer on '
     'its page is removed rather than corrected.</p>'
-    f'<p>Most recent check: {esc(_figdate)}. Rows verified more than six months ago are '
-    'marked <code>ageing</code> so you can weigh them accordingly.</p>'
+    f'<p>Most recent check: {esc(_figdate)}. Rows are marked <code>ageing</code> once they '
+    'are due a re-read: after <strong>seven days</strong> for savings, ISA, loan, mortgage, '
+    'credit card, pension and current account figures, which can move in a week, and after '
+    'six months for everything else.</p>'
   + '<h2>The headline figure for every provider</h2>'
     '<p class="tnote">One line per page: the figure its category is compared on. The full '
     'row-level data is in the two files above.</p>'
