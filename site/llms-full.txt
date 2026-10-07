@@ -337,7 +337,7 @@
 #### Dual Fuel
 
 - [Alfred Household Bills Membership](https://compare100.com/alfred-household-bills/): Alfred bundles energy, mobile, broadband and insurance for £195 a year, no mark-up. Who it suits, who it doesn't, and how it compares to Utility Wareh
-- [British Gas Dual Fuel](https://compare100.com/british-gas-dual-fuel/): British Gas Dual Fuel: UK households. Gas & electricity from £90/month. Largest supplier. Smart home tech, fixed rates, green. Compare now!
+- [British Gas Dual Fuel](https://compare100.com/british-gas-dual-fuel/): British Gas lists a dual-fuel discount as Not applicable on all 67 of its own tariffs. What you actually get for taking both fuels, and what it costs.
 - [E.ON Next Dual Fuel](https://compare100.com/e-on-next-dual-fuel/): E.ON Next Dual Fuel: UK households. Energy from £82/month. 100% renewable, carbon-neutral gas. Smart meters, digital app. Compare deals!
 - [EDF Energy Dual Fuel](https://compare100.com/edf-energy-dual-fuel/): EDF Energy Dual Fuel: UK households 2025. Gas & electricity from £88/month. Low-carbon, 100% renewable. Smart meters. Compare now!
 - [Octopus Energy Dual Fuel](https://compare100.com/octopus-energy-dual-fuel/): Octopus Energy Dual Fuel: UK households 2025. Gas & electricity from £80/month. 100% renewable, flexible tariffs, smart meters. Compare now!
@@ -346,7 +346,7 @@
 #### Electricity
 
 - [Alfred Household Bills Membership](https://compare100.com/alfred-household-bills/): Alfred bundles energy, mobile, broadband and insurance for £195 a year, no mark-up. Who it suits, who it doesn't, and how it compares to Utility Wareh
-- [British Gas Electricity](https://compare100.com/british-gas-electricity/): British Gas Electricity: UK households. From £40/month. Fixed-rate, green. Hive smart meters, app. Compare now!
+- [British Gas Electricity](https://compare100.com/british-gas-electricity/): British Gas charges 26.998p/kWh in London and 28.447p in the North West on the same tariff, the same day. Regional rates, Economy 7 and the EV deals.
 - [EDF Energy Electricity](https://compare100.com/edf-energy-electricity/): EDF Energy Electricity: UK households 2025. Power from £42/month. Low-carbon, 100% renewable. Smart meters, flexible tariffs. Compare now!
 - [OVO Energy Electricity](https://compare100.com/ovo-energy-electricity/): OVO Energy Electricity: UK power from £43/month. 100% renewable, smart meters. Flexible tariffs. Compare now!
 - [Octopus Energy Electricity](https://compare100.com/octopus-energy-electricity/): Octopus Energy Electricity: UK households. Power from £40/month. 100% renewable, smart meters. Digital app. Compare now!
@@ -355,7 +355,7 @@
 #### Gas
 
 - [Alfred Household Bills Membership](https://compare100.com/alfred-household-bills/): Alfred bundles energy, mobile, broadband and insurance for £195 a year, no mark-up. Who it suits, who it doesn't, and how it compares to Utility Wareh
-- [British Gas](https://compare100.com/british-gas/): British Gas: UK households 2025. Tariffs from £35/month. Fixed-rate, green energy. Hive smart meters, app. Stability & trust. Compare now!
+- [British Gas](https://compare100.com/british-gas/): British Gas gas sits at 7.97p/kWh and 29.68p a day, the Ofgem cap. The company behind it, the Ofgem record and the protections if you prepay.
 - [Octopus Energy Gas](https://compare100.com/octopus-energy-gas/): Octopus gas is priced against a cap of 7.97p a kWh and 29.68p a day from 1 October 2026. Three tariffs carry gas, and the standing charge is the conte
 - [SSE Gas](https://compare100.com/sse-gas/): SSE Gas: UK households. Gas from £36/month. Fixed-rate, green energy. Smart meters, app. Sustainability Focus Compare now!
 - [So Energy Gas](https://compare100.com/so-energy-gas/): So Energy Gas: UK households. Gas from £34/month. 100% renewable, smart meters. Flexible tariffs. Compare now!
