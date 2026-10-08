@@ -13833,6 +13833,203 @@
   ]
  },
  {
+  "slug": "mymoneycomparison-com-life-insurance",
+  "title": "MyMoneyComparison.com Life Insurance",
+  "meta_title": "MyMoneyComparison: FCA Authorised, But No Advice",
+  "meta_description": "MyMoneyComparison.com Ltd is FCA authorised under number 916241, says it does not sell insurance or give advice, and hands your quote to Seopa Ltd.",
+  "checked": "8 October 2026",
+  "headline": {
+   "label": "Regulatory status",
+   "value": "FCA authorised for insurance mediation and credit broking, number 916241"
+  },
+  "disclosure": "we earn a commission if you request a quote through the link on this page, and the programme pays on a cost-per-lead basis &mdash; which means we are paid when you submit your details, not only if you buy. We think you should know that before you fill anything in. Nothing below has been softened for it.",
+  "intro": "<p>The first thing to check on any insurance comparison site is whether it is regulated, and this one is. Its own footer states that <strong>MyMoneyComparison.com Ltd is authorised and regulated by the Financial Conduct Authority &ldquo;for insurance mediation and credit broking activity under FCA registration number 916241&rdquo;</strong>.</p><p>The company is real and settled: number <strong>08464012</strong>, registered at Jubilee House, 55 Church Street, Morley, Leeds LS27 9JQ, incorporated on <strong>27 March 2013</strong> and classified at Companies House under SIC <strong>66220, activities of insurance agents and brokers</strong>.</p><p>Equally to its credit, it tells you what it is not. In its own words: <strong>&ldquo;We do not sell insurance directly&rdquo;</strong> and <strong>&ldquo;we do not give financial advice&rdquo;</strong>. For life insurance in particular, that second sentence is the one that should shape how you use it, and we go into why below.</p>",
+  "sections": [
+   {
+    "heading": "What the regulated permissions actually cover",
+    "html": "<p>Two activities are named in that footer, and they are worth separating.</p><p><strong>Insurance mediation</strong> is the permission to arrange or introduce insurance &mdash; the regulated activity a comparison site or broker needs to put you in front of an insurer. <strong>Credit broking</strong> is the separate permission needed to introduce you to credit, which in insurance usually means monthly premium finance.</p><p>What is <em>not</em> in that list is any form of investment permission or advice permission. That is consistent with what the site says about itself, and it is the correct shape for a quote service. It also means nobody in the process is assessing whether a policy suits you.</p><p><strong>One honest caveat about our own checking.</strong> We read the firm reference number <strong>916241</strong> on the company&rsquo;s own pages. We did not reach the FCA&rsquo;s public register to confirm the entry, so we are reporting it as the company&rsquo;s published statement rather than as a register check we performed. Looking up an FRN is free and takes a minute on the FCA&rsquo;s own register, and it is worth doing before you hand over medical details to any insurance site, this one included.</p><p>The company also publishes an ICO data-protection registration, <strong>ZA460665</strong>, which is what a business processing personal data at this scale should have.</p>"
+   },
+   {
+    "heading": "Your quote is handled by a different company",
+    "html": "<p>This is the most useful thing we found, and most people filling in the form would never know it. The compliance page states plainly: <strong>&ldquo;Seopa is the data controller for all insurance product quotes provided.&rdquo;</strong></p><p><strong>Seopa Ltd</strong> is a separate regulated firm &mdash; FCA number <strong>313860</strong>, ICO registration <strong>Z8733752</strong> &mdash; and it runs the quote engine. So when you complete a quote journey you are, in data-protection terms, dealing with Seopa rather than with MyMoneyComparison, and the page describes the process as putting &ldquo;your enquiry in front of brokers who write that kind of risk&rdquo;.</p><p>Why that matters to you, practically:</p><ul><li><strong>Your data-protection rights &mdash; access, correction, deletion &mdash; run against Seopa</strong> for the quote itself, not against the website you started on.</li><li>Your details go to <strong>a network of brokers</strong>, so expect contact from firms you have not heard of. That is how the model works and it is disclosed, but it is not the same as a single insurer&rsquo;s quote form.</li><li>The compliance page <strong>does not describe an opt-out</strong> for Seopa&rsquo;s handling of quote data. If you want to limit who contacts you, read the consent wording on the quote form carefully before you submit, because that is where the choice is made.</li></ul><p>On the advertising side it is more conventional: log data is <strong>&ldquo;not linked to personally identifiable information&rdquo;</strong>, the named advertising partner is <strong>Google</strong>, and third-party ad servers use &ldquo;cookies, JavaScript and web beacons&rdquo; which automatically share your IP address. Cookies can be refused through your browser.</p>"
+   },
+   {
+    "heading": "Non-advised life cover: what you take on yourself",
+    "html": "<p>We are not advisers and this is information rather than a recommendation, but the practical difference between advised and non-advised life insurance is a matter of fact and it is worth understanding before you compare on price alone.</p><p>On a <strong>non-advised</strong> route &mdash; which is what a comparison form is &mdash; nobody is responsible for whether the policy fits your circumstances. You choose the type, the sum assured and the term, and the suitability of those choices is yours. That is fine if you know what you want. It is less fine if you are not sure of the answers to the following, which all change the outcome:</p><ul><li><strong>Level term or decreasing term.</strong> Decreasing cover is designed to track a repayment mortgage and is cheaper; level cover pays the same sum whenever you die within the term. They are not interchangeable.</li><li><strong>Life cover or critical illness.</strong> Different products, different prices, often sold on the same page.</li><li><strong>Whether the policy is written in trust.</strong> Putting a life policy in trust is a long-standing arrangement that affects who receives the money and when. A quote form does not do it for you.</li><li><strong>Whether it is guaranteed or reviewable premiums.</strong> A reviewable premium can rise.</li></ul><p>And the one that catches people out most: <strong>medical disclosure is your responsibility.</strong> Life cover is underwritten on what you tell the insurer, and an incomplete answer about a condition, a medication, your weight, your drinking or your family history can be the reason a claim is examined years later. If your history is at all complicated, that is the clearest case for talking to a regulated adviser rather than a form &mdash; and this site states it does not provide one.</p><p>Price-wise, there is one structural fact worth knowing: life insurance is priced by age at the start, and the premium you are quoted this year will be higher next year for the same cover. Comparing is sensible; postponing is expensive.</p>"
+   },
+   {
+    "heading": "If the insurer fails, what is protected",
+    "html": "<p>This is the part of buying life cover nobody puts on a comparison page, and it is reassuring, so it is worth knowing. The Financial Services Compensation Scheme publishes the levels, and for life insurance they are the strongest in the scheme.</p><p><strong>Term life assurance and critical illness cover are protected at 100%</strong> where the firm failed on or after <strong>3 July 2015</strong>. Whole of life assurance is <strong>100%</strong> protected. Income protection, annuities and insured personal pensions are also at <strong>100%</strong> on that basis. For firms that failed before <strong>3 July 2015</strong>, those categories are protected at <strong>90%</strong>.</p><p>There is no published monetary cap on long-term insurance protection, only that cover is &ldquo;subject to conditions, limits and requirements set out by the Prudential Regulation Authority&rdquo;. Compare that with general insurance, where home, travel, pet and health cover are protected at <strong>90%</strong>, and only compulsory classes such as third-party motor and employers&rsquo; liability reach <strong>100%</strong>.</p><p>The practical point: on a life policy you are not exposed to the insurer going under in the way you might fear, and that is a reason to judge a quote on the policy terms and the underwriting rather than on how big a brand name is. What the scheme does not do is make a badly chosen policy pay out &mdash; protection against insurer failure and suitability of cover are different problems, and only the first one is solved for you.</p><p>If an intermediary rather than an insurer fails, the levels differ: <strong>100%</strong> for compulsory general insurance and <strong>90%</strong> for other general insurance, and the scheme does not publish a separate figure for a life policy arranged through a failed broker.</p>"
+   },
+   {
+    "heading": "What this site is actually built for",
+    "html": "<p>Read the navigation and the shape of the business becomes clear. The strength here is not mainstream personal cover &mdash; it is <strong>specialist and commercial risk</strong>, and there is a lot of it:</p><ul><li><strong>Trade and commercial vehicles:</strong> taxi, private hire, HGV, courier, fleet, motor trade, minibus, coach, limousine, driving school, catering van, ice cream van.</li><li><strong>Hard-to-place motor:</strong> convicted drivers, modified, kit car, import, classic, young drivers, over 50s, temporary and learner cover.</li><li><strong>Specialist property:</strong> park home, holiday home, HMO, block of flats, unoccupied property, Airbnb, landlord and buy-to-let.</li><li><strong>Trades and business:</strong> tradesman, plumber, roofer, auto electrician, public liability, employers&rsquo; liability, professional indemnity, shop, salon, restaurant, hotel, care home, surgery.</li><li><strong>Leisure:</strong> horsebox, campervan, motorhome, caravan, boat, bicycle, horse.</li></ul><p>That is a genuinely useful list. If you drive an ice cream van, run an HMO or have points on your licence, a panel of specialist brokers is exactly what you want, and the big-name comparison sites are often no help at all.</p><p><strong>Life insurance, by contrast, is a sideline here.</strong> It appears in the navigation under &ldquo;Lifestyle&rdquo;, alongside health and pet, and it does not appear in the homepage&rsquo;s own &ldquo;What do you need to insure?&rdquo; list or in its &ldquo;Insurance by Category&rdquo; block. For a product this large and this competitive, that placement tells you where the site&rsquo;s attention is.</p><p>The claims it makes for itself are not quantified. It says it has helped &ldquo;thousands of individuals and businesses across the UK&rdquo;, refers to &ldquo;hundreds of brokers&rdquo; in the wider market without saying how many are on its own panel, and promises savings &ldquo;by avoiding inflated premiums and unnecessary extras&rdquo; with no figure attached. Its copyright notice runs from 2013 to 2026, which matches the Companies House incorporation date, and the founder&rsquo;s biography cites &ldquo;over a decade of experience&rdquo;. There is also a <strong>&ldquo;Rated 4.8/5&rdquo;</strong> badge on the page that names <strong>no source and no number of reviews</strong>, which is not a rating anyone can check.</p><p>We should also report a maintenance problem we hit while checking that navigation: <strong>several menu items link only to &ldquo;#&rdquo; and go nowhere.</strong> Multi-Car, Buy-to-Let, HMO, Airbnb, Builders, Plumber and Roofer insurance are all advertised in the menu with no destination page behind them. That is a site that has grown faster than it has been tidied, and it is a reason to check that the specific product you came for actually has a working journey before you rely on it.</p>"
+   },
+   {
+    "heading": "How it gets paid, and how to use it well",
+    "html": "<p>The business model is stated openly on the affiliate side: the programme pays <strong>on a cost-per-lead basis</strong>, with only valid leads paid. In other words, the site earns when a completed enquiry is generated, whether or not you ever take out a policy.</p><p>That is standard in this market and it is not a criticism on its own. It does explain two things you will notice: the form wants your details before it shows you much, and the number of product pages is very large relative to the depth of each one. <strong>We earn on the same basis</strong>, which is why we have put the disclosure at the top of this page rather than the bottom.</p><p>So, used sensibly:</p><ul><li><strong>Use it for the awkward risks</strong> &mdash; trade vehicles, convicted drivers, non-standard property. That is where a broker panel beats a mainstream comparison site, and where the lead model works in your favour because a human broker actually wants the business.</li><li><strong>For life insurance, treat it as one quote among several</strong>, not as the market. It is a thin corner of this particular site.</li><li><strong>Read the consent wording</strong> on the form before submitting, because your details go to a network of brokers and the compliance page describes no opt-out for the quote data itself.</li><li><strong>Use an email address you can filter</strong>, and expect calls.</li><li><strong>Check the FRN yourself</strong> &mdash; 916241 for MyMoneyComparison.com Ltd and 313860 for Seopa Ltd &mdash; on the FCA register before you submit medical information.</li><li><strong>If your medical history is complicated, see a regulated adviser.</strong> This site says it does not give financial advice, and on underwritten life cover that gap is the thing most likely to cost you.</li></ul>"
+   }
+  ],
+  "key_facts": [
+   {
+    "label": "Company",
+    "value": "MyMoneyComparison.com Ltd, number 08464012"
+   },
+   {
+    "label": "Incorporated",
+    "value": "27 March 2013, status active"
+   },
+   {
+    "label": "Registered office",
+    "value": "Jubilee House, 55 Church Street, Morley, Leeds LS27 9JQ"
+   },
+   {
+    "label": "Companies House classification",
+    "value": "SIC 66220, activities of insurance agents and brokers"
+   },
+   {
+    "label": "FCA status, as published",
+    "value": "Authorised and regulated for insurance mediation and credit broking, number 916241"
+   },
+   {
+    "label": "Not permitted or claimed",
+    "value": "No advice permission and no investment permission"
+   },
+   {
+    "label": "Does it sell insurance?",
+    "value": "&ldquo;We do not sell insurance directly&rdquo;"
+   },
+   {
+    "label": "Does it advise?",
+    "value": "&ldquo;We do not give financial advice&rdquo;"
+   },
+   {
+    "label": "Who runs the quotes",
+    "value": "&ldquo;Seopa is the data controller for all insurance product quotes provided&rdquo;"
+   },
+   {
+    "label": "Seopa Ltd",
+    "value": "FCA number 313860, ICO registration Z8733752"
+   },
+   {
+    "label": "ICO registration",
+    "value": "ZA460665 for MyMoneyComparison.com Ltd"
+   },
+   {
+    "label": "Where your details go",
+    "value": "To &ldquo;brokers who write that kind of risk&rdquo; &mdash; a broker network, not one insurer"
+   },
+   {
+    "label": "Quote-data opt-out",
+    "value": "None described on the compliance page"
+   },
+   {
+    "label": "Advertising partner named",
+    "value": "Google; third-party ad servers share your IP address"
+   },
+   {
+    "label": "Log data",
+    "value": "&ldquo;None of it is linked to personally identifiable information&rdquo;"
+   },
+   {
+    "label": "How the site earns",
+    "value": "Cost per lead &mdash; paid on a valid enquiry, not on a sale"
+   },
+   {
+    "label": "Where life insurance sits",
+    "value": "Under &ldquo;Lifestyle&rdquo; in the menu, and absent from the homepage categories"
+   },
+   {
+    "label": "Real strength",
+    "value": "Specialist and commercial risk: taxi, HGV, motor trade, HMO, convicted drivers"
+   },
+   {
+    "label": "Broken navigation",
+    "value": "Multi-Car, Buy-to-Let, HMO, Airbnb, Builders, Plumber and Roofer link to &ldquo;#&rdquo;"
+   },
+   {
+    "label": "Example premiums",
+    "value": "None published anywhere we could read"
+   },
+   {
+    "label": "FSCS, term life and critical illness",
+    "value": "100% protected where the firm failed on or after 3 July 2015"
+   },
+   {
+    "label": "FSCS, failures before 3 July 2015",
+    "value": "90% protected"
+   },
+   {
+    "label": "FSCS, general insurance",
+    "value": "90% on home, travel, pet and health; 100% on compulsory classes"
+   },
+   {
+    "label": "Unsourced rating",
+    "value": "A &ldquo;Rated 4.8/5&rdquo; badge with no source and no review count"
+   },
+   {
+    "label": "Panel size",
+    "value": "Not published &mdash; it cites &ldquo;hundreds of brokers&rdquo; in the market, not on its panel"
+   }
+  ],
+  "pros": [
+   "FCA authorised in its own right for insurance mediation and credit broking, number 916241",
+   "It states plainly that it does not sell insurance and does not give financial advice",
+   "A settled UK company, registered since March 2013, with a real Leeds address",
+   "Classified at Companies House as an insurance agent and broker, which matches what it does",
+   "It names Seopa Ltd as the data controller for quotes, with that firm's FCA and ICO numbers",
+   "An ICO registration is published for both companies",
+   "Genuinely strong coverage of specialist and commercial risks the big comparison sites skip",
+   "Hard-to-place motor cover: convicted drivers, modified, kit car, import, temporary and learner",
+   "Specialist property cover: HMO, park home, unoccupied, landlord and holiday home",
+   "It names Google as its advertising partner rather than leaving that vague",
+   "Term life and critical illness bought through it are FSCS protected at 100% if the insurer fails on or after 3 July 2015"
+  ],
+  "cons": [
+   "Nobody assesses whether a life policy suits you, because no advice is given",
+   "Your quote is handled by Seopa Ltd, so your data rights on it run against a company you did not visit",
+   "The compliance page describes no opt-out for how quote data is handled",
+   "Your details go to a network of brokers, so expect contact from firms you have not heard of",
+   "The site is paid per lead, so it earns when you submit the form whether or not you buy",
+   "Life insurance is a corner of the site, missing from the homepage's own category lists",
+   "No example premiums or indicative prices are published anywhere we could read",
+   "Several navigation items link to &ldquo;#&rdquo; and have no page behind them",
+   "No insurer or broker on the life panel is named before you submit your details",
+   "Third-party ad servers automatically share your IP address",
+   "A &ldquo;Rated 4.8/5&rdquo; badge appears with no named source and no review count",
+   "It does not publish how many brokers or insurers are on its panel",
+   "We could not reach the FCA register to verify the firm reference number ourselves",
+   "Medical disclosure on underwritten life cover is entirely your responsibility on a non-advised route"
+  ],
+  "verdict": "On the checks that matter, this one holds up: MyMoneyComparison.com Ltd is FCA authorised in its own right under number 916241 for insurance mediation and credit broking, it has been registered at Companies House since 2013, and it is upfront that it neither sells insurance nor gives advice. It also discloses something most comparison sites bury &mdash; that Seopa Ltd, a separate regulated firm, is the data controller for your quote and puts your enquiry in front of a broker network. Where we would steer you is on fit. This site is built for awkward risks: taxis, HGVs, motor trade, convicted drivers, HMOs, unoccupied property. For those it is better than the household-name comparison sites, and the per-lead model means a specialist broker genuinely wants the enquiry. Life insurance is a thin corner of it, tucked under &ldquo;Lifestyle&rdquo; and absent from the homepage categories, with no example premiums published. Use it as one quote among several, read the consent wording before you submit, check both firm reference numbers on the FCA register, and if your medical history is anything other than simple, pay for advice instead of filling in a form. We are not advisers either, and on underwritten life cover that is the gap worth closing.",
+  "faqs": [
+   {
+    "q": "Is MyMoneyComparison.com regulated?",
+    "a": "<p>Its own footer states that MyMoneyComparison.com Ltd is &ldquo;authorised and regulated by the Financial Conduct Authority&rdquo; for &ldquo;insurance mediation and credit broking activity under FCA registration number 916241&rdquo;. The company is number 08464012, registered in Leeds since March 2013. We read that number on the company&rsquo;s pages rather than on the FCA register, so check it yourself on the register &mdash; it is free and takes a minute.</p>"
+   },
+   {
+    "q": "Will it advise me which life policy to take?",
+    "a": "<p>No. It says &ldquo;we do not sell insurance directly&rdquo; and &ldquo;we do not give financial advice&rdquo;. That means the choice of level or decreasing cover, the sum assured, the term, whether to add critical illness and whether to write the policy in trust are all yours, and nobody is responsible for whether the result suits you. If those questions are not obvious to you, that is the case for a regulated adviser rather than a quote form.</p>"
+   },
+   {
+    "q": "Who actually gets my details?",
+    "a": "<p>The compliance page states that &ldquo;Seopa is the data controller for all insurance product quotes provided&rdquo; and that the process puts &ldquo;your enquiry in front of brokers who write that kind of risk&rdquo;. Seopa Ltd is a separate firm with FCA number 313860 and ICO registration Z8733752. So your quote data sits with Seopa and goes out to a broker network &mdash; read the consent wording on the form, because the page describes no opt-out for that handling.</p>"
+   },
+   {
+    "q": "How does the site make money?",
+    "a": "<p>On a cost-per-lead basis: it is paid for a valid completed enquiry rather than for a policy you buy. That is normal in this market and it explains why the form asks for your details early. We are paid on the same basis if you use the link on this page, which is why our disclosure sits at the top of it.</p>"
+   },
+   {
+    "q": "Are there example premiums I can look at first?",
+    "a": "<p>None that we could find published anywhere on the site. There is no indicative price, no premium table and no named insurer on the life panel before you submit your details. If you want a sense of the market before giving anyone your medical history, get one quote directly from a well-known insurer first and use it as your yardstick.</p>"
+   },
+   {
+    "q": "Is it any good for anything other than life insurance?",
+    "a": "<p>That is where it is strongest. The site is built around specialist and commercial risk &mdash; taxi, private hire, HGV, courier, fleet, motor trade, minibus, horsebox, convicted drivers, modified and import cars, HMOs, park homes, unoccupied property, and a long list of trades liability covers. For risks the household-name comparison sites decline, a specialist broker panel is exactly the right tool. Do check your product has a working page first: several menu items link to &ldquo;#&rdquo; and go nowhere.</p>"
+   }
+  ]
+ },
+ {
   "slug": "national-tyres-and-autocare-servicing",
   "title": "National Tyres and Autocare Servicing: Prices, the MOT Sum and the Halfords Stamp",
   "meta_title": "National Tyres Servicing: Prices and the MOT Discount",
