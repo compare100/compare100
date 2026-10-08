@@ -17173,6 +17173,338 @@
   ]
  },
  {
+  "slug": "three-business-mobiles",
+  "title": "Three Business Mobiles",
+  "meta_title": "Three Business Mobiles: The Prices They Do Not Show You",
+  "meta_description": "Three's business SIM page shows no prices at all. Here are the published ex-VAT rates from its own price guide, from £11 a month, and the terms behind them.",
+  "checked": "8 October 2026",
+  "headline": {
+   "label": "Cheapest business SIM",
+   "value": "&pound;11 a month ex-VAT &mdash; 3GB, 24 months, unlimited minutes and texts"
+  },
+  "disclosure": "we have no affiliate arrangement with Three and earn nothing if you sign up with them. The link on this page goes to Three&rsquo;s own site. We list Three because it is one of the networks in this category, not because it pays us.",
+  "intro": "<p>Three&rsquo;s cheapest business SIM is <strong>&pound;11 a month excluding VAT</strong> for 3GB on a 24-month term, with unlimited minutes and texts. Its most expensive is <strong>&pound;29</strong> for unlimited data on a one-month rolling term. There are fifteen plans in the grid, and <strong>not one of them has a price on Three&rsquo;s business SIM page</strong>.</p><p>We checked all fifteen tiles. Every one shows &ldquo;Contact us to buy&rdquo; or &ldquo;Buy now&rdquo; and an &ldquo;Increasing to:&rdquo; field left blank. The only number on the page is a banner saying single SIMs start &ldquo;from just &pound;9 a month&rdquo;, which does not correspond to any plan in the grid.</p><p>The prices do exist. They are in Three&rsquo;s own Business Price Guide, a PDF effective 21 May 2026, and that is where every figure on this page comes from. If you are getting quotes, this is the table to have in front of you before you ring them.</p>",
+  "sections": [
+   {
+    "heading": "The actual published prices, all excluding VAT",
+    "html": "<p>From Three&rsquo;s Business Price Guide, for customers who joined, upgraded or added services on or after 1 December 2023. Unlimited minutes and texts on every plan.</p><table class=\"cmp\"><thead><tr><th>Data</th><th>1 month</th><th>12 months</th><th>24 months</th></tr></thead><tbody><tr><td>3GB</td><td>&pound;18</td><td>&pound;12</td><td><strong>&pound;11</strong></td></tr><tr><td>25GB</td><td>&pound;23</td><td>&pound;16</td><td><strong>&pound;14</strong></td></tr><tr><td>80GB</td><td>&pound;26</td><td>&pound;20</td><td><strong>&pound;15</strong></td></tr><tr><td>500GB</td><td>&pound;28</td><td>&pound;22</td><td><strong>&pound;19</strong></td></tr><tr><td>Unlimited</td><td>&pound;29</td><td>&pound;24</td><td><strong>&pound;22</strong></td></tr></tbody></table><p>Add <strong>20% VAT</strong> if you cannot reclaim it: the 24-month unlimited plan is &pound;22 ex-VAT and <strong>&pound;26.40</strong> inclusive. Three states plainly that &ldquo;all prices in this Price Guide exclude VAT where applicable&rdquo;, and it quotes its advertised savings the same way.</p><p>Two things about those figures are worth pausing on. The <strong>1-month rate for 3GB is &pound;18</strong> against <strong>&pound;11</strong> on 24 months &mdash; you pay a <strong>64% premium</strong> for flexibility on the smallest plan, which is the steepest flexibility penalty in the grid. And the jump from <strong>80GB to 500GB on 24 months is &pound;4</strong>, from &pound;15 to &pound;19, which makes the mid-tier plans poor value: 80GB costs &pound;15 and more than six times the data costs &pound;19.</p><p>The headline prices also include a <strong>&pound;5 monthly discount for paying by a recurring method</strong> such as Direct Debit. Pay any other way and every figure above goes up by &pound;5.</p>"
+   },
+   {
+    "heading": "The annual rise is a fixed amount, and the band you land in matters",
+    "html": "<p>Three&rsquo;s business contracts rise every April by a <strong>fixed amount</strong> rather than by an inflation index, and the amount depends on which price band your plan sits in. All figures exclude VAT:</p><ul><li>Monthly charge of <strong>&pound;9.99 or less</strong> &mdash; rises by <strong>&pound;0.50</strong></li><li><strong>&pound;10 to &pound;20</strong> &mdash; rises by <strong>&pound;0.75</strong></li><li><strong>&pound;20.01 and above</strong> &mdash; rises by <strong>&pound;1.50</strong></li></ul><p>The bands create a cliff edge. A plan at <strong>&pound;20.00</strong> rises by 75p; a plan at <strong>&pound;20.01</strong> rises by <strong>&pound;1.50</strong>, double the increase for one extra penny of monthly charge. Over a 24-month contract with two April rises, the difference is <strong>&pound;18</strong> per SIM.</p><p>Three Business Adapt and Dynamic are carved out of the fixed amounts and rise by <strong>4.5%</strong> instead. Adapt is the route Three pushes businesses towards once you have <strong>50 or more</strong> connections, so the larger you are, the more your increase tracks a percentage of a bigger bill.</p>"
+   },
+   {
+    "heading": "The cancellation fee is harsher than the consumer one",
+    "html": "<p>This is the clause most worth knowing before signing, and it is a genuine difference between Three&rsquo;s business and consumer contracts.</p><p>On a <strong>consumer</strong> contract, the fee for leaving early is the remaining monthly charges <em>&ldquo;less a variable discount, currently 3%&rdquo;</em>. Three&rsquo;s own worked example: &pound;25 a month with six months left is &pound;150, minus &pound;4.50, so <strong>&pound;145.50</strong>.</p><p>On a <strong>business</strong> contract there is no such discount. The fee is &ldquo;a lump sum equivalent to the total of the applicable Monthly Charges&rdquo; remaining in the minimum term, and Three&rsquo;s business worked example is the same &pound;25 over six months at a flat <strong>&pound;150</strong>. You pay the <strong>full</strong> remaining balance.</p><p>And it is charged per line. The price guide states that <strong>each SIM may carry its own cancellation fee</strong>. On a fleet of ten SIMs at &pound;22 a month with a year left, that is <strong>&pound;2,640</strong> ex-VAT to walk away. Price the exit before you price the plan.</p>"
+   },
+   {
+    "heading": "Shared data across the account, and the add-on nobody can read",
+    "html": "<p>Three&rsquo;s most useful business feature is account-level shared data. You buy an allowance at billing-account level and it applies to <strong>every connection under that account</strong>, whatever individual plan each line is on. Sizes run <strong>from 30GB to 50TB</strong>.</p><p>The prices are published as two lists &mdash; one-off add-ons at <strong>&pound;24, &pound;80, &pound;200, &pound;400 and &pound;760</strong>, and recurring ones at <strong>&pound;21, &pound;70, &pound;175, &pound;350 and &pound;665</strong>. What is <em>not</em> published is which price buys which allowance. The table&rsquo;s columns do not line up in Three&rsquo;s own PDF, and the guide itself tells you to ring <strong>337</strong> to find out.</p><p>One important restriction: &ldquo;recurring add-on allowances cannot be rolled over&rdquo;. Unused shared data does not carry into the next month, so buying headroom for a busy quarter means paying for it in the quiet ones too.</p><p>Out of allowance, business data is <strong>1p per MB</strong> ex-VAT, which works out at roughly <strong>&pound;10 a GB</strong>. A single employee tethering a laptop for an afternoon can clear the price of their whole monthly plan.</p>"
+   },
+   {
+    "heading": "Is the network actually any good? Ofcom's own answer",
+    "html": "<p>Three makes two claims on its business pages &mdash; &ldquo;UK&rsquo;s Fastest 5G Network&rdquo; and &ldquo;award-winning&rdquo; &mdash; and publishes no basis for either on the page itself. Ofcom&rsquo;s own measurement is more useful, and it is good news for Three.</p><p>In <strong>Ofcom&rsquo;s Mobile Matters 2025</strong>, published 17 July 2025 on data to March 2025:</p><ul><li>&ldquo;Three&rsquo;s download speeds tended to be faster than the other MNOs&rsquo; on 5G.&rdquo;</li><li>10MB file download times over 5G ranged from <strong>0.8 seconds for Three to 1.4 seconds for EE</strong> &mdash; Three was fastest.</li><li>Three had the highest share of 5G connections at 50 Mbit/s or above, at <strong>75%</strong>.</li><li>Three had the best 5G latency, with operator averages spanning <strong>15 to 21 milliseconds</strong>.</li></ul><p>On complaints, <strong>Ofcom&rsquo;s Q1 2026 figures</strong> put Three at <strong>2 complaints per 100,000 pay-monthly subscribers</strong> &mdash; exactly the industry average, level with Tesco Mobile, better than Sky Mobile on 4 and O2 and iD Mobile on 3, behind EE, Giffgaff and Vodafone on 1 each.</p><p>Coverage, in Three&rsquo;s own words: the combined 4G and 5G network covers <strong>99% of the outdoor population</strong>, with <strong>4,700 5G sites across 650 towns and cities</strong>. Three has <strong>switched off its 3G network</strong> entirely, so older handsets and some payment terminals will not fall back to it. Ofcom&rsquo;s Connected Nations 2025 adds one qualifier worth knowing: &ldquo;Three does not currently deploy 5G SA services&rdquo; &mdash; standalone 5G.</p>"
+   },
+   {
+    "heading": "Where it falls short for a business buyer",
+    "html": "<p><strong>You cannot shop without talking to someone.</strong> Fifteen plan tiles, no prices, &ldquo;Contact us to buy&rdquo;. For a small business comparing three networks on a Tuesday afternoon, that is a real cost in time, and it is a choice Three has made rather than a technical limitation &mdash; the prices are published in a PDF two clicks away.</p><p><strong>No published limit on connections, in either direction.</strong> We could find no stated minimum or maximum in the business terms or the price guide. The multibuy discount covers &ldquo;up to 9 SIMs&rdquo;, teams of <strong>50+</strong> get routed to Three Business Adapt, and Three Mobile Protect &ldquo;covers up to 25 devices&rdquo; &mdash; but none of those is a contractual limit on how many lines you can hold.</p><p><strong>No international calling bundle is published at all.</strong> For a business making regular overseas calls that is a significant gap in the published information; the pages link to &ldquo;Calling abroad&rdquo; without naming a product or a price.</p><p><strong>Device management is listed without detail.</strong> Three Device Management, Three Mobile Protect and Three Analyst all appear as names with no pricing and no specification, and Mobile Protect stops at 25 devices, beyond which it is &ldquo;a separate service&rdquo; that is also unpriced.</p><p><strong>One advertised price does not add up.</strong> Three&rsquo;s business homepage shows an unlimited data SIM at &ldquo;&pound;17 a month, rising to &pound;17.75 from April 2026 and &pound;28.50 from April 2027&rdquo;. A &pound;10.75 step in year two is seven times the published &pound;1.50 band increase, so it is almost certainly a promotional price expiring rather than an annual rise &mdash; but Three presents it as the rise. Read any Three business quote for the year-two and year-three numbers, not just the headline.</p>"
+   },
+   {
+    "heading": "Who owns Three now, and why it matters to a business contract",
+    "html": "<p>The company you contract with is <strong>Hutchison 3G UK Limited</strong>, company number <strong>03885486</strong>, registered at 450 Longwater Avenue, Green Park, Reading RG2 6GF, incorporated 29 November 1999.</p><p>It is no longer independent. Three&rsquo;s merger with Vodafone <strong>completed on 31 May 2025</strong>, creating VodafoneThree, initially <strong>51% Vodafone and 49% CK Hutchison</strong>. On <strong>5 May 2026</strong> Vodafone agreed to buy out the remaining 49% for <strong>&pound;4.3 billion</strong>, with completion expected in the second half of 2026 subject to National Security and Investment Act approval. Vodafone says there will be &ldquo;no change to VodafoneThree&rsquo;s multi-brand strategy&rdquo;, so Three continues to sell as Three.</p><p>For a business signing a 24-month contract, the relevant detail is that the CMA cleared the merger on <strong>5 December 2024</strong> subject to <strong>legally binding commitments</strong>, with final undertakings accepted on <strong>28 March 2025</strong>. The network must be built out over <strong>eight years</strong> from completion, and <strong>Ofcom has primary responsibility for monitoring it</strong>, with quarterly meetings for the duration. VodafoneThree has committed <strong>&pound;11 billion</strong> of investment &mdash; a figure it states itself, over &ldquo;the next 10 years&rdquo; in one place and &ldquo;by 2034&rdquo; in another. The CMA&rsquo;s own undertakings say only &ldquo;invest billions&rdquo;, so treat &pound;11bn as the company&rsquo;s commitment rather than a regulator-enforced one.</p>"
+   }
+  ],
+  "key_facts": [
+   {
+    "label": "Cheapest business SIM",
+    "value": "&pound;11 a month ex-VAT &mdash; 3GB, 24 months"
+   },
+   {
+    "label": "Unlimited data",
+    "value": "&pound;22 ex-VAT on 24 months, &pound;24 on 12, &pound;29 on 1 month"
+   },
+   {
+    "label": "Mid-tier value trap",
+    "value": "80GB is &pound;15 and 500GB is &pound;19 on 24 months &mdash; &pound;4 for six times the data"
+   },
+   {
+    "label": "Flexibility premium",
+    "value": "3GB costs &pound;18 on 1 month against &pound;11 on 24 &mdash; a 64% premium"
+   },
+   {
+    "label": "VAT",
+    "value": "All business prices exclude VAT; add 20%"
+   },
+   {
+    "label": "Recurring payment discount",
+    "value": "&pound;5 a month, already inside the headline prices"
+   },
+   {
+    "label": "Annual rise bands",
+    "value": "&pound;0.50 up to &pound;9.99, &pound;0.75 to &pound;20, &pound;1.50 above &pound;20.01, each April"
+   },
+   {
+    "label": "Adapt and Dynamic",
+    "value": "Rise by 4.5% instead of a fixed amount"
+   },
+   {
+    "label": "Cancellation fee",
+    "value": "Full remaining monthly charges, with no 3% discount &mdash; unlike the consumer contract"
+   },
+   {
+    "label": "Per-SIM exit",
+    "value": "Each SIM may carry its own cancellation fee"
+   },
+   {
+    "label": "Shared data",
+    "value": "Account-level allowances from 30GB to 50TB, applied across every connection"
+   },
+   {
+    "label": "Out of allowance",
+    "value": "1p per MB ex-VAT, about &pound;10 a GB"
+   },
+   {
+    "label": "Business roaming",
+    "value": "&pound;2 Europe, &pound;5 Around the World, &pound;7 Extra, per day ex-VAT"
+   },
+   {
+    "label": "Ofcom 5G speed, 2025",
+    "value": "Fastest of the operators &mdash; 0.8s for a 10MB file against 1.4s for EE"
+   },
+   {
+    "label": "Ofcom complaints, Q1 2026",
+    "value": "2 per 100,000 subscribers &mdash; the industry average"
+   },
+   {
+    "label": "Coverage",
+    "value": "99% of the outdoor population on combined 4G and 5G; 4,700 5G sites"
+   },
+   {
+    "label": "3G",
+    "value": "Switched off entirely"
+   },
+   {
+    "label": "Legal entity",
+    "value": "Hutchison 3G UK Limited, company 03885486, now part of VodafoneThree"
+   }
+  ],
+  "pros": [
+   "&pound;11 a month ex-VAT for 3GB on 24 months, with unlimited minutes and texts on every plan",
+   "Ofcom measured Three as the fastest operator on 5G &mdash; 0.8 seconds for a 10MB file against EE's 1.4",
+   "75% of Three's 5G connections ran at 50 Mbit/s or above, the highest share of any operator",
+   "Best 5G latency of the operators in Ofcom's own measurement",
+   "2 complaints per 100,000 subscribers in Ofcom's Q1 2026 figures &mdash; on the industry average and ahead of O2, iD and Sky",
+   "Account-level shared data from 30GB to 50TB applies across every line, whatever plan each is on",
+   "SIM-only terms of 1, 12 or 24 months, so a rolling option genuinely exists",
+   "All plans are eSIM compatible, and eSIMs can be deactivated remotely",
+   "A business support team on WhatsApp, exclusive to business customers"
+  ],
+  "cons": [
+   "Not one of the fifteen business SIM plans shows a price on Three's own page &mdash; every tile says &ldquo;Contact us to buy&rdquo;",
+   "The cancellation fee is the full remaining balance, with none of the 3% discount consumer contracts get",
+   "Each SIM can carry its own cancellation fee, so ten lines with a year left is &pound;2,640 ex-VAT to exit",
+   "The annual rise doubles from 75p to &pound;1.50 for one penny of monthly charge, at the &pound;20.01 band edge",
+   "Which shared-data price buys which allowance is not published &mdash; Three's own guide says ring 337",
+   "Recurring shared-data allowances cannot be rolled over, so quiet months are wasted",
+   "Out-of-allowance data at 1p per MB is about &pound;10 a GB",
+   "No international calling bundle is published at any price",
+   "Three Device Management, Mobile Protect and Analyst are named with no pricing, and Mobile Protect stops at 25 devices",
+   "Three does not deploy standalone 5G, per Ofcom's Connected Nations 2025",
+   "One advertised business price shows a &pound;10.75 year-two step that cannot be the published &pound;1.50 rise"
+  ],
+  "verdict": "On the numbers Three is a strong business network sold badly. Ofcom&rsquo;s own 2025 measurement made it the fastest operator on 5G, with the best latency and the highest share of connections above 50 Mbit/s, and its complaint rate sits on the industry average. At &pound;11 a month ex-VAT for 3GB or &pound;22 for unlimited on 24 months, the prices are competitive. The problem is that you cannot see any of them without a phone call, because all fifteen plan tiles on Three&rsquo;s business page are blank where the price should be, and the real rates sit in a PDF price guide instead. Two clauses deserve attention before signing: the cancellation fee is the full remaining balance with none of the 3% discount consumer contracts receive, and it can apply per SIM, so an early exit on a fleet runs into four figures. Go in with the price table from this page, ask for the year-two and year-three figures in writing, and check which band your monthly charge lands in &mdash; one penny either side of &pound;20 doubles the annual increase.",
+  "faqs": [
+   {
+    "q": "How much is a Three business SIM?",
+    "a": "<p>On 24 months, ex-VAT: &pound;11 for 3GB, &pound;14 for 25GB, &pound;15 for 80GB, &pound;19 for 500GB and &pound;22 for unlimited, all with unlimited minutes and texts. Twelve-month and one-month terms cost more. Those figures come from Three&rsquo;s Business Price Guide effective 21 May 2026, because its business SIM page shows no prices at all.</p>"
+   },
+   {
+    "q": "Why does Three's business page not show prices?",
+    "a": "<p>We do not know why, only that it does not. All fifteen plan tiles carry &ldquo;Contact us to buy&rdquo; or &ldquo;Buy now&rdquo; and leave the &ldquo;Increasing to:&rdquo; field blank. The only figure on the page is a banner claiming single SIMs from &ldquo;just &pound;9 a month&rdquo;, which matches none of the published plans. The prices are in the Business Price Guide PDF.</p>"
+   },
+   {
+    "q": "What does it cost to leave a Three business contract early?",
+    "a": "<p>The full total of your remaining monthly charges. Three&rsquo;s business worked example is &pound;25 a month with six months left, giving &pound;150. A consumer contract would get a 3% discount on that; a business one does not. The price guide also states each SIM may carry its own fee, so the cost scales with the size of your fleet.</p>"
+   },
+   {
+    "q": "Do Three's business prices include VAT?",
+    "a": "<p>No. Three states that all prices in its Business Price Guide exclude VAT. Add 20% if you cannot reclaim it &mdash; the &pound;22 unlimited plan is &pound;26.40 inclusive. Note that Three quotes its advertised savings ex-VAT too.</p>"
+   },
+   {
+    "q": "How much will the price go up each April?",
+    "a": "<p>A fixed amount set by band, ex-VAT: 50p if your monthly charge is &pound;9.99 or less, 75p from &pound;10 to &pound;20, and &pound;1.50 from &pound;20.01 up. Three Business Adapt and Dynamic rise by 4.5% instead. Watch the band edge &mdash; a penny takes you from 75p to &pound;1.50 a month.</p>"
+   },
+   {
+    "q": "Is the Three network good enough for business use?",
+    "a": "<p>On Ofcom&rsquo;s own 2025 measurement, yes. Three had the fastest 5G download times of any operator, 0.8 seconds for a 10MB file against EE&rsquo;s 1.4, the best 5G latency, and the highest share of 5G connections at 50 Mbit/s or more at 75%. Two caveats: Three has switched off 3G entirely, so there is no fallback for older devices, and Ofcom notes it does not deploy standalone 5G.</p>"
+   }
+  ]
+ },
+ {
+  "slug": "three-new-phone-contract",
+  "title": "Three New Phone Contract",
+  "meta_title": "Three Phone Contracts: What the Price Rises to in Year Three",
+  "meta_description": "Three now prints the rise on the tile: £23 becomes £25.30 then £27.60. The plan tiers, the fixed annual increase and the roaming charge that went up 38%.",
+  "checked": "8 October 2026",
+  "headline": {
+   "label": "Cheapest 24-month SIM only",
+   "value": "&pound;13 a month &mdash; 4GB Lite, rising &pound;1.80 each April"
+  },
+  "disclosure": "we have no affiliate arrangement with Three and earn nothing if you sign up with them. The link on this page goes to Three&rsquo;s own site. We list Three because it is one of the networks in this category, not because it pays us.",
+  "intro": "<p>Three now tells you what your bill becomes. Its cheapest advertised unlimited SIM reads &ldquo;<strong>&pound;23.00 per month, increasing to &pound;25.30 from 1 Apr27, &pound;27.60 from 1 Apr28</strong>&rdquo; &mdash; printed on the tile, in pounds and pence, before you click. That is <strong>&pound;2.30 a year</strong>, and it is a flat amount rather than an inflation percentage.</p><p>It is a genuine improvement. Three&rsquo;s older contracts rose by <strong>December CPI plus 3.9%</strong>, which for April 2026 meant <strong>7.3%</strong> &mdash; a figure nobody could have forecast when they signed. The fixed-amount system replaced it for anyone joining or upgrading from <strong>9 November 2025</strong>, and it means the 24-month cost of a contract is now arithmetic rather than a guess.</p><p>The cheapest 24-month SIM only is <strong>&pound;13</strong> for 4GB on the Lite tier. Below, the full published grid, what the three tiers actually differ on, and the one number that went up <strong>38%</strong> this April while nobody was looking.</p>",
+  "sections": [
+   {
+    "heading": "The fixed annual rise, by band",
+    "html": "<p>For anyone who joined or upgraded on or after 9 November 2025, the April increase is a set amount tied to your plan&rsquo;s data allowance:</p><ul><li><strong>Up to and including 4GB</strong> &mdash; <strong>&pound;1.80</strong> a month</li><li><strong>Over 4GB and under 100GB</strong> &mdash; <strong>&pound;1.90</strong></li><li><strong>100GB and above, including Unlimited</strong> &mdash; <strong>&pound;2.30</strong></li><li>Home Broadband, all tariffs &mdash; <strong>&pound;3.50</strong></li><li>Smartwatch pairing &mdash; <strong>&pound;1.80</strong></li></ul><p>Three states it applies &ldquo;from 1st April 2026 and onwards&rdquo;, calculates to two decimal places and rounds up to the nearest penny, and excludes device payments, add-ons and out-of-bundle charges.</p><p>Notice what the bands do to small plans. A <strong>&pound;13</strong> 4GB plan rising <strong>&pound;1.80</strong> is a <strong>13.8%</strong> increase. A <strong>&pound;29</strong> unlimited plan rising <strong>&pound;2.30</strong> is <strong>7.9%</strong>. The flat-amount system is fairer than a percentage in absolute terms and considerably less fair in proportional ones &mdash; the cheapest plans take the biggest percentage hit, every April.</p><p>If you joined between <strong>1 November 2022 and 7 September 2024</strong> you are still on the old rule: December CPI plus 3.9%, which came to <strong>7.3%</strong> for April 2026 off a December 2025 CPI of <strong>3.4%</strong>. And the underlying network terms carry a third mechanism again &mdash; an annual increase &ldquo;by an amount up to the <strong>RPI Rate</strong>&rdquo;, taken from January RPI and appearing on the May bill, with no rise at all if RPI is negative. Three has three price-rise regimes running side by side; check which one your contract names.</p>"
+   },
+   {
+    "heading": "The published grid, and what the tiers really buy",
+    "html": "<p>Three&rsquo;s own price guide, effective 27 August 2026, for plans joined or upgraded from 18 April 2026. Unlimited minutes and texts throughout. 24-month SIM only:</p><table class=\"cmp\"><thead><tr><th>Tier</th><th>4GB</th><th>12GB</th><th>30GB</th><th>120GB</th><th>250GB</th><th>Unlimited</th></tr></thead><tbody><tr><td><strong>Lite</strong></td><td>&pound;13</td><td>&pound;14</td><td>&pound;15</td><td>&pound;16</td><td>&pound;23</td><td>&pound;29</td></tr><tr><td><strong>Value</strong></td><td>&pound;18</td><td>&pound;19</td><td>&pound;20</td><td>&pound;21</td><td>&pound;28</td><td>&pound;34</td></tr><tr><td><strong>Complete</strong></td><td>&pound;23</td><td>&pound;24</td><td>&pound;25</td><td>&pound;26</td><td>&pound;33</td><td>&pound;39</td></tr></tbody></table><p>Twelve-month terms cost <strong>&pound;2</strong> more a month across the board; one-month rolling costs <strong>&pound;7</strong> more on 4GB and <strong>&pound;7</strong> more on unlimited.</p><p>The tier difference that is actually published is <strong>roaming</strong>. <strong>Lite</strong> includes inclusive roaming in <strong>Go Roam in Europe only</strong>. <strong>Value</strong> and <strong>Complete</strong> include all three Go Roam bands &mdash; Europe, Around the World and Around the World Extra. There is also a <strong>Lite+</strong> on unlimited only, at <strong>&pound;33</strong>, which is Lite plus the Full Speed add-on.</p><p>That last point matters more than the price gap suggests, because the advertised Lite plans carry a stated cap of <strong>&ldquo;speeds of up to 100Mbps&rdquo;</strong>. Lite+ exists to remove it. So on Three&rsquo;s cheapest tier you are buying a speed-limited service, and the &pound;4 step from &pound;29 to &pound;33 is what full network speed costs.</p><p>Every headline price also includes a <strong>&pound;5 discount for paying by a recurring method</strong> such as Direct Debit. Pay another way and add &pound;5 to each figure above.</p>"
+   },
+   {
+    "heading": "The roaming charge that rose 38%",
+    "html": "<p>Three&rsquo;s Go Roam daily charges went up this April, and by considerably more than any plan price. For anyone who joined on or after <strong>18 December 2025</strong>, from 1 April 2026:</p><table class=\"cmp\"><thead><tr><th>Band</th><th>Was</th><th>Now</th><th>Change</th></tr></thead><tbody><tr><td>Europe, 49 destinations</td><td>&pound;2.00</td><td><strong>&pound;2.75</strong></td><td>+38%</td></tr><tr><td>Around the World, 22</td><td>&pound;5.00</td><td><strong>&pound;8.00</strong></td><td>+60%</td></tr><tr><td>Around the World Extra, 92</td><td>&pound;7.00</td><td><strong>&pound;8.00</strong></td><td>+14%</td></tr></tbody></table><p>The charge unlocks your UK allowance for 24 hours. Three also states that these daily charges &ldquo;rise each 1 April by CPI plus 3.9%&rdquo; &mdash; so while your plan price now rises by a fixed amount, your roaming still rises by an index. A fortnight in Spain is <strong>&pound;38.50</strong> at &pound;2.75 a day, and that is on top of the plan.</p><p>Two exclusions worth knowing: the <strong>Republic of Ireland and the Isle of Man</strong> carry no daily charge, and anyone on a Pay Monthly plan started <strong>before 1 October 2021</strong> pays nothing either. Value and Complete tiers include the passes; Lite and the older Advanced plans do not.</p><p>Then the fair use cap, which catches people out. Pay Monthly customers can use up to <strong>12GB of data per month</strong> in any Go Roam destination, whatever their UK allowance. Beyond that Three charges a surcharge of <strong>0.3p per MB</strong> &mdash; about <strong>&pound;3 a GB</strong> &mdash; and the terms allow Three to block roaming data for the rest of the billing period. Exceed the limit in any <strong>two months within a rolling twelve</strong> and Three may suspend international roaming altogether. An &ldquo;unlimited&rdquo; plan is a 12GB plan the moment you land abroad.</p>"
+   },
+   {
+    "heading": "Handset deals: two contracts, not one",
+    "html": "<p>Three splits a phone contract in two, and says so clearly: &ldquo;Your device plan is separate to your airtime plan&hellip; They&rsquo;re 2 different contracts, so you&rsquo;ll see two separate direct debits on your bank statement.&rdquo; On your statement they appear as <strong>H3G</strong> for airtime and <strong>H3GDEVICEPAYMENT</strong> for the handset.</p><p>The split works in your favour at the end. Device plans run over <strong>12, 24 or 36 months</strong> at <strong>0% APR</strong>, and &ldquo;once your device is fully paid off, your direct debit will stop automatically&rdquo;. You then pay airtime only. That is the opposite of the old bundled model, where the handset cost stayed in the price indefinitely unless you noticed.</p><p>You can also <strong>repay a device plan in full at any time</strong>, and overpaying either lowers the monthly amount over the same term or shortens the term &mdash; your choice.</p><p>The trap is the mirror image: <strong>cancelling your airtime does not cancel the device plan.</strong> Three states it plainly &mdash; &ldquo;your device plan will not be cancelled&rdquo;. Switch network with a handset still being paid off and you keep paying Three for the phone while paying someone else for the service.</p><p>Airtime rates on handset plans run from <strong>&pound;18</strong> for 5GB Lite to <strong>&pound;31</strong> for unlimited Lite on 24 months, with Value and Complete &pound;5 and &pound;10 above that respectively.</p>"
+   },
+   {
+    "heading": "Leaving early, and leaving on time",
+    "html": "<p>The cancellation fee is &ldquo;a lump sum equivalent to the total of the Monthly Charges remaining during the Minimum Term&rdquo;, <strong>less a variable discount, currently 3%</strong>. Three&rsquo;s worked example: &pound;25 a month with six months left is &pound;150, minus &pound;4.50, so <strong>&pound;145.50</strong>.</p><p>At or after the end of the minimum term there is no fee at all. The terms give you the right to end the agreement &ldquo;at the end of your Minimum Term or any time after your Minimum Term has expired&rdquo; on at least <strong>30 days&rsquo;</strong> notice.</p><p>One thing Three does <em>not</em> do is drop your price when the term ends. The contractual rate simply continues, so a 24-month plan that has absorbed two April increases keeps charging the higher figure until you act. On the &pound;23 unlimited example, that is <strong>&pound;27.60</strong> a month indefinitely for a contract you are free to leave.</p>"
+   },
+   {
+    "heading": "Cheaper inside the same group, and the tariffs a regulator froze",
+    "html": "<p>Three has <strong>no social tariff of its own</strong>. Its financial support page sends you to <strong>SMARTY</strong>, a sibling brand in the same group, for &ldquo;a low-cost, unlimited, 1-month plan for those who need it most&rdquo;, available to people on any of five income-related benefits including Universal Credit and Pension Credit. SMARTY prices it at <strong>&pound;12 a month</strong> for unlimited data on a rolling one-month plan with no credit check and a 12GB fair use limit. Three is not listed on Ofcom&rsquo;s own social tariff page.</p><p>There is a second reason to look at the sibling brands. When the <strong>CMA</strong> cleared the Vodafone and Three merger on <strong>5 December 2024</strong>, it did so subject to legally binding commitments, with final undertakings accepted on <strong>28 March 2025</strong>. Those undertakings <strong>cap specific tariffs for three years</strong>, and they name them:</p><ul><li>Three Pay Monthly SIM only, <strong>&pound;14 for 25GB</strong>, 24 months</li><li>Three Pay Monthly SIM only, <strong>&pound;16 for 120GB</strong>, 24 months</li><li>SMARTY social tariff, <strong>&pound;12</strong>, unlimited data, rolling monthly</li><li>VOXI, <strong>&pound;10</strong> for 20GB, rolling 30 days</li></ul><p>Both Three tariffs appear in its price guide at exactly those prices, both flagged as half price for the first six months. What Three <em>advertises</em> on its SIM page, though, is &pound;11 for 30GB and &pound;8 (was &pound;16) for 120GB &mdash; and a 30GB plan at &pound;11 is not one of the protected ones. If you want the tariff with a regulator standing behind its price for three years, ask for the <strong>25GB at &pound;14</strong> or the <strong>120GB at &pound;16</strong> by name.</p>"
+   },
+   {
+    "heading": "Where Three falls short",
+    "html": "<p><strong>Three price-rise regimes at once.</strong> A fixed amount for post-November-2025 joiners, CPI plus 3.9% for a 2022&ndash;2024 cohort, and an RPI clause in the underlying network terms. Working out which applies to you means reading your own contract date, not the website.</p><p><strong>The cheapest tier is speed-capped.</strong> Lite plans state &ldquo;speeds of up to 100Mbps&rdquo;, and removing the cap means Lite+ at &pound;33 on unlimited. A 5G network sold with a 100Mbps ceiling is a smaller product than the marketing suggests.</p><p><strong>Roaming rose far faster than plans.</strong> Around the World went from &pound;5 to &pound;8 a day, up 60%, and roaming charges still rise by CPI plus 3.9% even for customers whose plan price now rises by a fixed amount.</p><p><strong>Unlimited means 12GB abroad.</strong> The fair use cap applies regardless of your UK allowance, with a 0.3p per MB surcharge beyond it and the contractual right to block your data or suspend roaming entirely after two breaches in a year.</p><p><strong>No 3G fallback.</strong> Three has switched off 3G completely, so an older handset that drops out of 4G coverage has nothing to fall back to.</p><p><strong>No standalone 5G.</strong> Ofcom&rsquo;s Connected Nations 2025 states that &ldquo;Three does not currently deploy 5G SA services&rdquo;.</p><p><strong>And the price does not fall when your term ends.</strong> You keep paying the escalated rate until you ring up.</p>"
+   }
+  ],
+  "key_facts": [
+   {
+    "label": "Cheapest 24-month SIM only",
+    "value": "&pound;13 a month &mdash; 4GB Lite, unlimited minutes and texts"
+   },
+   {
+    "label": "Unlimited data, 24 months",
+    "value": "&pound;29 Lite, &pound;33 Lite+, &pound;34 Value, &pound;39 Complete"
+   },
+   {
+    "label": "Annual rise, 4GB and under",
+    "value": "&pound;1.80 a month &mdash; 13.8% on a &pound;13 plan"
+   },
+   {
+    "label": "Annual rise, 100GB and over",
+    "value": "&pound;2.30 a month &mdash; 7.9% on a &pound;29 plan"
+   },
+   {
+    "label": "Older cohort rise",
+    "value": "December CPI plus 3.9% &mdash; 7.3% for April 2026"
+   },
+   {
+    "label": "Lite speed cap",
+    "value": "Up to 100Mbps; Lite+ at &pound;33 removes it"
+   },
+   {
+    "label": "Recurring payment discount",
+    "value": "&pound;5 a month, already inside the advertised prices"
+   },
+   {
+    "label": "Roaming, Europe",
+    "value": "&pound;2.75 a day, up from &pound;2.00 &mdash; a 38% rise"
+   },
+   {
+    "label": "Roaming, Around the World",
+    "value": "&pound;8.00 a day, up from &pound;5.00 &mdash; a 60% rise"
+   },
+   {
+    "label": "Roaming fair use",
+    "value": "12GB a month whatever your UK allowance, then 0.3p/MB"
+   },
+   {
+    "label": "Roaming suspension",
+    "value": "Two breaches in a rolling 12 months and Three may suspend roaming"
+   },
+   {
+    "label": "Device plans",
+    "value": "12, 24 or 36 months at 0% APR; the direct debit stops when it is paid off"
+   },
+   {
+    "label": "Cancelling airtime",
+    "value": "Does not cancel the device plan &mdash; you keep paying for the handset"
+   },
+   {
+    "label": "Cancellation fee",
+    "value": "Remaining monthly charges less a 3% discount &mdash; &pound;145.50 on Three&rsquo;s own example"
+   },
+   {
+    "label": "CMA-capped Three tariffs",
+    "value": "&pound;14 for 25GB and &pound;16 for 120GB, 24 months, frozen for three years"
+   },
+   {
+    "label": "Social tariff",
+    "value": "None from Three; it points to SMARTY at &pound;12 unlimited"
+   },
+   {
+    "label": "Legal entity",
+    "value": "Hutchison 3G UK Limited, company 03885486, now part of VodafoneThree"
+   }
+  ],
+  "pros": [
+   "The annual rise is printed on the tile in pounds and pence &mdash; &pound;23 becomes &pound;25.30 then &pound;27.60",
+   "A fixed-amount increase replaced CPI plus 3.9%, so a 24-month cost is now arithmetic rather than a forecast",
+   "&pound;13 a month for 4GB on 24 months, with unlimited minutes and texts on every plan",
+   "Device and airtime are separate contracts, and the device direct debit stops automatically once it is paid off",
+   "A device plan can be repaid in full at any time, at 0% APR, shortening either the payment or the term",
+   "One, twelve and twenty-four month SIM-only terms all exist, so a rolling option is genuinely available",
+   "No cancellation fee at or after the end of the minimum term, on 30 days' notice",
+   "Republic of Ireland and Isle of Man carry no daily roaming charge",
+   "Two Three tariffs have prices frozen by binding CMA undertakings for three years &mdash; &pound;14 for 25GB and &pound;16 for 120GB"
+  ],
+  "cons": [
+   "Three different price-rise mechanisms run side by side, and which applies depends on your contract date",
+   "The fixed rise hits cheap plans hardest &mdash; 13.8% on a &pound;13 plan against 7.9% on a &pound;29 one",
+   "Lite plans are capped at &ldquo;up to 100Mbps&rdquo;, and removing the cap costs &pound;4 more on Lite+",
+   "Europe roaming rose 38% to &pound;2.75 a day and Around the World 60% to &pound;8.00",
+   "Roaming charges still rise by CPI plus 3.9% even though plan prices no longer do",
+   "Unlimited plans are capped at 12GB a month abroad, then 0.3p per MB, about &pound;3 a GB",
+   "Two fair-use breaches in a rolling year and Three may suspend international roaming entirely",
+   "Cancelling your airtime does not cancel the handset plan &mdash; you keep paying for the phone",
+   "Your price does not drop when the minimum term ends; the escalated rate continues until you act",
+   "3G is switched off, so older handsets have no fallback below 4G",
+   "Three has no social tariff of its own and is not listed on Ofcom's social tariff page"
+  ],
+  "verdict": "Three has done something most networks have not, and it deserves credit for it: the annual increase is now a flat amount in pounds printed on the tile before you buy, so a 24-month contract has a knowable total. &pound;13 for 4GB or &pound;29 for unlimited on 24 months is competitive, the device and airtime split means the handset cost genuinely falls away when it is paid off, and two tariffs have prices frozen by binding CMA undertakings until the Year 3 milestone &mdash; ask for the 25GB at &pound;14 or the 120GB at &pound;16 by name, because the plans advertised on the front page are not the protected ones. Three things to go in knowing. The cheapest tier is speed-capped at 100Mbps and Lite+ at &pound;33 is what removes it. Roaming rose far faster than plans this April, up 38% in Europe and 60% for the rest of the world, and it still escalates by CPI plus 3.9% while your plan does not. And an unlimited plan becomes a 12GB plan the moment you leave the country. If you mostly use your phone in the UK and want a bill you can predict for two years, this is a strong contract. If you travel often, price the roaming separately before you compare the headline.",
+  "faqs": [
+   {
+    "q": "How much will my Three bill go up each year?",
+    "a": "<p>If you joined on or after 9 November 2025, by a fixed amount: &pound;1.80 a month on plans up to 4GB, &pound;1.90 between 4GB and 100GB, and &pound;2.30 on 100GB and above including unlimited. Three prints the result on the plan tile &mdash; a &pound;23 plan becomes &pound;25.30 and then &pound;27.60. Older contracts from 2022 to 2024 still rise by December CPI plus 3.9%, which was 7.3% this April.</p>"
+   },
+   {
+    "q": "Is Three's unlimited data really unlimited abroad?",
+    "a": "<p>No. Pay Monthly customers get up to 12GB a month in any Go Roam destination regardless of their UK allowance, then a surcharge of 0.3p per MB, roughly &pound;3 a GB. Three can block your roaming data for the rest of the billing period, and if you exceed the limit in any two months within a rolling twelve it can suspend international roaming altogether.</p>"
+   },
+   {
+    "q": "What happened to Three's roaming charges?",
+    "a": "<p>They rose on 1 April 2026 for anyone who joined from 18 December 2025. Europe went from &pound;2.00 to &pound;2.75 a day, up 38%; Around the World from &pound;5.00 to &pound;8.00, up 60%; Around the World Extra from &pound;7.00 to &pound;8.00. Republic of Ireland and the Isle of Man remain free, as does roaming on plans started before 1 October 2021.</p>"
+   },
+   {
+    "q": "If I leave Three, do I still pay for my phone?",
+    "a": "<p>Yes, if it is not paid off. Three keeps the device plan and the airtime plan as two separate contracts with two separate direct debits, and states that cancelling the airtime means &ldquo;your device plan will not be cancelled&rdquo;. You can settle the device in full at any time at 0% APR, and once it is paid the direct debit stops automatically.</p>"
+   },
+   {
+    "q": "Which Three plans have prices protected by the regulator?",
+    "a": "<p>Two, named in the CMA's final undertakings of 28 March 2025: a Pay Monthly SIM only at &pound;14 for 25GB over 24 months, and one at &pound;16 for 120GB over 24 months, both capped until the Year 3 network milestone. SMARTY's &pound;12 unlimited social tariff and VOXI's &pound;10 20GB plan are capped too. Note Three's front page advertises &pound;11 for 30GB, which is not a protected tariff.</p>"
+   },
+   {
+    "q": "Does my price come down when the contract ends?",
+    "a": "<p>No. The contractual rate continues until you do something about it, so a plan that has taken two April rises keeps charging the higher amount. You have the right to leave at or after the end of the minimum term with 30 days' notice and no fee, but you have to exercise it.</p>"
+   }
+  ]
+ },
+ {
   "slug": "total-car-check",
   "title": "Total Car Check Review: A £9.99 Report and a Free One That Is Genuinely Free",
   "meta_title": "Total Car Check Review: What £9.99 and the Free Check Show",
