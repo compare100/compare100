@@ -54,7 +54,7 @@
 
 - [Aviva Life Insurance](https://compare100.com/aviva-life-insurance/): Aviva life insurance from £5 a month, ages 18 to 77, terms to 50 years. Premiums, terminal illness cover, the 8% mortgage assumption and claims, Octob
 - [Legal & General Life Insurance](https://compare100.com/legal-general-life-insurance/): Legal & General life cover from £5 a month, £527m of life claims paid in 2025, and what the health questions really decide. Limits, evidence rules and
-- [MyMoneyComparison.com Life Insurance](https://compare100.com/mymoneycomparison-com-life-insurance/): MyMoneyComparison.com: UK life insurance comparison. Best deals on term, whole-of-life & critical illness. Save up to £150. Compare today!
+- [MyMoneyComparison.com Life Insurance](https://compare100.com/mymoneycomparison-com-life-insurance/): MyMoneyComparison.com Ltd is FCA authorised under number 916241, says it does not sell insurance or give advice, and hands your quote to Seopa Ltd.
 - [Vavista Life Insurance](https://compare100.com/vavista-life-insurance/): Vavista Life Insurance: Tailored UK protection. Term life & critical illness cover. Health-focused with wellness benefits. Compare today!
 - [Zurich Life Insurance](https://compare100.com/zurich-life-insurance/): Explore Zurich Life Insurance for UK residents in 2025. Flexible policies, high payouts, and trusted support. Compare deals at Compare100.com
 
@@ -171,7 +171,7 @@
 - [Airport Lounges Airport Lounge](https://compare100.com/airport-lounges-airport-lounge/): Pre-booked UK airport lounge entry runs £29.99 to £64 an adult. What Airport Lounges sells, who runs the rooms, and the booking rules that decide refu
 - [DragonPass Airport Lounge](https://compare100.com/dragonpass-airport-lounge/): DragonPass Airport Lounge: 1300+ lounges, membership from £68. Includes dining/spa perks. Compare on Compare100.com.
 - [LoungeKey Airport Lounge](https://compare100.com/loungekey-airport-lounge/): A LoungeKey visit costs £18.50 to £24 per person and your bank sets the price, against £38 to £48 at the desk. Who runs it and what the contract says.
-- [Loungepass.com Airport Lounge](https://compare100.com/loungepass-com-airport-lounge/): Loungepass.com Airport Lounge: Access 600+ lounges from £18.50. Instant, no membership. Compare on Compare100.com.
+- [Loungepass.com Airport Lounge](https://compare100.com/loungepass-com-airport-lounge/): Lounge Pass sells single airport lounge visits from Priority Pass itself, with no membership. The catch for UK buyers: every price is quoted in US dol
 - [Priority Pass Airport Lounge](https://compare100.com/priority-pass-airport-lounge/): Priority Pass Airport Lounge: 1500+ lounges, memberships from £69. Pay-per-visit options. Elevate travel. Compare on Compare100.com.
 
 #### Airport Parking
@@ -181,14 +181,14 @@
 - [Airport Parking Shop Airport Parking](https://compare100.com/airport-parking-shop-airport-parking/): Manchester parking at £4.82 a day and Gatwick at £7.20 on 24 September 2026. The eight brokers behind the results, the cancellation fees and who you p
 - [Holiday Extras Airport Parking](https://compare100.com/holiday-extras-airport-parking/): What Holiday Extras airport parking costs at Gatwick and Heathrow, how its three fare types differ, and what a cancellation voucher is really worth.
 - [Looking4Parking Airport Parking](https://compare100.com/looking4parking-airport-parking/): Looking4Parking Airport Parking: From £3.50/day. Secure, 60% off. Best Price Guarantee. Compare deals on Compare100.com.
-- [Park and Go Airport Parking](https://compare100.com/park-and-go-airport-parking/): Park and Go Airport Parking: From £3/day, 20+ airports. Secure, price promise. Save 60%. Compare on Compare100.com.
+- [Park and Go Airport Parking](https://compare100.com/park-and-go-airport-parking/): Park and Go is a booking agent for 70-odd UK airport car parks. We priced eight days at Heathrow at £81 keeping your own keys, and read the small prin
 - [Purple Parking Airport Parking – Compare Park & Ride vs Meet and Greet](https://compare100.com/purple-parking-airport-parking/): Purple Parking covers 31 UK airports and ports, with Gatwick parking from £33.75 a week. Who you really book with, what it costs, and the terms that b
 
 #### Campsites and Resorts
 
 - [Campsites.co.uk Campsites and Resorts](https://compare100.com/campsites-co-uk-campsites-and-resorts/): Campsites.co.uk Campsites and Resorts: UK outdoor escapes. 4,000+ sites. Tents, glamping. Showers. Best Price Guarantee. Compare now!
 - [Eurocamp Campsites and Resorts](https://compare100.com/eurocamp-campsites-and-resorts/): Eurocamp: Family holidays in Europe. 180+ resorts. Mobile homes, glamping. Pools, activities. Create memories. Compare deals!
-- [Gusto Camp Campsites and Resorts](https://compare100.com/gusto-camp-campsites-and-resorts/): Gusto Camp Campsites and Resorts: UK luxury camping. 40+ Europe resorts. Mobile homes. Pools. Compare deals!
+- [Gusto Camp Campsites and Resorts](https://compare100.com/gusto-camp-campsites-and-resorts/): Gustocamp rents luxury mobile homes at Italian campsites for a 20% deposit. It sells no travel, holds no ATOL, and charges the full cost from 28 days 
 - [Hipcamp Campsites and Resorts](https://compare100.com/hipcamp-campsites-and-resorts/): Hipcamp Campsites & Resorts: UK outdoor stays. 300,000+ sites worldwide. Private land, fire pits, pet-friendly. Photos, reviews. Compare now!
 - [Pitchup Campsites and Resorts](https://compare100.com/pitchup-campsites-and-resorts/): Pitchup.com lists 6,371 campsites and holiday parks, charges campers no booking fee and takes a 15% deposit. What its rate parity rule means for your 
 
@@ -197,7 +197,7 @@
 - [Google Flights Cheap Flights](https://compare100.com/google-flights-cheap-flights/): Google Flights: Fast, smart search for cheap flights. Compare fares, track trends, set alerts. Find deals on Compare100.com.
 - [Kayak Cheap Flights](https://compare100.com/kayak-cheap-flights/): Kayak Cheap Flights: Award-winning search. Compare fares, use Price Forecast & Explore tools. Find deals on Compare100.com.
 - [Momondo Cheap Flights](https://compare100.com/momondo-cheap-flights/): Momondo Cheap Flights: Compare millions of fares. Best prices, Price Calendar, Flight Insight. Compare on Compare100.com.
-- [Secret Flight Club Cheap Flights](https://compare100.com/secret-flight-club-cheap-flights/): Secret Flight Club: Save up to 81% on hidden, mistake & flash fares. Get personalized flight alerts. Compare deals on Compare100.com.
+- [Secret Flight Club Cheap Flights](https://compare100.com/secret-flight-club-cheap-flights/): Secret Flight Club emails flight deals for £36 a year after a 7-day trial. It books nothing itself, renews with no notice and refunds nothing.
 - [Skyscanner Cheap Flights](https://compare100.com/skyscanner-cheap-flights/): Skyscanner Cheap Flights: Leading platform for best prices. Track drops, explore anywhere. No hidden fees. Compare deals on Compare100.com.
 
 #### Ferry Tickets
@@ -232,8 +232,8 @@
 - [HotelPlanner Hotels](https://compare100.com/hotelplanner-hotels/): HotelPlanner lists London rooms from $60 and puts its average three-star London group rate at $111.36. How the bidding works, and what the terms say.
 - [Hotels.com Hotels](https://compare100.com/hotels-com-hotels/): Hotels.com Hotels: 435K+ properties. Rewards (10 nights get 1 free), free cancellations, price match. Book on Compare100.com.
 - [LateRooms.com – Last-Minute Hotel Deals](https://compare100.com/laterooms-hotel-deals/): LateRooms lists UK rooms from £18 a night and London from £34, and free membership cuts up to 15% more. Prices and small print, checked 19 September 2
-- [Luxury Escapes – Exclusive Hotel Deals](https://compare100.com/luxury-escapes-exclusive-hotel-deals/): Luxury Escapes Hotel Deals: Curated luxury, up to 70% off members. Spa, dining, upgrades. Plan dream getaway on Compare100.com.
-- [Trip.com – Global Hotel Deals](https://compare100.com/trip-com-global-hotel-deals/): Trip.com Global Hotel Deals: Book hotels, flights, trains. 1.4M+ hotels, 24/7 support. Price guarantee. Compare on Compare100.com.
+- [Luxury Escapes – Exclusive Hotel Deals](https://compare100.com/luxury-escapes-exclusive-hotel-deals/): Luxury Escapes shows member and non-member prices openly, from £219 for two nights. It says it is ATOL protected but publishes no ATOL number we could
+- [Trip.com – Global Hotel Deals](https://compare100.com/trip-com-global-hotel-deals/): Trip.com holds ATOL 11572 for flight-only sales through a UK company. Hotels run under Singapore law, and we found London, Kentucky in the results.
 
 #### Train Tickets
 
@@ -341,7 +341,7 @@
 - [E.ON Next Dual Fuel](https://compare100.com/e-on-next-dual-fuel/): E.ON Next Dual Fuel: UK households. Energy from £82/month. 100% renewable, carbon-neutral gas. Smart meters, digital app. Compare deals!
 - [EDF Energy Dual Fuel](https://compare100.com/edf-energy-dual-fuel/): EDF Energy Dual Fuel: UK households 2025. Gas & electricity from £88/month. Low-carbon, 100% renewable. Smart meters. Compare now!
 - [Octopus Energy Dual Fuel](https://compare100.com/octopus-energy-dual-fuel/): Octopus Energy Dual Fuel: UK households 2025. Gas & electricity from £80/month. 100% renewable, flexible tariffs, smart meters. Compare now!
-- [Utility Warehouse Dual Fuel](https://compare100.com/utility-warehouse-dual-fuel/): Utility Warehouse Dual Fuel: UK households 2025. Energy, broadband, mobile from £85/month. Cashback card. Simplify bills. Compare now!
+- [Utility Warehouse Dual Fuel](https://compare100.com/utility-warehouse-dual-fuel/): UW publishes a real dual-fuel discount: £12.38 a year per fuel off the standing charge. But only on its fixed tariffs, and the exit fee is £75 per fue
 
 #### Electricity
 
@@ -359,7 +359,7 @@
 - [Octopus Energy Gas](https://compare100.com/octopus-energy-gas/): Octopus gas is priced against a cap of 7.97p a kWh and 29.68p a day from 1 October 2026. Three tariffs carry gas, and the standing charge is the conte
 - [SSE Gas](https://compare100.com/sse-gas/): SSE Gas: UK households. Gas from £36/month. Fixed-rate, green energy. Smart meters, app. Sustainability Focus Compare now!
 - [So Energy Gas](https://compare100.com/so-energy-gas/): So Energy Gas: UK households. Gas from £34/month. 100% renewable, smart meters. Flexible tariffs. Compare now!
-- [Utility Warehouse Gas](https://compare100.com/utility-warehouse-gas/): Utility Warehouse Gas: UK households. Gas solution from £37/month. Cashback card, simplified bills. Green energy, smart meters. Compare now!
+- [Utility Warehouse Gas](https://compare100.com/utility-warehouse-gas/): UW's variable gas discount is 10.230p a day off the standing charge and nothing off the unit rate, identical on Value, Gold and Double Gold in all 14 
 
 #### Satellite Internet
 
@@ -435,11 +435,11 @@
 #### Vehicle Parts
 
 - [AutoDoc Vehicle Parts](https://compare100.com/autodoc-vehicle-parts/): Brake pads for a Fiesta from £18.49, delivery £8.45 or £1.90 over £130, and 7.8m parts. Who you really buy from, and what a return to Berlin costs you
-- [Buy Car Parts Vehicle Parts](https://compare100.com/buy-car-parts-vehicle-parts/): Buy Car Parts Vehicle Parts: UK. 1.5M+ auto components from £8. Brakes, filters, suspension. Free delivery. Easy matching. Compare now!
-- [EBC Brakes Vehicle Parts](https://compare100.com/ebc-brakes-vehicle-parts/): EBC Brakes Vehicle Parts: UK high-performance components. Pads & discs from £20. Cars, vans, bikes. Enhanced stopping power. Compare now!
+- [Buy Car Parts Vehicle Parts](https://compare100.com/buy-car-parts-vehicle-parts/): Buycarparts.co.uk lists five million parts and charges £8.45 delivery. The seller is AUTODOC SE in Berlin, there is no UK company and no phone number.
+- [EBC Brakes Vehicle Parts](https://compare100.com/ebc-brakes-vehicle-parts/): EBC makes brakes in Northampton and says plainly which products are ECE R90 approved for UK roads and which are not. Warranty: 12 months or 10,000 mil
 - [Euro Car Parts Vehicle Parts](https://compare100.com/euro-car-parts-vehicle-parts/): Euro Car Parts Vehicle Parts: UK drivers. 130K+ parts from £5. Free UK delivery, click-and-collect. Top brands. Quality & reliability.
-- [Online Car Parts UK Vehicle Parts](https://compare100.com/online-car-parts-uk-vehicle-parts/): Online Car Parts UK Vehicle Parts: Vast selection for UK drivers 2025. 1.5M+ parts from £10. Free delivery. Easy part matching. Compare now!
-- [The Battery Guys Vehicle Parts](https://compare100.com/the-battery-guys-vehicle-parts/): The Battery Guys Vehicle Parts: UK car batteries from £30. All vehicle types, reliable brands. Free next-day delivery, 3-year warranty.
+- [Online Car Parts UK Vehicle Parts](https://compare100.com/online-car-parts-uk-vehicle-parts/): Onlinecarparts.co.uk shares an address, a register number and a director with Buy Car Parts. Neither site mentions it. Here is what that means for you
+- [The Battery Guys Vehicle Parts](https://compare100.com/the-battery-guys-vehicle-parts/): A Skelmersdale battery seller trading since 1994, with a 4-year premium warranty. The Stop-Start exclusion and the 25% restocking fee are the clauses 
 
 ### Shopping
 
@@ -456,7 +456,7 @@
 
 - [Amazon Computers](https://compare100.com/amazon-computers/): Amazon Renewed computers carry a one-year guarantee and a battery floor of 80%. Seller fees, VAT invoices and the safety register, checked 25 Septembe
 - [Dell UK Computers](https://compare100.com/dell-uk-computers/): Dell UK Computers: UK shoppers 2025. Powerful devices from £350. XPS for work, Alienware for gaming. 1-year warranty. Shop now!
-- [Ebuyer Computers](https://compare100.com/ebuyer-computers/): Ebuyer Computers: UK shoppers 2025. Budget-friendly devices from £180. HP, Lenovo, Ebuyer's own brand. Fast delivery. Grab a deal. Shop now!
+- [Ebuyer Computers](https://compare100.com/ebuyer-computers/): Ebuyer was bought out of administration by Frasers Group in August 2025. Same catalogue, new owner, and a returns policy written for a clothing shop.
 - [HP UK Computers](https://compare100.com/hp-uk-computers/): HP UK Computers: UK shoppers 2025. Reliable laptops & desktops. Perfect for work or gaming. Cutting-edge tech, 1-year warranty. Shop now!
 - [Lenovo UK Computers](https://compare100.com/lenovo-uk-computers/): Lenovo UK Computers: UK shoppers 2025. High-performance devices from £250. ThinkPad for work, Legion for gaming. 1-year warranty.
 
@@ -529,7 +529,7 @@
 - [Argos Televisions](https://compare100.com/argos-televisions/): Argos gives 12 months repair or replace on every TV, sells Freely-ready Bush sets, and has 16 Bush TiVo models under a plug recall. Checked 30 Septemb
 - [Currys Televisions](https://compare100.com/currys-televisions/): Currys Televisions: UK shoppers 2025. Top-tier TVs from £180. Sony, Samsung models. In-store demos, installation. Tech lover’s. Shop now!
 - [John Lewis Televisions](https://compare100.com/john-lewis-televisions/): A free five-year guarantee on all 252 TVs John Lewis lists, from £139.99. What delivery, running costs and the small print add, checked 20 September 2
-- [LG UK Televisions](https://compare100.com/lg-uk-televisions/): LG UK Televisions: UK shoppers 2025. Stunning visuals from £250. OLED tech, vibrant colors, webOS. 5-year warranty. Viewer's dream. Shop now!
+- [LG UK Televisions](https://compare100.com/lg-uk-televisions/): LG gives its televisions 12 months parts and labour, while its monitors get 24 and its projectors 36. The 5-year OLED panel cover excludes the C serie
 - [Samsung UK Televisions](https://compare100.com/samsung-uk-televisions/): Samsung UK Televisions: UK shoppers 2025. Cutting-edge tech from £300. QLED, 8K TVs, AI upscaling. 5-year warranty. Shop now!
 
 #### Women's Fashion
