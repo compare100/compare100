@@ -1,7 +1,7 @@
 {
  "name": "Compare100 verified figures index",
  "url": "https://compare100.com/cite/",
- "generated": "2026-10-07",
+ "generated": "2026-10-08",
  "rows": 1734,
  "pages": 150,
  "attribution": "Attribute to Compare100 and link to the source_url of the row used.",
@@ -9849,10 +9849,10 @@
    "unit": "",
    "tier": "",
    "source_type": "own_review",
-   "verification_date": "2026-09-09",
+   "verification_date": "2026-10-08",
    "is_headline": "false",
    "confidence": "high",
-   "figure_status": "ageing",
+   "figure_status": "current",
    "notes": ""
   },
   {
@@ -9870,10 +9870,10 @@
    "unit": "",
    "tier": "",
    "source_type": "own_review",
-   "verification_date": "2026-09-09",
+   "verification_date": "2026-10-08",
    "is_headline": "false",
    "confidence": "high",
-   "figure_status": "ageing",
+   "figure_status": "current",
    "notes": ""
   },
   {
@@ -9884,17 +9884,17 @@
    "source_url": "https://compare100.com/nationwide-flexdirect-account/",
    "metric_key": "",
    "metric_label": "Deposit protection",
-   "metric_value_text": "FSCS, up to £120,000 per eligible person across all Nationwide and Virgin Money accounts",
-   "value_numeric": "120000",
+   "metric_value_text": "FSCS, up to £120,000 per eligible person and £240,000 on a joint account, across all Nationwide and Virgin Money accounts",
+   "value_numeric": "",
    "value_min": "",
    "value_max": "",
-   "unit": "GBP",
+   "unit": "",
    "tier": "",
    "source_type": "own_review",
-   "verification_date": "2026-09-09",
+   "verification_date": "2026-10-08",
    "is_headline": "false",
    "confidence": "high",
-   "figure_status": "ageing",
+   "figure_status": "current",
    "notes": ""
   },
   {
@@ -9912,10 +9912,10 @@
    "unit": "",
    "tier": "",
    "source_type": "own_review",
-   "verification_date": "2026-09-09",
+   "verification_date": "2026-10-08",
    "is_headline": "false",
    "confidence": "high",
-   "figure_status": "ageing",
+   "figure_status": "current",
    "notes": ""
   },
   {
@@ -9933,10 +9933,10 @@
    "unit": "",
    "tier": "",
    "source_type": "own_review",
-   "verification_date": "2026-09-09",
+   "verification_date": "2026-10-08",
    "is_headline": "true",
    "confidence": "high",
-   "figure_status": "ageing",
+   "figure_status": "current",
    "notes": ""
   },
   {
@@ -9954,10 +9954,10 @@
    "unit": "",
    "tier": "",
    "source_type": "own_review",
-   "verification_date": "2026-09-09",
+   "verification_date": "2026-10-08",
    "is_headline": "false",
    "confidence": "high",
-   "figure_status": "ageing",
+   "figure_status": "current",
    "notes": ""
   },
   {
@@ -9975,10 +9975,10 @@
    "unit": "",
    "tier": "",
    "source_type": "own_review",
-   "verification_date": "2026-09-09",
+   "verification_date": "2026-10-08",
    "is_headline": "false",
    "confidence": "high",
-   "figure_status": "ageing",
+   "figure_status": "current",
    "notes": ""
   },
   {
@@ -9996,10 +9996,10 @@
    "unit": "GBP",
    "tier": "",
    "source_type": "own_review",
-   "verification_date": "2026-09-09",
+   "verification_date": "2026-10-08",
    "is_headline": "false",
    "confidence": "high",
-   "figure_status": "ageing",
+   "figure_status": "current",
    "notes": ""
   },
   {
@@ -10017,10 +10017,10 @@
    "unit": "",
    "tier": "",
    "source_type": "own_review",
-   "verification_date": "2026-09-09",
+   "verification_date": "2026-10-08",
    "is_headline": "false",
    "confidence": "high",
-   "figure_status": "ageing",
+   "figure_status": "current",
    "notes": ""
   },
   {
@@ -10031,17 +10031,17 @@
    "source_url": "https://compare100.com/nationwide-flexdirect-account/",
    "metric_key": "",
    "metric_label": "Switch payment",
-   "metric_value_text": "£175, paid within 10 days of meeting the conditions",
+   "metric_value_text": "£175, paid within 10 days of meeting the conditions — terms SMD1863 (May 2026)",
    "value_numeric": "",
    "value_min": "",
    "value_max": "",
    "unit": "",
    "tier": "",
    "source_type": "own_review",
-   "verification_date": "2026-09-09",
+   "verification_date": "2026-10-08",
    "is_headline": "false",
    "confidence": "high",
-   "figure_status": "ageing",
+   "figure_status": "current",
    "notes": ""
   },
   {
@@ -10052,17 +10052,17 @@
    "source_url": "https://compare100.com/nationwide-flexdirect-account/",
    "metric_key": "",
    "metric_label": "Switch time",
-   "metric_value_text": "Seven working days under the Current Account Switch Guarantee",
+   "metric_value_text": "Seven working days under the Current Account Switch Guarantee; 99.3% completed inside it in Q2 2026",
    "value_numeric": "",
    "value_min": "",
    "value_max": "",
    "unit": "",
    "tier": "",
    "source_type": "own_review",
-   "verification_date": "2026-09-09",
+   "verification_date": "2026-10-08",
    "is_headline": "false",
    "confidence": "high",
-   "figure_status": "ageing",
+   "figure_status": "current",
    "notes": ""
   },
   {
