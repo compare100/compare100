@@ -1180,6 +1180,24 @@ def _unwrap_google(m):
     own = _OWN_URL.match(target)
     return f'href="{own.group(1) if own else target}"'
 _EMPTY_A = re.compile(r'<a\b[^>]*href=""[^>]*>(.*?)</a>', re.S | re.I)
+
+# INVISIBLE LINKS. Reported by Google Safe Browsing on 8 October 2026 as social
+# engineering content, with /tesco-bank-personal-loan/ given as the sample URL.
+#
+# The WordPress copy carries anchors with a real href and NOTHING between the
+# tags - <a href="https://www.tescobank.com/loans/" rel="sponsored nofollow
+# noopener" target="_blank"></a> - bulk-appended to the end of paragraphs. They
+# render as nothing, so a reader cannot see them, cannot choose them, and cannot
+# tell the page links out at all. To a classifier that is hidden or injected
+# content, which is how Safe Browsing read it.
+#
+# _EMPTY_A above is the opposite fault: href="" is a dead DESTINATION and the
+# words inside are worth keeping. Here the destination is real and the LINK TEXT
+# is missing, so the whole anchor goes. An anchor wrapping an image, icon or
+# control is left alone - it is visible and clickable without text, and 405 of
+# those are legitimate (every card and logo link on the site).
+_INVIS_A = re.compile(r'<a\b(?![^>]*href="")[^>]*href="[^"]+"[^>]*>(.*?)</a>', re.S | re.I)
+_HAS_MEDIA = re.compile(r'<(img|svg|picture|video|canvas|input|button|iframe)\b', re.I)
 _REL_ATTR = re.compile(r'\srel="([^"]*)"', re.I)
 _TGT_ATTR = re.compile(r'\starget="([^"]*)"', re.I)
 
@@ -1213,7 +1231,7 @@ def resolve_dead_links():
             real.add(('/' + _rel + '/').replace('//', '/'))
     real.add('/')
     slugmap = {u.strip('/').split('/')[-1]: u for u in real if u.strip('/')}
-    fixed = unwrapped = degoogled = emptied = detargeted = deduped = 0
+    fixed = unwrapped = degoogled = emptied = detargeted = deduped = invisible = 0
     for r, _d, fs in os.walk(OUT):
         if 'index.html' not in fs: continue
         p = os.path.join(r, 'index.html')
@@ -1254,6 +1272,15 @@ def resolve_dead_links():
             return m.group(1)                 # keep the words, drop the dead anchor
         h = _EMPTY_A.sub(_empty, h)
 
+        def _invisible(m):
+            nonlocal invisible
+            inner = m.group(1)
+            if re.sub(r'<[^>]+>', '', inner).strip(): return m.group(0)   # has words
+            if _HAS_MEDIA.search(inner): return m.group(0)                # has a picture
+            invisible += 1
+            return ''                        # nothing visible, nothing to keep
+        h = _INVIS_A.sub(_invisible, h)
+
         def _detarget(m):
             nonlocal detargeted
             tag = m.group(0)
@@ -1268,6 +1295,7 @@ def resolve_dead_links():
         if h != orig: open(p, 'w', encoding='utf-8').write(h)
     print(f'links   {fixed} repointed, {unwrapped} dead links unwrapped, '
           f'{degoogled} unwrapped from a Google search, {emptied} empty anchors dropped, '
+          f'{invisible} invisible links removed, '
           f'{detargeted} internal links no longer open a new tab, '
           f'{deduped} anchors with duplicated rel/target merged')
 
