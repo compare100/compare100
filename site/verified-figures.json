@@ -2,7 +2,7 @@
  "name": "Compare100 verified figures index",
  "url": "https://compare100.com/cite/",
  "generated": "2026-10-09",
- "rows": 2188,
+ "rows": 2189,
  "pages": 172,
  "attribution": "Attribute to Compare100 and link to the source_url of the row used.",
  "figures": [
@@ -11963,17 +11963,17 @@
    "source_url": "https://compare100.com/santander-credit-cards/",
    "metric_key": "",
    "metric_label": "Cash withdrawals",
-   "metric_value_text": "3% of the amount, minimum £3, with interest from the day of withdrawal",
+   "metric_value_text": "3% of the amount, minimum £3, charged at 29.9% a year from the day of withdrawal",
    "value_numeric": "",
    "value_min": "",
    "value_max": "",
    "unit": "",
    "tier": "",
    "source_type": "own_review",
-   "verification_date": "2026-09-12",
+   "verification_date": "2026-10-09",
    "is_headline": "false",
    "confidence": "high",
-   "figure_status": "ageing",
+   "figure_status": "current",
    "notes": ""
   },
   {
@@ -11991,10 +11991,10 @@
    "unit": "",
    "tier": "",
    "source_type": "own_review",
-   "verification_date": "2026-09-12",
+   "verification_date": "2026-10-09",
    "is_headline": "false",
    "confidence": "high",
-   "figure_status": "ageing",
+   "figure_status": "current",
    "notes": ""
   },
   {
@@ -12012,10 +12012,10 @@
    "unit": "",
    "tier": "",
    "source_type": "own_review",
-   "verification_date": "2026-09-12",
+   "verification_date": "2026-10-09",
    "is_headline": "false",
    "confidence": "high",
-   "figure_status": "ageing",
+   "figure_status": "current",
    "notes": ""
   },
   {
@@ -12033,10 +12033,10 @@
    "unit": "",
    "tier": "",
    "source_type": "own_review",
-   "verification_date": "2026-09-12",
+   "verification_date": "2026-10-09",
    "is_headline": "false",
    "confidence": "high",
-   "figure_status": "ageing",
+   "figure_status": "current",
    "notes": ""
   },
   {
@@ -12054,10 +12054,10 @@
    "unit": "",
    "tier": "",
    "source_type": "own_review",
-   "verification_date": "2026-09-12",
+   "verification_date": "2026-10-09",
    "is_headline": "false",
    "confidence": "high",
-   "figure_status": "ageing",
+   "figure_status": "current",
    "notes": ""
   },
   {
@@ -12075,10 +12075,10 @@
    "unit": "",
    "tier": "",
    "source_type": "own_review",
-   "verification_date": "2026-09-12",
+   "verification_date": "2026-10-09",
    "is_headline": "false",
    "confidence": "high",
-   "figure_status": "ageing",
+   "figure_status": "current",
    "notes": ""
   },
   {
@@ -12096,10 +12096,10 @@
    "unit": "",
    "tier": "",
    "source_type": "own_review",
-   "verification_date": "2026-09-12",
+   "verification_date": "2026-10-09",
    "is_headline": "false",
    "confidence": "high",
-   "figure_status": "ageing",
+   "figure_status": "current",
    "notes": ""
   },
   {
@@ -12117,10 +12117,10 @@
    "unit": "",
    "tier": "",
    "source_type": "own_review",
-   "verification_date": "2026-09-12",
+   "verification_date": "2026-10-09",
    "is_headline": "true",
    "confidence": "high",
-   "figure_status": "ageing",
+   "figure_status": "current",
    "notes": ""
   },
   {
@@ -12138,10 +12138,31 @@
    "unit": "",
    "tier": "",
    "source_type": "own_review",
-   "verification_date": "2026-09-12",
+   "verification_date": "2026-10-09",
    "is_headline": "false",
    "confidence": "high",
-   "figure_status": "ageing",
+   "figure_status": "current",
+   "notes": ""
+  },
+  {
+   "row_id": "santander-credit-cards__transfer-fee-once-the-0-ends",
+   "section": "Credit Cards",
+   "page_slug": "santander-credit-cards",
+   "provider_or_product": "Santander Credit Cards Review: Five Cards, 34 Months at 0% and the Fee Arithmetic",
+   "source_url": "https://compare100.com/santander-credit-cards/",
+   "metric_key": "",
+   "metric_label": "Transfer fee once the 0% ends",
+   "metric_value_text": "3% of the amount transferred, minimum £5, on both Everyday cards",
+   "value_numeric": "",
+   "value_min": "",
+   "value_max": "",
+   "unit": "",
+   "tier": "",
+   "source_type": "own_review",
+   "verification_date": "2026-10-09",
+   "is_headline": "false",
+   "confidence": "high",
+   "figure_status": "current",
    "notes": ""
   },
   {
