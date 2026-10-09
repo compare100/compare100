@@ -1198,6 +1198,36 @@ _EMPTY_A = re.compile(r'<a\b[^>]*href=""[^>]*>(.*?)</a>', re.S | re.I)
 # those are legitimate (every card and logo link on the site).
 _INVIS_A = re.compile(r'<a\b(?![^>]*href="")[^>]*href="[^"]+"[^>]*>(.*?)</a>', re.S | re.I)
 _HAS_MEDIA = re.compile(r'<(img|svg|picture|video|canvas|input|button|iframe)\b', re.I)
+# FABRICATED INTEREST RATES. Found 9 October 2026 while answering the Safe
+# Browsing notice. Two WordPress pages advertised a representative APR that no
+# lender has ever offered: 3.4% for Tesco Bank and 3.9% for NatWest, under each
+# bank's own logo, beside a button into their loan application.
+#
+# Tesco Bank's real representative APR is 6.6% and NatWest's is 7.2%, both read
+# from the lenders' own pages on 9 October 2026. The cheapest personal loan in
+# the whole UK market was 5.9%, so both invented figures were below anything
+# obtainable anywhere - not a stale rate, a fiction.
+#
+# Quoting credit terms for a named lender is a financial promotion, so a wrong
+# figure here is a regulatory problem as well as a deceptive one. Corrected at
+# build time rather than by hand because the source is the WordPress export,
+# which is read-only and still holds the original numbers.
+#
+# This is a stopgap that makes the pages truthful. Both still need a proper
+# rewrite from the lenders' published terms.
+FALSE_RATES = {
+    'tesco-bank-personal-loan': [
+        ('3.4% APR', '6.6% APR'),
+        ('Borrow &pound;1k-&pound;35k', 'Borrow &pound;3k-&pound;35k'),
+        ('Borrow \u00a31k-\u00a335k', 'Borrow \u00a33k-\u00a335k'),
+        # the JSON-LD copy escapes the pound sign, so it needs the literal text
+        (r'Borrow \u00a31k-\u00a335k', r'Borrow \u00a33k-\u00a335k'),
+    ],
+    'natwest-personal-loan': [
+        ('3.9% APR', '7.2% APR'),
+    ],
+}
+
 _REL_ATTR = re.compile(r'\srel="([^"]*)"', re.I)
 _TGT_ATTR = re.compile(r'\starget="([^"]*)"', re.I)
 
@@ -1232,6 +1262,7 @@ def resolve_dead_links():
     real.add('/')
     slugmap = {u.strip('/').split('/')[-1]: u for u in real if u.strip('/')}
     fixed = unwrapped = degoogled = emptied = detargeted = deduped = invisible = 0
+    rates = 0
     for r, _d, fs in os.walk(OUT):
         if 'index.html' not in fs: continue
         p = os.path.join(r, 'index.html')
@@ -1281,6 +1312,12 @@ def resolve_dead_links():
             return ''                        # nothing visible, nothing to keep
         h = _INVIS_A.sub(_invisible, h)
 
+        _slug = os.path.basename(r)
+        for _old, _new in FALSE_RATES.get(_slug, ()):
+            if _old in h:
+                rates += h.count(_old)
+                h = h.replace(_old, _new)
+
         def _detarget(m):
             nonlocal detargeted
             tag = m.group(0)
@@ -1296,6 +1333,7 @@ def resolve_dead_links():
     print(f'links   {fixed} repointed, {unwrapped} dead links unwrapped, '
           f'{degoogled} unwrapped from a Google search, {emptied} empty anchors dropped, '
           f'{invisible} invisible links removed, '
+          f'{rates} fabricated rates corrected, '
           f'{detargeted} internal links no longer open a new tab, '
           f'{deduped} anchors with duplicated rel/target merged')
 
