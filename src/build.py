@@ -921,6 +921,26 @@ ICONS = '/wp-content/uploads/icons'
 THEME = '#0183ff'          # sampled from the site's own favicon
 OG_DEFAULT = ICONS + '/og-default.jpg'
 
+# GOOGLE ANALYTICS 4. Andy's own property, measurement ID G-8F724J717P.
+#
+# The WordPress site had this injected by a plugin. Nothing carried it over when
+# the site became static pages built by this script, so from the move until
+# 26 October 2026 GA reported "No data received from your website yet" and was
+# right: the tag was on no page at all. Every page's head comes from shell()
+# below, so putting it there once puts it on all of them.
+#
+# This is the ONLY third-party script on the site and it stays that way. It is
+# async, nothing on the page waits for it, and no markup depends on it, so if
+# Google is slow, blocked by an extension or down, the page is unaffected.
+#
+# Plain concatenation rather than an f-string on purpose: the snippet is full of
+# braces and shell() interpolates it as {GA}, so it must arrive already formed.
+GA_ID = 'G-8F724J717P'
+GA = ('<script async src="https://www.googletagmanager.com/gtag/js?id=' + GA_ID + '"></script>'
+      '<script>window.dataLayer=window.dataLayer||[];'
+      'function gtag(){window.dataLayer.push(arguments)}'
+      "gtag('js',new Date());gtag('config','" + GA_ID + "')</script>")
+
 # Two wrong turns before this, both worth recording so nobody repeats them:
 #
 #   Product      -> rejected. Google requires offers, review or aggregateRating.
@@ -966,7 +986,7 @@ def shell(title, desc, canonical, body, schema=None, extra_head='',
 <meta name="twitter:title" content="{esc(title)}"><meta name="twitter:description" content="{esc(desc)}">
 <meta name="twitter:image" content="{SITE}{og_image}">
 <meta name="robots" content="{robots}">
-<style>{CSS}</style>{extra_head}{s}</head><body>
+<style>{CSS}</style>{extra_head}{s}{GA}</head><body>
 <header class="top"><div class="wrap"><a class="logo" href="/"><img src="/wp-content/uploads/2025/08/Logo-450x82-1.webp" alt="Compare100.com" width="225" height="41"></a></div></header>
 {nav_html()}
 <div class="wrap">{body}</div>
