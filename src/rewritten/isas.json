@@ -55,7 +55,7 @@
   "sections": [
    {
     "heading": "0.75%: what the fourth withdrawal actually costs",
-    "html": "<p>On a £10,000 balance the difference between 4.71% and 0.75% is roughly <strong>£396 a year</strong>. One withdrawal too many, and that is what you forfeit for the remainder of the 12-month window.</p><p>The window rolls continuously. It does not reset in April with the tax year. A withdrawal made in March still counts against you the following February, which is far less intuitive than it sounds and is where most of the anger in savings forums comes from.</p><p>One caveat worth being straight about: Moneybox's own pages are inconsistent on whether the free allowance is three withdrawals or four. The main product page says three per year; a support article says four are free. <strong>Assume three.</strong> If you are near the limit, contact them before moving money rather than relying on either page.</p><p>The consequence is simple. This is not an emergency fund. An emergency fund exists precisely for unpredictable access, and this account charges you heavily for it. It suits money with a known destination &mdash; a deposit, a tax bill, a wedding &mdash; where three touches a year is a realistic ceiling.</p>"
+    "html": "<p>On a £10,000 balance the difference between 4.71% and 0.75% is roughly <strong>£396 a year</strong>. One withdrawal too many, and that is what you forfeit for the remainder of the 12-month window.</p><p>The window does not reset in April with the tax year. Moneybox counts withdrawals within each 12 month period, and the count resets on the anniversary of the day you opened the account, so the date that matters is your own rather than the tax year. That is far less intuitive than it sounds and is where most of the anger in savings forums comes from.</p><p>One caveat worth being straight about: Moneybox's own pages are inconsistent on whether the free allowance is three withdrawals or four. The main product page says three per year; a support article says four are free. <strong>Assume three.</strong> If you are near the limit, contact them before moving money rather than relying on either page.</p><p>The consequence is simple. This is not an emergency fund. An emergency fund exists precisely for unpredictable access, and this account charges you heavily for it. It suits money with a known destination &mdash; a deposit, a tax bill, a wedding &mdash; where three touches a year is a realistic ceiling.</p>"
    },
    {
     "heading": "The 16-bank FSCS panel, and the risk hidden inside it",
@@ -79,7 +79,7 @@
    "Accepts transfers in, including from older building society ISAs"
   ],
   "cons": [
-   "A 4th withdrawal collapses the rate to 0.75% AER &mdash; roughly £325 a year on £10,000",
+   "A 4th withdrawal collapses the rate to 0.75% AER for the rest of that 12 month period",
    "Balance dipping below £500 triggers the same penalty",
    "1.26% of the headline rate vanishes after 12 months, leaving the same 3.45% underlying rate it has paid all along",
    "Not a flexible ISA, so anything you withdraw cannot be replaced without using fresh allowance",
@@ -90,7 +90,7 @@
   "faqs": [
    {
     "q": "What happens on the fourth withdrawal?",
-    "a": "<p>Your rate drops to 0.75% AER for the remainder of the rolling 12-month period. On £10,000 that is roughly £325 of lost interest. The window rolls continuously rather than resetting with the tax year.</p>"
+    "a": "<p>Your rate drops to 0.75% AER for the remainder of that 12 month period. The count resets on the anniversary of the day you opened the account, not in April with the tax year.</p>"
    },
    {
     "q": "Is the 4.71% rate guaranteed for a year?",
