@@ -1246,6 +1246,14 @@ _HAS_MEDIA = re.compile(r'<(img|svg|picture|video|canvas|input|button|iframe)\b'
 # in the whole UK market was 5.9%, so both invented figures were below anything
 # obtainable anywhere - not a stale rate, a fiction.
 #
+# A third page, santander-mortgage-deals, advertised "fixed rates as low as
+# 3.99%" and called that figure a representative APR. Santander's current rate
+# bulletin is effective 5 November 2026; its published Standard Variable Rate is
+# 6.75% and its Follow-on Rate 7.25% (base plus 3.25%) from 3 December 2026, both
+# read 8 November 2026. The bulletin's own rate tables sit behind bot protection
+# and could not be read, so no replacement fixed rate is quoted here: the text
+# points at the dated bulletin instead, and stops calling a fixed rate an APRC.
+#
 # The same pass corrects three overstatements the WordPress copy makes about
 # both products: Tesco Bank's minimum loan is 3,000 rather than 1,000 and its
 # 6.2% Clubcard rate is a different offer from its 6.6% representative example;
@@ -1266,6 +1274,12 @@ FALSE_RATES = {
         ("You can borrow amounts from \u00a31,000 to \u00a350,000.", "You can borrow amounts from \u00a31,000 to \u00a350,000 as an existing customer, or up to \u00a335,000 as a new one."),
         ("Choose a repayment period from 1 to 8 years.", "Repayment terms depend on the amount and the purpose: 1 to 5 years below \u00a37,500 and on holiday loans, up to 8 years on qualifying loans of \u00a37,500 or more, and up to 10 years for qualifying home improvements."),
         ("Flexible terms from 1 to 8 years", "Flexible terms of up to 8 years, or 10 for qualifying home improvements,"),
+    ],
+    "santander-mortgage-deals": [
+        ("Fixed rates from 3.99%", "Current fixed rates from its 5 November 2026 rate bulletin"),
+        ("as low as 3.99% for a 60% LTV (Loan-to-Value). However, rates may vary based on LTV and product.", "set out in Santander's rate bulletin effective 5 November 2026, where the rate on any one deal depends on the loan to value, the product and the fee. Santander's published Standard Variable Rate is 6.75% from 3 December 2026 and its Follow-on Rate 7.25%, which is the Bank of England base rate plus 3.25%."),
+        ("Representative APR:", "Initial fixed interest rate:"),
+        ("The 3.99% rate is representative and subject to LTV.", "An initial fixed rate is not an APRC, and the figure on any deal depends on the loan to value, the product and the fee."),
     ],
     "tesco-bank-personal-loan": [
         ("3.4% APR", "6.6% APR"),
