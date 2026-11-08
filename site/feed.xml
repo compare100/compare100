@@ -7,9 +7,20 @@
 <link>https://compare100.com/</link>
 <description>UK providers compared side by side &#8212; insurance, money, travel, mobiles, utilities, motoring and shopping. Figures checked against each provider&#8217;s own published terms.</description>
 <language>en-GB</language>
-<lastBuildDate>Wed, 04 Nov 2026 09:00:00 +0000</lastBuildDate>
+<lastBuildDate>Sun, 08 Nov 2026 09:00:00 +0000</lastBuildDate>
 <atom:link href="https://compare100.com/feed/" rel="self" type="application/rss+xml"/>
 <image><url>https://compare100.com/wp-content/uploads/icons/og-default.jpg</url><title>Compare100</title><link>https://compare100.com/</link></image>
+<item>
+<title>Expedia Hotels</title>
+<link>https://compare100.com/expedia-hotels/</link>
+<guid isPermaLink="true">https://compare100.com/expedia-hotels/</guid>
+<pubDate>Sun, 08 Nov 2026 09:00:00 +0000</pubDate>
+<category>Hotels</category>
+<description>Expedia lists London rooms from £59 a night including taxes. What ATOL 5788 covers, what One Key pays back, and what a hotel-only booking does not get.</description>
+<content:encoded><![CDATA[<p><img src="https://compare100.com/wp-content/uploads/2025/07/Expedia-Logo.webp" alt="Expedia Hotels" width="400" height="400"></p><p>Expedia lists London rooms from £59 a night including taxes. What ATOL 5788 covers, what One Key pays back, and what a hotel-only booking does not get.</p><p>Checked 8 November 2026 against the provider&#8217;s own published terms.</p>]]></content:encoded>
+<enclosure url="https://compare100.com/wp-content/uploads/2025/07/Expedia-Logo.webp" length="0" type="image/webp"/>
+<media:content url="https://compare100.com/wp-content/uploads/2025/07/Expedia-Logo.webp" medium="image" type="image/webp"/>
+</item>
 <item>
 <title>Europcar Car Hire Review: The Excess, The Damage Matrix and What It Costs</title>
 <link>https://compare100.com/europcar-holiday-car-hire/</link>
@@ -328,17 +339,6 @@
 <content:encoded><![CDATA[<p><img src="https://compare100.com/wp-content/uploads/2025/07/Car-Examer-Logo.webp" alt="CarExamer Review: £142.99 Mobile Inspections and Who Actually Does Them" width="400" height="400"></p><p>CarExamer sends a self-employed mechanic to the car: Basic from £142.99, 100+ checks in 70 minutes, report in five hours. Prices and terms checked.</p><p>Checked 17 October 2026 against the provider&#8217;s own published terms.</p>]]></content:encoded>
 <enclosure url="https://compare100.com/wp-content/uploads/2025/07/Car-Examer-Logo.webp" length="0" type="image/webp"/>
 <media:content url="https://compare100.com/wp-content/uploads/2025/07/Car-Examer-Logo.webp" medium="image" type="image/webp"/>
-</item>
-<item>
-<title>BYD New Cars Review 2026: Prices, Warranty and the Missing Grant</title>
-<link>https://compare100.com/byd-new-cars/</link>
-<guid isPermaLink="true">https://compare100.com/byd-new-cars/</guid>
-<pubDate>Sat, 17 Oct 2026 09:00:00 +0000</pubDate>
-<category>New Cars</category>
-<description>What a new BYD costs in October 2026: £18,650 for a Dolphin Surf up to £58,990, six years of warranty, and why no BYD qualifies for the £3,750 grant.</description>
-<content:encoded><![CDATA[<p><img src="https://compare100.com/wp-content/uploads/2025/07/BYD-Logo.webp" alt="BYD New Cars Review 2026: Prices, Warranty and the Missing Grant" width="400" height="400"></p><p>What a new BYD costs in October 2026: £18,650 for a Dolphin Surf up to £58,990, six years of warranty, and why no BYD qualifies for the £3,750 grant.</p><p>Checked 17 October 2026 against the provider&#8217;s own published terms.</p>]]></content:encoded>
-<enclosure url="https://compare100.com/wp-content/uploads/2025/07/BYD-Logo.webp" length="0" type="image/webp"/>
-<media:content url="https://compare100.com/wp-content/uploads/2025/07/BYD-Logo.webp" medium="image" type="image/webp"/>
 </item>
 </channel>
 </rss>
