@@ -1254,6 +1254,17 @@ _HAS_MEDIA = re.compile(r'<(img|svg|picture|video|canvas|input|button|iframe)\b'
 # and could not be read, so no replacement fixed rate is quoted here: the text
 # points at the dated bulletin instead, and stops calling a fixed rate an APRC.
 #
+# The four un-rewritten pension pages carried the same shape of problem: a bare
+# "fees start as low as 0.5%" (0.6% on Scottish Widows) with no product behind
+# it, and standard-life-pension opened by crediting Legal & General with
+# Standard Life's products. Replaced with product-specific charges read from
+# each provider on 8 November 2026: L&G Personal Pension 0.25% service plus
+# 0.31% fund management; Scottish Widows Ready-Made 0.3% admin (min 5 a month)
+# plus 0.1% fund and up to 0.19% transaction costs; Standard Life ready-made
+# 0.55% total (0.45 service + 0.10 fund, their figures as at 9 October 2026).
+# The 60,000 annual allowance is also qualified on all four, because it is not
+# an unconditional entitlement.
+#
 # The same pass corrects three overstatements the WordPress copy makes about
 # both products: Tesco Bank's minimum loan is 3,000 rather than 1,000 and its
 # 6.2% Clubcard rate is a different offer from its 6.6% representative example;
@@ -1274,6 +1285,25 @@ FALSE_RATES = {
         ("You can borrow amounts from \u00a31,000 to \u00a350,000.", "You can borrow amounts from \u00a31,000 to \u00a350,000 as an existing customer, or up to \u00a335,000 as a new one."),
         ("Choose a repayment period from 1 to 8 years.", "Repayment terms depend on the amount and the purpose: 1 to 5 years below \u00a37,500 and on holiday loans, up to 8 years on qualifying loans of \u00a37,500 or more, and up to 10 years for qualifying home improvements."),
         ("Flexible terms from 1 to 8 years", "Flexible terms of up to 8 years, or 10 for qualifying home improvements,"),
+    ],
+    "legal-general-pension": [
+        ("Fees start as low as 0.5% annually. Consequently, more of your money remains invested and contributes to your growth over the long term.", "L&amp;G's advertised Personal Pension carries a service charge of 0.25% a year plus a Fund Management Charge of 0.31%, which is about 0.56% a year in total. Workplace pensions and other options are charged differently, so check the figures for the plan you are offered."),
+        ("While starting at 0.5%, fees can vary depending on the specific funds you choose.", "Charges vary with the option and the funds you choose: the advertised Personal Pension is 0.25% plus a 0.31% Fund Management Charge, while a workplace plan or a self-selected fund can cost more."),
+        ("contribute up to \u00a360,000 per year. This allows for substantial annual growth within your pension.", "contribute up to \u00a360,000 a year across all your pensions under the standard annual allowance, though your own allowance and the contributions you can claim tax relief on may be lower."),
+    ],
+    "scottish-widows-pension": [
+        ("fees start as low as 0.6% annually. Indeed, this ensures more of your money remains invested and contributes to long-term growth.", "its current Ready-Made Pension charges an administration account fee of 0.3% a year, taken monthly with a minimum of \u00a35 a month, plus fund ongoing charges of 0.1% and transaction costs of up to 0.19%. Other Scottish Widows pensions are charged differently."),
+        ("While starting at 0.6%, fees can vary depending on the specific funds you choose.", "The Ready-Made Pension's 0.3% administration fee carries a \u00a35 a month minimum, which bites hardest on a small pot, and fund charges and transaction costs sit on top of it."),
+        ("contribute up to \u00a360,000 per year. This means, in essence, substantial annual growth is possible within your pension.", "contribute up to \u00a360,000 a year across all your pensions under the standard annual allowance, though your own allowance and the contributions you can claim tax relief on may be lower."),
+    ],
+    "standard-life-pension": [
+        ("Legal &amp; General provides both personal pensions and SIPPs (Self-Invested Personal Pensions), catering to various retirement goals.", "Standard Life provides both personal pensions and SIPPs (Self-Invested Personal Pensions), catering to various retirement goals."),
+        ("fees start as low as 0.5% annually. Indeed, more of your money remains invested and contributes to your growth over the long term.", "the published total charge on its ready-made Personal Pension option is 0.55% a year, made up of a 0.45% service charge and a 0.10% fund charge, on figures Standard Life says are correct as at 9 October 2026. Other investments you select may cost more or less."),
+        ("While starting at 0.5%, fees can vary depending on the specific funds you choose or if you opt for a SIPP.", "The 0.55% on the ready-made option is not a floor for every plan: charges vary across the fund range and with a SIPP."),
+        ("contribute up to \u00a360,000 per year. This means, in essence, substantial annual growth is possible within your pension.", "contribute up to \u00a360,000 a year across all your pensions under the standard annual allowance, though your own allowance and the contributions you can claim tax relief on may be lower."),
+    ],
+    "pensionbee-pension": [
+        ("contribute up to \u00a360,000 per year. This allows for substantial annual growth within your pension.", "contribute up to \u00a360,000 a year across all your pensions under the standard annual allowance, though your own allowance and the contributions you can claim tax relief on may be lower."),
     ],
     "santander-mortgage-deals": [
         ("Fixed rates from 3.99%", "Current fixed rates from its 5 November 2026 rate bulletin"),
