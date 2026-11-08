@@ -1240,10 +1240,18 @@ _HAS_MEDIA = re.compile(r'<(img|svg|picture|video|canvas|input|button|iframe)\b'
 # lender has ever offered: 3.4% for Tesco Bank and 3.9% for NatWest, under each
 # bank's own logo, beside a button into their loan application.
 #
-# Tesco Bank's real representative APR is 6.6% and NatWest's is 7.2%, both read
-# from the lenders' own pages on 9 October 2026. The cheapest personal loan in
-# the whole UK market was 5.9%, so both invented figures were below anything
+# Tesco Bank's real general representative APR is 6.6% and NatWest's is 7.9%,
+# both read from the lenders' own pages, 9 October 2026 and re-read 8 November
+# 2026, when NatWest's had moved from 7.2% to 7.9%. The cheapest personal loan
+# in the whole UK market was 5.9%, so both invented figures were below anything
 # obtainable anywhere - not a stale rate, a fiction.
+#
+# The same pass corrects three overstatements the WordPress copy makes about
+# both products: Tesco Bank's minimum loan is 3,000 rather than 1,000 and its
+# 6.2% Clubcard rate is a different offer from its 6.6% representative example;
+# NatWest's 50,000 ceiling applies to existing customers only, 35,000 to new
+# ones, and its 1-to-8-year term depends on the amount and the purpose, running
+# to 10 years only on qualifying home improvements. All read 8 November 2026.
 #
 # Quoting credit terms for a named lender is a financial promotion, so a wrong
 # figure here is a regulatory problem as well as a deceptive one. Corrected at
@@ -1253,15 +1261,20 @@ _HAS_MEDIA = re.compile(r'<(img|svg|picture|video|canvas|input|button|iframe)\b'
 # This is a stopgap that makes the pages truthful. Both still need a proper
 # rewrite from the lenders' published terms.
 FALSE_RATES = {
-    'tesco-bank-personal-loan': [
-        ('3.4% APR', '6.6% APR'),
-        ('Borrow &pound;1k-&pound;35k', 'Borrow &pound;3k-&pound;35k'),
-        ('Borrow \u00a31k-\u00a335k', 'Borrow \u00a33k-\u00a335k'),
-        # the JSON-LD copy escapes the pound sign, so it needs the literal text
-        (r'Borrow \u00a31k-\u00a335k', r'Borrow \u00a33k-\u00a335k'),
+    "natwest-personal-loan": [
+        ("3.9% APR", "7.9% APR"),
+        ("You can borrow amounts from \u00a31,000 to \u00a350,000.", "You can borrow amounts from \u00a31,000 to \u00a350,000 as an existing customer, or up to \u00a335,000 as a new one."),
+        ("Choose a repayment period from 1 to 8 years.", "Repayment terms depend on the amount and the purpose: 1 to 5 years below \u00a37,500 and on holiday loans, up to 8 years on qualifying loans of \u00a37,500 or more, and up to 10 years for qualifying home improvements."),
+        ("Flexible terms from 1 to 8 years", "Flexible terms of up to 8 years, or 10 for qualifying home improvements,"),
     ],
-    'natwest-personal-loan': [
-        ('3.9% APR', '7.2% APR'),
+    "tesco-bank-personal-loan": [
+        ("3.4% APR", "6.6% APR"),
+        ("Borrow &pound;1k-&pound;35k", "Borrow &pound;3k-&pound;35k"),
+        ("Borrow \u00a31k-\u00a335k", "Borrow \u00a33k-\u00a335k"),
+        # the JSON-LD copy escapes the pound sign, so it needs the literal text
+        (r"Borrow \u00a31k-\u00a335k", r"Borrow \u00a33k-\u00a335k"),
+        ("You can borrow amounts from \u00a31,000 to \u00a335,000.", "You can borrow amounts from \u00a33,000 to \u00a335,000."),
+        ("Rates start at a competitive 6.6% APR representative, typically for loans between \u00a37,500 and \u00a325,000.", "Tesco Bank's lowest advertised rate is 6.2% APR representative, for eligible Clubcard members borrowing \u00a37,500 to \u00a325,000 over 1 to 5 years; its general representative example is 6.6% APR."),
     ],
 }
 
