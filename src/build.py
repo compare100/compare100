@@ -1024,6 +1024,23 @@ def crumbs(items):
     parts.append('</div>')
     return ''.join(parts)
 
+def plain(t):
+    """Text fit for a JSON-LD string: no tags and no HTML entities.
+
+    JSON is not HTML, so nothing downstream decodes an entity that ends up
+    inside a JSON-LD string. A machine reading a description of "&pound;500"
+    reads exactly that. Stripping tags was already done here; decoding was not,
+    and &pound;, &mdash;, &ndash; and &amp; were all reaching the Article
+    headline and description and the FAQPage answers.
+
+    Measured on 8 November 2026: entities in 2 schema headlines, 6 schema
+    descriptions and the FAQ answers of 90 pages. The visible page was always
+    right, because a browser decodes entities; only the machine-readable copy
+    was wrong.
+    """
+    return html.unescape(re.sub(r'<[^>]+>', '', t or '')).strip()
+
+
 def crumb_schema(items):
     return {"@context": "https://schema.org", "@type": "BreadcrumbList",
             "itemListElement": [{"@type": "ListItem", "position": i + 1, "name": n,
@@ -1417,11 +1434,36 @@ for p in posts:
             f'{esc(s["title"])}</a>' for s in sibs)
         rel = f'<div class="related"><h2>Compare other {catname.get(pc,"providers")} providers</h2><div class="grid">{cards}</div></div>'
 
+    # THE REWRITE HAS TO REACH THE SCHEMA, AND FOR MONTHS IT DID NOT.
+    #
+    # This @graph is built here, and the REWRITTEN merge that overwrites
+    # p['seo_title'] and p['seo_desc'] runs about twenty lines below it. A dict
+    # literal captures values, not names, so the Article node kept whatever the
+    # WordPress import had put in p['title'] and p['seo_desc'] - the old thin AI
+    # copy Google refused to index - and published that as the page's
+    # machine-readable headline and description.
+    #
+    # Measured on 8 November 2026, after 202 pages had been rewritten: the
+    # schema description disagreed with the page's own meta description on 201
+    # of them, and 113 of those carried a stale rate or price. Aldermore's
+    # structured data still advertised "5.00% AER (variable), 90 days' notice,
+    # £1k min" while the page itself said 4.00%. The schema headline disagreed
+    # with the <h1> on 168 of 329 pages.
+    #
+    # The meta, og and twitter tags were always correct, because shell() is
+    # called with p['seo_desc'] AFTER the merge. Only the copy that answer
+    # engines and rich results actually parse was wrong, which is the worst
+    # place for it on a site whose whole citation strategy is /cite/.
+    #
+    # Read the rewrite here rather than moving the merge, so render_rewritten
+    # keeps being called exactly where it was.
+    _rw0 = REWRITTEN.get(p['slug']) or {}
     schema = {"@context": "https://schema.org", "@graph": [
         crumb_schema(cr),
         {"@type": "Article",
-         "headline": p['title'][:110],
-         "description": p['seo_desc'] or f"{p['title']} reviewed by Compare100.",
+         "headline": plain(_rw0.get('title') or p['title'])[:110],
+         "description": plain(_rw0.get('meta_description') or p['seo_desc']
+                              or f"{p['title']} reviewed by Compare100."),
          "articleSection": catname.get(pc, ''),
          **({"image": [SITE + p['logo']]} if p['logo'] else {}),
          "author": {"@type": "Organization", "name": "Compare100", "url": SITE},
@@ -1444,9 +1486,9 @@ for p in posts:
                + DISCLOSURE + body_html)
     if extra_faqs:
         schema["@graph"].append({"@type": "FAQPage", "mainEntity": [
-            {"@type": "Question", "name": f["q"],
+            {"@type": "Question", "name": plain(f["q"]),
              "acceptedAnswer": {"@type": "Answer",
-                                "text": re.sub(r'<[^>]+>', '', f["a"])}} for f in extra_faqs]})
+                                "text": plain(f["a"])}} for f in extra_faqs]})
     main = (crumbs(cr) + '<div class="layout"><main><article>'
             + art + '</article>' + rel + '</main>'
             + f'<aside>{offer}{sidebar(pc)[7:]}' + '</div>')
@@ -1651,9 +1693,9 @@ for parent in TOP:
         _gq = GUIDES.get(c, {}).get('faqs')
         if _gq:
             _nodes.append({"@type": "FAQPage", "mainEntity": [
-                {"@type": "Question", "name": f["q"],
+                {"@type": "Question", "name": plain(f["q"]),
                  "acceptedAnswer": {"@type": "Answer",
-                                    "text": re.sub(r'<[^>]+>', '', f["a"])}} for f in _gq]})
+                                    "text": plain(f["a"])}} for f in _gq]})
         items = {"@context": "https://schema.org", "@graph": _nodes}
         intro = catintro.get(c) or (f'Compare {len(lst)} {catname[c].lower()} providers side by side. '
                                     'We list cover, features and current offers so you can see the differences at a glance.')
@@ -1847,8 +1889,8 @@ for p in pages:
     _sch = crumb_schema(cr)
     if pfaqs:
         _sch = {"@context": "https://schema.org", "@graph": [_sch, {"@type": "FAQPage", "mainEntity": [
-            {"@type": "Question", "name": f["q"],
-             "acceptedAnswer": {"@type": "Answer", "text": re.sub(r'<[^>]+>', '', f["a"])}} for f in pfaqs]}]}
+            {"@type": "Question", "name": plain(f["q"]),
+             "acceptedAnswer": {"@type": "Answer", "text": plain(f["a"])}} for f in pfaqs]}]}
     body = (crumbs(cr) + '<div class="layout"><main><article>' + art +
             '</article></main>' + sidebar() + '</div>')
     _pub = p.get('status', 'publish') == 'publish'
