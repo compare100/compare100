@@ -17274,6 +17274,343 @@
   ]
  },
  {
+  "slug": "google-flights-cheap-flights",
+  "title": "Google Flights: 300 Partners, No Booking Fee, and Who You Actually Buy From",
+  "meta_title": "Google Flights: Free to Search, 300+ Airlines and Agents",
+  "meta_description": "Google Flights searches 300+ airlines and agents for nothing and adds no fee of its own. What the price covers, who you buy from, and what UK users miss.",
+  "checked": "14 November 2026",
+  "headline": {
+   "label": "Price",
+   "value": "£0 — free to search, with no subscription and no Google booking fee; the figure shown is the air fare with VAT and airport taxes already in it"
+  },
+  "intro": "<p>Google Flights searches more than 300 airline, online travel agency and aggregator partners, costs nothing to use, and adds no fee of its own to the price you see. Google’s own help pages are precise about what that figure covers: it is “only for the passenger air transport service itself and includes VAT/GST and airport taxes”, and it is refreshed “approximately once every 24 hours”. Bag charges are kept separate and can be folded back in with a filter that adds either a checked bag or an overhead carry-on to every result at once.</p><p>The one thing to understand before you start is that Google is not selling you anything. Its own booking page says so in a single sentence: “Google doesn’t sell plane tickets, and won’t be a party to your booking transaction.” Google “acts only as an intermediary to securely pass your information to the airline or travel agency”, and “as the party responsible for your booking, the relevant airline or online travel agency provides customer support”. So the ticket, the money, the change fee and the complaint all belong to whoever you land on when you click through — which is the number you ring if something goes wrong, not Google.</p><p>What Google does build itself, and builds better than anyone selling flights, is the carbon figure beside each result. It comes from the Travel Impact Model, which is published free under a CC BY-SA 4.0 licence, exposed through a public API, overseen by an outside advisory committee, and was on model version 3.0.0 dated 27 July 2026 when this page was checked.</p>",
+  "key_facts": [
+   {
+    "label": "What it costs you",
+    "value": "Nothing — no subscription, no account needed and no Google fee inside the fare"
+   },
+   {
+    "label": "Partners searched",
+    "value": "More than 300 airlines, online travel agencies and aggregators"
+   },
+   {
+    "label": "Who sells the ticket",
+    "value": "The airline or agency you click through to — “Google doesn’t sell plane tickets”"
+   },
+   {
+    "label": "Price refresh",
+    "value": "“Approximately once every 24 hours”, by Google’s own account"
+   },
+   {
+    "label": "What the price includes",
+    "value": "The air transport service, VAT/GST and airport taxes — not bags or card fees"
+   },
+   {
+    "label": "Bag fee filter",
+    "value": "Adds one checked bag or one overhead carry-on to every price at once"
+   },
+   {
+    "label": "Default sort",
+    "value": "“Best”, trading off price, convenience and ease of booking"
+   },
+   {
+    "label": "Do paid partnerships move results?",
+    "value": "Google states they “have no impact on the ranking of offers suggested to you”"
+   },
+   {
+    "label": "Coverage gap",
+    "value": "“Not all airlines or available flights are included, as a partnership with Google is required”"
+   },
+   {
+    "label": "Price guarantee",
+    "value": "US only, departures from the US, 18+, $5 minimum difference, $500 a calendar year"
+   },
+   {
+    "label": "AI Flight Deals",
+    "value": "Beta, rolled out in the US, Canada and India only; a deal is 20% or more below typical"
+   },
+   {
+    "label": "Emissions model",
+    "value": "Travel Impact Model 3.0.0, dated 27 July 2026, plus the EASA label where one exists"
+   },
+   {
+    "label": "Typical Gatwick to New York JFK",
+    "value": "466 kg CO2e per passenger, one-way economy; Gatwick to Dublin is 56 kg"
+   },
+   {
+    "label": "Emissions API",
+    "value": "Public and free, CC BY-SA 4.0, flights departing within the next 11 months"
+   },
+   {
+    "label": "Contrail bands shown",
+    "value": "Low (up to 20% more warming), Medium (20–100%) and High (over 100%)"
+   },
+   {
+    "label": "UK cancellation compensation",
+    "value": "£220, £350 or £520 per person by distance — paid by the airline, never by Google"
+   },
+   {
+    "label": "Complaints route",
+    "value": "The airline’s ADR scheme, free to use; no scheme covers a flight search engine"
+   },
+   {
+    "label": "ATOL or ABTA",
+    "value": "Neither held nor claimed — ATOL covers a package booked with an ATOL holder"
+   },
+   {
+    "label": "Who you contract with",
+    "value": "Google LLC, under English law and in the English courts for a UK resident"
+   },
+   {
+    "label": "Terms effective",
+    "value": "30 July 2026; the price guarantee terms were last modified 01/10/2024"
+   },
+   {
+    "label": "UK company",
+    "value": "Google UK Limited, number 03977902, incorporated 20 April 2000, 1 St Giles High Street, London WC2H 8AG"
+   },
+   {
+    "label": "CMA commitment",
+    "value": "Google is one of 25 firms that signed the CMA’s booking principles on 13 September 2019"
+   }
+  ],
+  "sections": [
+   {
+    "heading": "What the number on the screen is made of",
+    "html": "<p>A flight search is only as useful as the price it quotes, so it is worth knowing exactly what Google is quoting. The help pages state that the displayed figure covers the passenger air transport service with VAT or GST and airport taxes inside it, and that “additional fees may apply (luggage, credit card, etc.)”, varying by whichever airline or agency you choose. Nothing in that figure is Google’s. There is no membership, no trial and no card required to search.</p><p>Where Google goes further than most is the bag filter. Switch it on and every price in the list is recalculated to include the fee for one checked bag or for putting a carry-on in the overhead locker, and Google notes that the filter “shouldn’t remove any flights from the results” — it only changes the numbers. That matters on short-haul Europe, where the headline fare and the fare you actually pay can be two different products. Google is honest about the limits too: it “displays the baggage information that we receive from our partners”, estimated bag fees “may be subject to additional government taxes”, carry-on charges “vary by country”, and what counts as a carry-on “varies by airline”, so the airline’s own baggage page remains the authority on size and weight.</p><p>The date tools are the cheapest saving on offer. The calendar shows “the lowest total price to fly for each day”, the price graph plots the same route by week or by month, and the green highlighting marks the most affordable options judged on “price in relation to the lowest-priced option and the total number of options available”. None of it costs anything and none of it requires you to be signed in.</p>"
+   },
+   {
+    "heading": "Google is not the seller, and that decides who you ring",
+    "html": "<p>Read Google’s booking help and the arrangement is unusually clearly drawn. “All bookings are made directly with the relevant airline or online travel agency.” Google “acts only as an intermediary to securely pass your information”. In most cases “your card will be charged when your booking is confirmed”, and some sellers “may place a temporary authorisation on your card” first. If you then need to change or cancel, Google says to contact the airline or agency directly; it can help you find the booking details but cannot make the change for you, and it tells you to “check the cancellation policy so that you’re aware of any cancellation-related deadlines or penalties”.</p><p>That is cleaner than a travel brand that takes your money and then points at a third party, and it is worth saying so plainly. But it has a consequence a lot of readers only meet at the worst moment: every promise attached to your ticket is somebody else’s promise. Your confirmation email, Google notes, carries “the confirmation number and the airline or travel agency’s contact information” — that is the counterparty, and it may be an agency rather than the carrier.</p><p>One result type deserves a second look before you click. Google marks some itineraries “Separate tickets booked together” — what the industry calls a virtual interline, meaning “a combination of flights from carriers <em>without</em> a codeshare or interline agreement”. Google says these “generally require travellers to collect and recheck baggage” and to check in for each flight separately, and that you lose the coordination between carriers that a single ticket gives you. A missed connection on a self-transfer fare is not the airline’s problem, and on separate tickets “you might be charged a change fee for each ticket”. The saving can be real; so is the exposure.</p><p>For a UK resident, the contract behind the tool itself sits with Google LLC under terms effective 30 July 2026, and those terms say that for a UK resident “these terms and your relationship with Google” are “governed by English law” with disputes filed “in the English courts”. The warranty Google gives is that it provides the services “using reasonable skill and care” — a service standard, not a promise that a price was right.</p>"
+   },
+   {
+    "heading": "How the results are ordered, in Google’s own words",
+    "html": "<p>Most comparison tools will not tell you how they sort. Google will. The default “Best” tab “shows you the flights that offer the best trade-offs between price, convenience and ease of booking”. Top departing flights are ranked on price and convenience, where convenience means duration, number of stops and whether you change airport; a non-stop itinerary with no price information “always appear[s] in the lowest position”. Everything in the “Other departing flights” list is simply in ascending price order.</p><p>The commercial question follows immediately, and Google answers it in one line: its partnerships “have no impact on the ranking of offers suggested to you”. Set that against the thing the Competition and Markets Authority spent 2019 worrying about in this sector — the effect commission has on how results are ordered — and a flat public statement is the strongest form of answer available short of publishing the algorithm.</p><p>What is less visible is who is missing. Google states that “not all airlines or available flights are included, as a partnership with Google is required”, and that partners “may have rules that prevent us from linking to it on their website”. There is a second gap on top: a business in the European Economic Area can ask Google not to display its prices and availability on Google Flights to EEA users, and “content currently being displayed on Flights will be removed within 30 days of opting out”, while “your data will still appear on Search”. No list of who has taken that option is published anywhere, and the choice is framed for EEA businesses and EEA users rather than UK ones. Either way, a Google Flights search is a search of Google’s partners, not of the market.</p>"
+   },
+   {
+    "heading": "The prediction tools, and the words they carefully use",
+    "html": "<p>Google’s price insights are prediction, and the wording is chosen with care. You may be told that “prices are unlikely to drop before you book”, that “prices are lower than usual” — which means “significantly lower than expected based on an analysis of past prices of similar trips” — or that “prices are likely to increase”, sometimes with an approximate amount attached. Tracking a route sends you an email when the price “changes significantly”; tracking “Any dates” sends one when the route’s minimum price “drops significantly over a month”, and a routine list of the best available fares when it does not. There are also emails warning that a current fare is about to expire and the replacement will probably cost more, carrying an estimate of the rise and how confident Google is in it.</p><p>Twice in that paragraph the threshold is the word “significantly”, and Google publishes no number behind it. Nor does it publish any accuracy rate for the predictions themselves — no hit rate, no sample, no methodology note of the kind it does publish for emissions. The tools are free and they are better than guessing, but they cannot be audited from outside, and a confident-sounding sentence about next month’s fares is still a forecast.</p><p>The newest tool is blunter about its own limits. AI Flight Deals, which takes a plain-English trip idea and works out destinations and dates for it, is labelled “an experimental (beta) feature”, warns that “the destinations and dates that it suggests may not always be a perfect match”, and says outright that “the price that you see may change when you go to book”. It defines a deal against the median of the cheapest prices for that route over the past 12 months, with savings deals at least 20% below typical. It does not support multi-city trips, specific passenger types, “groups larger than four people” or specific stopover requests.</p>"
+   },
+   {
+    "heading": "Two of the best features stop at the Atlantic",
+    "html": "<p>The Google Price Guarantee is the most generous thing in the product and a UK traveller cannot use it. Its own additional terms say it “is made available by Google LLC and is only available to users based in the U.S. who are 18 years or older”, and that it “is only available for one-way and round-trip itineraries departing from the U.S.”. Where it applies, Google tracks the fare after you book and pays the difference: the gap “must be $5 or more”, payouts are capped at “$500 in the aggregate across all eligible itineraries in a given calendar year”, you are limited to “one Payout per eligible itinerary” and to three confirmed guarantee bookings at a time, the booking must be confirmed with Google “no later than 30 days after the first flight in your itinerary has flown”, and the payout redeemed no more than 45 days after that. The terms were last modified 01/10/2024.</p><p>AI Flight Deals is the same story at an earlier stage. Google’s announcement of 14 August 2025 said it would “roll out in the U.S., Canada and India” over the following week, and no UK availability has been announced since. For a reader in Manchester or Glasgow, then, two of the three features Google has built since 2024 are visible in the coverage and absent from the product.</p><p>None of that makes the free part worse. It does mean that comparisons written for an American audience — which is most of what is written about Google Flights — describe a tool that is not the one loading in a UK browser.</p>"
+   },
+   {
+    "heading": "The emissions estimate is the most carefully built figure here",
+    "html": "<p>If you want one reason to use Google Flights over a cheaper-looking alternative, it is this. Since July 2025 Google has shown the EASA flight emissions label where one exists, which is built from an airline’s verified historical data for a specific route. Where it does not, the estimate comes from Google’s own Travel Impact Model, which combines public and licensed datasets and is overseen by an advisory committee formed after Google joined the Travalyst coalition, first meeting in Zurich in the summer of 2023. Google says EASA and the model are being aligned so that estimates can be compared fairly, and that sustainable aviation fuel reductions reported by EASA are kept out of the headline CO2e figure and shown separately in a tooltip.</p><p>The detail behind the number is published rather than asserted. The figure is well-to-wake, covering fuel production and transport as well as take-off, cruise and landing, with non-CO2 effects converted to CO2 equivalent on global warming potential. Cabin classes are weighted on the seat area ratios in IATA Recommended Practice 1726 — first 5, business 4, premium economy 1.5, economy 1 — so a business seat on the same aircraft carries roughly four times an economy seat’s share. Load factors come from US Department of Transportation data for US flights and ch-aviation data elsewhere where it exists. The model’s own API, which is public and free under a CC BY-SA 4.0 licence, publishes each estimate with its sources: a Zurich to Boston flight returns a load factor of 0.81, a cargo mass fraction of 0.30 and a 6,119 km distance, with 318,102 grams for economy against 1,590,510 for first.</p><p>Each flight is then labelled higher, typical or lower against the median for the route you searched, you can sort by emissions or filter to “Less emissions only”, and the scale is UK-legible: Travalyst gives a typical one-way economy Gatwick to New York JFK flight as 466 kg CO2e per passenger, with a lower-emitting option on the same route 12% or 57 kg below that, against 56 kg for Gatwick to Dublin. Train comparisons use an IEA average of 19 g CO2e per passenger-kilometre.</p><p>Google is also unusually frank about what the figure leaves out. Persistent contrails form on a small fraction of flights and, citing Lee (2021), account for about a third of aviation’s total warming impact, so the real climate effect is substantially higher than the fuel-based number — which is why each result carries a contrail band of Low (up to 20% more), Medium (20–100% more) or High (over 100% more), predicted from historical weather and explicitly liable to differ on the day. The estimates still do not account for flight direction or for actual sustainable fuel use, the fallback load factor is a 2019 pre-pandemic industry average, and some aircraft types produce no estimate at all and are labelled “unknown emissions”. The API does not cover charter, private or cargo flights, and reaches only departures within the next 11 months.</p>"
+   },
+   {
+    "heading": "Where your protection comes from when the flight is cancelled",
+    "html": "<p>Nothing on Google Flights protects your trip, and that is not a criticism of Google so much as a fact about what a search engine is. Your rights come from the airline and from UK law. If a flight from or to the UK is cancelled with less than 14 days’ notice and it was the airline’s fault, the Civil Aviation Authority sets fixed compensation per person: £220 under 1,500 km, £350 between 1,500 and 3,500 km and £520 over 3,500 km, with reduced bands of £110, £175 and £260 where the replacement gets you there inside two, three or four hours depending on distance. You also choose between a refund of every unused part of the ticket and an alternative flight at a time you pick, and where extraordinary circumstances such as extreme weather or a strike remove the compensation the airline must still provide food, drink, a means to communicate, and a hotel and transfers if you are rerouted to the next day — “no matter how long the delay lasts”.</p><p>If the airline says no, the complaint goes to its approved dispute scheme, and that is free. AviationADR covers easyJet, Ryanair, Wizz Air, TUI Airways, Virgin Atlantic, Air France, KLM, Delta, Air Canada, Turkish Airlines, SAS, TAP Air Portugal and others; CEDR covers British Airways, BA CityFlyer and Cathay Pacific. The complaint must concern something in the last six years, or five in Scotland, must reach the scheme within 12 months of the airline’s final response, and can be referred early if the airline has not replied within eight weeks — most decisions arrive within three months. Where an airline belongs to no scheme, the CAA’s Passenger Advice and Complaints Team can help but cannot make a binding decision.</p><p>ATOL is the other half of the question and it does not reach a flight bought on its own. The CAA describes ATOL as financial protection for a package trip that includes a flight, booked with an ATOL holder, and says plainly that it “is not travel insurance”. Google neither holds nor claims it, mentions neither it nor ABTA anywhere, and could not hold it: it is not selling the trip. So a flight-only ticket bought through a Google Flights link carries whatever the seller carries — which is the single best reason to notice which company you are being handed to.</p>"
+   },
+   {
+    "heading": "Google signed the CMA’s booking principles in 2019",
+    "html": "<p>One piece of the record is worth having, because nobody writing about Google Flights seems to carry it. When the Competition and Markets Authority finished its work on online booking in 2019 — after formal undertakings from Booking.com, Expedia, Agoda, Hotels.com, ebookers and trivago — it announced on 13 September 2019 that 25 further firms had signed up to its sector-wide principles. Google is on that list, alongside Skyscanner, Kayak, Momondo, Opodo, Lastminute, Trip.com, TripAdvisor, Airbnb and On the Beach. The principles include not giving a false impression of a room’s popularity and always displaying the full cost upfront, and the CMA said it would “continue to actively monitor compliance in the sector”.</p><p>The regime behind that has since been rebuilt. The consumer provisions of the Digital Markets, Competition and Consumers Act 2024 came into force on 7 April 2025, letting the CMA decide for itself whether consumer law has been broken rather than litigating through the courts, and fine up to 10% of global turnover. Drip pricing — one price on the screen and fees added as you proceed — is prohibited outright. A tool that shows the air fare with taxes in it, keeps bag fees separate and then offers to add them back in is on the right side of that rule by design, and the CAA has said it is reviewing its own dispute-resolution policy in light of the same Act.</p><p>Scale, for context, comes from Alphabet’s own filings rather than anyone’s estimate: $127,577 million of revenue in the quarter to 30 September 2026, of which $82,012 million was advertising and $63,350 million was Google Search and other. The same filing records that the European Commission issued non-compliance decisions under the Digital Markets Act in July 2026 including a fine of €460 million relating to Search, and that the UK has issued a statement of objections on Google’s advertising technology. The UK trading company, Google UK Limited, is number 03977902, incorporated 20 April 2000 and registered at 1 St Giles High Street, London WC2H 8AG — though it is Google LLC that a UK user’s terms name as the service provider.</p>"
+   }
+  ],
+  "pros": [
+   "Free to search, with no subscription, no account and no Google fee inside the displayed fare",
+   "The price shown already contains VAT or GST and airport taxes",
+   "More than 300 airline, agency and aggregator partners in one search",
+   "A bag-fee filter that rebuilds every price in the list to include a checked bag or an overhead carry-on",
+   "Google publishes its ranking criteria and states that partnerships do not affect the order of results",
+   "Calendar, date grid and price graph show the cheapest days on a route without signing in",
+   "Free price-tracking emails, including a warning when a fare is about to expire",
+   "Emissions estimates built on the EASA label where it exists and otherwise on a published, externally overseen model",
+   "The emissions model is free and open: a public API under a CC BY-SA 4.0 licence, with each estimate carrying its own sources",
+   "Contrail warming is shown in bands rather than quietly left out of the CO2 figure",
+   "Self-transfer itineraries are labelled “Separate tickets booked together” rather than presented as one ticket",
+   "Google is one of the 25 firms that signed the CMA’s online booking principles in September 2019"
+  ],
+  "cons": [
+   "The search is not a whole-market search: “not all airlines or available flights are included, as a partnership with Google is required”",
+   "Prices are refreshed only “approximately once every 24 hours”, and Google’s own beta tool warns that “the price that you see may change when you go to book”",
+   "Google is not a party to the booking and provides no customer support for it — every promise on your ticket belongs to the seller",
+   "The Price Guarantee is available only to users based in the US, on itineraries departing from the US, so a UK traveller gets nothing from it",
+   "AI Flight Deals rolled out in the US, Canada and India only, and remains an experimental beta",
+   "The price-alert threshold is published as the word “significantly” and nowhere as a figure",
+   "No accuracy rate, sample size or methodology is published for the price predictions, unlike the emissions model",
+   "Emissions estimates still do not account for flight direction or actual sustainable fuel use, and fall back to a 2019 pre-pandemic industry average load factor where no data exists",
+   "Contrail bands are predicted from historical weather and may differ from the day you fly, on an effect worth about a third of aviation’s total warming",
+   "Some aircraft types return no estimate at all and are shown as “unknown emissions”",
+   "No ATOL and no ABTA protection, and no dispute-resolution scheme covers a flight search engine — the CAA’s approved schemes cover airlines and airports",
+   "An EEA business can have its prices removed from Google Flights for EEA users within 30 days, and no list of who has done so is published",
+   "Bag fee figures come from partners, “may be subject to additional government taxes” and are not a substitute for the airline’s own baggage page",
+   "A UK user’s terms name Google LLC as the service provider, and the only warranty given is that the service is provided “using reasonable skill and care”",
+   "No independent rating of a flight search engine exists from anybody: no ratings agency, regulator or tourist board assesses one"
+  ],
+  "verdict": "As a free way to find out what a route costs and which days are cheapest, Google Flights is hard to beat: more than 300 partners in one search, VAT and airport taxes already inside the price, bag fees addable at a click, and a published statement that commercial partnerships do not move the running order. The emissions work is better still — version 3.0.0 of the Travel Impact Model dated 27 July 2026, the EASA label where it exists, seat-area weighting from IATA RP 1726, contrail bands and an open API — and no company selling flights publishes anything like it. Use it the way it is built: as a map of the market Google has partnered with, not the whole market, and with the understanding that the deal, the refund and the complaint all belong to whoever takes your card. Check the price on the seller’s own page before you pay, because Google refreshes its copy roughly once a day. And if you came for the Price Guarantee or AI Flight Deals, neither is available in the UK.",
+  "faqs": [
+   {
+    "q": "Does Google Flights charge a booking fee?",
+    "a": "<p>No. There is no subscription, no account requirement and no Google fee inside the fare. Google’s help pages say the displayed price is “only for the passenger air transport service itself and includes VAT/GST and airport taxes”, with luggage and card charges added by the seller. Google is paid through its wider advertising business — $82,012 million of Alphabet’s $127,577 million of revenue in the quarter to 30 September 2026 — not by you.</p>"
+   },
+   {
+    "q": "Who do I contact if my flight is cancelled after booking through Google Flights?",
+    "a": "<p>The airline or the online travel agency named on your confirmation email. Google states that it “won’t be a party to your booking transaction”, cannot make changes or cancellations for you, and that the seller “provides customer support”. Your statutory rights are against the operating airline: for a UK cancellation with less than 14 days’ notice that was the airline’s fault, £220, £350 or £520 per person depending on distance, plus care and assistance and a choice of refund or re-routing.</p>"
+   },
+   {
+    "q": "Is a flight booked through Google Flights ATOL protected?",
+    "a": "<p>Not by Google. ATOL is financial protection for a package trip that includes a flight, bought from an ATOL holder, and the CAA says plainly that it “is not travel insurance”. Google neither holds nor claims ATOL or ABTA cover, because it is not selling the trip. Whatever protection you have comes from the company that takes your payment, so it is worth reading whose name appears at checkout.</p>"
+   },
+   {
+    "q": "Can I use the Google Flights price guarantee in the UK?",
+    "a": "<p>No. Its own terms, last modified 01/10/2024, limit it to “users based in the U.S. who are 18 years or older” and to “one-way and round-trip itineraries departing from the U.S.”. Where it does apply it pays a difference of $5 or more, capped at $500 across a calendar year. AI Flight Deals is similarly restricted, having rolled out in the US, Canada and India from 14 August 2025.</p>"
+   },
+   {
+    "q": "Does Google Flights show every airline?",
+    "a": "<p>No, and it says so: “not all airlines or available flights are included, as a partnership with Google is required”, and some partners have rules preventing Google from linking to their site. A business in the European Economic Area can also ask for its prices and availability to be removed from Google Flights for EEA users within 30 days. Treat the results as Google’s partner set rather than the whole market, and check a carrier directly if you do not see it.</p>"
+   },
+   {
+    "q": "How reliable is the carbon figure beside each flight?",
+    "a": "<p>It is the best-documented number in flight search, and Google is open about its gaps. Where an EASA flight emissions label exists it is used, built from an airline’s verified route data; otherwise the Travel Impact Model applies, on well-to-wake fuel, IATA RP 1726 seat-area ratios and real load factors where available. It does not yet account for flight direction or actual sustainable fuel use, falls back to a 2019 industry-average load factor, and labels some aircraft “unknown emissions”. Contrails, worth about a third of aviation’s warming, are shown separately as Low, Medium or High bands.</p>"
+   }
+  ]
+ },
+ {
+  "slug": "google-store-smart-things",
+  "title": "Google Store Smart Home: Nest Prices and the Date the Updates Stop",
+  "meta_title": "Google Nest Prices, 5-Year Updates and the £8 Plan",
+  "meta_description": "Google Store sells Nest cameras from £89.99 and lists a security-update end date for every model. We checked the dates, the £8 plan and the 2-year warranty.",
+  "checked": "14 November 2026",
+  "headline": {
+   "label": "Guaranteed security-update period",
+   "value": "At least 5 years, counted from the day the device first went on sale on the US Google Store rather than the UK one — which puts four devices the UK shop still sells past their published end date, the Nest Hub (2nd gen) by 229 days (checked 14 November 2026)"
+  },
+  "intro": "<p>Google Store sells the Nest range direct at <strong>£89.99</strong> for a Nest Cam Indoor (wired, 3rd gen) or a Nest Hub (2nd gen), <strong>£119.99</strong> for the Nest Cam Outdoor (wired, 2nd gen), <strong>£179.99</strong> for the battery camera or the battery doorbell, <strong>£219</strong> for the Nest Learning Thermostat and <strong>£269.99</strong> for the floodlight camera, with free next-day delivery on every order and no minimum spend. Prices read on 14 November 2026.</p><p>It also does something almost no shop does: it publishes a table giving the security-update end date for every connected-home device it has ever sold, model by model, going back to the first Chromecast. A buyer can look up the <strong>£189.99</strong> Nest Wifi Pro and find <strong>27 October 2027</strong> against it. That table is the most useful page on the whole site and it is three clicks away from the thing it describes.</p><p>Two things to know before you order. The seller is <strong>Google Commerce Limited</strong> of Gordon House, Barrow Street, Dublin 4, trading through a UK establishment at 1 St Giles High Street, London WC2H 8AG — so a return, a refund or a guarantee claim is an Irish company's business, under English law. And <strong>Nest Aware no longer exists</strong>: Google renamed it Google Home Premium, moved every Nest Aware subscriber onto the Standard plan and every Nest Aware Plus subscriber onto Advanced, and now charges <strong>£8 a month</strong> or <strong>£16 a month</strong> for the two tiers.</p>",
+  "key_facts": [
+   {
+    "label": "Who you are buying from",
+    "value": "Google Commerce Limited, Gordon House, Barrow Street, Dublin 4, Ireland, with a UK establishment at 1 St Giles High Street, London WC2H 8AG named as the manufacturer contact in the Nest Cam Indoor (wired, 3rd gen) safety guide"
+   },
+   {
+    "label": "Where the support clock starts",
+    "value": "“at least 5 years from the date we start selling them on the US Google Store” — not the UK launch, and not the day you buy it"
+   },
+   {
+    "label": "Devices on sale with an expired end date",
+    "value": "Four: Nest Hub (2nd gen) 30 March 2026, Nest Cam (battery), Nest Doorbell (battery) and Nest Cam with floodlight all 24 August 2026; Nest Hub Max went past on 9 September 2024 and is still listed"
+   },
+   {
+    "label": "Longest and shortest dates in the shop",
+    "value": "Google Home Speaker 25 June 2031 against Nest Wifi Pro 27 October 2027 — 4 years 7 months against 347 days"
+   },
+   {
+    "label": "Google Home Premium",
+    "value": "£8 a month or £80 a year for Standard, £16 a month or £160 a year for Advanced; 30 and 60 days of event video history, and 10 days of 24/7 recording on Advanced only"
+   },
+   {
+    "label": "Free video history without a plan",
+    "value": "3 hours of event history on cameras and doorbells, against 720 hours on the £80-a-year plan"
+   },
+   {
+    "label": "Hardware guarantee",
+    "value": "2 years in the UK, EEA and Switzerland under the Google Consumer Hardware Limited Warranty, 3 years on Nest Pro editions, given by Google LLC and hardware only"
+   },
+   {
+    "label": "Returns",
+    "value": "15 calendar days from delivery on most items, 30 days on thermostats; refunds go back within 14 days, less delivery-related costs"
+   },
+   {
+    "label": "Credit on offer",
+    "value": "0% over 36 months above £149, or three instalments above £49; the camera pages quote £7.50 a month over 24 months on a £179.99 device"
+   },
+   {
+    "label": "Statement of compliance",
+    "value": "One document dated 8 April 2024, signed by Louise Bohmann, Director & PA Compliance Lead, covering four product groups at 7, 5, 3 and 2 years"
+   }
+  ],
+  "sections": [
+   {
+    "heading": "What the Nest shelf costs, and what the money buys",
+    "html": "<p>Ten devices in the connected-home range carried a readable price on 14 November 2026, and an eleventh, the Nest Hub Max, is listed without one. Cameras start at <strong>£89.99</strong> for the Nest Cam Indoor (wired, 3rd gen) and run through <strong>£119.99</strong> for the Nest Cam Outdoor (wired, 2nd gen), <strong>£179.99</strong> for the Nest Cam (battery) and <strong>£269.99</strong> for the Nest Cam with floodlight (wired). The Nest Doorbell (battery) is <strong>£179.99</strong>. Displays and speakers: Nest Hub (2nd gen) <strong>£89.99</strong>, Google Home Speaker <strong>£99.99</strong>. Infrastructure: Nest Wifi Pro from <strong>£189.99</strong>, Google TV Streamer (4K) <strong>£149</strong>, Nest Learning Thermostat <strong>£219</strong>.</p><p>The specifications are published in full and they are specific in a way a retailer's listing never is. The battery doorbell records <strong>960 × 1280</strong> at up to <strong>30 frames a second</strong> across a <strong>145° diagonal</strong> field of view, carries a <strong>6 Ah, 3.65 V</strong> lithium-ion cell, weighs <strong>206 g</strong>, measures <strong>160 mm</strong> by <strong>46 mm</strong> by <strong>24.1 mm</strong>, works from <strong>−20°C to 40°C</strong> and needs a broadband line with “at least 2 Mbps upload speed (DSL may not qualify)”. In the box are the doorbell, a base plate, a release tool, two wall anchors and screws, a wire connector, a 20° wedge, spacers and a one-metre charging cable.</p><p>Delivery is the part most shops charge for. Google Store puts “free next day delivery on all orders” on every product page with no spend threshold, so the <strong>£89.99</strong> camera arrives at <strong>£89.99</strong>. New customers are offered a <strong>£10</strong> coupon against a later order for signing up, and the store runs a price match that refunds the difference if a selected retailer is cheaper. Credit is Google's own: <strong>0%</strong> over <strong>36 months</strong> on anything over <strong>£149</strong>, three instalments or payment within 30 days on anything over <strong>£49</strong>, which on the £179.99 camera is printed as <strong>£7.50 a month</strong> over <strong>24 months</strong> — £180.00 in total, a penny more than the cash price over two years.</p>"
+   },
+   {
+    "heading": "The clock starts in California",
+    "html": "<p>Every Nest device sold in Britain carries a promise of “at least 5 years” of automatic security updates. The wording of that promise is the thing worth reading twice. Google's own support page measures the five years “from the date we start selling them on the US Google Store”, and the per-model table heading says it in arithmetic: <em>Release date + 5 year minimum</em>. The UK statement of compliance uses the same formula — “at least five years from when the device first became available on the Google Store in the US”.</p><p>So the clock is not set by the British launch, and it is certainly not set by the day the box is opened. A device that reached the United States a year before it reached Britain arrives here with four years left on a five-year promise, and nothing on the UK product page says so. Google publishes the dates rather than the lengths, which is the honest way round — but the dates are printed American-style, month first, so <strong>10/1/2030</strong> against the Nest Cam Outdoor (wired, 2nd gen) is 1 October 2030 and not 10 January.</p><p>Read in date order, the range splits cleanly. The devices with years in hand are the Google Home Speaker (<strong>25 June 2031</strong>), the Nest Cam Indoor (wired, 3rd gen), the Nest Cam Outdoor (wired, 2nd gen) and the Nest Doorbell (wired, 3rd gen) (all <strong>1 October 2030</strong>), the Google TV Streamer (4K) (<strong>24 September 2029</strong>) and the Nest Learning Thermostat 4th generation (<strong>20 August 2029</strong>). Then there is a cliff. Nest Wifi Pro stops on <strong>27 October 2027</strong>, which from 14 November 2026 is <strong>347 days</strong> — under a year of guaranteed updates on a <strong>£189.99</strong> router whose own sales page promises “automatic security updates to help keep you safe” and gives no end date at all.</p>"
+   },
+   {
+    "heading": "Four things on sale today are past the date Google set for them",
+    "html": "<p>Line those ten priced tiles up against the shop's own table and four of them have already passed the end of their published minimum. The Nest Hub (2nd gen), on sale at <strong>£89.99</strong> with a Buy button, ran out on <strong>30 March 2026</strong> — <strong>229 days</strong> ago. The Nest Cam (battery) at <strong>£179.99</strong>, the Nest Doorbell (battery) at <strong>£179.99</strong> and the Nest Cam with floodlight at <strong>£269.99</strong> all ran out on <strong>24 August 2026</strong>, <strong>82 days</strong> ago. The Nest Hub Max is listed with an “Add to basket” button under model code <strong>GA00426</strong> and its date was <strong>9 September 2024</strong>, two years and two months back; its price could not be read and is not quoted here.</p><p><strong>That is not the same as saying the updates have stopped, and Google says so plainly in the same table.</strong> Alongside each date sits a column headed <em>Currently receiving critical security updates</em>, and every one of those five devices reads “Yes”. The only product in the whole list marked “No” is the first-generation Chromecast, whose date was <strong>31 July 2018</strong>. The five-year figure is a floor rather than a ceiling, the page calls the dates minimums, and on this evidence Google is going well past them.</p><p>What has run out is the promise, not the patches. A buyer paying <strong>£269.99</strong> for the floodlight camera today is buying a device Google is still updating as a matter of goodwill, with no published commitment to carry on and no date to hold it to — and Google's support page never says what happens once the minimum ends. The fair criticism is not that the shop is selling something unsafe. It is that the shop is not telling anyone which side of the line the thing in the basket falls on.</p>"
+   },
+   {
+    "heading": "The duty that was written for a shop exactly like this one",
+    "html": "<p>The Product Security and Telecommunications Infrastructure Act 2022 and the regulations under it, in force since <strong>29 April 2024</strong>, set no minimum support length. They set a duty to publish one, in plain language, free, without being asked. Schedule 1 goes further for a manufacturer that invites people to buy on its own website: the support information has to sit with, or carry equal prominence to, the price. Google Store is the manufacturer's own website. It is the case the drafting had in mind.</p><p>None of the ten priced connected-home product pages read on 14 November 2026 carried a support date, and nor did the Nest Hub Max listing. The Nest Cam (battery) page talks about encrypted video and two-step verification; the Nest Wifi Pro page promises automatic updates with no horizon; the Google Home Speaker page offers a 30-day subscription trial and a return policy. The number is real, it is published, and it is on a different site — <em>support.google.com</em> rather than <em>store.google.com</em> — which a shopper reaches only by knowing it exists.</p><p>The paperwork has the same gap. Google's UK statement of compliance for the Nest range is dated <strong>8 April 2024</strong>, declares conformity as of <strong>29 April 2024</strong> and is signed by <strong>Louise Bohmann, Director &amp; PA Compliance Lead</strong>, for Google LLC of 1600 Amphitheatre Parkway, Mountain View. It sorts products into four groups at <strong>7 years</strong> (Pixel 8), <strong>5 years</strong> (the Nest cameras, doorbells, hubs, speakers, thermostats, the smoke alarm, the lock, Google Wifi, Nest Wifi Pro and Chromecast with Google TV), <strong>3 years</strong> (Pixel Watch) and <strong>2 years</strong> after last sale (Fitbit). Nothing in it is newer than 2023 hardware. Google has issued a fresh single-product statement for each new phone since — Pixel 9, 9a, 10 Pro XL, 10 Pro Fold, 11 Pro and 11 Pro XL all have their own — but no equivalent could be found for the Google Home Speaker, the Nest Cam Indoor (wired, 3rd gen) or the Nest Doorbell (wired, 3rd gen). Their safety guide says only that “Google LLC declares that this product complies with the Product Security and Telecommunications Act (PSTI)” and states no period.</p><p>Whether that leaves anything undone is not a question this page can answer, and the regulator is not helping. The Office for Product Safety and Standards publishes an enforcement page for these regulations, last updated <strong>8 August 2025</strong>, listing compliance notices, stop notices, recall notices, monetary penalties, forfeiture applications and court orders. It names no company and no case. The page does commit that “OPSS publishes details of any Compliance Notice that we serve, in line with our Enforcement Policy”, so the silence is the regulator's own and it is the closest thing to a verdict available.</p>"
+   },
+   {
+    "heading": "Three free hours, or £160 a year",
+    "html": "<p>A Nest camera out of the box keeps <strong>3 hours</strong> of event video. Everything past that is a subscription. Google Home Premium Standard is <strong>£8 a month</strong> or <strong>£80 a year</strong> and buys <strong>30 days</strong> of event history, package and smoke-alarm alerts, and Gemini for Home with Gemini Live on speakers and displays. Advanced is <strong>£16 a month</strong> or <strong>£160 a year</strong> and adds <strong>60 days</strong> of event history, <strong>10 days</strong> of continuous 24/7 recording on wired cameras and doorbells, video history search, event descriptions and daily summaries. Buyers of a speaker get <strong>30 days</strong> free, an offer the page says runs until <strong>31/12/2028</strong>; buyers of the outdoor camera get one month.</p><p>Do the arithmetic the shop does not. <strong>30 days</strong> of history is <strong>720 hours</strong> against the <strong>3</strong> you get free, so the £80 plan multiplies the included allowance by <strong>240</strong>. Paying monthly costs <strong>£96</strong> a year on Standard and <strong>£192</strong> on Advanced, against <strong>£80</strong> and <strong>£160</strong> annually — <strong>£16</strong> and <strong>£32</strong> more, <strong>16.7%</strong> in both cases, and the page's own “Save £32” on Advanced is right. Its “Save £20” on Standard is not: at £8 a month the saving is £16, and the same page says £16 two screens earlier.</p><p>Set the plan against the hardware and the proportions are striking. On the <strong>£99.99</strong> Google Home Speaker, a year of Advanced at <strong>£160</strong> is <strong>160%</strong> of the speaker. On the <strong>£179.99</strong> Nest Cam (battery) it is <strong>88.9%</strong>. Over the Nest Wifi Pro's remaining <strong>347 days</strong> of guaranteed updates, a household on Advanced would spend about <strong>£152</strong> on the subscription alone. Continuous recording also needs mains power, which Google states on the camera page: “24/7 continuous video history requires a Google Home Premium subscription and that your camera be wired for continuous power” — so a battery camera owner cannot buy the headline Advanced feature at any price.</p>"
+   },
+   {
+    "heading": "Two years of guarantee, and a page that offers one",
+    "html": "<p>The warranty is better than the sales pages let on. The printed Safety, Warranty and Regulatory Guide that ships with the Nest Doorbell, document <strong>G953-00933-01 REV C</strong>, carries a section headed “Google Consumer Hardware Limited Warranty – UK, EEA, and Switzerland” giving “two years from the date of original purchase by you anywhere in the UK, EEA or Switzerland”. The doorbell's own technical specification page says the same thing in four words: “2-year limited warranty”, and “Nest Pro: 3-year limited warranty” for the trade edition. It is given by Google LLC, it covers hardware and not software, it excludes accidental damage, wear, water, extreme temperatures and anything taken apart, and the remedy is repair, replacement or refund at Google's choice.</p><p>It also says the right thing about your legal position: the guarantee's benefits “are in addition to, and not instead of, your statutory rights”. In England and Wales a claim for faulty goods can be brought for up to six years, which outlasts the guarantee by four and in several cases outlasts the security-update minimum as well.</p><p>The awkward part is the tool Google points you at. The Hardware Warranty Center troubleshooter at <em>support.google.com</em> is the destination for “warranty details for your country of purchase”, and the only labelled period it offers reads “Google Consumer Hardware Limited Warranty (1 year)”. It is a country-selector tool rather than a flat document, so this needs confirming against a UK selection rather than taken as a contradiction — but a buyer who lands there and reads one year, when the box and the specification sheet both say two, has been given the worse of Google's two answers.</p>"
+   },
+   {
+    "heading": "Fifteen days, and a sentence that forgot Brexit",
+    "html": "<p>Returns are tight. Google Store's return policy allows “within 15 calendar days after the day you receive them” for most items and <strong>30 calendar days</strong> for thermostats. Refunds go to the original payment method within <strong>14 days</strong> of the device arriving back, reduced by delivery-related costs, and the return itself has to be completed within <strong>14 days</strong> of starting it. Merchandise goods have to be unused.</p><p>Fifteen days is one day more than the law requires, and the law is the reason it is fifteen. The sales terms spell the right out: “The withdrawal period will expire 14 days after the day on which you acquire…”, and on postage, “Unless we expressly state otherwise, Google will bear the direct cost of returning the Device”. Those two documents do not quite agree — the terms put return postage on Google, the return policy deducts delivery-related costs from the refund — and a shopper reading only one of them will guess wrong about who pays.</p><p>There is also a small post-Brexit oversight worth noting, because it is the kind of thing that tells you how recently a page was read. The return policy's reassurance is that “nothing here affects the statutory 14-day withdrawal right for consumers based in the EU”. A British buyer is no longer in the EU; the equivalent right sits in UK regulations, and the sales terms do carry it for UK residents under English law. The sales terms themselves show an effective date of <strong>15 March 2022</strong>, which is four and a half years old. The same staleness shows on the doorbell specification page, which still tells shoppers they “can upgrade to 30 days of event video history with a Nest Aware subscription” — a product Google itself has replaced.</p>"
+   },
+   {
+    "heading": "What Google has already switched off",
+    "html": "<p>The support table is a record of endings as well as promises, and the brand has form. <strong>Nest Secure</strong>, the alarm system, has a published date of <strong>30 November 2022</strong>, and Google's own support notice records what followed: the cellular backup service cancelled “by May 20, 2024”, the system no longer connecting to cloud services or appearing in the Google Home app, no status checks, no remote control, no alarm notifications, and owners whose Nest Guard was bridging a Nest x Yale Lock told they “must replace your Nest Guard with a Nest Connect”, offered free to those eligible.</p><p><strong>Nest Protect</strong>, the smoke and carbon monoxide alarm, is also finished as a product. Google's own announcement says it is “ending new production of Nest Protect”, that stock “will continue to be sold while supplies last”, that existing units keep working “through their expiration dates” with software and security updates continuing, and that the next generation of alarms will come from a partnership with First Alert. No discount or trade-in is offered to owners. Nest Protect's own date in the table is <strong>15 June 2020</strong>.</p><p>Further down the list the dates get old quickly: Nest x Yale lock and Nest Hello both <strong>31 March 2023</strong>, Google Home Max <strong>11 December 2022</strong>, Nest Thermostat E <strong>31 August 2022</strong>, Nest Cam IQ indoor and outdoor <strong>28 June 2022</strong>, Google Wifi <strong>5 December 2021</strong>, the original Google Home <strong>4 November 2021</strong>, Nest Cam Indoor and Nest Protect both <strong>15 June 2020</strong>. Thirty-nine devices are listed in all. Set that against Which?'s work on how long people expect appliances to last — published <strong>13 January 2023</strong> from a survey of <strong>1,051</strong> members in <strong>October 2022</strong>, covering <strong>119 brands</strong> across <strong>20 categories</strong>, with estimated lifetimes of <strong>13 years</strong> for a dishwasher and nearly <strong>7 years</strong> for a television, and only <strong>49%</strong> of brands giving clear support information at all — and a five-year software promise on a mains-wired doorbell starts to look like the short end of the deal.</p>"
+   },
+   {
+    "heading": "The money behind the shelf",
+    "html": "<p>Nest is a small part of a line that is itself a small part of Alphabet. The company's quarterly filing for the three months to <strong>30 September 2026</strong> reports <strong>$14,290m</strong> of revenue under “Google subscriptions, platforms, and devices”, against <strong>$12,870m</strong> in the same quarter of 2025 — growth of <strong>11.0%</strong>. That line sits inside Google Services at <strong>$96,302m</strong> for the quarter, so devices, consumer subscriptions, platforms and everything else of that kind together make up <strong>14.8%</strong> of it. The filing's own description of the hardware inside that figure is “consumer devices, which primarily include sales of the Pixel family of devices”, which places the smart home somewhere below a rounding error in Alphabet's accounts.</p><p>That matters for the thing a buyer is actually betting on, which is whether the maker stays interested. It cuts both ways. A business with Alphabet's revenue can afford to patch a <strong>£89.99</strong> display for a decade; a business that earns almost nothing from that display has little commercial reason to. The Nest Learning Thermostat is the case for the optimistic reading — Google's product page says that “since 2011, we estimate that it's saved over <strong>39 billion kWh</strong> of energy in millions of homes worldwide”, a fifteen-year-old product line still being sold at <strong>£219</strong> with a support date in <strong>2029</strong>.</p>"
+   }
+  ],
+  "pros": [
+   "A published security-update end date for every connected-home device Google has sold, 39 models deep, which almost no retailer or rival manufacturer provides",
+   "Free next-day delivery on every order with no minimum spend, so the £89.99 camera costs £89.99",
+   "A two-year hardware guarantee in the UK, EEA and Switzerland, three years on Nest Pro editions, stated as additional to statutory rights rather than instead of them",
+   "Full technical specifications published before purchase, down to the 6 Ah battery, the 145° field of view and the 2 Mbps upload requirement",
+   "0% credit over 36 months above £149, and a 24-month camera instalment of £7.50 that adds a single penny to the £179.99 cash price",
+   "Three hours of event video history included free on cameras and doorbells, plus a 30-day Google Home Premium trial with a speaker",
+   "A price match that refunds the difference against selected retailers, and a £10 sign-up coupon"
+  ],
+  "cons": [
+   "Four devices on sale today are past their published security-update minimum — the £89.99 Nest Hub (2nd gen) by 229 days and three cameras and doorbells by 82 — and the Nest Hub Max by over two years; Google still reports all of them as receiving updates, but the commitment has lapsed",
+   "Not one of the ten priced connected-home product pages, nor the Nest Hub Max listing, shows a support date beside the price, even though Google is the manufacturer and the information exists on its own support site",
+   "The five-year clock runs from the US launch date, not the UK one and not the date of purchase, so a device can reach British buyers with a year already spent and nothing saying so",
+   "The Nest Wifi Pro is sold at £189.99 with 347 days of guaranteed updates left and a sales page promising “automatic security updates” with no end date",
+   "The only UK statement of compliance covering the Nest range is dated 8 April 2024 and names nothing newer than 2023 hardware; each new Pixel phone gets its own, the new speaker and cameras do not",
+   "Google's own Hardware Warranty Center offers a one-year limited warranty label while the box and the specification page both say two years for the UK",
+   "Returns run to 15 calendar days, one day more than the statutory minimum, and the return policy's only withdrawal-right sentence refers to consumers “based in the EU”",
+   "The sales terms carry an effective date of 15 March 2022, and product pages still direct shoppers to Nest Aware, which Google replaced with Google Home Premium",
+   "Continuous 24/7 recording is Advanced-only and needs mains power, so a battery camera owner cannot buy it at any price"
+  ],
+  "verdict": "Buying Nest from Google rather than from a retailer gets you the one number that matters and the only shop that can be held to it: a published end date, model by model, for a range priced from £89.99 to £269.99, with free next-day delivery and a two-year UK guarantee. Use the table before the basket. The newer wired cameras, the doorbell and the Google Home Speaker have between four and five years of guaranteed updates ahead of them and are the safe buys at £89.99 to £119.99. The Nest Wifi Pro at £189.99 has 347 days. The battery cameras, the battery doorbell, the floodlight camera and both Nest Hubs have already passed their dates — Google is still patching them and says so in the same table, but it has stopped promising to, and it charges £179.99 to £269.99 for three of them without mentioning any of this on the page where you pay. Then decide about the subscription separately: three hours of free history is not a security system, and £160 a year is 160% of the price of the speaker it would be watching over.",
+  "faqs": [
+   {
+    "q": "How long does Google promise to update a Nest device?",
+    "a": "<p>At least five years for the connected-home range, three for Pixel Watch, seven for recent Pixel phones and two years after last sale for Fitbit. The five years are “at least 5 years from the date we start selling them on the US Google Store”, so the clock starts at the American launch rather than the British one or the day you buy. Google publishes a per-model table of end dates for 39 devices going back to the first Chromecast in 2018.</p>"
+   },
+   {
+    "q": "Is Google Store selling anything that has run out of updates?",
+    "a": "<p>It is selling devices whose published minimum has expired. The Nest Hub (2nd gen) at £89.99 passed its date on 30 March 2026; the Nest Cam (battery) and Nest Doorbell (battery) at £179.99 and the Nest Cam with floodlight at £269.99 all passed on 24 August 2026; the Nest Hub Max passed on 9 September 2024. Google's own table shows every one of them still receiving critical security updates — the only device marked otherwise is the first-generation Chromecast — so the promise has run out rather than the patches.</p>"
+   },
+   {
+    "q": "Why is the support date not shown next to the price?",
+    "a": "<p>Google does not say. The regulations in force since 29 April 2024 require the defined support period to be published in plain language without being asked, and Schedule 1 goes further for a manufacturer selling on its own website, where the information is meant to sit with or match the prominence of the price. The number is published, but on support.google.com rather than store.google.com, and none of the ten UK product pages that printed a price on 14 November 2026 carried it.</p>"
+   },
+   {
+    "q": "What does Google Home Premium cost and what happened to Nest Aware?",
+    "a": "<p>Nest Aware was renamed. Standard is £8 a month or £80 a year for 30 days of event video history plus Gemini for Home; Advanced is £16 a month or £160 a year for 60 days of event history and 10 days of 24/7 recording on wired cameras. Google moved Nest Aware subscribers to Standard and Nest Aware Plus subscribers to Advanced with “no change to billing, need to sign up again, or need to redownload the Google Home app”. Paying monthly costs 16.7% more than paying annually on both tiers.</p>"
+   },
+   {
+    "q": "What guarantee comes with a Nest device bought in the UK?",
+    "a": "<p>Two years. The Google Consumer Hardware Limited Warranty for the UK, EEA and Switzerland runs “two years from the date of original purchase”, rising to three years on Nest Pro editions. It is given by Google LLC, covers hardware rather than software, excludes accidental damage and water, and offers repair, replacement or refund at Google's choice. It states that its benefits are “in addition to, and not instead of, your statutory rights”, and in England and Wales a faulty-goods claim can be brought for up to six years.</p>"
+   },
+   {
+    "q": "Who am I actually buying from, and how long do I have to send something back?",
+    "a": "<p>Google Commerce Limited of Gordon House, Barrow Street, Dublin 4, trading through a UK establishment at 1 St Giles High Street, London WC2H 8AG, under English law for UK residents. Most items can go back within 15 calendar days of delivery and thermostats within 30, with refunds to the original payment method inside 14 days of the device arriving. The sales terms say Google bears the direct cost of returning a device; the return policy says refunds are reduced by delivery-related costs.</p>"
+   },
+   {
+    "q": "Has anyone been penalised for breaking the connected-product security rules?",
+    "a": "<p>No case has been published. The Office for Product Safety and Standards keeps an enforcement page for these regulations, last updated 8 August 2025, which lists the tools available — compliance notices, stop notices, recall notices, monetary penalties, forfeiture applications and court orders — and names no company. It commits that “OPSS publishes details of any Compliance Notice that we serve”, so the absence is the regulator's own silence rather than proof that nothing has happened.</p>"
+   }
+  ]
+ },
+ {
   "slug": "gusto-camp-campsites-and-resorts",
   "title": "Gusto Camp Campsites and Resorts",
   "meta_title": "Gustocamp: No ATOL, and 100% Charged From 28 Days Out",
@@ -17451,6 +17788,133 @@
    {
     "q": "Who exactly am I contracting with?",
     "a": "<p>&ldquo;Gustocamp&rdquo;, at Saturnusstraat 60, 2516 AH The Hague in the Netherlands. No limited company or BV is named and no registration number is published on the pages we read, and the booking conditions do not state which country&rsquo;s law governs the contract. There is a UK phone number on +44 (0)1706 438006. Complaints must be in writing within one month of the end of your stay or they &ldquo;will not be accepted&rdquo;.</p>"
+   }
+  ]
+ },
+ {
+  "slug": "habitat-furniture",
+  "title": "Habitat Furniture Review: Prices, Delivery and the Two Guarantees",
+  "meta_title": "Habitat Furniture: Sofas From £240, 30-Day Returns",
+  "meta_description": "Habitat sofas from £240, large-item delivery £9.95, 30 days to change your mind. The £30 collection charge and the frame guarantee, checked.",
+  "checked": "14 November 2026",
+  "headline": {
+   "label": "Return window on a large item",
+   "value": "30 days to change your mind — but a non-refundable £30 collection charge on any large home-delivered item returned since 12 June 2025, waived only where the product is faulty (checked 14 November 2026)"
+  },
+  "intro": "<p>Habitat lists <strong>142 sofas</strong>, from a £240 two-seater to a £1,095 velvet corner chaise, and it has been putting contemporary design into ordinary British front rooms since <strong>1964</strong>. A Chesterfield velvet three-seater is £695, a Milford tan leather four-seater £1,050, and the cheapest thing in the range — the Nora two-seater — is £240. Every figure on this page was checked on 14 November 2026 against Habitat's and Argos's own help pages and product listings.</p><p>There is no Habitat shop to walk into. <strong>Habitat is a trading name of Argos Limited</strong>, and the brand reaches shoppers through Argos's 201 standalone stores, 466 Argos outlets inside Sainsbury's supermarkets and 466 collection points — 1,133 points of presence as at 28 February 2026. That matters before you order rather than after: the delivery slot, the returns window, the guarantee and the phone number on a Habitat sofa all belong to Argos.</p><p>The money side is published and easy to check. Large item delivery is <strong>£9.95</strong>, small items are £4.95 and free over £100, same-day Fast Track starts at £7.95 with other slots from £4.95, and £40 buys twelve months of Argos Plus delivery on orders of £20 or more. Click and Collect is free and the order is held for seven days. Drivers ring ahead with a two-hour window and a 30-minute warning, and for a sofa they will carry it to the room you choose.</p>",
+  "key_facts": [
+   {
+    "label": "Who you are buying from",
+    "value": "Habitat is a trading name of Argos Limited — company 01081551, incorporated 13 November 1972 as Argos Distributors Limited and renamed on 13 August 1999, registered at 33 Charterhouse Street, London EC1M 6HA, VAT 660 4548 36"
+   },
+   {
+    "label": "Sofa range and prices",
+    "value": "142 sofas listed on 14 November 2026, from £240 (Nora two-seater) to £1,095 (Julien velvet corner chaise)"
+   },
+   {
+    "label": "Large item delivery",
+    "value": "£9.95; small items £4.95 and free over £100; Argos Plus £40 for twelve months on orders of £20 or more"
+   },
+   {
+    "label": "Change-of-mind returns",
+    "value": "30 days from delivery or collection to request a return; £30 non-refundable collection charge on large home-delivered items since 12 June 2025"
+   },
+   {
+    "label": "Frame guarantee",
+    "value": "10 years on habitat.co.uk and 15 years on help.argos.co.uk, both with 2 years on the fabric and a £60 call-out charge refunded only if a covered fault is found"
+   },
+   {
+    "label": "Excluded from the frame guarantee",
+    "value": "Sofa beds, recliners, selected occasional chairs and the whole Made To Order range"
+   },
+   {
+    "label": "Extended cover",
+    "value": "Argos Care, underwritten by Domestic & General Insurance PLC (company 485850), with a 45-day cooling-off period and no price published"
+   },
+   {
+    "label": "Complaints route",
+    "value": "0345 640 2020, 8am–8pm seven days; no ombudsman or alternative dispute resolution scheme named on any Habitat page"
+   },
+   {
+    "label": "Group scale",
+    "value": "Argos full-year sales £4.1bn, up 0.7%, inside J Sainsbury plc retail sales of £29,992m and underlying pre-tax profit of £718m for the 52 weeks to 28 February 2026"
+   }
+  ],
+  "sections": [
+   {
+    "heading": "What £240 buys, and what arrives in a box",
+    "html": "<p>The sofa listing is unusually easy to read because Habitat prints a single price against each model rather than a \"from\" figure. On 14 November 2026 the 142 sofas ran from the <strong>Nora two-seater at £240</strong> and the Poppy at £285 through the Della three-seater at £400, the Julien fabric three-seater at £695 and the Chesterfield velvet three-seater at £695, to the <strong>Milford tan leather four-seater at £1,050</strong> and the Julien corner chaise at £1,095. The Habitat x Morris &amp; Co. Merton two-seaters, in Sunflower and Acanthus, sit at £725 — and those collaborations are the part of the range Sainsbury's singled out in its own results, which credited \"design-led collaborations in Habitat\" with a positive market share performance.</p><p>Discounting is real rather than permanent. The Elmdon corner sofas were £864 against a £1,080 was-price, the Turnmill four-seater chaise £537.50 from £1,075 and the Betsy boucle three-seater £348.75 from £450, with site-wide codes FURN20 and FURN30 advertised as up to 30% off selected furniture. Habitat also badges some products under a Price Guarantee, promising that \"prices won't go lower before Christmas\" on those lines and a voucher for the difference if they do.</p><p>The most practical thing in the range is the <strong>Sofa in a Box</strong> line — the Mina two-seater at £250, the Finney at £380 and the Betsy boucle three-seater at £348.75. A sofa that arrives flat and is assembled in the room solves the problem that decides most sofa purchases, which is whether the thing will go round the turn of the stairs at all. It is also a direct descendant of what the shop did in 1971, when Habitat started selling furniture off take-away racks for the customer to build.</p>"
+   },
+   {
+    "heading": "Thirty days to change your mind, and £30 off the refund",
+    "html": "<p>Habitat gives <strong>30 days from the date of delivery or collection to request a return</strong> on a change of mind, which is more than twice the 14 days the law requires on a distance sale, and purchases made between 23 September and 25 December 2026 can go back until 31 January 2027. Small items can be handed in at any Argos store or any Argos inside a Sainsbury's. Refunds are processed within 14 days of the goods coming back.</p><p>Large items are different, and the number is worth knowing before you order. Habitat's returns page states that \"for large home delivered items, a non-refundable collection charge of <strong>£30</strong> will be applied to orders returned from 12 June 2025, unless the product is faulty or has been delivered directly by one of our suppliers\". So the sofa that cost £9.95 to deliver costs £30 to take away again, three times over. Habitat does refund the delivery itself — \"you're entitled to receive a refund of the standard delivery charge where the full order is returned\" — so the net cost of changing your mind on the £240 Nora is the £30, which is 12.5% of what you paid for it.</p><p>The charge is lawful and the regulation it sits under is worth reading, because almost nobody quotes it. Under <strong>regulation 35 of the Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013</strong>, where a trader \"has offered to collect\" returned goods it becomes the trader's responsibility to collect them, and paragraph (8) says the consumer \"is not required to bear any cost of collecting goods\" — unless the trader offered collection and \"the consumer has agreed to bear the costs of the trader doing so\". That agreement is the whole basis of the £30. The same regulation cuts the other way too: paragraphs (5) and (6) mean that if a trader fails to tell you in advance that you will pay to send something back, the contract is treated as making the trader pay instead. Habitat publishes the figure, so it is on the right side of that line — but a reader who never opens the returns page will meet it as a deduction from a refund.</p>"
+   },
+   {
+    "heading": "Ten years on one help page, fifteen on another",
+    "html": "<p>Habitat's frame guarantee is genuinely long, and the company states it twice at two different lengths. The page at <em>habitat.co.uk/help/sofa-guarantee</em> says that \"there is a <strong>2 year guarantee for the fabric and 10 years for the frame</strong>\", covering \"any damage found on the frame, internal springs, webbing or feet, that has been caused by a manufacturing defect\" on Home and Habitat branded products. The page at <em>help.argos.co.uk/help/enjoy-our-15-year-frame-guarantee</em> says that armchairs and sofas \"are covered for <strong>15 years</strong>, from the date of purchase\", with the same two years on fabric, the same frame-springs-webbing-feet wording, and the qualification that it \"applies to Habitat branded products only\" bought on or after August 2024.</p><p>Both are the same company's own help centres and the gap between them is five years on the most expensive thing in the shop. Habitat's own help index makes it harder rather than easier: it carries two links side by side labelled \"10 year guarantee\" and \"15 year guarantee\", and the second one leads to a sofa-buying guide that contains no guarantee terms at all — checked twice on 14 November 2026. Which document a claim is actually read against is not something a shopper can work out from Habitat's own pages, and it is the kind of thing worth settling on the phone before the money leaves your account.</p><p>What both versions agree on is the exclusions and the charge. Seat pads and back cushion fillings are outside the guarantee. So are sofa beds, recliners, selected occasional chairs and the entire <strong>Made To Order</strong> range, which means the sofas you wait longest and pay most for carry the least frame cover — and because regulation 28(1) of the 2013 Regulations removes the cancellation right on goods made to a consumer's specification, a made-to-order sofa has neither the frame guarantee nor the change-of-mind return. And either guarantee costs <strong>£60</strong> to use: there is a call-out charge for an inspection, refunded only \"if the fault is covered by your guarantee\". On the £240 Nora that is a quarter of the purchase price staked on the engineer agreeing with you.</p><p>Beyond the guarantee there is Argos Care, which Habitat sells as insurance rather than warranty. It is \"provided by Domestic &amp; General Insurance PLC\" (company 485850, Wimbledon), brokered by Argos Limited under FCA reference 713206, and for furniture it covers accidental damage from day one including spills, rips, tears, burns, scratches on leather and damage caused by pets, then frame and structural defects once the manufacturer's guarantee runs out. Cancel inside 45 days and you get a full refund. <strong>No price is published anywhere on the Habitat pages</strong> — the terms refer to pricing tables in separate leaflets — so the only way to know what the cover costs is to reach the checkout.</p>"
+   },
+   {
+    "heading": "A brand with 1,133 front doors and none of its own",
+    "html": "<p>Habitat had <strong>three shops in the UK</strong> when the Competition and Markets Authority looked at it. The clearance decision on Sainsbury's purchase of Home Retail Group, given on 22 July 2016 and published on 16 August 2016, records in one line that \"HRG also owns the Habitat brand which has three stores in the UK\", footnoted as the position in April 2016, and concluded that the merger was not expected to result in a substantial lessening of competition. Those three shops are gone. What replaced them is Argos's estate: <strong>201 standalone stores, 466 Argos outlets inside Sainsbury's supermarkets and 466 collection points</strong> as at 28 February 2026, across a group running 609 supermarkets and 885 convenience stores.</p><p>On the group's own numbers, Habitat is a small part of a large machine. Argos took <strong>£4.1bn</strong> of sales in the 52 weeks to 28 February 2026, up 0.7% in what Sainsbury's called \"a highly competitive market\", inside retail sales of £29,992m, up 4.3%, and underlying pre-tax profit of £718m. Sainsbury's own general merchandise sales fell 3.2% over the same year. Of Habitat itself the statement says one thing: that \"re-launched Chad Valley and design-led collaborations in Habitat resulted in positive market share performances\".</p><p>One date does not line up, and it is Habitat's own. The heritage timeline on habitat.co.uk says \"2017: The Sainsbury's Group acquired the UK arm of the brand, along with Argos\", while the regulator cleared that purchase in July 2016 and names Home Retail Group as the owner in April 2016. Both are the organisation's own published records and they are a year apart; the CMA document is the dated one.</p><p>There is a second Habitat, and a UK reader can easily land on it. The brand outside Britain trades at <em>habitat-design.com</em> and says on its own heritage page that it was \"relaunched at the start of 2024 by the Vente-unique.com group\", an online furniture seller trading since 2006 in France and Europe. That site does not mention the UK at all. Two unrelated companies, one name, one founder in the story — and only the Argos one will deliver to a British address or honour an Argos guarantee.</p>"
+   },
+   {
+    "heading": "From a broadsheet catalogue in 1966 to a sofa in a box",
+    "html": "<p>The heritage is not decoration; it explains the range. Habitat's own story page dates the business to <strong>1964</strong>, when Terence Conran and a group of friends set out \"to bring London a new, European way to shop for contemporary homeware\". The <strong>first printed broadsheet catalogue came in 1966</strong>, illustrated by Juliet Glynn Smith, and Habitat By Post launched the same year so that people nowhere near a shop could buy from it — which is, allowing for sixty years, exactly what the website does now.</p><p>Then <strong>1971</strong> and the take-away racks: flat-pack furniture a customer carried home and assembled, which the company's own timeline calls the flat-pack revolution. The Basic Habitat range followed for a market hit by recession, and the Housepack service furnished a three-bedroom house in one go. The 1970s prints were commissioned from four British artists including David Hockney and Peter Blake; the 1980s brought the Graffiti sofa, a cookware range with the chef Michel Guerard, the <strong>1985</strong> City Living collection and fabrics and wallpapers made with the Victoria and Albert Museum.</p><p>The V&amp;A returned the compliment in <strong>1994</strong> with <em>Selling Lifestyle, 30 Years of Habitat</em> for the thirtieth anniversary. The Habitat Art Club sold work by Tracey Emin and Gillian Wearing; <strong>1999</strong> brought the 20th Century Legends re-editions; a heart was added inside the wordmark in <strong>May 2002</strong>; and the VIP collection launched in <strong>2004</strong> with 22 products. The <strong>2024</strong> 60 Years of Design collection was made with Sebastian Conran, Felix Conran, Margo Selby and Tord Boontje. A shopper paying £725 for a Morris &amp; Co. two-seater is buying into a line of collaborations the shop has been doing since the Hockney prints.</p>"
+   },
+   {
+    "heading": "Three sofa ranges that went back for failing a match test",
+    "html": "<p>Habitat keeps its own recall notices online, and the furniture ones are specific. The <strong>Jackson</strong> velvet two-seaters, three-seaters and cuddle chairs in Black, Orange and Artichoke — nine catalogue numbers running from 9426946 to 9578612 — were recalled under case <strong>2302-0155</strong>, published 8 March 2023, after sale between 14 March 2022 and 28 February 2023. The regulator's own entry gives the reason without euphemism: a \"serious risk of fire\" because \"the fabric cover fails to meet the requirements of the relevant standard BS5852\", and records that \"the product does not meet the requirements of the Furniture and Furnishings (Fire) (Safety) Regulations 1988\". The sofas were made in Romania and the notifier was local authority Trading Standards.</p><p>The <strong>Isla</strong> velvet sofas and armchairs in Green, Teal and Pink (case 2303-0001) and the <strong>Eton</strong> fabric corner sofas and footstool in Grey and Charcoal (case 2303-0003) were published the same day on the same grounds. Habitat's own notices, updated 3 March 2023, tell owners they may keep using the item provided it is kept away from sources of fire and to ring <strong>0800 011 3462</strong> to arrange \"delivery of an alternative model or refund\", with the product still available for collection. Two more recent Habitat recalls on the public register are not furniture: a Seed Pod Bowl Filler (2509-0160, 23 September 2025) and the Mango Wooden Taper Candle Holders sold through Sainsbury's (2512-0270, 7 January 2026), where the fix is to \"return it to your local Sainsburys store for a full refund\".</p><p>Five reports in total under the Habitat name, three of them upholstery, all three traced to the same cover-fabric test. That the company publishes them itself, with catalogue numbers and a freephone line, is to its credit; that upholstery is where the failures clustered is the reason the labels under the cushions exist.</p>"
+   },
+   {
+    "heading": "Who hears a complaint about a Habitat sofa",
+    "html": "<p>The answer is Argos, and then nobody in particular. Habitat's contact page gives <strong>0345 640 2020</strong>, open 8am to 8pm seven days a week, Facebook Messenger, @HabitatUK, a SignVideo British Sign Language service free from 8am to 6pm on weekdays, and a live chat team you reach by going to argos.co.uk. It names <strong>no ombudsman, no alternative dispute resolution scheme and no escalation route</strong> at all, and neither do the Argos terms and conditions, which promise only to aim at resolving a Trusted Seller dispute \"within 21 working days\".</p><p>The furniture trade has a free scheme for exactly this. The Furniture and Home Improvement Ombudsman's member list runs to several hundred names and includes <strong>Heal's, DFS, Dreams, Sofology, Bensons for Beds, Furniture Village, Marks and Spencer, Wickes and B&amp;Q</strong>. Checked on 14 November 2026, neither Argos, Habitat nor Sainsbury's appears anywhere in it. A Habitat buyer in dispute has the shop, then the small claims track, and nothing in between — where a Heal's buyer, shopping another London furniture name on that list, has a conciliation service that costs them nothing.</p><p>Two services that look like Habitat's are other people's. Furniture assembly is handed to <strong>Airtasker</strong>, which the page describes as a platform connecting customers with independent \"Taskers\", where the price \"varies depending on the type of task, your budget and the offers you negotiate\" and the only hard number is that tasks \"must be above £50 to qualify\" for the discount code — an offer the page itself says was \"valid until 30th October 2026\", a fortnight before this check. Old furniture removal goes to <strong>Clearabee</strong>, at an unstated \"competitive price\", with no mattress recycling, booked on Clearabee's own site, and with Argos stating plainly that it is \"not responsible for any service issues\". Neither is a criticism of the furniture. Both mean that if the sofa arrives and the assembly or the disposal goes wrong, the company you bought from is not the company you ring.</p>"
+   }
+  ],
+  "pros": [
+   "142 sofas listed with a single clear price each rather than a \"from\" figure, starting at £240 for the Nora two-seater and topping out at £1,095",
+   "30 days to request a change-of-mind return, more than double the 14 days a distance sale legally requires, extended to 31 January 2027 for anything bought between 23 September and 25 December 2026",
+   "A long frame guarantee by any standard — 10 years on Habitat's own help page and 15 on the Argos one — covering frame, internal springs, webbing and feet",
+   "Large item delivery at £9.95 with two-person handling to the room of your choice, a two-hour window and a 30-minute warning call",
+   "1,133 Argos points of presence for free collection as at 28 February 2026, including 466 outlets inside Sainsbury's supermarkets, with orders held for seven days",
+   "Sofa in a Box models from £250 that arrive flat in a box, which is the honest answer to a narrow staircase",
+   "Recall notices published openly on Habitat's own site with full catalogue numbers and a freephone line, matching the public safety register entry for entry",
+   "£40 of Argos Plus buys a year of same-day, next-day and standard delivery on orders over £20, which pays for itself on the fifth large-item delivery"
+  ],
+  "cons": [
+   "A non-refundable £30 collection charge applies to any large home-delivered item returned on a change of mind since 12 June 2025 — three times the £9.95 it cost to deliver, and 12.5% of the price of the cheapest sofa in the range",
+   "Nowhere on the delivery or returns pages is there a published weight or size threshold for what counts as a \"large item\", which is the single fact that decides both the £9.95 delivery charge and the £30 collection charge",
+   "Two of the same company's help centres state the frame guarantee at 10 years and 15 years, and Habitat's own help index links to a page labelled \"15 year guarantee\" that carries no guarantee terms whatsoever",
+   "The Made To Order range is excluded from the frame guarantee altogether, and regulation 28(1) of the 2013 Regulations removes the cancellation right on made-to-specification goods — so the dearest sofas have neither cover nor a change of mind",
+   "Using either guarantee costs a £60 call-out charge up front, refunded only if the inspection finds a fault the guarantee covers",
+   "No price is published for Argos Care, for Clearabee's furniture collection or for Airtasker assembly, and the assembly page's own promotional offer expired on 30 October 2026",
+   "No ombudsman or alternative dispute resolution scheme is named on any Habitat or Argos page, and Argos Limited is not a member of the Furniture and Home Improvement Ombudsman, where Heal's, DFS, Dreams, Sofology and Furniture Village all are",
+   "Three Habitat upholstery ranges — Jackson, Isla and Eton — were recalled on 8 March 2023 for cover fabric that failed the BS5852 test required by the Furniture and Furnishings (Fire) (Safety) Regulations 1988"
+  ],
+  "verdict": "Habitat is a 1964 design brand that now lives inside a catalogue retailer, and the practical consequence is that the furniture is Habitat's while the delivery, the returns window, the guarantee and the complaints line are Argos's. On price it is strong and legible: 142 sofas with a real price on each, £240 to £1,095, large-item delivery at £9.95 and two-person handling to the room you pick. On returns it is better than the law requires for 30 days and then charges £30 to collect a large item, which is the number to decide on before you order rather than after. The frame guarantee is the best thing on offer and the least clearly stated — ten years on one of the company's own help pages, fifteen on another, a £60 call-out either way, and nothing at all on the Made To Order range. Buy a Sofa in a Box or something you are confident about, use a collection point if one is near you, and ring 0345 640 2020 to get the guarantee length confirmed in writing before you pay.",
+  "faqs": [
+   {
+    "q": "Is Habitat the same company as Argos?",
+    "a": "<p>In Britain, yes. Habitat's own footer states that \"Habitat is a trading name of Argos Limited\", company 01081551, registered at 33 Charterhouse Street, London EC1M 6HA, and Argos Limited is owned by J Sainsbury plc. The Habitat business trading at habitat-design.com in Europe is a different company altogether — its own heritage page says the brand there was \"relaunched at the start of 2024 by the Vente-unique.com group\" and it does not mention the UK.</p>"
+   },
+   {
+    "q": "What does it cost to send a Habitat sofa back?",
+    "a": "<p>£30. Habitat's returns page says that \"for large home delivered items, a non-refundable collection charge of £30 will be applied to orders returned from 12 June 2025, unless the product is faulty or has been delivered directly by one of our suppliers\". You have 30 days from delivery to request the return, and refunds are processed within 14 days of the goods coming back. Small items can be handed in free at any Argos store or any Argos inside a Sainsbury's.</p>"
+   },
+   {
+    "q": "How long is the Habitat sofa guarantee — 10 years or 15?",
+    "a": "<p>Both figures are published by the same company and we could not reconcile them. habitat.co.uk/help/sofa-guarantee says \"there is a 2 year guarantee for the fabric and 10 years for the frame\"; help.argos.co.uk says sofas and armchairs \"are covered for 15 years, from the date of purchase\" for Habitat-branded items bought on or after August 2024. Both exclude seat pads, back cushion fillings, sofa beds, recliners and the Made To Order range, and both charge a £60 call-out refunded only if a covered fault is found. Ask for the length in writing before you buy.</p>"
+   },
+   {
+    "q": "Can a Habitat sofa be delivered to an upstairs room?",
+    "a": "<p>Yes. Argos's delivery FAQ says that for bigger items the driver will contact you on the day with an estimated slot and \"they'll safely take your order to your room of choice\", with a two-hour window and a call 30 minutes out. Someone has to be in to accept it, because larger and higher-priced items need a photograph or signature and cannot be left. If access is the problem rather than the carrying, the Sofa in a Box models from £250 are built in the room.</p>"
+   },
+   {
+    "q": "Who can I complain to if Habitat will not put things right?",
+    "a": "<p>Habitat gives one number, 0345 640 2020, open 8am to 8pm seven days a week, and that is the end of the published route: no ombudsman and no alternative dispute resolution scheme is named on any Habitat or Argos page. The Furniture and Home Improvement Ombudsman runs a free conciliation service for the trade, but checked on 14 November 2026 neither Argos, Habitat nor Sainsbury's was in its member list, while Heal's, DFS, Dreams, Sofology, Bensons for Beds and Furniture Village all were. Beyond the shop, the remaining route is the small claims track.</p>"
+   },
+   {
+    "q": "Have any Habitat sofas been recalled?",
+    "a": "<p>Three ranges. The Jackson, Isla and Eton upholstery ranges were recalled on 8 March 2023 under cases 2302-0155, 2303-0001 and 2303-0003, after sale between 14 March 2022 and 28 February 2023, because the cover fabric failed BS5852 and so breached the Furniture and Furnishings (Fire) (Safety) Regulations 1988. Habitat's own notice lists every catalogue number and asks owners to call 0800 011 3462 for a replacement model or a refund, keeping the sofa away from any source of fire in the meantime.</p>"
    }
   ]
  },
@@ -17842,6 +18306,171 @@
    {
     "q": "Is there a cheaper deal if I claim benefits?",
     "a": "<p>Yes — Everyday Fibre gives 100Mbps on a 12-month term with free installation, no early termination charge and 30 days' notice. Nine benefits qualify, including Universal Credit, Pension Credit, Housing Benefit, Personal Independence Payment and Attendance Allowance, and eligibility is re-checked yearly. Confirm the price when you call: the July 2026 price guide says £19 a month and the tariff's own terms say £16.</p>"
+   }
+  ]
+ },
+ {
+  "slug": "hipcamp-campsites-and-resorts",
+  "title": "Hipcamp Review: 11,765 UK Campsites, and the Whole Stay Paid at Booking",
+  "meta_title": "Hipcamp Review: 11,765 UK Campsites From £15 a Night",
+  "meta_description": "Hipcamp lists 11,765 UK campsites, from £15 a night for a tent pitch to £200 for a treehouse. What you pay up front, and who covers what.",
+  "checked": "14 November 2026",
+  "headline": {
+   "label": "Deposit at booking",
+   "value": "100% of the booking total — Hipcamp charges the full stay plus a camper service fee at the moment you book, with no deposit-and-balance option"
+  },
+  "intro": "<p>Hipcamp lists <strong>11,765 campsites in the United Kingdom</strong>, and its own hosting guide puts a basic tent pitch at <strong>£15 to £30 a night</strong>, a motorhome pitch with hook-ups at <strong>£25 to £60 or more</strong>, and a yurt, cabin or treehouse at <strong>£75 to £200 and upwards</strong>. Searching and booking costs the camper nothing in commission: the platform takes <strong>12.5% plus VAT</strong> out of the landowner’s side instead, and listing is free. Figures read on 14 November 2026 from Hipcamp’s own UK pages and help centre.</p><p>The company was founded in 2013 by Alyssa Ravasio, who still runs it, and it now operates in four countries — the United States, Canada, Australia and the United Kingdom. What it sells is not a holiday park. Most of the inventory is private land: working farms, vineyards, woodland and fields where the pitch exists because a landowner decided to open a gate, which is why the search results contain places no park operator has ever listed. Hipcamp came to Britain in 2022 by buying the company behind the Cool Camping guidebooks, and the UK business you contract with today is that same company renamed.</p><p>One thing to know before you start comparing. Hipcamp takes the entire cost of the stay on the card the moment the booking is made — there is no deposit and no balance due later, which is how most of the rest of this category works. The booking total, including a camper service fee shown at the checkout step, is charged at once, and what comes back if you change your mind depends on which of eight cancellation ladders the landowner picked.</p>",
+  "key_facts": [
+   {
+    "label": "Who you contract with",
+    "value": "Hipcamp UK Limited, company 05577942, 71–75 Shelton Street, London WC2H 9JQ"
+   },
+   {
+    "label": "Parent",
+    "value": "Hipcamp, Inc., 2261 Market Street #4139, San Francisco CA 94114 — a person with significant control since 3 September 2021"
+   },
+   {
+    "label": "UK sites listed",
+    "value": "11,765 campsites on the United Kingdom country page"
+   },
+   {
+    "label": "Paid at booking",
+    "value": "100% of the booking total, plus a camper service fee"
+   },
+   {
+    "label": "Cost to the camper",
+    "value": "No membership, no booking fee; a service fee set per booking and not published"
+   },
+   {
+    "label": "Commission to the host",
+    "value": "12.5% plus VAT, which is 15% of the pitch price at the standard rate"
+   },
+   {
+    "label": "Card processing",
+    "value": "1.4% plus 20p, charged by Stripe"
+   },
+   {
+    "label": "Price guidance",
+    "value": "£15–£30 tent pitch, £25–£60+ motorhome pitch, £75–£200+ glamping"
+   },
+   {
+    "label": "Cancellation",
+    "value": "One of eight host-chosen policies, from full refund any time to 50% at 30 days"
+   },
+   {
+    "label": "Contract for the stay",
+    "value": "With the landowner — “Hipcamp is not a party to any transaction between Campers and Landowners”"
+   },
+   {
+    "label": "Host liability cover",
+    "value": "$1,000,000 per occurrence, $5,000,000 a year shared across Hipcamp and every insured host"
+   },
+   {
+    "label": "Camper’s own property",
+    "value": "Not covered — “Hipcampers are solely responsible for their personal property”"
+   },
+   {
+    "label": "Host vetting",
+    "value": "Identity verification; no site visit or inspection described"
+   },
+   {
+    "label": "Host response standard",
+    "value": "24 hours; site quiet hours 10pm to 8am"
+   },
+   {
+    "label": "UK terms last updated",
+    "value": "16 May 2024 (the US terms were updated 26 March 2026)"
+   },
+   {
+    "label": "SIC code",
+    "value": "79110 — travel agency activities"
+   }
+  ],
+  "sections": [
+   {
+    "heading": "£300 on the card, and where £45 of it goes",
+    "html": "<p>Hipcamp is one of the clearer platforms in this trade about its own cut, and the figure is in a help centre article it keeps current — last updated on 8 November 2026. Listing is “100% free”, with no setup fee, no monthly contract and no minimum term. Once bookings start, “Hipcamp takes a 12.5% plus VAT commission on your earnings”, and card processing is separate: “Stripe charges a small processing fee of 1.4%+20p”.</p><p>Put a £300 week through that and the arithmetic is unusually easy to follow. The 12.5% commission is £37.50, the VAT on it is £7.50, so £45.00 of the £300 is Hipcamp’s. Stripe’s 1.4% is £4.20 plus 20p, which is £4.40. The landowner is left with about £250.60, or a fraction over 83p in the pound. At the standard VAT rate the platform’s take is therefore <strong>15% of the pitch price</strong>, and that multiplication is worth doing yourself before setting the figure beside a platform that quotes its commission with the tax already inside it.</p><p>What the commission is said to buy is listed rather than left vague: Stripe payment processing, marketing across email, social advertising, brand partnerships, search and public relations, insurance cover for eligible hosts, seven-day-a-week support from local Hipcamp guides, advocacy for the right to host, and platform development tracked on a public roadmap. A host booking statement breaks the money down line by line — base price per night, occupancy tax collected, additional guest fee per night, extras, cleaning fee, then the subtotal, the host service fee and the earnings — and it can be opened from the calendar, the bookings tab, the message thread or the payouts tab.</p><p>None of that lands on the camper as commission. The price on the listing is the price the landowner set, and the platform is paid out of it.</p>"
+   },
+   {
+    "heading": "The fee you pay, which nobody has written down",
+    "html": "<p>There is a second fee, and it is yours. Hipcamp’s booking walkthrough says the subtotal you see after entering dates and party size “excludes applicable taxes and service fees”, that the fee and the booking total appear at the rulebook step before you agree to continue, and that on both instant and request-to-book listings “you will be charged the booking total at this time”. So the fee is disclosed before you commit, on screen and again on the receipt.</p><p>What it is has never been published. No article in the UK help centre states the camper service fee as a percentage or a range. The one document that explains it at all — titled “What is the Hipcamp service fee?”, last updated 9 November 2026 — sits in the American help centre, says the amount is proportional to the cost of the booking without giving the proportion, and quotes the only hard number anywhere: “There is a minimum $3 service fee per booking”. Asked for the same article in the British help centre, the site returns nothing at all.</p><p>That matters on a cancellation rather than on a booking. Hipcamp’s cancellation article is explicit that its fees come off every refund — each of the eight policies promises a full or half refund “minus Hipcamp fees” — and the refund article, updated on 17 October 2026, tells you an eligible refund is issued immediately and may take 7 to 10 working days to reach the bank, without ever saying what has been deducted. The fee is described as generally non-refundable except in extenuating circumstances. There is one clean exception, and it is to Hipcamp’s credit: if the landowner is the one who cannot accommodate you, support processes “full refunds in these cases, including all fees”, and will look for a comparable pitch on the same dates.</p>"
+   },
+   {
+    "heading": "Eight ladders, and the one the landowner happened to choose",
+    "html": "<p>Hipcamp does not set a cancellation policy. Each host picks one of eight, from the dashboard, and the choice applies only to bookings made afterwards. Super Flexible refunds in full any time before check-in. Flexible needs 24 hours, Moderate three days, Strict one week, and there are 14-day and 21-day versions of Strict. Super Strict pays half back at one week and nothing inside it; Super Strict (30 days) pays half back at 30 days and nothing inside that. Every figure is measured from the “check in after” time the host set, so with a 2pm check-in and a Flexible policy, cancelling at 1pm the day before is a full refund and 5pm the same evening is nothing.</p><p>The policy is shown in the listing, shown again with an agreement step before the booking confirms, and printed on the confirmation page. Hipcamp can override it for extenuating circumstances. Note also that the British help centre offers hosts eight options where the American one offers nine, so a policy exists in the system that a UK landowner cannot select.</p><p>The reason the host’s choice carries so much weight is that nothing sits underneath it. The fourteen-day cooling-off right that attaches to almost everything else bought online does not reach a campsite booking: regulation 28(1)(h) of the Consumer Contracts (Information, Cancellation and Additional Charges) Regulations 2013 takes out of the regime “the supply of accommodation, transport of goods, vehicle rental services, catering or services related to leisure activities, if the contract provides for a specific date or period of performance”. A pitch booked for a named weekend is exactly that. On a platform that holds a 15% deposit, the gap between the ladder and the law costs you 15%. On one that has already taken the whole stay, the ladder the landowner picked is the entire protection you have, which is a good reason to open the policy before the dates.</p>"
+   },
+   {
+    "heading": "A million dollars of cover, and not a pound of it is the camper’s",
+    "html": "<p>Hipcamp provides liability insurance to eligible hosts at no extra charge on valid, uncancelled bookings, and it publishes the limits, the exclusions and the eligibility rule on one page — more than most platforms in this category do. For the United Kingdom, as for the United States, Canada and France, the cover is <strong>$1,000,000 per occurrence</strong> for third-party bodily injury with a <strong>$5,000,000 annual aggregate</strong>, and <strong>$250,000 per occurrence</strong> and <strong>$1,000,000 aggregate</strong> for incidents involving a host’s animals, dogs included. Australia gets AU$10,000,000. A separate Host Property Protection Plan reimburses up to <strong>$10,000</strong> of damage a camper causes, and the page says plainly that it “is not an insurance policy and does not replace homeowners or commercial insurance”. Damage must be reported within 14 days of checkout or before the next check-in, whichever comes first, and a review takes two to three weeks. Hosts with a liability claim on a home or renters policy in the past three years are not eligible at all.</p><p>Three things about that cover are worth a camper’s attention. The first is whose it is: the policy “covers Hipcamp and eligible registered Hosts for third-party bodily injury claims”. Campers are not named as insured, and the platform is. The second is that the yearly ceiling is not per site — “the aggregate limits noted are measured on an annual basis and are shared by Hipcamp and all insured Hosts”, and Hipcamp’s own hosting pages put the number of people hosting above 20,000. One annual pot of $5,000,000 across all of them is a thinner thing than the per-occurrence figure suggests.</p><p>The third is the currency and the paperwork. Every limit for a British host is quoted in American dollars; no sterling figure appears anywhere on the page, and no insurer or underwriter is named, so there is nothing to look up on the Financial Conduct Authority register and no policy document to read. The exclusions, by contrast, are specific: alcohol where the host contributed to intoxication, firearms, bows, knives and hunting, fireworks, rock climbing, aircraft, motor vehicles and watercraft, horseback riding, dogs with a bite history, abuse, pollution, employment liability and communicable disease. The Property Protection Plan separately excludes animals, trees and plants, moving vehicles, shared areas, personal items, wear and tear, lost income and unexplained loss.</p><p>For the camper’s own tent, bike or camera the position is stated and it is not generous: “Hipcampers are solely responsible for their personal property during a Hipcamp trip”, with a recommendation to insure the gear, a police report for theft by a third party, and a support ticket if the damage was done by another camper. There is no limit, payout or deductible, because there is nothing to pay out of.</p>"
+   },
+   {
+    "heading": "What is checked before a field goes on sale",
+    "html": "<p>Hipcamp publishes host standards and they are not token. Hosts must follow local fire bans outright — “If a fire ban is in effect, do not allow fires on your property” — list area hazards such as ticks, wildlife and strong currents, set a maximum occupancy for each pitch, share emergency numbers beyond 999 and the nearest hospital, survey the land before hosting, keep off low-lying flood-prone ground, reply to enquiries within <strong>24 hours</strong>, and observe quiet hours of <strong>10pm to 8am</strong> unless the area already has its own. A toilet of some kind is required: “A permitted toilet of some kind (indoor, portable-style, composting etc.) is required if you’re hosting tent campers.” Bookings are expected to be honoured, and “[u]nwarranted cancellations can impact how your listing appears in search results and even result in deactivation”.</p><p>What is checked, as against expected, is thinner. The vetting article, updated on 15 September 2026, says “All new Hosts must verify their identity in order to Host on Hipcamp”, and that is the only check it describes. Beyond it there are contractual promises in the terms about serious criminal charges, the insurance-claim history rule, an inclusion policy, a verified-unit badge, a public review process and internal quality assurance. No site visit, no inspection and no required document other than identity appears anywhere. A certificated location run under a camping club scheme gets an annual visit from a club officer and a licensed holiday park gets conditions its council can enforce; a field listed here gets a verified postcode.</p><p>Two of Hipcamp’s own live pages also disagree about the smallest plot it will take. The host standards say back gardens are generally not a fit, “especially back gardens under 1 acre”; the suitability article, updated on 11 November 2026, puts small residential gardens “under 2 acres” in the unsuitable list. One of those is wrong and there is no way to tell which from outside, so neither figure should be relied on — if you are a landowner with a paddock between the two, ask before you photograph it. And the toilet rule has a camper-facing article beside it explaining what to do when there isn’t one: check the “What this site offers” panel, and if it says no toilet is provided, bring a portable one. Both statements can be true at once — a host may provide the toilet by requiring the guest to — but the listing panel is the thing to read, not the standard.</p>"
+   },
+   {
+    "heading": "The host library, and the line at the bottom of every page",
+    "html": "<p>The best thing Hipcamp has built in Britain is not on the booking side at all. Its journal carries a set of guides to the law a UK landowner has to get right before a pitch can exist: the permitted development rights that let a recreational campsite run for up to <strong>60 days</strong> a calendar year in England with no more than <strong>50 pitches</strong>, the <strong>28-day</strong> general right that applies in Wales, Scotland and Northern Ireland, how to apply for planning permission, what changes inside a national park, a national landscape or a site of special scientific interest, what the camping clubs’ certificate schemes allow, and how many toilets and showers a site needs. The statutory wording behind the English rule is real and checkable — Class BC of Part 4 of Schedule 2 to the General Permitted Development Order carries the 60-day limit, the 50-pitch cap, a duty to provide toilet and waste disposal on site, written notice to the planning authority every year with a site plan and the dates, and a prior-approval route with a flood risk assessment where the land is in Flood Zone 2 or 3. No other campsite platform in this comparison publishes any of it.</p><p>Two caveats, and they are the provider’s own. Every guide ends by saying it is the Hipcamp team’s reading of the regulations rather than legal advice, that no responsibility is taken for errors or omissions, and that professional advice is recommended. And the library is ageing: the pop-up campsite guide was first published on 18 March 2023 and last updated on 7 June 2024, and the guide to the clubs’ certificate schemes was last touched on 19 September 2023. A page of planning and licensing figures that has not been revisited for two and a half years is a page to read and then verify, which is exactly what its own footer asks you to do.</p><p>For a camper the library is still useful, for a reason Hipcamp does not spell out. A listing does not tell you which rulebook the pitch is standing on, and the three regimes buy very different things. Sixty nights a year is a short season, and a site running on that right has to put the land back as it was outside its dates, so a field that was there in July may not be bookable in October.</p>"
+   },
+   {
+    "heading": "Eleven thousand, one thousand, or half a million",
+    "html": "<p>Hipcamp’s scale is stated in four places and the four do not agree. The British country page counts <strong>11,765 campsites</strong> in the United Kingdom. The British home page offers “over 1,000 camping and glamping sites” that you “won’t find anywhere else” — which may be a deliberately narrower claim about exclusive private land, though nothing says so. The footer and the British about page both advertise “over 500,000” public lands, resorts and private sites, a global figure sitting on a UK page with no label. And the press kit, whose own copyright line still reads 2025, says “more than 140,000 bookable campsites” across “5M acres of land” on three continents. Only one of the four carries a date. For comparison, Hipcamp operates in four countries and reckons more than 20,000 people host on it.</p><p>The same looseness shows up in the currency. Hipcamp’s guidance on host earnings quotes British price bands throughout — £15 to £30 for a basic pitch, £75 to £200 and more for glamping, over £10,000 a year for most hosts and over £100,000 for the top ones — and then gives one of its own annual examples as “$25,000–$75,000+” while the band directly below it is in pounds. The optional Sensible Weather Guarantee is served from the British help centre, pays out on National Oceanic and Atmospheric Administration forecasts, remits by PayPal or ACH, and says in its own text that the product is offered “for all qualifying bookings in the U.S.”. The host standards send a British landowner to look up “zoning codes, building codes, and county ordinances”, none of which exist here, on the same page that correctly explains VAT registration and the number 999. And the article on a camper’s damaged property advises against pitching under trees that could drop “pinecones, branches, or coconuts”.</p><p>None of that costs anybody money. What does is the document underneath it. The terms of use carry two last-updated dates: the non-European set was revised on <strong>26 March 2026</strong>, and the European set — the one that governs, since “AS A USER SITUATED IN THE EEA, SWITZERLAND OR THE UNITED KINGDOM, YOU ARE CONTRACTING WITH HIPCAMP UK LTD” — was last revised on <strong>16 May 2024</strong>. British users are reading a contract twenty-two months older than the American one. It is the better of the two in substance: it promises that “we are responsible for loss or damage you suffer that is a foreseeable result of our breaking this contract”, where the American version caps liability at the greater of the amount Hipcamp kept and $100. But it is the half of the document that has not been maintained, and it is the half that applies here.</p>"
+   },
+   {
+    "heading": "Shelton Street, and the company that used to publish guidebooks",
+    "html": "<p>The British entity has a longer history than the brand. <strong>Hipcamp UK Limited</strong> is company <strong>05577942</strong>, incorporated on <strong>29 September 2005</strong> as <strong>Punk Publishing Limited</strong> — the imprint behind the Cool Camping guidebooks — renamed <strong>Tripadee Limited</strong> on <strong>23 February 2018</strong>, and renamed again to Hipcamp UK Limited on <strong>16 March 2022</strong>. Its SIC code is 79110, travel agency activities. The registered office moved from Summit House, 170 Finchley Road, London NW3 6BP to <strong>71–75 Shelton Street, London WC2H 9JQ</strong> on 3 November 2025, which is a company formation address rather than an office anyone camps near. Alyssa Lea Ravasio, appointed on 3 September 2021, is the only current officer of any kind: Jonathan Knight, a director from the day the company was formed in 2005, resigned on 31 July 2024, and the company secretary’s appointment ended on 29 September 2025. Hipcamp, Inc. of San Francisco has been the person with significant control since 3 September 2021.</p><p>The register also shows how close the company came to not existing. A first Gazette notice for compulsory strike-off was published on <strong>21 December 2021</strong> and discontinued four days later on <strong>25 December 2021</strong>, three weeks before the accounting period was extended to 31 December 2021 and under three months before the Hipcamp name went on the door. That is history rather than a warning, but it is the sort of history worth knowing about the company that holds your money between booking and arrival.</p><p>Two things the filings do not give you. There is no measure of the business: every set of accounts since has been filed under the small-company regime, so no turnover, no profit and no commission income has ever been published, and every scale figure above is the company’s own marketing. And the accounts have been late three years running. A private company must file within nine months of its period end; the accounts to 31 December 2023 were filed on 3 October 2024, those to 31 December 2024 on 23 October 2025, and those to 31 December 2025 on 27 October 2026 — three days, 23 days and 27 days past the deadline respectively. It is a small, administrative failing and it is also the one thing on the public record that can be measured rather than claimed.</p>"
+   }
+  ],
+  "pros": [
+   "11,765 UK campsites, most of them private land — farms, vineyards and woodland that no holiday park operator lists",
+   "Nothing to pay the platform as a camper: no membership, no booking fee, and the 12.5% plus VAT commission comes out of the landowner’s side",
+   "The commission is published to the decimal point, along with Stripe’s 1.4% plus 20p, and what the money buys is itemised",
+   "Price guidance in the provider’s own words — £15–£30 a tent pitch, £25–£60+ for a motorhome pitch, £75–£200+ for glamping",
+   "Liability limits, exclusions and eligibility for host cover are all published on one page, which is more than most platforms in this trade manage",
+   "If the landowner cannot accommodate a confirmed booking, Hipcamp refunds in full including all fees and looks for a comparable pitch on the same dates",
+   "A genuine library of UK planning, licensing and sanitation guidance for landowners, including the English 60-day rule and the camping clubs’ certificate schemes",
+   "Host standards carry real numbers: a 24-hour reply standard, 10pm to 8am quiet hours, a required toilet for tent pitches and an outright ban on fires during a fire ban"
+  ],
+  "cons": [
+   "The whole stay is charged at booking, so unlike the 15%-deposit platforms in this category every pound is at the mercy of the cancellation policy from day one",
+   "The camper service fee is never quantified in the UK help centre; the only article that explains it is served from the US site and quotes a $3 minimum",
+   "Hipcamp fees are deducted from every refund, and no page says what they are",
+   "The host liability cover that a British site runs on is quoted entirely in US dollars, names no insurer and links to no policy document",
+   "The $5,000,000 annual aggregate is shared between Hipcamp and every insured host, and Hipcamp’s own pages put the host count above 20,000",
+   "Campers are not insured at all — their own property is “solely” their responsibility and the Property Protection Plan reimburses the host, not the guest",
+   "Identity verification is the only check described on a host; no site visit or inspection appears anywhere, on land that may hold no licence",
+   "The UK terms of use were last revised on 16 May 2024 against 26 March 2026 for the US set, and the planning guides date from 2023 and June 2024",
+   "Four different site counts across four of its own pages — 11,765, over 1,000, over 500,000 and more than 140,000 — only one of them dated",
+   "Small-company accounts mean no published turnover, and they were filed after the nine-month deadline in each of the last three years"
+  ],
+  "verdict": "Hipcamp is the right place to look for the kind of pitch that does not appear on a holiday park search: a corner of a working farm, a woodland clearing, a field with one tap and a composting toilet, priced from £15 a night and listed by the person who owns the gate. It costs a camper nothing to use, the landowner’s 12.5% plus VAT is published rather than hinted at, and the guidance it writes for its hosts on English and Welsh planning law is better than anything its competitors offer. The reservations are all about what happens after you press book. The full cost of the stay leaves your card at once, the service fee inside it is a number nobody has written down in Britain, the refund depends entirely on which of eight ladders the landowner chose, and the insurance that sits behind the arrangement covers the host and the platform in dollars while covering the camper not at all. Read the cancellation policy and the facilities panel on the listing before the dates, pay by credit card, and insure your own gear.",
+  "faqs": [
+   {
+    "q": "Does Hipcamp charge campers a booking fee?",
+    "a": "<p>There is no membership fee and no booking fee as such, but there is a service fee added to the subtotal and shown at the checkout step before you agree to continue. Hipcamp has not published what it is in the UK; the only article explaining it is in the American help centre, which gives a minimum of $3 per booking and says the amount is proportional to the cost of the stay. The landowner separately pays 12.5% plus VAT, which is not added to your price.</p>"
+   },
+   {
+    "q": "How much do I pay when I book, and when is the rest due?",
+    "a": "<p>All of it, at booking. Hipcamp’s own walkthrough says that on both instant and request-to-book listings “you will be charged the booking total at this time”, and no deposit or split payment appears anywhere in its documentation. That is different from the campsite platforms that take a 15% deposit and leave the balance with the park.</p>"
+   },
+   {
+    "q": "What happens if I cancel?",
+    "a": "<p>It depends on which of eight policies the landowner selected, and each refund is paid “minus Hipcamp fees”. Super Flexible refunds in full at any time; Flexible needs 24 hours, Moderate three days, Strict one week, with 14-day and 21-day versions; Super Strict pays 50% at one week and Super Strict (30 days) pays 50% at 30 days. The clock runs to the check-in time the host set, so a 2pm check-in on a Flexible policy means cancelling before 2pm the previous day. There is no fourteen-day cooling-off right to fall back on, because regulation 28(1)(h) of the Consumer Contracts Regulations 2013 excludes accommodation booked for specific dates.</p>"
+   },
+   {
+    "q": "Am I insured while I am on a Hipcamp site?",
+    "a": "<p>Not by Hipcamp. The liability policy covers Hipcamp and eligible hosts for third-party bodily injury, at $1,000,000 per occurrence with a $5,000,000 annual aggregate shared across the platform and all insured hosts, and the Property Protection Plan reimburses the host for damage up to $10,000. Your own tent, car and gear are “solely” your responsibility, so the travel or home contents policy you already hold is the thing that matters.</p>"
+   },
+   {
+    "q": "Who am I actually contracting with?",
+    "a": "<p>The stay is a contract with the landowner: “Hipcamp is not a party to any transaction between Campers and Landowners, including any Booking.” The booking service is a contract with Hipcamp UK Limited, company 05577942, registered at 71–75 Shelton Street, London WC2H 9JQ — the company incorporated in 2005 as Punk Publishing Limited, which published the Cool Camping guides, and renamed in March 2022.</p>"
+   },
+   {
+    "q": "Does a Hipcamp pitch need planning permission?",
+    "a": "<p>That is the landowner’s problem rather than yours, but it shapes what you are booking. In England a recreational campsite can run for up to 60 days a calendar year with no more than 50 pitches under Class BC of the General Permitted Development Order, on condition that toilet and waste facilities are provided on site and the planning authority is notified each year with a site plan and the dates; elsewhere in the UK the general right is 28 days. Anything longer needs permission, and caravans need a site licence. Hipcamp publishes guides to all of this for its hosts, with a disclaimer that they are not legal advice.</p>"
+   },
+   {
+    "q": "Is there a toilet at every Hipcamp?",
+    "a": "<p>The host standards require “[a] permitted toilet of some kind (indoor, portable-style, composting etc.)” for tent pitches, but Hipcamp also publishes an article telling campers that if a listing says no toilet is provided, the expectation is that you bring your own. Read the “What this site offers” panel on the listing rather than assuming the standard.</p>"
    }
   ]
  },
