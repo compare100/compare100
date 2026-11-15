@@ -230,7 +230,7 @@
 - [Booking.com Hotels](https://compare100.com/booking-com-hotels/): Booking.com lists 4.4 million places to stay. Since July 2024 hotels have been free to price their own sites lower. How to use that before you book.
 - [Expedia Hotels](https://compare100.com/expedia-hotels/): Expedia lists London rooms from £59 a night including taxes. What ATOL 5788 covers, what One Key pays back, and what a hotel-only booking does not get
 - [HotelPlanner Hotels](https://compare100.com/hotelplanner-hotels/): HotelPlanner lists London rooms from $60 and puts its average three-star London group rate at $111.36. How the bidding works, and what the terms say.
-- [Hotels.com Hotels](https://compare100.com/hotels-com-hotels/): Hotels.com Hotels: 435K+ properties. Rewards (10 nights get 1 free), free cancellations, price match. Book on Compare100.com.
+- [Hotels.com Hotels](https://compare100.com/hotels-com-hotels/): Hotels.com lists London rooms from £64 a night, taxes and fees in. Ten nights earns £100 back, but rooms under £75 do not count. 14 November 2026.
 - [LateRooms.com – Last-Minute Hotel Deals](https://compare100.com/laterooms-hotel-deals/): LateRooms lists UK rooms from £18 a night and London from £34, and free membership cuts up to 15% more. Prices and small print, checked 19 September 2
 - [Luxury Escapes – Exclusive Hotel Deals](https://compare100.com/luxury-escapes-exclusive-hotel-deals/): Luxury Escapes shows member and non-member prices openly, from £219 for two nights. It says it is ATOL protected but publishes no ATOL number we could
 - [Trip.com – Global Hotel Deals](https://compare100.com/trip-com-global-hotel-deals/): Trip.com holds ATOL 11572 for flight-only sales through a UK company. Hotels run under Singapore law, and we found London, Kentucky in the results.
@@ -392,7 +392,7 @@
 - [Audi New Cars](https://compare100.com/audi-new-cars/): What a new Audi costs in October 2026: range prices from £24,870 to £89,555, the £440 tax supplement, the 60,000-mile warranty cap and the EV charger 
 - [BYD New Cars](https://compare100.com/byd-new-cars/): What a new BYD costs in October 2026: £18,650 for a Dolphin Surf up to £58,990, six years of warranty, and why no BYD qualifies for the £3,750 grant.
 - [Ford New Cars](https://compare100.com/ford-new-cars/): What a new Ford costs in November 2026: £27,145 for a Puma, £29,995 for the electric one before a £3,750 grant, and where the £40,000 tax line falls.
-- [Honda New Cars](https://compare100.com/honda-new-cars/): Honda New Cars: Reliable, stylish vehicles from £20,000. Civic Hybrid, HR-V, Honda e (EV). 5-year warranty, advanced safety. Compare now!
+- [Honda New Cars](https://compare100.com/honda-new-cars/): What a new Honda costs in November 2026: £18,995 for the electric Super-N, £28,475 for a Jazz, and why no Honda gets the £3,750 Electric Car Grant.
 - [Mercedes-Benz New Cars](https://compare100.com/mercedes-benz-new-cars/): Mercedes-Benz New Cars: UK luxury vehicles 2025. Electric EQS, sporty C-Class from £30,000. Premium interiors, advanced safety. Compare now!
 - [Nissan New Cars](https://compare100.com/nissan-new-cars/): Nissan New Cars: UK drivers 2025. Innovative vehicles from £21,000. Electric Leaf, Qashqai. ProPILOT safety, 3-year warranty. Compare now!
 - [Tesla New Cars](https://compare100.com/tesla-new-cars/): Tesla New Cars: UK drivers 2025. Cutting-edge EVs from £40,000. Model 3, Model Y. Autopilot, over-the-air updates. Drive the future.
@@ -457,7 +457,7 @@
 - [Amazon Computers](https://compare100.com/amazon-computers/): Amazon Renewed computers carry a one-year guarantee and a battery floor of 80%. Seller fees, VAT invoices and the safety register, checked 25 Septembe
 - [Dell UK Computers](https://compare100.com/dell-uk-computers/): Dell UK Computers: UK shoppers 2025. Powerful devices from £350. XPS for work, Alienware for gaming. 1-year warranty. Shop now!
 - [Ebuyer Computers](https://compare100.com/ebuyer-computers/): Ebuyer was bought out of administration by Frasers Group in August 2025. Same catalogue, new owner, and a returns policy written for a clothing shop.
-- [HP UK Computers](https://compare100.com/hp-uk-computers/): HP UK Computers: UK shoppers 2025. Reliable laptops & desktops. Perfect for work or gaming. Cutting-edge tech, 1-year warranty. Shop now!
+- [HP UK Computers](https://compare100.com/hp-uk-computers/): HP sells direct in the UK from £259 with a one-year warranty, free 1–2 day delivery and 0% over 36 months. What the RRPs, Care Packs and small print s
 - [Lenovo UK Computers](https://compare100.com/lenovo-uk-computers/): Lenovo UK Computers: UK shoppers 2025. High-performance devices from £250. ThinkPad for work, Legion for gaming. 1-year warranty.
 
 #### Fitness & Wearables
