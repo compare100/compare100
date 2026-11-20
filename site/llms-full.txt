@@ -196,7 +196,7 @@
 
 - [Google Flights Cheap Flights](https://compare100.com/google-flights-cheap-flights/): Google Flights searches 300+ airlines and agents for nothing and adds no fee of its own. What the price covers, who you buy from, and what UK users mi
 - [Kayak Cheap Flights](https://compare100.com/kayak-cheap-flights/): KAYAK searches 700+ travel sites for nothing. What the free search covers, how the results are ordered in KAYAK's own words, and who you book with.
-- [Momondo Cheap Flights](https://compare100.com/momondo-cheap-flights/): Momondo Cheap Flights: Compare millions of fares. Best prices, Price Calendar, Flight Insight. Compare on Compare100.com.
+- [Momondo Cheap Flights](https://compare100.com/momondo-cheap-flights/): momondo is free to search with no booking fee. What it really costs, who you book with, how results are ordered, and the date under its booking advice
 - [Secret Flight Club Cheap Flights](https://compare100.com/secret-flight-club-cheap-flights/): Secret Flight Club emails flight deals for £36 a year after a 7-day trial. It books nothing itself, renews with no notice and refunds nothing.
 - [Skyscanner Cheap Flights](https://compare100.com/skyscanner-cheap-flights/): Skyscanner Cheap Flights: Leading platform for best prices. Track drops, explore anywhere. No hidden fees. Compare deals on Compare100.com.
 
@@ -276,7 +276,7 @@
 - [Affordable Mobiles No Contract Phones](https://compare100.com/affordable-mobiles-no-contract-phones/): Affordable Mobiles listed 13 SIM-free phones from £479 on 24 September 2026. The prices, the modified-stock rule, the warranty ladder and who actually
 - [Carphone Warehouse Phones: Compare Handset Deals and Save](https://compare100.com/carphone-warehouse-phones/): Carphone Warehouse phone deals under Currys: contracts from £14.99 a month, free next-day delivery, three networks and what the paperwork actually say
 - [Currys No Contract Phones](https://compare100.com/currys-no-contract-phones/): Currys listed 360 SIM-free phones from £24.00 on 23 October 2026. The prices, free store collection, the 29.9% instalments and the 2G clock.
-- [Mobiles.co.uk No Contract Phones](https://compare100.com/mobiles-co-uk-no-contract-phones/): Mobiles.co.uk No Contract Phones: Latest smartphones from £250. Free delivery, returns, financing, cashback. Own outright. Compare now!
+- [Mobiles.co.uk No Contract Phones](https://compare100.com/mobiles-co-uk-no-contract-phones/): Mobiles.co.uk SIM-free prices run £99 to £1,399, five iPhones match Apple's own price, delivery is free by DPD, and the warranty line says 12 months.
 - [Samsung No Contract Phones](https://compare100.com/samsung-no-contract-phones/): Samsung No Contract Phones: Latest Galaxy S25, Z Fold 7, A55. From £400. Free delivery, trade-in. Own outright. Compare now!
 
 #### New Phone Contract
@@ -405,7 +405,7 @@
 - [Auto Trader Sell My Car](https://compare100.com/auto-trader-sell-my-car/): Sell to 5,000+ trade buyers for £0, free collection, same-day payment in 48 hours. What the free route costs you, and the 49% joint venture behind it.
 - [Carwow Sell My Car](https://compare100.com/carwow-sell-my-car/): Selling through Carwow costs you nothing — free listing, free collection, payment on the day. The buying dealer pays from £199. Checked 17 October 202
 - [Cazoo Sell My Car](https://compare100.com/cazoo-sell-my-car/): Cazoo values your car free online and holds the offer for 7 days. What the £99 pickup covers, when you actually get paid, and which cars it turns away
-- [Motorway Sell Your Car](https://compare100.com/motorway-sell-your-car/): Motorway Sell Your Car: Valuations up to £40,000. 5K+ dealers, competitive bidding. Free home collection, fast payment. Compare now!
+- [Motorway Sell Your Car](https://compare100.com/motorway-sell-your-car/): Motorway's service fee runs £29.99 to £119.99 and is only taken once the car sells, with nothing to pay under £1,000. Checked 20 November 2026.
 - [We Buy Any Car, Sell Your Car](https://compare100.com/we-buy-any-car-sell-your-car/): We Buy Any Car Sell Your Car: Quick way to sell, valuations up to £50,000. Instant quotes, free pick-up, 30min sale. Compare now!
 
 #### Servicing
@@ -538,5 +538,5 @@
 - [Amazon Women's Fashion](https://compare100.com/amazon-womens-fashion/): Amazon has sold pre-owned designer womenswear since February 2024. What the resale shelf holds, the metal and dye limits it must meet, and the gaps.
 - [Boohoo Women's Fashion](https://compare100.com/boohoo-womens-fashion/): boohoo delivery from GBP 2.99, Premier GBP 9.99 a year, 21 days to return and GBP 1.99 a parcel. Who you actually buy from, and what Preloved covers.
 - [H&M Women's Fashion](https://compare100.com/hm-womens-fashion/): H&M charges £3.99 to deliver, £2.99 to return by post and nothing in store. Dresses from £12.99. What it bans in a garment, and what the law bans.
-- [Missguided Women's Fashion](https://compare100.com/missguided-womens-fashion/): Missguided Women’s Fashion: UK shoppers 2025. Daring looks from £5. Bold, trendsetting designs, celebrity collabs. Party-ready, edgy streetwear. Compa
+- [Missguided Women's Fashion](https://compare100.com/missguided-womens-fashion/): Missguided dresses run from $9.65, with 5,785 in stock and 30 days to return. The .co.uk address now opens a US shop. Figures checked 20 November 2026
 - [Zara Women's Fashion](https://compare100.com/zara-womens-fashion/): Zara Women’s Fashion: UK shoppers 2025. Stylish pieces from £10. Fast fashion, trendy clothing. Casual to elegant. Shop now!
