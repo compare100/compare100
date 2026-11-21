@@ -136,7 +136,7 @@
 #### Loans
 
 - [Barclays Personal Loan](https://compare100.com/barclays-personal-loan/): Barclays lends £1,000 to £50,000, quotes a personal rate with no credit-score hit and charges 30 days' interest to settle early. Rates re-checked Oct 
-- [NatWest Personal Loan](https://compare100.com/natwest-personal-loan/): NatWest Personal Loan: Borrow £1k-£50k from 3.9% APR. No fees, flexible terms & overpayments. Compare loans on Compare100.com today.
+- [NatWest Personal Loan](https://compare100.com/natwest-personal-loan/): NatWest lends £1,000 to £50,000 at 7.3% APR representative, with money the same day if you apply before 5:45pm. The rates, terms and the catches.
 - [Santander Personal Loan](https://compare100.com/santander-personal-loan/): Santander now prints five loan rates by amount borrowed: 10.6%, 8.1%, 7.5%, 6.7% and 6.9% APR. Rates, bands and settlement terms checked 23 October 20
 - [Tesco Bank Personal Loan](https://compare100.com/tesco-bank-personal-loan/): Tesco Bank Personal Loan: Borrow £1k-£35k from 3.4% APR. No fees, flexible terms & overpayments. Compare loans on Compare100.com today.
 
@@ -240,7 +240,7 @@
 - [Avanti West Coast Train Tickets](https://compare100.com/avanti-west-coast-train-tickets/): Avanti charges £0 booking fee and pays Delay Repay from 15 minutes late. The automatic claim, the £5 station refund fee and the 7 March 2027 handover.
 - [Eurostar Train Tickets](https://compare100.com/eurostar-train-tickets/): Eurostar charges £0 to book online and £12 by phone or at a station. Fares from £39, the refund fees, check-in times and what a delay actually pays.
 - [LNER Train Tickets](https://compare100.com/lner-train-tickets/): LNER adds no booking fee and its best London to Newcastle Advance single was £27.60. Fares, the 70min Flex ticket, Delay Repay and the refund rules.
-- [National Rail Train Tickets](https://compare100.com/national-rail-train-tickets/): National Rail Train Tickets: UK rail journeys. 2,700+ stations. Live updates, digital tickets. Save with Advance fares. Compare trips now!
+- [National Rail Train Tickets](https://compare100.com/national-rail-train-tickets/): National Rail charges no booking fee because it sells no tickets. The Conditions of Travel, the 60-minute compensation floor, refunds and railcard pri
 - [Trainline Train Tickets](https://compare100.com/trainline-train-tickets/): Trainline's booking fee runs from 59p to £2.79, and nothing in the app on the day. The refund ladders, the 1 April 2026 rule change and who pays for d
 
 #### UK Boating Holidays
@@ -421,7 +421,7 @@
 - [ATS Euromaster Tyres](https://compare100.com/ats-euromaster-tyres/): ATS Euromaster stopped trading on 1 May 2026, but Masterservice tyre guarantees are still being paid. The claim route, the tread bands and where to go
 - [Black Circles Tyres](https://compare100.com/black-circles-tyres/): Blackcircles sells tyres from £50.68 fully fitted, with VAT, fitting, balancing, valve and disposal in the price and 2,200 local garages doing the wor
 - [Kwik Fit Tyres](https://compare100.com/kwik-fit-tyres/): Kwik Fit fits tyres at over 600 centres. What the fully fitted price covers, the £20.50 no discount touches, the guarantee, TyreCare and the tread rul
-- [MyTyres](https://compare100.com/mytyres/): MyTyres: UK drivers 2025. Affordable tyre selection from £30. 100+ brands, free delivery on 2+. Thousands of fitting partners. Compare now!
+- [MyTyres](https://compare100.com/mytyres/): MyTyres lists 133 offers in a 205/55 R16, from £42.82 delivered. What the price already covers, who the UK seller is, and why the small print says 201
 - [Tyres.Net](https://compare100.com/tyres-net/): Tyres.net lists 750 offers for a 205/55 R16, from £35.58. What the price covers, who you actually buy from, and the fitting charge nobody shows.
 
 #### Vehicle Inspections
@@ -449,7 +449,7 @@
 - [Gap Kids Children's Fashion](https://compare100.com/gap-kids-childrens-fashion/): Gap Kids UK: baby and toddler lines from £10, kids' clothes to £35, £4.95 home delivery or free collection at 500+ shops. Checked 14 November 2026.
 - [JoJo Maman Bébé Children's Fashion](https://compare100.com/jojo-maman-bebe-childrens-fashion/): JoJo Maman Bébé baby clothes start at £12, with free next-day delivery over £60 and free collection at 500+ shops. Prices checked 15 November 2026.
 - [Marks & Spencer Children's Fashion](https://compare100.com/marks-spencer-childrens-fashion/): M&S has held school uniform prices since 2021 and guarantees kidswear for 365 days. The prices, the £75 delivery basket and the new branded-item cap.
-- [Next Children's Fashion](https://compare100.com/next-childrens-fashion/): NEXT Children’s Fashion: Versatile kids’ clothing from £5. Quality Playwear and Occasion Pieces. Babies to older children. Shop now!
+- [Next Children's Fashion](https://compare100.com/next-childrens-fashion/): Next delivers to any of its 458 stores free with no minimum spend, and charges £4.95 to any home. What the delivery, returns and nextpay small print c
 - [Vertbaudet Children's Fashion](https://compare100.com/vertbaudet-childrens-fashion/): Vertbaudet Children’s Fashion: UK parents 2025. Chic, affordable kids’ wear from £5. French-inspired, mix-and-match. Shop now!
 
 #### Computers
